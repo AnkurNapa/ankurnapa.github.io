@@ -1,17 +1,58 @@
 ---
 layout: default
-title: "Beer, Wine, Whiskey & AI — Drinks Meet Artificial Intelligence"
-description: "Where beer, wine, and whiskey meet artificial intelligence: fermentation and distillation forecasting, production analytics, AI tasting notes, and the data science behind better drinks."
+title: "Beer, Wine, Whiskey & AI — AI & Data Analytics for the Drinks Industry"
+description: "How AI and data analytics are transforming beer, non-alcoholic beer, wine, whiskey, and mead — fermentation forecasting, demand planning, quality, ESG, and marketing, from a brewer turned data scientist."
+faq:
+  - q: "How is AI used in the drinks industry?"
+    a: "AI and data analytics help breweries, wineries, and distilleries forecast fermentation, predict demand, control quality, optimize ESG metrics like water and carbon, and sharpen marketing — while human judgment and taste stay essential."
+  - q: "Can AI improve brewing and winemaking?"
+    a: "Yes, where clean data exists. AI reliably helps with forecasting, monitoring, and demand planning, but it cannot taste or replace a brewer's or winemaker's craft, and it can produce confident-but-wrong outputs if its results aren't verified."
+  - q: "Who writes Beer, Wine, Whiskey & AI?"
+    a: "Ankur Napa, a brewer turned brewing data scientist who spent about a decade at breweries including AB InBev, SABMiller, and United Breweries before building AI and data tools for the drinks industry."
 ---
-<section class="intro">
-  <h1>{{ site.title }}</h1>
-  <p class="lead">{{ site.description }}</p>
+
+<section class="hero">
+  <h1>Beer, Wine, Whiskey &amp; AI</h1>
+  <p class="lead">How artificial intelligence and data analytics are transforming the drinks industry — beer, non-alcoholic beer, wine, whiskey, and mead. Practitioner-grounded, honest about what works and what doesn't, and free of hype.</p>
+  <p class="byline">Written by <a href="{{ '/about/' | relative_url }}">Ankur Napa</a> — a brewer turned brewing data scientist, with a decade in breweries before building AI for the trade.</p>
+</section>
+
+<section>
+  <h2>Start here</h2>
+  <p>New to the blog? Begin with the flagship series on how a brewer becomes an AI and data practitioner — the real path, the failures, and what actually works.</p>
+  <p><a class="cta" href="{{ '/series/brewer-to-ai/' | relative_url }}">From Brewer to AI — an honest 8-part journey →</a></p>
+</section>
+
+<section>
+  <h2>Explore by track</h2>
+  <p>Executive, data-driven deep dives across the beverage business — applied to beer and the fast-growing non-alcoholic segment:</p>
+  <ul class="track-grid">
+    <li><a href="{{ '/tracks/commercial-planning/' | relative_url }}">Commercial Planning</a></li>
+    <li><a href="{{ '/tracks/sales-intelligence/' | relative_url }}">Sales Intelligence</a></li>
+    <li><a href="{{ '/tracks/marketing/' | relative_url }}">Marketing</a></li>
+    <li><a href="{{ '/tracks/financial-planning-analytics/' | relative_url }}">Financial Planning (FP&amp;A)</a></li>
+    <li><a href="{{ '/tracks/esg/' | relative_url }}">ESG</a></li>
+    <li><a href="{{ '/tracks/ehs/' | relative_url }}">EHS</a></li>
+    <li><a href="{{ '/tracks/sales-forecasting/' | relative_url }}">Sales Forecasting</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Core reading on AI in drinks</h2>
+  <ul>
+    <li><a href="{{ '/2026/what-can-ai-do-for-a-brewery/' | relative_url }}">What Can AI Actually Do for a Brewery? 7 Real Use Cases</a></li>
+    <li><a href="{{ '/2026/the-honest-limits-of-ai-in-brewing/' | relative_url }}">The Honest Limits of AI in Brewing</a></li>
+    <li><a href="{{ '/2026/can-ai-predict-beer-fermentation/' | relative_url }}">Can AI Predict Beer Fermentation?</a></li>
+    <li><a href="{{ '/2026/ai-tasting-notes-beer-wine-whiskey/' | relative_url }}">Can AI Write Tasting Notes for Beer, Wine &amp; Whiskey?</a></li>
+    <li><a href="{{ '/2026/can-ai-predict-wine-quality/' | relative_url }}">Can AI Predict Wine Quality?</a></li>
+    <li><a href="{{ '/2026/can-ai-predict-whiskey-maturation/' | relative_url }}">Can AI Predict Whiskey Maturation?</a></li>
+  </ul>
 </section>
 
 <section class="post-list">
   <h2>Latest posts</h2>
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 6 %}
     <li class="post-item">
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
@@ -19,4 +60,38 @@ description: "Where beer, wine, and whiskey meet artificial intelligence: fermen
     </li>
     {% endfor %}
   </ul>
+  <p><a href="{{ '/archive/' | relative_url }}">See the full archive →</a> &middot; <a href="{{ '/tags/' | relative_url }}">Browse by topic →</a></p>
 </section>
+
+<section class="home-faq">
+  <h2>Frequently asked questions</h2>
+  <h3>How is AI used in the drinks industry?</h3>
+  <p>AI and data analytics help breweries, wineries, and distilleries forecast fermentation, predict demand, control quality, optimize ESG metrics like water and carbon, and sharpen marketing — while human judgment and taste stay essential.</p>
+  <h3>Can AI improve brewing and winemaking?</h3>
+  <p>Yes, where clean data exists. AI reliably helps with forecasting, monitoring, and demand planning, but it cannot taste or replace a brewer's or winemaker's craft, and it can produce confident-but-wrong outputs if its results aren't verified.</p>
+  <h3>Who writes Beer, Wine, Whiskey &amp; AI?</h3>
+  <p>Ankur Napa, a brewer turned brewing data scientist who spent about a decade at breweries including AB InBev, SABMiller, and United Breweries before building AI and data tools for the drinks industry.</p>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Beer, Wine, Whiskey & AI",
+  "url": "{{ '/' | absolute_url }}",
+  "description": "AI and data analytics for the drinks industry — beer, non-alcoholic beer, wine, whiskey, and mead.",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": "Ankur Napa",
+    "url": "{{ '/about/' | absolute_url }}",
+    "jobTitle": "Brewing Data Scientist",
+    "knowsAbout": ["AI in brewing","data analytics","beer","non-alcoholic beer","wine","whiskey","mead","fermentation forecasting","demand forecasting","ESG in brewing"],
+    "sameAs": [
+      "https://www.linkedin.com/in/ankur-napa/",
+      "https://github.com/AnkurNapa",
+      "https://medium.com/@napaankur"
+    ]
+  }
+}
+</script>

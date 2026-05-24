@@ -52,6 +52,17 @@ h3 { margin-top: 1.75rem; font-size: 1.15rem; }
 .intro { margin: 1rem 0 2.5rem; }
 .lead { font-size: 1.15rem; color: var(--muted); }
 
+/* Homepage landing */
+.hero { margin: 1rem 0 2.5rem; }
+.hero h1 { font-size: 2.3rem; line-height: 1.15; margin-bottom: .5rem; }
+.byline { color: var(--muted); font-size: .95rem; }
+.cta { display: inline-block; font-weight: 600; }
+.track-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: .5rem; margin: .5rem 0; }
+.track-grid li { border: 1px solid var(--rule); border-radius: 8px; }
+.track-grid a { display: block; padding: .7rem .9rem; }
+.track-grid a:hover { background: #fff5e6; text-decoration: none; }
+.home-faq h3 { font-size: 1.05rem; margin: 1.25rem 0 .2rem; }
+
 /* Post list */
 .posts { list-style: none; padding: 0; }
 .post-item { padding: 1rem 0; border-bottom: 1px solid var(--rule); }

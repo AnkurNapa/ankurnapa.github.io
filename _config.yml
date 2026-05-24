@@ -62,4 +62,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - ONBOARDING.md
   - vendor
