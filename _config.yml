@@ -71,4 +71,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - ONBOARDING.md
+  - tools          # internal scripts + docs (e.g. OG image generator), not part of the site
   - vendor
