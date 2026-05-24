@@ -15,6 +15,10 @@ Each post lists its publication and last-updated dates.
 ## About
 - [About]({{ '/about/' | absolute_url }}): Who writes this site and what it covers.
 
+## Browse
+- [Topics]({{ '/tags/' | absolute_url }}): every post organized by keyword/tag.
+- [Archive]({{ '/archive/' | absolute_url }}): the full timeline of posts, newest first.
+
 ## Feeds
 - RSS: {{ '/feed.xml' | absolute_url }}
 - Sitemap: {{ '/sitemap.xml' | absolute_url }}

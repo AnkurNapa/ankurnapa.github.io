@@ -76,6 +76,29 @@ code { background: #f1ece4; padding: .1rem .35rem; border-radius: 4px; font-size
 pre { background: #f1ece4; padding: 1rem; border-radius: 8px; overflow-x: auto; }
 pre code { background: none; padding: 0; }
 
+/* Tags (clickable) */
+a.tag { color: var(--accent); font-size: .85rem; margin: 0 .35rem .35rem 0; text-decoration: none; display: inline-block; }
+a.tag:hover { text-decoration: underline; }
+.tag-cloud { margin: 1rem 0 2.5rem; line-height: 2.2; }
+.tag-cloud .count { color: var(--muted); font-size: .72rem; }
+.tag-section { margin-top: 2.25rem; scroll-margin-top: 1rem; }
+.tag-section h2, .archive-year h2 { border-bottom: 1px solid var(--rule); padding-bottom: .3rem; }
+.tag-section time, .archive-year time { color: var(--muted); font-size: .82rem; }
+.tag-section ul, .archive-year ul { list-style: none; padding: 0; }
+.tag-section li, .archive-year li { padding: .35rem 0; }
+
+/* Related reading */
+.related { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.related h2 { margin-top: 0; font-size: 1.1rem; }
+.related ul { list-style: none; padding: 0; }
+.related li { padding: .35rem 0; }
+
+/* Prev / next post nav */
+.post-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 2rem 0 .75rem; flex-wrap: wrap; }
+.post-nav a { max-width: 47%; font-size: .95rem; }
+.post-nav .next { margin-left: auto; text-align: right; }
+.browse-links { color: var(--muted); font-size: .9rem; margin-top: 0; }
+
 /* Footer */
 .site-footer {
   max-width: var(--max);
