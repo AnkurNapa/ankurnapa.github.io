@@ -1,17 +1,17 @@
 ---
 layout: page
-title: "About Brews & Bytes"
-description: "About Brews & Bytes — an independent blog at the intersection of beer, brewing data, and artificial intelligence."
+title: "About Beer, Wine, Whiskey & AI"
+description: "About Beer, Wine, Whiskey & AI — an independent blog at the intersection of the drinks industry, production data, and artificial intelligence."
 permalink: /about/
 ---
 
-**Brews & Bytes is an independent blog about where beer meets artificial intelligence.** It covers fermentation forecasting, brewing analytics, AI-assisted recipe design, sensory/tasting models, and the data science that helps brewers make better beer.
+**Beer, Wine, Whiskey & AI is an independent blog about where the drinks industry meets artificial intelligence.** It covers fermentation and distillation forecasting, production analytics, AI-assisted recipe and blend design, sensory/tasting models, and the data science that helps producers make better beer, wine, and spirits.
 
 ## What you'll find here
 
-- **Fermentation & process** — how machine learning models predict attenuation, timing, and off-flavors.
-- **Brewing analytics** — what data is worth collecting, and what to do with it.
-- **AI in the taproom** — demand forecasting, DTC, and customer insight for breweries.
+- **Fermentation, distillation & process** — how machine learning predicts attenuation, timing, maturation, and off-flavors across brewing, winemaking, and distilling.
+- **Production analytics** — what data is worth collecting in a brewery, winery, or distillery, and what to do with it.
+- **AI in the tasting room & DTC** — demand forecasting, customer insight, and direct-to-consumer for drinks producers.
 - **Plain-English explainers** — practitioner-focused, no hype.
 
 ## Who writes this

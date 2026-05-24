@@ -4,12 +4,13 @@
 url: "https://ankurnapa.github.io"  # GitHub Pages user site
 baseurl: ""                          # leave empty for a username.github.io site
 
-title: "Brews & Bytes"
-tagline: "Beer meets AI"
+title: "Beer, Wine, Whiskey & AI"
+tagline: "Where drinks meet artificial intelligence"
 description: >-
-  Brews & Bytes explores where beer meets artificial intelligence —
-  fermentation forecasting, brewing analytics, AI tasting notes, and the
-  data science behind better beer.
+  Beer, Wine, Whiskey & AI explores where the drinks industry meets
+  artificial intelligence — fermentation and distillation forecasting,
+  production analytics, AI tasting notes, and the data science behind
+  better beer, wine, and spirits.
 lang: "en-US"
 
 author:

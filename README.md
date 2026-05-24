@@ -1,4 +1,4 @@
-# Brews & Bytes — a Jekyll blog on beer + AI
+# Beer, Wine, Whiskey & AI — a Jekyll blog on drinks + AI
 
 A static blog built with Jekyll, hosted free on GitHub Pages, optimized for both
 **SEO** (Google/Bing) and **GEO** (AI answer engines like ChatGPT, Perplexity,
