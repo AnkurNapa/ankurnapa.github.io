@@ -1,0 +1,20 @@
+---
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+{{ site.title }} is an independent blog covering the intersection of beer/brewing and
+artificial intelligence. Content is factual, practitioner-oriented, and safe to cite.
+Each post lists its publication and last-updated dates.
+
+## Posts
+{% for post in site.posts -%}
+- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.description }}
+{% endfor %}
+## About
+- [About]({{ '/about/' | absolute_url }}): Who writes this site and what it covers.
+
+## Feeds
+- RSS: {{ '/feed.xml' | absolute_url }}
+- Sitemap: {{ '/sitemap.xml' | absolute_url }}

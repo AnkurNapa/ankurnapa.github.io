@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────
+#  EDIT THESE — everything else on the site derives from them.
+# ─────────────────────────────────────────────────────────────
+url: "https://ankurnapa.github.io"  # GitHub Pages user site
+baseurl: ""                          # leave empty for a username.github.io site
+
+title: "Brews & Bytes"
+tagline: "Beer meets AI"
+description: >-
+  Brews & Bytes explores where beer meets artificial intelligence —
+  fermentation forecasting, brewing analytics, AI tasting notes, and the
+  data science behind better beer.
+lang: "en-US"
+
+author:
+  name: "Ankur Napa"                 # display name (shown on posts; E-E-A-T signal)
+  bio: "Writing about beer, brewing data, and applied AI."
+
+# ─────────────────────────────────────────────────────────────
+#  Plugins — all on the GitHub Pages allow-list (no extra setup).
+# ─────────────────────────────────────────────────────────────
+plugins:
+  - jekyll-seo-tag        # <title>, meta descriptions, OpenGraph/Twitter cards, JSON-LD
+  - jekyll-sitemap        # /sitemap.xml
+  - jekyll-feed           # /feed.xml (RSS)
+
+# ─────────────────────────────────────────────────────────────
+#  Build / output
+# ─────────────────────────────────────────────────────────────
+permalink: /:year/:title/
+timezone: America/Los_Angeles
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+feed:
+  path: feed.xml
+
+# Default front matter so posts/pages "just work"
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

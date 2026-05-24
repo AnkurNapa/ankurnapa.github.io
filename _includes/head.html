@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- jekyll-seo-tag emits <title>, meta description, canonical URL,
+     OpenGraph + Twitter cards, and BlogPosting/WebSite JSON-LD. -->
+{% seo %}
+
+<link rel="alternate" type="application/rss+xml"
+      title="{{ site.title | escape }}"
+      href="{{ '/feed.xml' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<!-- GEO: extra structured data (FAQPage) when a page defines it. -->
+{% include structured-data.html %}

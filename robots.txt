@@ -1,0 +1,8 @@
+---
+---
+# Allow everything, including AI/search crawlers (GPTBot, PerplexityBot,
+# Google-Extended, ClaudeBot, etc.). They obey the default rule below.
+User-agent: *
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
