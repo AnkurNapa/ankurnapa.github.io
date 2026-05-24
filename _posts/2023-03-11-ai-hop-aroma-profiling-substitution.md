@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Hop Aroma Profiling and Smart Substitution"
+image: /assets/og/ai-hop-aroma-profiling-substitution.png
 description: "AI clusters hop lots by GC oil chemistry to rank substitutes by aroma, de-risk inventory, and warn when no near neighbour exists for a short variety."
 date: 2023-03-11
 updated: 2023-03-11

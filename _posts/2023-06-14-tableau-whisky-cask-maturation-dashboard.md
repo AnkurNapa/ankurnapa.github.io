@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Cask Maturation and Angel's-Share Dashboard in Tableau"
+image: /assets/og/tableau-whisky-cask-maturation-dashboard.png
 description: "Build a Tableau cask maturation dashboard tracking age, strength and angel's-share evaporation loss, with projected ready dates and AI-driven monitoring."
 date: 2023-06-14
 updated: 2023-06-14

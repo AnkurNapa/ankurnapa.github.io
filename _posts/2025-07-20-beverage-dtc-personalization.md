@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Personalization in Beverage DTC Without Creeping People Out"
+image: /assets/og/beverage-dtc-personalization.png
 description: "How beverage DTC personalization builds loyalty and repeat revenue without triggering the surveillance-marketing backlash that alienates customers."
 date: 2025-07-20
 updated: 2025-07-20

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mead Meets AI: Can the World's Oldest Drink Go High-Tech?"
+image: /assets/og/mead-meets-ai.png
 description: "Mead is honey, water, and yeast — one of the oldest, simplest ferments. Here's where AI genuinely helps modern meadmakers, and where craft and small batches keep it human."
 date: 2026-05-25 11:00:00 -0700
 updated: 2026-05-25

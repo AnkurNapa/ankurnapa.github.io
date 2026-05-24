@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mapping Beer Sales by Market in Tableau"
+image: /assets/og/tableau-geospatial-sales-maps.png
 description: "Map beer sales by market in Tableau using geographic roles, custom geocoding, filled and density maps — with honest limits on geocoding gaps and population bias."
 date: 2023-06-21
 updated: 2023-06-21

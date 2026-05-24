@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Honest Limits of Sales Forecasting: When to Trust the Human"
+image: /assets/og/honest-limits-sales-forecasting.png
 description: "The real limits of demand forecasting in beverages — what models cannot do, when human judgment outperforms algorithms, and how to design a hybrid process."
 date: 2026-03-14
 updated: 2026-03-14

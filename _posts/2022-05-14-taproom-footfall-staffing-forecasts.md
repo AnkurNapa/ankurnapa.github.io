@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Taproom Footfall and Staffing Forecasts"
+image: /assets/og/taproom-footfall-staffing-forecasts.png
 description: "How AI forecasts taproom footfall from weather, day and events to plan staffing, stock and food prep, and why spiky events and small samples limit it."
 date: 2022-05-14
 updated: 2022-05-14

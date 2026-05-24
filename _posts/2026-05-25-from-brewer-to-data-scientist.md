@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From Brewer to Data Scientist: Why I Traded the Brewhouse for AI (And Didn't Really Leave)"
+image: /assets/og/from-brewer-to-data-scientist.png
 description: "How I went from developing beers for AB InBev and SABMiller to building AI for breweries — and why a brewing background is an advantage, not a handicap, in data science."
 date: 2026-05-25 12:00:00 -0700
 updated: 2026-05-25

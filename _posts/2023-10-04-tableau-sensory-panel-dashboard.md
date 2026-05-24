@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Sensory-Panel Results Dashboard in Tableau"
+image: /assets/og/tableau-sensory-panel-dashboard.png
 description: "Build a sensory-panel dashboard in Tableau: attribute scores, panellist agreement and variance, trueness-to-type radar charts and Pulse drift digests."
 date: 2023-10-04
 updated: 2023-10-04

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Managing Distributors with Data: From Black Box to Scorecard"
+image: /assets/og/distributor-management-data-scorecard.png
 description: "Build a distributor scorecard that replaces anecdote-driven management with clear metrics, turning your distributor relationships into accountable partnerships."
 date: 2025-08-06
 updated: 2025-08-06

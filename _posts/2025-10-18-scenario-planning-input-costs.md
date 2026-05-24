@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Scenario Planning for Barley, Energy, and Aluminum Costs"
+image: /assets/og/scenario-planning-input-costs.png
 description: "Scenario planning for brewery input costs — barley, energy, aluminum — turns commodity risk into structured decisions instead of reactive surprises."
 date: 2025-10-18
 updated: 2025-10-18

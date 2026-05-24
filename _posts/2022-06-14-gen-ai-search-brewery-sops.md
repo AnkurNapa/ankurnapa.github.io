@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Knowledge Search Over Brewery SOPs With Gen AI"
+image: /assets/og/gen-ai-search-brewery-sops.png
 description: "How retrieval-augmented LLMs let brewery staff ask plain-language questions over SOPs, batch records, and manuals with cited answers — and what to watch."
 date: 2022-06-14
 updated: 2022-06-14

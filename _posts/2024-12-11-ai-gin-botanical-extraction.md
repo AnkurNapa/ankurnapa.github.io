@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Gin Botanical Extraction and Recipe Consistency"
+image: /assets/og/ai-gin-botanical-extraction.png
 description: "How AI models maceration, vapour infusion and the cut, and compensates for botanical lot variability to keep a gin recipe consistent batch after batch."
 date: 2024-12-11
 updated: 2024-12-11

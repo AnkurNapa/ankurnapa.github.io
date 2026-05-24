@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Distillery Production and Spirit-Yield Dashboard in Tableau"
+image: /assets/og/tableau-distillery-production-yield-dashboard.png
 description: "Build a Tableau distillery dashboard tracking litres of pure alcohol per tonne, yield by run, cut performance and energy per LPA, with AI monitoring."
 date: 2023-10-14
 updated: 2023-10-14

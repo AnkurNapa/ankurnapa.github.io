@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Carbon Accounting: Scope 1, 2, and 3 for Breweries"
+image: /assets/og/carbon-accounting-breweries-scope.png
 description: "A practical framework for carbon accounting brewery operations across Scope 1, 2, and 3 emissions — for sustainability leads and CFOs."
 date: 2025-03-28
 updated: 2025-03-28

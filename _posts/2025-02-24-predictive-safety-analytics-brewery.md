@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predictive Safety Analytics: Spotting Risk Before Incidents"
+image: /assets/og/predictive-safety-analytics-brewery.png
 description: "How predictive safety analytics helps breweries identify hazard patterns before an incident occurs — and where the data falls short."
 date: 2025-02-24
 updated: 2025-02-24

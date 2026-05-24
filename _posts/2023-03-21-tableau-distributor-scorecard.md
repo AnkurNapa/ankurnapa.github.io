@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building a Distributor Scorecard in Tableau"
+image: /assets/og/tableau-distributor-scorecard.png
 description: "Build a weighted distributor scorecard in Tableau with calculated fields, rank, highlight actions and Explain Data — and avoid the gaming traps."
 date: 2023-03-21
 updated: 2023-03-21

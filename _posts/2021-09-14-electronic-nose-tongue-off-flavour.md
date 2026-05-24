@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Electronic Nose and Tongue: AI for Off-Flavour Detection"
+image: /assets/og/electronic-nose-tongue-off-flavour.png
 description: "How electronic nose and tongue sensor arrays plus machine learning screen beer off-flavours fast, where they help QC, and why the panel still rules."
 date: 2021-09-14
 updated: 2021-09-14

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Leading vs. Lagging Safety Indicators: What Breweries Should Track"
+image: /assets/og/leading-vs-lagging-safety-indicators.png
 description: "A practical guide to leading safety indicators for breweries — what to measure before incidents happen and how lagging metrics fit the picture."
 date: 2025-08-24
 updated: 2025-08-24

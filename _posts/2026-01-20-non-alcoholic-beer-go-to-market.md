@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Launching a Non-Alcoholic Line: A Data-Driven Go-to-Market Playbook"
+image: /assets/og/non-alcoholic-beer-go-to-market.png
 description: "A structured go-to-market playbook for non alcoholic beer launch — from consumer insight through channel sequencing to commercial success metrics."
 date: 2026-01-20
 updated: 2026-01-20

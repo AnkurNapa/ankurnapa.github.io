@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Data-Driven Yeast Generation Management and Cropping"
+image: /assets/og/ai-yeast-generation-management.png
 description: "Track yeast performance across serial generations to decide when to re-propagate and how to crop, balancing cost against drift in attenuation and flavour."
 date: 2023-09-25
 updated: 2023-09-25

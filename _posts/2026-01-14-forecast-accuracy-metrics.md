@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Forecast Accuracy Metrics That Matter (and the Vanity Ones to Drop)"
+image: /assets/og/forecast-accuracy-metrics.png
 description: "Which forecast accuracy metrics actually drive better beverage planning decisions — MAPE, WMAPE, bias, CFE — and which metrics flatter but mislead."
 date: 2026-01-14
 updated: 2026-01-14

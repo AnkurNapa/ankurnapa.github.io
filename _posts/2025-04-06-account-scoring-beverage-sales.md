@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Account Scoring: Finding Your Next 100 Outlets"
+image: /assets/og/account-scoring-beverage-sales.png
 description: "A practical account scoring sales framework that helps brewery and beverage brands prioritize the outlets most likely to drive volume and margin."
 date: 2025-04-06
 updated: 2025-04-06

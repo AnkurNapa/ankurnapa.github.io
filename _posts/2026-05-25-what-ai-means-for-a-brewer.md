@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What Does AI Actually Mean for a Brewer? (It's the Data Science You Already Do)"
+image: /assets/og/what-ai-means-for-a-brewer.png
 description: "AI isn't magic for breweries — it's data science in three flavors: rule-based, machine learning, and deep learning. A brewer's plain-English guide to what the word really means."
 date: 2026-05-25 13:00:00 -0700
 updated: 2026-05-25

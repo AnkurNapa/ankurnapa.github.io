@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI Vision for Fill-Level and Label Inspection"
+image: /assets/og/ai-vision-fill-level-label-inspection.png
 description: "How machine vision inspects fill height, label skew, and date-code legibility at line speed, rejecting beer defects more consistently than human spot checks."
 date: 2024-03-11
 updated: 2024-03-11

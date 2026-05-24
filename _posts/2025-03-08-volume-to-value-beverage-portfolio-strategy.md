@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From Volume to Value: Portfolio Strategy for Beer and Non-Alcoholic Lines"
+image: /assets/og/volume-to-value-beverage-portfolio-strategy.png
 description: "A practical beverage portfolio strategy framework for breweries moving beyond volume growth into margin-led brand management — including the NA beer opportunity."
 date: 2025-03-08
 updated: 2025-03-08

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Perfect Store, Audited by AI at Scale"
+image: /assets/og/perfect-store-execution-ai.png
 description: "AI-powered perfect store execution audits let beverage brands measure shelf compliance, display quality, and brand standards across hundreds of outlets simultaneously."
 date: 2025-12-06
 updated: 2025-12-06

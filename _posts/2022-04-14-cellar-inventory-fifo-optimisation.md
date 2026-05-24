@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cellar Inventory and FIFO Optimisation With AI"
+image: /assets/og/cellar-inventory-fifo-optimisation.png
 description: "How shelf-life-aware FIFO and allocation across brewery tanks and finished stock cut waste while holding fill rate, and where the approach breaks down."
 date: 2022-04-14
 updated: 2022-04-14

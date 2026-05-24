@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sales Rep Productivity: Coaching with Data, Not Gut"
+image: /assets/og/sales-rep-productivity-analytics.png
 description: "Sales productivity analytics for beverage brands — a framework for measuring rep performance, identifying coaching opportunities, and improving territory outcomes with data."
 date: 2026-04-06
 updated: 2026-04-06

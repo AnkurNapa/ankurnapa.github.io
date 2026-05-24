@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Wine Blending Optimisation"
+image: /assets/og/ai-wine-blending-optimization.png
 description: "How AI treats wine blending as constrained optimisation — matching lots, varieties, and barrels to a target style at best use of premium parcels — while the winemaker's palate stays the arbiter."
 date: 2024-10-05
 updated: 2024-10-05

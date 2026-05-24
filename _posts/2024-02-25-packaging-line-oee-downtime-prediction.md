@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Packaging Line Downtime and Lifting OEE"
+image: /assets/og/packaging-line-oee-downtime-prediction.png
 description: "How machine learning predicts micro-stops on the filler and seamer bottleneck to pre-empt the downtime that dominates packaging line OEE losses."
 date: 2024-02-25
 updated: 2024-02-25

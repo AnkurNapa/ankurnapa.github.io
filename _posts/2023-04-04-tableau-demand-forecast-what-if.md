@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Demand Forecasting and What-If Analysis in Tableau"
+image: /assets/og/tableau-demand-forecast-what-if.png
 description: "Build a demand forecast and what-if dashboard in Tableau using built-in forecasting, parameters and TabPy — and know where the basic model stops."
 date: 2023-04-04
 updated: 2023-04-04

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A COGS-per-Hectolitre Dashboard in Tableau"
+image: /assets/og/tableau-cogs-per-hectolitre-dashboard.png
 description: "Build a COGS-per-hectolitre dashboard in Tableau with calculated fields, a cost-driver waterfall and price parameters to see where beverage margin really goes."
 date: 2023-05-04
 updated: 2023-05-04

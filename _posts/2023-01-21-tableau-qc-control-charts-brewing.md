@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Quality-Control Charts for Brewing in Tableau"
+image: /assets/og/tableau-qc-control-charts-brewing.png
 description: "Build statistical process control charts for brewing QC in Tableau using reference bands, control limits and Explain Data for out-of-control points."
 date: 2023-01-21
 updated: 2023-01-21

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The CFO's AI Dashboard: Real-Time Beverage Finance"
+image: /assets/og/cfo-ai-dashboard-beverage.png
 description: "What a CFO dashboard for beverage companies actually needs — real-time metrics, AI-assisted anomaly detection, and honest limits of current analytics tools."
 date: 2026-04-18
 updated: 2026-04-18

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An ESG Sustainability Dashboard in Tableau (Water, Energy, Carbon per hl)"
+image: /assets/og/tableau-esg-sustainability-dashboard.png
 description: "Build an ESG dashboard in Tableau tracking water-to-beer ratio, energy per hl and carbon by scope against targets, with Pulse digests and honest data caveats."
 date: 2023-09-04
 updated: 2023-09-04

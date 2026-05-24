@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Food Safety and Traceability from Grain to Glass"
+image: /assets/og/food-safety-traceability-grain-to-glass.png
 description: "How breweries build food safety traceability from raw ingredient intake to finished product — and where digital tools genuinely help versus hype."
 date: 2025-06-24
 updated: 2025-06-24

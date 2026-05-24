@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Microbiological Risk and Hygiene Hotspots"
+image: /assets/og/predicting-microbiological-hygiene-risk.png
 description: "Model where spoilage risk concentrates using ATP swabs, micro results, CIP records, and HACCP control points to target cleaning and sampling where it matters."
 date: 2024-05-25
 updated: 2024-05-25

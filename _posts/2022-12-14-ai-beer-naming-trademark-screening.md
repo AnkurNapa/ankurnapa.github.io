@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Beer Naming and Trademark Screening"
+image: /assets/og/ai-beer-naming-trademark-screening.png
 description: "Why LLMs make generating beer names easy but the real value is screening candidates against trademark databases to avoid costly brand conflicts."
 date: 2022-12-14
 updated: 2022-12-14

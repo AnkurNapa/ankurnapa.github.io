@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Reading the Room: NLP on Beer Reviews and Ratings"
+image: /assets/og/nlp-beer-reviews-ratings.png
 description: "How NLP on beer reviews and ratings extracts themes, sentiment, and flavour descriptors to track perception and catch product issues early."
 date: 2021-03-14
 updated: 2021-03-14

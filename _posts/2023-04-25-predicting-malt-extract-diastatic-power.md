@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Malt Extract and Diastatic Power Before You Brew"
+image: /assets/og/predicting-malt-extract-diastatic-power.png
 description: "Predict hot-water extract and diastatic power from routine malt analysis so brewers adjust grist and mash before a brew, not after a yield miss."
 date: 2023-04-25
 updated: 2023-04-25

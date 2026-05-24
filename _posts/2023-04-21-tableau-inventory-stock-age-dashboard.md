@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An Inventory and Stock-Age Dashboard in Tableau"
+image: /assets/og/tableau-inventory-stock-age-dashboard.png
 description: "Build an inventory and stock-age dashboard in Tableau using LOD calculations, days-of-cover and FIFO risk flags to spot ageing beverage stock early."
 date: 2023-04-21
 updated: 2023-04-21

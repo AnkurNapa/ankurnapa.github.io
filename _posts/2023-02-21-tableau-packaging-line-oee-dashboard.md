@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visualising Packaging-Line OEE in Tableau"
+image: /assets/og/tableau-packaging-line-oee-dashboard.png
 description: "Build a packaging-line OEE dashboard in Tableau with Availability, Performance and Quality as calculated fields, a downtime Pareto and line filters."
 date: 2023-02-21
 updated: 2023-02-21

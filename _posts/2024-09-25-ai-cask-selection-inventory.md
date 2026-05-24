@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Cask Selection and Maturing-Stock Inventory"
+image: /assets/og/ai-cask-selection-inventory.png
 description: "How AI forecasts which casks hit a flavour and age target and when, to optimise tied-up maturing-stock capital and pick casks for whisky releases."
 date: 2024-09-25
 updated: 2024-09-25

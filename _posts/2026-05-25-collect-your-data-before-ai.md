@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Before You Touch AI, Collect Your Data: The Unglamorous First Step"
+image: /assets/og/collect-your-data-before-ai.png
 description: "The first move in any brewery's AI journey isn't a model — it's data collection. What to log, what sensors matter, and why clean records beat clever algorithms every time."
 date: 2026-05-25 14:00:00 -0700
 updated: 2026-05-25

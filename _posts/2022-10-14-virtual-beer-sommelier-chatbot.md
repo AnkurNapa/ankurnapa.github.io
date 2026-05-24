@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Virtual Beer Sommelier: Recommendation Chatbots"
+image: /assets/og/virtual-beer-sommelier-chatbot.png
 description: "How an LLM beer-sommelier chatbot asks preferences and recommends beers in natural language, and why it must be grounded in your real catalogue."
 date: 2022-10-14
 updated: 2022-10-14

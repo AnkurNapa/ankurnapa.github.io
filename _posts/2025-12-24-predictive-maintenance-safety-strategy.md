@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predictive Maintenance as a Safety Strategy"
+image: /assets/og/predictive-maintenance-safety-strategy.png
 description: "How predictive maintenance safety programmes in breweries reduce equipment-related incidents by surfacing failure risk before breakdown or injury occurs."
 date: 2025-12-24
 updated: 2025-12-24

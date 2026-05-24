@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Beer Recommendation Engines: How AI Suggests Your Next Pint"
+image: /assets/og/beer-recommendation-engines.png
 description: "How AI beer recommendation engines use collaborative and content-based filtering to suggest your next pint, plus the cold-start limits to watch."
 date: 2021-02-14
 updated: 2021-02-14

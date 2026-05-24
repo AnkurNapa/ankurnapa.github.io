@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trade Promotion Optimization: The 20% of Promo Spend That's Wasted"
+image: /assets/og/trade-promotion-optimization-breweries.png
 description: "Trade promotion optimization in beer and NA beverage: how to identify wasted promotional spend, measure true lift, and reallocate investment to what actually works."
 date: 2025-07-08
 updated: 2025-07-08

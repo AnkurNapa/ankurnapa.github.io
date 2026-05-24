@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Vineyard Yield Forecasting"
+image: /assets/og/ai-vineyard-yield-forecasting.png
 description: "How AI forecasts vineyard yield from bunch counts, berry weight, NDVI remote sensing, and weather — to plan tanks, barrels, and sales — and why vintage weather still breaks the model."
 date: 2024-04-05
 updated: 2024-04-05

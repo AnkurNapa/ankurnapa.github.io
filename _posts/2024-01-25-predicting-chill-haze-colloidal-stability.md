@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Chill Haze and Colloidal Stability"
+image: /assets/og/predicting-chill-haze-colloidal-stability.png
 description: "How models predict chill haze risk and the right silica gel or PVPP dose, balancing clarity, colloidal stability, foam, and cost in beer."
 date: 2024-01-25
 updated: 2024-01-25

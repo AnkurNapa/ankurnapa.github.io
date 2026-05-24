@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting New-Make Spirit Flavour"
+image: /assets/og/predicting-new-make-spirit-flavor.png
 description: "How AI and data science model new-make spirit congeners from ferment, still shape and cut, so distillers steer flavour before the cask."
 date: 2024-08-25
 updated: 2024-08-25

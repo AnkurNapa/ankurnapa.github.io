@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Scaling a Homebrew Recipe to Production With AI"
+image: /assets/og/scaling-homebrew-recipe-to-production.png
 description: "Predict how hop utilisation, evaporation, mash efficiency and fermentation shift when a recipe jumps from homebrew to a bigger system — so the beer survives."
 date: 2022-03-14
 updated: 2022-03-14

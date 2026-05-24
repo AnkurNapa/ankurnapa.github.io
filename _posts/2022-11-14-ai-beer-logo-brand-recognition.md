@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Beer Logo and Brand Recognition"
+image: /assets/og/ai-beer-logo-brand-recognition.png
 description: "How computer vision detects beer logos and labels in photos, shelves, and social images for brand monitoring, share-of-shelf, and sponsorship measurement."
 date: 2022-11-14
 updated: 2022-11-14

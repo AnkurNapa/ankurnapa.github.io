@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building a Brewery Data Foundation Before You Touch AI"
+image: /assets/og/building-brewery-data-foundation-ai.png
 description: "Why a process historian, consistent tags, a data model and data quality are the prerequisites for brewery AI — and why most projects fail on plumbing, not algorithms."
 date: 2024-07-25
 updated: 2024-07-25

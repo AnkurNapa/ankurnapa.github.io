@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The ESG Reporting Stack: Automating CSRD and GRI Disclosure"
+image: /assets/og/esg-reporting-automation-csrd.png
 description: "How ESG reporting automation helps breweries meet CSRD and GRI requirements without drowning in manual data collection."
 date: 2025-05-28
 updated: 2025-05-28

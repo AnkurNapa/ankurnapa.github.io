@@ -1,0 +1,4 @@
+.gstack/
+_site/
+.jekyll-cache/
+vendor/

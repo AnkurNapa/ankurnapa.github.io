@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My First Real AI Project: Forecasting Beer Demand — What Worked, What Flopped"
+image: /assets/og/my-first-ai-project-beer-demand-forecasting.png
 description: "An honest postmortem of building beer demand forecasting at iWort — where machine learning beat the spreadsheet, where it didn't, and the data lessons that cost me the most."
 date: 2026-05-25 16:00:00 -0700
 updated: 2026-05-25

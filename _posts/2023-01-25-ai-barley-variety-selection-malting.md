@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Barley Variety Selection: Spotting Malting Winners Earlier"
+image: /assets/og/ai-barley-variety-selection-malting.png
 description: "AI can prioritise which barley lines deserve costly malting trials, shortening a decade-long programme — if you respect genotype-by-environment limits."
 date: 2023-01-25
 updated: 2023-01-25

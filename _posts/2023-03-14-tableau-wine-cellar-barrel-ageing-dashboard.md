@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Cellar and Barrel-Ageing Inventory Dashboard in Tableau"
+image: /assets/og/tableau-wine-cellar-barrel-ageing-dashboard.png
 description: "Build a Tableau cellar dashboard tracking barrels by type and age via LOD, top-up and evaporation, SO2 status and an ageing timeline with Pulse alerts."
 date: 2023-03-14
 updated: 2023-03-14

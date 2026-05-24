@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building a Digital Tasting Program: Power Platform, ERP, and Gen AI"
+image: /assets/og/digital-tasting-program-power-platform-erp-genai.png
 description: "A practical sequence for beer, wine, and spirits: data model first, capture in Power Apps, anchor in ERP, analyse in Power BI, then layer AI and generative AI."
 date: 2024-10-15
 updated: 2024-10-15

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI-Optimised Mash Temperature Profiles"
+image: /assets/og/ai-mash-temperature-profile-optimization.png
 description: "How AI optimises saccharification rest temperatures and times to hit a target fermentability and body consistently across varying malt lots."
 date: 2023-05-25
 updated: 2023-05-25

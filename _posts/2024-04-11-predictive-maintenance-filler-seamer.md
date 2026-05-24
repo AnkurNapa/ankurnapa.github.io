@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predictive Maintenance for Fillers and Seamers"
+image: /assets/og/predictive-maintenance-filler-seamer.png
 description: "Predict filler-valve and seamer-roll wear from vibration, current, and double-seam data to stop leakers and downtime on the packaging-line bottleneck."
 date: 2024-04-11
 updated: 2024-04-11

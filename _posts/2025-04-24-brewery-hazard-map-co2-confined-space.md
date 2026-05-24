@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Brewery Hazard Map: CO2, Confined Spaces, and Controls"
+image: /assets/og/brewery-hazard-map-co2-confined-space.png
 description: "A structured brewery safety hazards map covering CO2 accumulation, confined spaces, pressurised vessels, and the controls that actually prevent harm."
 date: 2025-04-24
 updated: 2025-04-24

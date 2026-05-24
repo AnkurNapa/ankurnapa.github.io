@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI-Generated Brand Content: Where It Helps and Where It Lies"
+image: /assets/og/ai-generated-brand-content-risks.png
 description: "An honest look at AI marketing content risks for beer brands — where AI adds real value and where hallucination, false specificity, and fake flavor authority undermine trust."
 date: 2026-03-20
 updated: 2026-03-20

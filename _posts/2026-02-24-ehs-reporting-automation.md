@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "EHS Reporting Automation: From Paper Logs to Live Dashboards"
+image: /assets/og/ehs-reporting-automation.png
 description: "How EHS reporting software transforms brewery safety data collection from paper logs and spreadsheets into live dashboards that drive faster decisions."
 date: 2026-02-24
 updated: 2026-02-24

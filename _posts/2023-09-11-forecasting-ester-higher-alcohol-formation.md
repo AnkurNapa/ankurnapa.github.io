@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Forecasting Ester and Higher-Alcohol Formation in Fermentation"
+image: /assets/og/forecasting-ester-higher-alcohol-formation.png
 description: "Model how temperature, pitching rate, wort oxygen, gravity and FAN shape esters and fusel alcohols, so you tune fermentation to a flavour target."
 date: 2023-09-11
 updated: 2023-09-11

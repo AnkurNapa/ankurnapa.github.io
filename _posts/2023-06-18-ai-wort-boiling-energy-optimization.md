@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cutting Wort Boiling Energy With AI"
+image: /assets/og/ai-wort-boiling-energy-optimization.png
 description: "Use AI and data to optimise boil vigour, time, and evaporation — cutting the brewhouse's biggest energy load while still stripping DMS and hitting hop utilisation."
 date: 2023-06-18
 updated: 2023-06-18

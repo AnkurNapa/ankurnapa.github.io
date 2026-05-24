@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI Demand Forecasting for Breweries: Useful, Until It Isn't"
+image: /assets/og/ai-demand-forecasting-for-breweries.png
 description: "When AI demand forecasting actually beats a spreadsheet for breweries — and the cases where it overfits, wastes money, and a simple moving average wins."
 date: 2026-05-20
 updated: 2026-05-20

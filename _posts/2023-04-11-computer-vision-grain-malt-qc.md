@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Computer Vision for Grain Intake and Malt QC"
+image: /assets/og/computer-vision-grain-malt-qc.png
 description: "How computer vision grades kernel size, spots damaged or foreign grains and reads colour at intake — faster and more consistently than manual sieving."
 date: 2023-04-11
 updated: 2023-04-11

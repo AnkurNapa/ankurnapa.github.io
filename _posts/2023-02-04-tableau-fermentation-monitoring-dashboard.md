@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Live Fermentation-Monitoring Dashboard in Tableau"
+image: /assets/og/tableau-fermentation-monitoring-dashboard.png
 description: "Build a live fermentation-monitoring dashboard in Tableau with gravity, temperature and CO2 curves per tank, target bands and a TabPy ML forecast."
 date: 2023-02-04
 updated: 2023-02-04

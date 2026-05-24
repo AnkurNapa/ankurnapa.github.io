@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predictive Maintenance for Brewery Process Equipment"
+image: /assets/og/predictive-maintenance-process-equipment.png
 description: "How AI predicts failures in brewery pumps, motors, compressors, refrigeration and heat exchangers from vibration and current data before a brew is disrupted."
 date: 2024-06-27
 updated: 2024-06-27

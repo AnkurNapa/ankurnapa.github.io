@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Depletions and Sell-Through Dashboard in Tableau"
+image: /assets/og/tableau-depletions-sell-through-dashboard.png
 description: "Build a depletions and sell-through dashboard in Tableau using LOD expressions, YoY table calcs and Pulse to spot accounts slowing down."
 date: 2023-03-04
 updated: 2023-03-04

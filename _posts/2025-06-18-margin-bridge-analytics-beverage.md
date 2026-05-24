@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Margin Bridge Analytics: Why Your Profit Moved"
+image: /assets/og/margin-bridge-analytics-beverage.png
 description: "Margin bridge analysis explains profit variance for breweries — separating volume, price, mix, and cost effects across beer and NA beer SKUs."
 date: 2025-06-18
 updated: 2025-06-18

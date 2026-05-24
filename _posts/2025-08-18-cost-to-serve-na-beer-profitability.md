@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cost-to-Serve by Channel: Is Non-Alcoholic Beer Actually Profitable?"
+image: /assets/og/cost-to-serve-na-beer-profitability.png
 description: "Cost-to-serve analysis reveals whether NA beer generates real profit by channel — on-premise, off-premise, DTC — after all delivery and trade costs."
 date: 2025-08-18
 updated: 2025-08-18

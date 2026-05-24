@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Where AI Burned Me: Hallucinations, Bad Data, and Hype I Believed"
+image: /assets/og/where-ai-burned-me.png
 description: "An honest account of my worst AI mistakes in brewing — trusting confident-but-wrong outputs, building on dirty data, and chasing hype. The failures that taught me the most."
 date: 2026-05-25 17:00:00 -0700
 updated: 2026-05-25

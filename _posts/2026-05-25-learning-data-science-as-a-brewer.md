@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Teaching Myself Data Science as a Working Brewer: The Honest Learning Path"
+image: /assets/og/learning-data-science-as-a-brewer.png
 description: "How I learned data science while working full-time in breweries — what to study first, what to skip, and why self-study (svadhyaya) beats chasing certificates."
 date: 2026-05-25 15:00:00 -0700
 updated: 2026-05-25

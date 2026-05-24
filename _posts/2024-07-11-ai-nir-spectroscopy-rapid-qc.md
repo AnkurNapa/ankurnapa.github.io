@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI + NIR Spectroscopy for Rapid Brewery QC"
+image: /assets/og/ai-nir-spectroscopy-rapid-qc.png
 description: "How NIR/FTIR spectroscopy plus chemometrics predicts alcohol, extract, pH, bitterness and colour in seconds for fast in-process brewery quality control."
 date: 2024-07-11
 updated: 2024-07-11

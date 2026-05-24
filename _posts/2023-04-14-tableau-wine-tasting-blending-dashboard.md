@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Wine Tasting-Score and Blending Dashboard in Tableau"
+image: /assets/og/tableau-wine-tasting-blending-dashboard.png
 description: "Build a Tableau blending dashboard with bench-trial scores by lot, attribute radar charts and what-if candidate blends via parameter actions."
 date: 2023-04-14
 updated: 2023-04-14

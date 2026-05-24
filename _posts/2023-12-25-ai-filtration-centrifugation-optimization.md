@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Filtration and Centrifugation Optimisation"
+image: /assets/og/ai-filtration-centrifugation-optimization.png
 description: "Optimise centrifuge flow and filter dosing to balance clarity against yield loss, oxygen pickup and filter-aid cost — and predict filter run length."
 date: 2023-12-25
 updated: 2023-12-25

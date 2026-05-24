@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI Won't Replace Brewers — Here's the Part Machines Can't Touch"
+image: /assets/og/ai-wont-replace-brewers.png
 description: "Why AI won't replace brewers: it can suggest what to put in the beer, but judgment, taste, and craft stay human. A brewer-turned-data-scientist's honest take."
 date: 2026-05-25 18:00:00 -0700
 updated: 2026-05-25

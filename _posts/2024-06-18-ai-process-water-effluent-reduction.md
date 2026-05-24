@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cutting Process Water and Effluent Load With AI"
+image: /assets/og/ai-process-water-effluent-reduction.png
 description: "How AI models brewery water use and effluent strength (BOD/COD) to cut water-to-beer ratio and trade-effluent charges through reuse and CIP tuning."
 date: 2024-06-18
 updated: 2024-06-18

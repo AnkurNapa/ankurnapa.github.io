@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Design a Beer Recipe? How Generative Models Brew"
+image: /assets/og/can-ai-design-a-beer-recipe.png
 description: "How generative AI suggests beer recipes — grain bills, hop schedules, and yeast pairings — what it gets right, and why a human brewer is still in charge."
 date: 2026-05-21
 updated: 2026-05-21

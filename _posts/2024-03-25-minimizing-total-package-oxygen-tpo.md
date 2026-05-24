@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Minimising Total Package Oxygen (TPO) With Data"
+image: /assets/og/minimizing-total-package-oxygen-tpo.png
 description: "Use data and ML to model total package oxygen from filler settings, hit tens-of-ppb TPO targets, and protect beer flavour and shelf life."
 date: 2024-03-25
 updated: 2024-03-25

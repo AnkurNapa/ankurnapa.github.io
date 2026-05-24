@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Anomaly Detection on Brewery Sensor Data"
+image: /assets/og/anomaly-detection-brewery-sensors.png
 description: "How anomaly detection learns the normal envelope of brewery sensor data to flag drift, leaks, and faults earlier than fixed thresholds."
 date: 2021-07-14
 updated: 2021-07-14

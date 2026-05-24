@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Revenue Growth Management: The Five Levers AI Sharpens"
+image: /assets/og/revenue-growth-management-beverage.png
 description: "How revenue growth management in beer applies five commercial levers — and where AI meaningfully improves precision versus where it overpromises."
 date: 2025-05-08
 updated: 2025-05-08

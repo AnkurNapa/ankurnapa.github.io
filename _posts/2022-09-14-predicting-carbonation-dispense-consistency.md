@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Carbonation and Dispense Consistency"
+image: /assets/og/predicting-carbonation-dispense-consistency.png
 description: "How AI models CO2 volumes and dispense quality from inline CO2, line temperature and pressure to cut fobbing, and where the model loses sight of the bar."
 date: 2022-09-14
 updated: 2022-09-14

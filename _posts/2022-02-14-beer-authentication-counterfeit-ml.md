@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Beer Authentication and Counterfeit Detection With ML"
+image: /assets/og/beer-authentication-counterfeit-ml.png
 description: "ML on spectral and chemical fingerprints or packaging images can flag counterfeit premium beer — backed by reference libraries and chain-of-custody data."
 date: 2022-02-14
 updated: 2022-02-14

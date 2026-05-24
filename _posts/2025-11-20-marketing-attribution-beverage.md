@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Attribution: Connecting Spend to the Tap Handle"
+image: /assets/og/marketing-attribution-beverage.png
 description: "Marketing attribution for beverage brands — how to move beyond last-touch models and connect media spend to actual distribution and volume outcomes."
 date: 2025-11-20
 updated: 2025-11-20

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Predict Whiskey Maturation and Cask Quality?"
+image: /assets/og/can-ai-predict-whiskey-maturation.png
 description: "How distilleries use AI to model whiskey maturation, the angel's share, and cask selection — what it helps with, and why years-long timescales and sparse data limit it."
 date: 2026-05-25 09:00:00 -0700
 updated: 2026-05-25

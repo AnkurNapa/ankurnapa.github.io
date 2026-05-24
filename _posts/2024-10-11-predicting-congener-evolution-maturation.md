@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Congener Evolution During Maturation"
+image: /assets/og/predicting-congener-evolution-maturation.png
 description: "How AI models congener and wood-extractive evolution over years from cask type, char and microclimate, cutting how often you must sample whisky."
 date: 2024-10-11
 updated: 2024-10-11

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Hot Break, Cold Break, and Wort Clarity"
+image: /assets/og/ai-wort-clarity-hot-cold-break.png
 description: "Model how boil, whirlpool, and cooling conditions drive hot and cold break, wort clarity, colloidal stability, and fermentation health using turbidity data."
 date: 2023-07-11
 updated: 2023-07-11

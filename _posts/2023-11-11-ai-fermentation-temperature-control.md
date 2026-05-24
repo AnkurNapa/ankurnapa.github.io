@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Fermentation Temperature and Cooling Control"
+image: /assets/og/ai-fermentation-temperature-control.png
 description: "Predictive control tracks a target fermentation temperature curve and pre-empts the exothermic peak, protecting flavour and saving cooling energy."
 date: 2023-11-11
 updated: 2023-11-11

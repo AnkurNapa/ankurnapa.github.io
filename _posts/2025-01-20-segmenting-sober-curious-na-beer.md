@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Segmenting the Sober-Curious: The Non-Alcoholic Beer Consumer in Data"
+image: /assets/og/segmenting-sober-curious-na-beer.png
 description: "How to segment the non alcoholic beer consumer using behavioral and attitudinal data — a framework for brewery executives."
 date: 2025-01-20
 updated: 2025-01-20

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Detecting Wild Yeast and Bacterial Contamination Early With ML"
+image: /assets/og/detecting-beer-contamination-early-ml.png
 description: "Combine fermentation-signal ML with rapid micro methods like PCR and ATP-bioluminescence to flag Lacto, Pedio and wild-yeast contamination before it spoils a batch."
 date: 2023-10-11
 updated: 2023-10-11

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Using AI to Time the Diacetyl Rest"
+image: /assets/og/ai-diacetyl-rest-timing.png
 description: "Predict when to start and end the diacetyl rest to drive VDKs below 0.10 mg/L without wasting tank time, using gravity, temperature and yeast state."
 date: 2023-08-25
 updated: 2023-08-25

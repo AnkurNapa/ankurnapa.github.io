@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Rackhouse Microclimate Dashboard in Tableau"
+image: /assets/og/tableau-whisky-rackhouse-microclimate-dashboard.png
 description: "Build a Tableau rackhouse microclimate dashboard mapping warehouse temperature and humidity by position to maturation loss, with AI outlier explanations."
 date: 2023-07-14
 updated: 2023-07-14

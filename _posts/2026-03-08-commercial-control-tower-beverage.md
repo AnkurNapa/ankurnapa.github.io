@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Commercial Control Tower: One View from Brewhouse to Shelf"
+image: /assets/og/commercial-control-tower-beverage.png
 description: "A commercial control tower for beverage operations integrates sell-in, sell-through, and margin data into one decision-ready view — here is how to build one that works."
 date: 2026-03-08
 updated: 2026-03-08

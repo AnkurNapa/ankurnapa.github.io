@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Whiskey Tasting, Captured and Analysed: Power Apps, Power BI, and AI"
+image: /assets/og/whiskey-tasting-ai-power-apps-power-bi.png
 description: "Capture cask-sample and vatting scores in Power Apps linked to ERP, track maturation in Power BI, and use AI to cluster casks and flag off-notes — nose still decides."
 date: 2024-08-15
 updated: 2024-08-15

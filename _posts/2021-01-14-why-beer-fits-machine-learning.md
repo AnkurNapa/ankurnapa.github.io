@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why Beer Is a Surprisingly Good Fit for Machine Learning"
+image: /assets/og/why-beer-fits-machine-learning.png
 description: "Brewing is a repeatable batch process with measurable inputs and clear targets — exactly the structure machine learning exploits. Here's why, and where it breaks."
 date: 2021-01-14
 updated: 2021-01-14

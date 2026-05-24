@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Predict Wine Quality Before the Harvest?"
+image: /assets/og/can-ai-predict-wine-quality.png
 description: "How AI uses vineyard, satellite, and weather data to forecast yield, ripeness, and wine quality — what it predicts reliably, and why vintage and terroir cap its accuracy."
 date: 2026-05-25 08:00:00 -0700
 updated: 2026-05-25

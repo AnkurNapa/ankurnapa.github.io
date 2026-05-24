@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Hop Bitterness (IBU) With Machine Learning"
+image: /assets/og/predicting-hop-bitterness-ibu.png
 description: "Machine learning predicts IBU and hop utilisation from lot alpha-acid assay and boil conditions, compensating for hop lot drift across crop years."
 date: 2023-02-25
 updated: 2023-02-25

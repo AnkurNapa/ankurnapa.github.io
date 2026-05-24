@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Account Churn: Predicting Which Outlets Drop Your Brand"
+image: /assets/og/account-churn-prediction-beverage.png
 description: "Customer churn prediction for beverage brands — a practical framework to identify at-risk accounts before they delist, and the interventions that actually reverse the trend."
 date: 2026-02-06
 updated: 2026-02-06

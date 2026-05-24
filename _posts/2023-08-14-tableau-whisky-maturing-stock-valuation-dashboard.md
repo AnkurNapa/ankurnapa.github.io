@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Maturing-Stock Inventory and Valuation Dashboard in Tableau"
+image: /assets/og/tableau-whisky-maturing-stock-valuation-dashboard.png
 description: "Build a Tableau maturing-stock dashboard valuing whisky inventory by age, cask and strength, tracking tied-up capital and casks reaching age targets."
 date: 2023-08-14
 updated: 2023-08-14

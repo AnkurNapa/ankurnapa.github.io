@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compliance Analytics: Never Miss an Inspection or Permit"
+image: /assets/og/ehs-compliance-analytics.png
 description: "How EHS compliance management analytics helps breweries track permits, inspections, and reporting deadlines before regulators or auditors find the gaps."
 date: 2025-10-24
 updated: 2025-10-24

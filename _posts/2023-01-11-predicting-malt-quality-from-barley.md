@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Predict Malt Quality From Barley Analysis?"
+image: /assets/og/predicting-malt-quality-from-barley.png
 description: "Machine learning can predict malt quality from barley analysis with useful accuracy, but process variation sets a hard ceiling. Here is what works."
 date: 2023-01-11
 updated: 2023-01-11

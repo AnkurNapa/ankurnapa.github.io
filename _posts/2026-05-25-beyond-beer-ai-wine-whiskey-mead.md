@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Beyond Beer: Taking AI into Wine, Whiskey & Mead — Where I'm Headed Next"
+image: /assets/og/beyond-beer-ai-wine-whiskey-mead.png
 description: "After years applying AI to beer, I'm extending the same data-driven approach to wine, whiskey, and mead. What carries over, what doesn't, and the future of AI across drinks."
 date: 2026-05-25 19:00:00 -0700
 updated: 2026-05-25

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Supply-Chain ESG: Tracing Barley and Hops to Source"
+image: /assets/og/supply-chain-esg-barley-hops.png
 description: "How supply chain ESG traceability for barley and hops is becoming a Scope 3 imperative — and what data infrastructure it requires."
 date: 2025-11-28
 updated: 2025-11-28

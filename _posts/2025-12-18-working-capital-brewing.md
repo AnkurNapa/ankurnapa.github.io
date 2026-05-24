@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Working Capital: Cash Trapped in Inventory and Tanks"
+image: /assets/og/working-capital-brewing.png
 description: "Working capital optimization for breweries — how to identify and release cash trapped in raw materials, WIP tanks, and finished goods inventory."
 date: 2025-12-18
 updated: 2025-12-18

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Procurement and Commodity-Price Dashboard in Tableau"
+image: /assets/og/tableau-procurement-commodity-price-dashboard.png
 description: "Build a procurement and commodity-price dashboard in Tableau to track malt, hop and energy prices, contract coverage versus spot, and price exposure scenarios."
 date: 2023-05-21
 updated: 2023-05-21

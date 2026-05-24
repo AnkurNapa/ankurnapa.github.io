@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Beverage Demand Forecasting Maturity Model: From Spreadsheet to ML"
+image: /assets/og/demand-forecasting-maturity-model.png
 description: "A practical demand forecasting maturity model for breweries and beverage brands — from spreadsheets to machine learning, with honest tradeoffs."
 date: 2025-01-14
 updated: 2025-01-14

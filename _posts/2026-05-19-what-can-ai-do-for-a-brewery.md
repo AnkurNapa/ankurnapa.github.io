@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What Can AI Actually Do for a Brewery? 7 Real Use Cases"
+image: /assets/og/what-can-ai-do-for-a-brewery.png
 description: "A grounded tour of where artificial intelligence already helps breweries — from fermentation forecasting to demand planning — and where it's still just hype."
 date: 2026-05-19
 updated: 2026-05-19

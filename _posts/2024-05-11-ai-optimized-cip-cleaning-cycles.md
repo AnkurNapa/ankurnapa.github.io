@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI-Optimised CIP: Cleaning With Less Water, Chemical, and Time"
+image: /assets/og/ai-optimized-cip-cleaning-cycles.png
 description: "Optimise CIP using the TACT levers and conductivity and turbidity feedback to stop over-cleaning — saving water, caustic, and time without risking spoilage."
 date: 2024-05-11
 updated: 2024-05-11

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hierarchical Forecasting: Reconciling SKU, Brand, and Total Volume"
+image: /assets/og/hierarchical-forecasting-beverage.png
 description: "How hierarchical forecasting reconciles demand signals across SKU, brand, and portfolio levels — and why misalignment between levels destroys planning credibility."
 date: 2025-09-14
 updated: 2025-09-14

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Vineyard Yield and Harvest Dashboard in Tableau"
+image: /assets/og/tableau-vineyard-yield-harvest-dashboard.png
 description: "Build a Tableau vineyard dashboard mapping blocks, tracking Brix and acidity ripeness curves, and sequencing harvest with Pulse digests."
 date: 2023-01-14
 updated: 2023-01-14

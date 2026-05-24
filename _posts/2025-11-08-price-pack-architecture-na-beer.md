@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Price-Pack Architecture for the Non-Alcoholic Beer Boom"
+image: /assets/og/price-pack-architecture-na-beer.png
 description: "Price-pack architecture for NA beer: how to design the right formats at the right price points to capture the premium opportunity without cannibalising existing alcoholic lines."
 date: 2025-11-08
 updated: 2025-11-08

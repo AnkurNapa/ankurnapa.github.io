@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Route Optimisation for Beer Distribution"
+image: /assets/og/route-optimisation-beer-distribution.png
 description: "How vehicle-routing optimisation cuts miles, cost and emissions on beer deliveries under time windows and capacity, and where real-world chaos limits it."
 date: 2021-11-14
 updated: 2021-11-14

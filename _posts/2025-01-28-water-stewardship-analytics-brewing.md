@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Water Stewardship Analytics: Cutting Liters-per-Liter in Brewing"
+image: /assets/og/water-stewardship-analytics-brewing.png
 description: "How data analytics and AI help breweries reduce water use brewing — a practical ESG guide for executives."
 date: 2025-01-28
 updated: 2025-01-28

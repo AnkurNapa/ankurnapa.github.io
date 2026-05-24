@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An Executive KPI Scorecard for a Brewery in Tableau"
+image: /assets/og/tableau-executive-kpi-scorecard.png
 description: "Build a one-page executive scorecard in Tableau with BANs, sparklines and RAG status across volume, margin, yield, OEE, safety and ESG, delivered weekly by Pulse."
 date: 2023-10-21
 updated: 2023-10-21

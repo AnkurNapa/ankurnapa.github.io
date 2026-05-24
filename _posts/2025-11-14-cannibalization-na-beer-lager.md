@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cannibalization: Does Non-Alcoholic Beer Eat Your Lager's Sales?"
+image: /assets/og/cannibalization-na-beer-lager.png
 description: "A framework for measuring cannibalization between non-alcoholic beer and conventional lager — and how to separate cannibalised volume from genuine category expansion."
 date: 2025-11-14
 updated: 2025-11-14

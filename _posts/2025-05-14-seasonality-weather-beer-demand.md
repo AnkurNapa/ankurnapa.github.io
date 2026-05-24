@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Seasonality and Weather: Beer's Most Predictable Swings"
+image: /assets/og/seasonality-weather-beer-demand.png
 description: "How weather and seasonality drive beer demand forecasting — decomposition methods, temperature indices, and what changes for non-alcoholic beer."
 date: 2025-05-14
 updated: 2025-05-14

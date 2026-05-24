@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Packaging Footprint: Glass vs. Can vs. Keg, by the Numbers"
+image: /assets/og/packaging-footprint-glass-can-keg.png
 description: "A framework for comparing packaging carbon footprint across glass, aluminum can, and keg formats — honest data, no greenwashing."
 date: 2025-07-28
 updated: 2025-07-28

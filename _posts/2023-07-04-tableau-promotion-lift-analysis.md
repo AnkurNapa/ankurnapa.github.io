@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Promotion-Lift Analysis in Tableau"
+image: /assets/og/tableau-promotion-lift-analysis.png
 description: "Build promotion-lift analysis in Tableau using table calculations to compare baseline versus actual volume, measure incremental margin and test promo periods."
 date: 2023-07-04
 updated: 2023-07-04

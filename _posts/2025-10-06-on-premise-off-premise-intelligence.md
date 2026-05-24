@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "On-Premise vs. Off-Premise Intelligence: Two Games, One Portfolio"
+image: /assets/og/on-premise-off-premise-intelligence.png
 description: "On premise off premise data requires two distinct analytical frameworks — here's how beverage brands build intelligence for both channels without doubling their workload."
 date: 2025-10-06
 updated: 2025-10-06

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Business Case: Linking ESG Metrics to Margin"
+image: /assets/og/esg-business-case-margin.png
 description: "How breweries can build the ESG business case by connecting sustainability metrics to margin, cost, and commercial outcomes."
 date: 2026-03-28
 updated: 2026-03-28

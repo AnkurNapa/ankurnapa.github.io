@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Predict Mash Efficiency and Extract Yield?"
+image: /assets/og/predicting-mash-efficiency-extract-yield.png
 description: "A model can predict mash efficiency and kettle extract from crush, mash thickness, temperature profile, sparge and malt analysis — flagging low-yield brews early."
 date: 2023-05-11
 updated: 2023-05-11

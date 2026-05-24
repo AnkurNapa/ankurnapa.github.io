@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Beer Colour (EBC/SRM) From a Recipe"
+image: /assets/og/predicting-beer-colour-recipe.png
 description: "How AI predicts finished beer colour in EBC/SRM from malt colours and grist proportions, where it beats Morey's equation, and where it breaks."
 date: 2021-04-14
 updated: 2021-04-14

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Using AI to Optimise Adjunct and Cereal Costs"
+image: /assets/og/ai-adjunct-cereal-cost-optimization.png
 description: "How AI optimises the brewing grist bill across malt, adjuncts and syrups against cost, target extract and FAN constraints as commodity prices move."
 date: 2023-03-25
 updated: 2023-03-25

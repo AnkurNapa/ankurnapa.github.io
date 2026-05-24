@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cost of Goods per Hectoliter: The Number to Automate First"
+image: /assets/og/cost-of-goods-per-hectoliter.png
 description: "How breweries can automate cost of goods per hectoliter to get accurate, real-time production economics — including for NA beer."
 date: 2025-02-18
 updated: 2025-02-18

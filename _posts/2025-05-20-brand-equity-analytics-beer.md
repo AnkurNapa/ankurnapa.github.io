@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brand Equity Analytics: Measuring What Your Beer Stands For"
+image: /assets/og/brand-equity-analytics-beer.png
 description: "A practical framework for brand equity measurement in beer — tracking awareness, relevance, and pricing power with data."
 date: 2025-05-20
 updated: 2025-05-20

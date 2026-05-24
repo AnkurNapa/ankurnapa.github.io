@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Detecting Wine Faults Early: Brett, Volatile Acidity, TCA"
+image: /assets/og/detecting-wine-faults-brett-va-tca.png
 description: "How AI flags wine faults early — Brettanomyces, volatile acidity, and TCA cork taint — from cellar conditions and rapid analysis, since most faults are easier to prevent than reverse."
 date: 2024-08-05
 updated: 2024-08-05

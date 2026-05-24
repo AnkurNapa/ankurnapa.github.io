@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Forecasting the Angel's Share: Modelling Cask Evaporation Loss"
+image: /assets/og/forecasting-whiskey-angels-share.png
 description: "How AI and data science forecast the angel's share, the ~2%/year cask evaporation loss, to plan fill volumes and value maturing whisky stock."
 date: 2024-09-11
 updated: 2024-09-11

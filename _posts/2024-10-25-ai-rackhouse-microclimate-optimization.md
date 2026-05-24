@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Optimising Rackhouse Microclimate With AI"
+image: /assets/og/ai-rackhouse-microclimate-optimization.png
 description: "How AI and warehouse sensors map rackhouse microclimate to reduce cask-to-cask variation in extraction and angel's share, and guide smarter cask placement."
 date: 2024-10-25
 updated: 2024-10-25

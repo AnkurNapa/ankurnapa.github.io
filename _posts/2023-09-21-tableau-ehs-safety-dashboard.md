@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An EHS Safety-Incident Dashboard in Tableau"
+image: /assets/og/tableau-ehs-safety-dashboard.png
 description: "Build an EHS safety dashboard in Tableau with TRIR-style rates, leading vs lagging indicators, a hotspot heatmap and Pulse alerts, plus the under-reporting caveat."
 date: 2023-09-21
 updated: 2023-09-21

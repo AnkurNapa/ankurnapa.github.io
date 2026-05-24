@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Marketing Mix Modeling: What Really Drives Beer Volume"
+image: /assets/og/marketing-mix-modeling-beer.png
 description: "Marketing mix modeling for beer brands — a framework for understanding which spend drives volume and which is just noise."
 date: 2025-03-20
 updated: 2025-03-20

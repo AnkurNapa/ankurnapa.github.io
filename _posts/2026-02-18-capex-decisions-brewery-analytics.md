@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Capex with Analytics: When to Add a Tank or a Canning Line"
+image: /assets/og/capex-decisions-brewery-analytics.png
 description: "Capex decision analytics for breweries — how to use capacity utilization, margin contribution, and payback modeling to time tank and canning line investments."
 date: 2026-02-18
 updated: 2026-02-18

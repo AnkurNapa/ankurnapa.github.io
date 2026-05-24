@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Planning for CO2 Shortages With Predictive Models"
+image: /assets/og/planning-co2-shortages-predictive.png
 description: "Forecast CO2 demand against fermentation recovery and supply to size buffers and recovery investment — a lesson sharpened by the 2022 supply crunch."
 date: 2022-01-14
 updated: 2022-01-14

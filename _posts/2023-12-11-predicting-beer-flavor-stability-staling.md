@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Beer Flavour Stability and Staling"
+image: /assets/og/predicting-beer-flavor-stability-staling.png
 description: "Model beer shelf life and staling from oxygen pickup, storage temperature and forced-ageing data to set realistic best-before dates and oxygen targets."
 date: 2023-12-11
 updated: 2023-12-11

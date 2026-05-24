@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Stuck Fermentation Before It Happens"
+image: /assets/og/predicting-stuck-fermentation-risk.png
 description: "How machine learning predicts stuck fermentation risk from pitching rate, viability, wort oxygen and the early gravity curve — in time to act."
 date: 2023-10-25
 updated: 2023-10-25

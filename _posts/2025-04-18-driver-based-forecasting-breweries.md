@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Driver-Based Forecasting: Beyond the Annual Budget"
+image: /assets/og/driver-based-forecasting-breweries.png
 description: "Driver-based forecasting replaces static brewery budgets with dynamic models tied to real volume, mix, and cost drivers — including for NA beer."
 date: 2025-04-18
 updated: 2025-04-18

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Wort Fermentability From the Sugar Spectrum"
+image: /assets/og/predicting-wort-fermentability.png
 description: "Predict apparent attenuation limit from mash schedule and malt, then dial the sugar spectrum to target dryness versus body before fermentation begins."
 date: 2023-06-27
 updated: 2023-06-27

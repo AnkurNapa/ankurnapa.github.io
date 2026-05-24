@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Avoiding Greenwashing: AI to Verify, Not Just Generate, Claims"
+image: /assets/og/avoiding-greenwashing-ai-verify.png
 description: "Why ESG claims need AI verification not just AI generation — an honest look at greenwashing risk and the hallucination problem."
 date: 2026-01-28
 updated: 2026-01-28

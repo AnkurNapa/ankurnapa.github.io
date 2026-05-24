@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Yeast Viability, Vitality, and Pitching Rate"
+image: /assets/og/predicting-yeast-viability-vitality.png
 description: "How to model yeast viability and vitality from lab and process data to recommend the right pitching rate and decide when to re-propagate."
 date: 2023-08-11
 updated: 2023-08-11

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Social Listening: Early Signals of the Next Flavor Trend"
+image: /assets/og/social-listening-breweries-trends.png
 description: "How social listening for breweries surfaces early flavor trend signals — before they appear in scanner data or trade press."
 date: 2025-09-20
 updated: 2025-09-20

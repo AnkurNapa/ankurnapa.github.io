@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI-Assisted Sensory Panels and Taster Calibration"
+image: /assets/og/ai-sensory-panel-taster-calibration.png
 description: "How data science screens and calibrates beer tasting panellists for sensitivity, drift, and bias, and where AI supports but never replaces the panel."
 date: 2024-02-11
 updated: 2024-02-11

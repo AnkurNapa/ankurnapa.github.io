@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Reducing Packaging Material Waste With AI"
+image: /assets/og/reducing-packaging-material-waste-ai.png
 description: "Use AI and checkweigher data to cut overfill, giveaway, rejects, and changeover scrap — trimming packaging COGS and carbon without breaking the strength floor."
 date: 2024-04-25
 updated: 2024-04-25

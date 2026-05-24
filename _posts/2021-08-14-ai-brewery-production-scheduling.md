@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Brewery Production Scheduling"
+image: /assets/og/ai-brewery-production-scheduling.png
 description: "How optimisation and forecasting plan the brew, ferment, and package schedule across finite tanks, maturation times, and line slots to hit due dates."
 date: 2021-08-14
 updated: 2021-08-14

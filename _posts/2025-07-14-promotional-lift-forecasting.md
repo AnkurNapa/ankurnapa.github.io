@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Promotional Lift: Separating Real Demand from Discount Noise"
+image: /assets/og/promotional-lift-forecasting.png
 description: "How to measure and forecast promotional lift in beer — separating baseline demand from discount-driven volume spikes and avoiding the forward-buy trap."
 date: 2025-07-14
 updated: 2025-07-14

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Optimal Bottling Time and Maturity"
+image: /assets/og/predicting-optimal-bottling-maturity.png
 description: "How AI models when a cask hits its age, flavour and ABV target so you avoid over-maturing or under-maturing — while sensory judgement stays the final call."
 date: 2024-11-25
 updated: 2024-11-25

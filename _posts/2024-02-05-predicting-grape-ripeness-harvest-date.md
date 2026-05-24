@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Grape Ripeness and the Optimal Harvest Date"
+image: /assets/og/predicting-grape-ripeness-harvest-date.png
 description: "How AI models grape ripeness from Brix, acidity, pH, phenolics, and weather to forecast the optimal harvest date — and where the winemaker's palate still wins."
 date: 2024-02-05
 updated: 2024-02-05

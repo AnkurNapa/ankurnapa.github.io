@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Whisky Blending and Sensory Dashboard in Tableau"
+image: /assets/og/tableau-whisky-blending-sensory-dashboard.png
 description: "Build a Tableau blending dashboard combining cask sensory and GC profiles, candidate-vatting what-if analysis and consistency checks against house style."
 date: 2023-09-14
 updated: 2023-09-14

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Write Tasting Notes for Beer, Wine & Whiskey?"
+image: /assets/og/ai-tasting-notes-beer-wine-whiskey.png
 description: "AI can generate convincing tasting notes for beer, wine, and whiskey — but it can't taste, so it hallucinates flavors. Where AI tasting notes help, and where they mislead."
 date: 2026-05-25 10:00:00 -0700
 updated: 2026-05-25

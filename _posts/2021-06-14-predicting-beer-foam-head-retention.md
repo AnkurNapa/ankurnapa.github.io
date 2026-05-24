@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Beer Foam and Head Retention"
+image: /assets/og/predicting-beer-foam-head-retention.png
 description: "How AI models beer foam and head retention from foam-positive polypeptides, iso-alpha-acids and lipids, where it helps QC, and where it breaks."
 date: 2021-06-14
 updated: 2021-06-14

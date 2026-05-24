@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Distillery Energy and Spirit Yield"
+image: /assets/og/ai-distillery-energy-yield.png
 description: "How AI optimises spirit yield — litres of pure alcohol per tonne — and cuts energy across fermentation, distillation and the cut, with honest limits on the yield-flavour trade-off."
 date: 2024-12-25
 updated: 2024-12-25

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An Account-Churn Dashboard in Tableau"
+image: /assets/og/tableau-account-churn-dashboard.png
 description: "Build an account-churn dashboard in Tableau with RFM recency and frequency measures, at-risk flags, and an ML churn score fed from TabPy for beverage sales."
 date: 2023-08-21
 updated: 2023-08-21

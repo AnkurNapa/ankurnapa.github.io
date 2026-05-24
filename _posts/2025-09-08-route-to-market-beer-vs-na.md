@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Route-to-Market Analytics: Channels for Beer vs. Non-Alcoholic Beer"
+image: /assets/og/route-to-market-beer-vs-na.png
 description: "Route to market for beverage brands is not one-size-fits-all: how beer and NA beer diverge in optimal channels, analytics, and distribution strategy."
 date: 2025-09-08
 updated: 2025-09-08

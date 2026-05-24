@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Safety Culture Built on Data, Not Surveillance"
+image: /assets/og/safety-culture-data-not-surveillance.png
 description: "How to use safety culture data to build trust and improve brewery EHS outcomes — and why the difference between data and surveillance determines whether workers report honestly."
 date: 2026-04-24
 updated: 2026-04-24

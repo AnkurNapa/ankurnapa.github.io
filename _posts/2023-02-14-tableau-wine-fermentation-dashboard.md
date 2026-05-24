@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Wine Fermentation Monitoring Dashboard in Tableau"
+image: /assets/og/tableau-wine-fermentation-dashboard.png
 description: "Build a Tableau fermentation dashboard tracking per-tank Brix and temperature curves, stuck-ferment flags and YAN, with Explain Data diagnostics."
 date: 2023-02-14
 updated: 2023-02-14

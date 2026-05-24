@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Brand and Marketing Performance Dashboard in Tableau"
+image: /assets/og/tableau-brand-marketing-dashboard.png
 description: "Blend ad spend, sales and social in Tableau to build a brand and marketing dashboard with channel ROI, funnel views and an honest take on attribution."
 date: 2023-08-04
 updated: 2023-08-04

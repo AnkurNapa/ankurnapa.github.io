@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CO2 Evolution as a Real-Time Fermentation Signal"
+image: /assets/og/co2-evolution-fermentation-monitoring.png
 description: "Inline CO2 and density sensors turn fermentation into a continuous signal, replacing twice-daily gravity samples and feeding models that forecast the curve."
 date: 2023-11-25
 updated: 2023-11-25

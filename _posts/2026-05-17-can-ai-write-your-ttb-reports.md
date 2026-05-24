@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Write Your TTB Reports? Why You Must Check Every Number"
+image: /assets/og/can-ai-write-your-ttb-reports.png
 description: "AI can draft brewery TTB and excise paperwork fast — but it hallucinates figures and misquotes rules. Where it helps, where it's dangerous, and the verification rule."
 date: 2026-05-17
 updated: 2026-05-17

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Digitising Beer Tasting Panels: Power Apps, Power BI, and AI"
+image: /assets/og/digitising-beer-tasting-panels-ai-power-bi.png
 description: "How breweries can digitise tasting panels with a Power Apps capture app, Power BI analytics, and AI fault and drift detection — without losing the palate."
 date: 2024-02-15
 updated: 2024-02-15

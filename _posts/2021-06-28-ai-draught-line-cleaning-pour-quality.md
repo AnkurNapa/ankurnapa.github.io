@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Draught Line Cleaning and Pour Quality"
+image: /assets/og/ai-draught-line-cleaning-pour-quality.png
 description: "Use flow meters, pour counts and line temperature to predict optimal cleaning intervals and flag pour-quality issues — without compromising hygiene."
 date: 2021-06-28
 updated: 2021-06-28

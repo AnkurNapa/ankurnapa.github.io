@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Honest Limits of AI in Brewing: Hallucinations, Bad Data, and Wasted Money"
+image: /assets/og/the-honest-limits-of-ai-in-brewing.png
 description: "A reality check on AI for breweries — where it hallucinates, where bad data wrecks it, and where the spend isn't worth it. The downsides nobody selling AI mentions."
 date: 2026-05-25
 updated: 2026-05-25

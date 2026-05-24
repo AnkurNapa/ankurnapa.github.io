@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Whisky Blending and Vatting Consistency"
+image: /assets/og/ai-whiskey-blending-consistency.png
 description: "How AI optimises blend recipes — cask proportions, ages and wood types — to hit a consistent house profile batch after batch at the lowest cost of premium stock."
 date: 2024-11-11
 updated: 2024-11-11

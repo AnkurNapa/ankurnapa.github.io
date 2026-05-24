@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Non-Alcoholic Beer as an ESG Story: Health, Moderation, and Data"
+image: /assets/og/non-alcoholic-beer-esg-story.png
 description: "How non alcoholic beer health trends connect to the social pillar of ESG — and what data breweries need to make the case credibly."
 date: 2025-09-28
 updated: 2025-09-28

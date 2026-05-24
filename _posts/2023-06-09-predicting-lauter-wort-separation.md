@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Predicting Lauter and Wort Separation Performance"
+image: /assets/og/predicting-lauter-wort-separation.png
 description: "Predict run-off time and stuck-mash risk, then tune crush, rake depth, and flow from grist and mash data to protect brewhouse turns and extract."
 date: 2023-06-09
 updated: 2023-06-09

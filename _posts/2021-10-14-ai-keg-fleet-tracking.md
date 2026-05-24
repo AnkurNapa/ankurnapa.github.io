@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Keg Fleet Tracking and Optimisation"
+image: /assets/og/ai-keg-fleet-tracking.png
 description: "How IoT data and machine learning track keg location and dwell time, right-size your float, and cut lost-keg cost and over-purchasing."
 date: 2021-10-14
 updated: 2021-10-14

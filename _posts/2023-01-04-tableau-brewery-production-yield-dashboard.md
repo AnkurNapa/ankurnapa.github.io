@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building a Brewery Production and Yield Dashboard in Tableau"
+image: /assets/og/tableau-brewery-production-yield-dashboard.png
 description: "How to build a brewery production and yield dashboard in Tableau using LOD expressions, brewhouse yield trends and Tableau Pulse digests."
 date: 2023-01-04
 updated: 2023-01-04

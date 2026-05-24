@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Forecasting Malt and Hop Prices for Smarter Procurement"
+image: /assets/og/forecasting-malt-hop-prices-procurement.png
 description: "How forecasting malt and hop prices guides procurement timing and contract sizing for breweries, and why hedging manages the residual risk forecasts can't remove."
 date: 2021-12-14
 updated: 2021-12-14

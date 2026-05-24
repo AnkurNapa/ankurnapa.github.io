@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Computer Vision for Grape Sorting and Vineyard Disease Detection"
+image: /assets/og/computer-vision-grape-sorting-disease.png
 description: "How computer vision sorts grapes at the crush pad and spots vineyard disease from drone and phone imagery — faster and more consistent than manual, with honest limits on lighting and edge cases."
 date: 2024-12-05
 updated: 2024-12-05

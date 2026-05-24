@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Wine DTC and Varietal Sales Dashboard in Tableau"
+image: /assets/og/tableau-wine-dtc-varietal-sales-dashboard.png
 description: "Build a Tableau wine sales dashboard comparing DTC and distribution, sales by varietal, region and vintage, with club retention and a market map."
 date: 2023-05-14
 updated: 2023-05-14

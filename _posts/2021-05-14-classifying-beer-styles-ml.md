@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Classifying Beer Styles With Machine Learning"
+image: /assets/og/classifying-beer-styles-ml.png
 description: "How machine learning classifies beer styles from OG, FG, ABV, IBU and colour, where it helps QC and competition sorting, and where styles blur."
 date: 2021-05-14
 updated: 2021-05-14

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A New-Product Launch Tracker in Tableau"
+image: /assets/og/tableau-new-product-launch-tracker.png
 description: "Build a new-product launch tracker in Tableau using LOD calcs, table calculations and Pulse to follow trial, repeat and rate-of-sale per door."
 date: 2023-07-21
 updated: 2023-07-21

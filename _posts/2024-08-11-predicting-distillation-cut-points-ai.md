@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can AI Pick Distillation Cut Points (Heads, Hearts, Tails)?"
+image: /assets/og/predicting-distillation-cut-points-ai.png
 description: "Can AI choose distillation cut points? How models use ABV, temperature, time and congener data to make heads, hearts and tails cuts more consistent."
 date: 2024-08-11
 updated: 2024-08-11

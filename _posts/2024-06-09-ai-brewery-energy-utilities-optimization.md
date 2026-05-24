@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Brewery Energy and Utilities (Steam, Refrigeration, CO2)"
+image: /assets/og/ai-brewery-energy-utilities-optimization.png
 description: "How AI optimises brewery energy — steam, refrigeration, compressed air and CO2 recovery — by forecasting demand, shifting load and spotting drift."
 date: 2024-06-09
 updated: 2024-06-09

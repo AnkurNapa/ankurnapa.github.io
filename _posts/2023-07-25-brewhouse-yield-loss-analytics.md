@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brewhouse Yield: Using Analytics to Find Where Extract Disappears"
+image: /assets/og/brewhouse-yield-loss-analytics.png
 description: "Use mass-balance accounting and analytics to attribute the gap between theoretical and actual extract across milling, lauter, trub, transfer, and evaporation."
 date: 2023-07-25
 updated: 2023-07-25

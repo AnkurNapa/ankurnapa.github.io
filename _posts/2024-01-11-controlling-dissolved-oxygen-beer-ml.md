@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Controlling Dissolved Oxygen in Beer With Machine Learning"
+image: /assets/og/controlling-dissolved-oxygen-beer-ml.png
 description: "How machine learning pinpoints dissolved oxygen pickup and predicts package TPO, so you control the biggest driver of beer staling at the source."
 date: 2024-01-11
 updated: 2024-01-11

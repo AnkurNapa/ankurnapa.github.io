@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Wine Fermentation Control (and Stuck Ferments)"
+image: /assets/og/ai-wine-fermentation-control.png
 description: "How AI models wine fermentation kinetics and stuck-ferment risk from YAN, sugar, and temperature — to guide nutrient and temperature decisions for whites and reds, and manage MLF."
 date: 2024-06-05
 updated: 2024-06-05

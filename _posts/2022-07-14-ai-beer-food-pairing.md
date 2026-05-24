@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for Beer-and-Food Pairing"
+image: /assets/og/ai-beer-food-pairing.png
 description: "How AI pairing models and knowledge graphs combine flavour intensity and contrast to suggest beer-and-food matches for menus, taprooms, and apps."
 date: 2022-07-14
 updated: 2022-07-14

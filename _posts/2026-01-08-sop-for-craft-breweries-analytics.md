@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "S&OP for Craft: An Analytics Playbook to Match Supply and Demand"
+image: /assets/og/sop-for-craft-breweries-analytics.png
 description: "Sales and operations planning for craft breweries: a practical analytics playbook that connects demand signals to production scheduling and closes the forecast gap."
 date: 2026-01-08
 updated: 2026-01-08

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Depletion Data Decoded: From Distributor Reports to Action"
+image: /assets/og/depletion-data-analytics.png
 description: "Turn raw depletion data analytics into prioritized sales decisions — a practical framework for brewery and beverage brand executives."
 date: 2025-02-06
 updated: 2025-02-06

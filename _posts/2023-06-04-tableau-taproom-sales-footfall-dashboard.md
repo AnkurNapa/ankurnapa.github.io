@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Taproom Sales and Footfall Dashboard in Tableau"
+image: /assets/og/tableau-taproom-sales-footfall-dashboard.png
 description: "Build a taproom sales and footfall dashboard in Tableau — day-part heatmaps, weather-driven what-if and basket mix — with honest notes on small-sample noise."
 date: 2023-06-04
 updated: 2023-06-04

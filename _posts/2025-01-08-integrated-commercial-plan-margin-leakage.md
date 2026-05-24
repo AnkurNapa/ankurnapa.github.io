@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Integrated Commercial Plan: Where Breweries Leak Margin Between Sales and Supply"
+image: /assets/og/integrated-commercial-plan-margin-leakage.png
 description: "Discover how integrated business planning for beverage operations closes the gap between sales commitments and supply reality — and stops silent margin leakage."
 date: 2025-01-08
 updated: 2025-01-08

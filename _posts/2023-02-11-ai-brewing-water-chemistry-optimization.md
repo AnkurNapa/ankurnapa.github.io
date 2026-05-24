@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Optimising Brewing Water Chemistry With AI"
+image: /assets/og/ai-brewing-water-chemistry-optimization.png
 description: "AI as a salt and acid dosing adviser can hit target mash pH and sulphate-to-chloride balance across drifting source water and many recipes."
 date: 2023-02-11
 updated: 2023-02-11
