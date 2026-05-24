@@ -90,7 +90,8 @@ a.tag:hover { text-decoration: underline; }
 /* Share buttons */
 .share { display:flex; align-items:center; flex-wrap:wrap; gap:.5rem; margin:2.5rem 0 0; padding-top:1.25rem; border-top:1px solid var(--rule); }
 .share-label { font-weight:600; font-size:.9rem; margin-right:.25rem; }
-.share-btn { font-size:.85rem; padding:.35rem .8rem; border:1px solid var(--rule); border-radius:999px; color:var(--accent); background:none; cursor:pointer; text-decoration:none; line-height:1.4; font-family:inherit; }
+.share-btn { display:inline-flex; align-items:center; gap:.4rem; font-size:.85rem; padding:.35rem .8rem; border:1px solid var(--rule); border-radius:999px; color:var(--accent); background:none; cursor:pointer; text-decoration:none; line-height:1.4; font-family:inherit; }
+.share-btn svg { width:15px; height:15px; fill:currentColor; flex:none; }
 .share-btn:hover { background:#fff5e6; text-decoration:none; }
 
 /* Related reading */
