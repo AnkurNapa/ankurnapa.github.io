@@ -18,7 +18,7 @@ faq:
 
 ## I started where most brewers start
 
-I came up through microbreweries — places like Hops & Grains and TJ Brew Works — before working with the big names: AB InBev, SABMiller, United Breweries. Along the way I developed a dozen beers for the Indian market. My training was classic: a B.Tech in biotechnology, then an MSc in Brewing Science & Technology and a diploma from the Institute of Brewing & Distilling.
+I came up through microbreweries before working with the big names: AB InBev, SABMiller, United Breweries. Along the way I developed a dozen beers for the Indian market. My training was classic: a B.Tech in biotechnology, then an MSc in Brewing Science & Technology.
 
 That's a brewer's CV. Nothing about it says "AI."
 
