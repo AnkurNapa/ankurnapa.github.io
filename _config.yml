@@ -23,7 +23,6 @@ author:
 plugins:
   - jekyll-seo-tag        # <title>, meta descriptions, OpenGraph/Twitter cards, JSON-LD
   - jekyll-sitemap        # /sitemap.xml
-  - jekyll-feed           # /feed.xml (RSS)
 
 # ─────────────────────────────────────────────────────────────
 #  Build / output
@@ -36,8 +35,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-feed:
-  path: feed.xml
+# RSS feed is a custom styled template (feed.xml + feed.xsl), not jekyll-feed.
 
 # ─────────────────────────────────────────────────────────────
 #  Reader analytics — paste ONE id to turn it on (all optional).
