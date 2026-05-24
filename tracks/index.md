@@ -14,5 +14,7 @@ Deep, executive-level tracks on applying data and AI across the beverage busines
 - **[ESG]({{ '/tracks/esg/' | relative_url }})** — water, carbon, packaging, reporting, the business case.
 - **[EHS]({{ '/tracks/ehs/' | relative_url }})** — predictive safety, hazard mapping, compliance, food safety.
 - **[Sales Forecasting]({{ '/tracks/sales-forecasting/' | relative_url }})** — maturity model, seasonality, promo lift, accuracy, and limits.
+- **[Brewing Science & AI]({{ '/tracks/brewing-science-ai/' | relative_url }})** — malt, water, hops, wort, yeast, fermentation, filtration, packaging, hygiene, and QC on the production floor.
+- **[Distilling & Maturation]({{ '/tracks/distilling-maturation/' | relative_url }})** — cut points, new-make spirit, the angel's share, cask selection, congeners, blending, and bottling maturity.
 
 Prefer the personal story? Start with the **[From Brewer to AI]({{ '/series/brewer-to-ai/' | relative_url }})** series.
