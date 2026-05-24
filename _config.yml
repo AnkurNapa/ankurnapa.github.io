@@ -29,6 +29,7 @@ plugins:
 # ─────────────────────────────────────────────────────────────
 permalink: /:year/:title/
 timezone: America/Los_Angeles
+future: true            # publish posts dated "today" regardless of build-server time
 markdown: kramdown
 kramdown:
   input: GFM
