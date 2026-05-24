@@ -5,7 +5,6 @@ description: "A practitioner's look at how machine-learning models forecast ferm
 date: 2026-05-24
 updated: 2026-05-24
 tags: [fermentation, machine-learning, brewing-data]
-image: /assets/img/fermentation.jpg
 faq:
   - q: "Can AI accurately predict beer fermentation?"
     a: "Yes, within limits. Machine-learning models trained on temperature, gravity, and pitch-rate data can forecast attenuation and fermentation duration within a few percent — but accuracy depends heavily on consistent, continuous sensor data."

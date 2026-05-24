@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Beer, Wine, Whiskey & AI">
+  <rect width="64" height="64" rx="14" fill="#b45309"/>
+  <!-- drinks glass -->
+  <g fill="#fdfbf7">
+    <path d="M18 14 H44 C44 31 37 38 31 38 C25 38 18 31 18 14 Z"/>
+    <rect x="29.5" y="38" width="3" height="10"/>
+    <rect x="21" y="48" width="20" height="3.5" rx="1.75"/>
+  </g>
+  <!-- AI node -->
+  <circle cx="52" cy="14" r="6" fill="#1c1a17"/>
+  <circle cx="52" cy="14" r="2.4" fill="#fdfbf7"/>
+</svg>
