@@ -1,0 +1,12 @@
+{%- comment -%} Share buttons — pure static, no backend. LinkedIn/X pull title from OG tags. {%- endcomment -%}
+{% assign share_url = page.url | absolute_url | url_encode %}
+{% assign share_title = page.title | url_encode %}
+<div class="share">
+  <span class="share-label">Share this</span>
+  <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener">LinkedIn</a>
+  <a class="share-btn" href="https://wa.me/?text={{ share_title }}%20{{ share_url }}" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text={{ share_title }}" target="_blank" rel="noopener">X</a>
+  <a class="share-btn" href="mailto:?subject={{ share_title }}&amp;body={{ share_url }}">Email</a>
+  <button class="share-btn" type="button"
+    onclick="navigator.clipboard.writeText('{{ page.url | absolute_url }}').then(()=>{var t=this;t.textContent='Copied!';setTimeout(function(){t.textContent='Copy link';},1500);})">Copy link</button>
+</div>
