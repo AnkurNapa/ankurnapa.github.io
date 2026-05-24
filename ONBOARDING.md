@@ -85,6 +85,16 @@ Answer.
 - Open with a **bold "Short answer:"** paragraph (this is the GEO superpower).
 - Keep the honest, anti-hype voice — always note where things break.
 
+**House article rule (the standard every post follows):**
+- **McKinsey style** — decision-oriented and crisp: lead with the bold `Short answer:` payoff, then 3–4 tightly-argued `##` sections, then a `## The bottom line` close. Vary section headings between posts; don't reuse a template of identical headings.
+- **Three lenses in every post** — weave in all three, naturally, not as headings: (1) **AI / machine learning** (the predictive or optimisation model), (2) **data science** (what data/sensors/features are needed; "measure first, model second"), and (3) **generative AI** (one concrete angle — an LLM copilot that explains an anomaly, synthetic data for rare events, generative design/optimisation, auto-drafted reports/SOPs, or natural-language querying of process data).
+- **Always an honest "where it breaks" section** — state the real limits; predict the routine well, the rare failure poorly.
+- **Length** — a "small read", roughly 650–900 words of body plus the FAQ.
+- **3 FAQs** in the `faq:` block, mirrored word-for-word in the visible FAQ section.
+- **1–2 internal links** using `{{ "{{" }} '/YEAR/slug/' | relative_url }}`, and a track footer line: `*Part of the [Track Name]({{ "{{" }} '/tracks/<tag>/' | relative_url }}) track.*`
+- **Grounding** — use real beverage-science facts and realistic numbers; never invent company names or fake adoption statistics. International/British spelling (optimise, flavour, colour).
+- First tag = the track tag (see below) so the post slots into its track hub.
+
 ---
 
 ## 4. How content is organised
@@ -97,7 +107,7 @@ Answer.
 | Topics (all tags) | auto-generated | `/tags/` |
 | Archive (timeline) | auto-generated | `/archive/` |
 
-**Track tags** (use one as a post's first tag to slot it into a track): `commercial-planning`, `sales-intelligence`, `marketing`, `fpna`, `esg`, `ehs`, `forecasting`. Series tag: `brewer-to-ai`.
+**Track tags** (use one as a post's first tag to slot it into a track): `commercial-planning`, `sales-intelligence`, `marketing`, `fpna`, `esg`, `ehs`, `forecasting` (business tracks); `brewing-science`, `distilling-maturation`, `winemaking` (production & science tracks). Series tag: `brewer-to-ai`.
 
 **Folder map:**
 ```
