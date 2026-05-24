@@ -45,7 +45,7 @@ feed:
 # ─────────────────────────────────────────────────────────────
 google_analytics: "G-1ZHW47YJDC"  # → location, time, referrer, behavior
 cloudflare_analytics: ""  # beacon token         → privacy-first, no cookie banner
-microsoft_clarity: ""     # e.g. "abcd1234"      → heatmaps + session replay
+microsoft_clarity: "ww9jrvdoh1"   # → heatmaps + session replay
 goatcounter: ""           # e.g. "https://ankurnapa.goatcounter.com/count"
 
 # Default front matter so posts/pages "just work"
