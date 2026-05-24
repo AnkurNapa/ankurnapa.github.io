@@ -94,6 +94,7 @@ Answer.
 - **1–2 internal links** using `{{ "{{" }} '/YEAR/slug/' | relative_url }}`, and a track footer line: `*Part of the [Track Name]({{ "{{" }} '/tracks/<tag>/' | relative_url }}) track.*`
 - **Grounding** — use real beverage-science facts and realistic numbers; never invent company names or fake adoption statistics. International/British spelling (optimise, flavour, colour).
 - First tag = the track tag (see below) so the post slots into its track hub.
+- **Title banner is automatic** — every post renders a framed-minimal title banner (the title inside a thin line/square frame with a faint light circle behind it, and the track name beneath), tinted by a per-track accent: brewing = amber, distilling = oak, winemaking = plum, all other tracks = neutral ink. It lives in `_layouts/post.html` + the `.post-banner`/`.banner-*` rules in `assets/css/style.css`, so it applies to **every post — new and historical — with no per-post work**. The accent keys off the post's first tag; to add a track colour, extend the `banner-*` map in both files. Banners are CSS/SVG (text only, no image files); social/OG share images are a separate optional add-on.
 
 ---
 

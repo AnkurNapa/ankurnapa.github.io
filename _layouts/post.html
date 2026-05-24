@@ -2,8 +2,22 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  {%- assign t0 = page.tags[0] -%}
+  {%- assign banner_class = 'banner-neutral' -%}
+  {%- assign track_label = '' -%}
+  {%- if t0 == 'brewing-science' -%}{%- assign banner_class = 'banner-brewing' -%}{%- assign track_label = 'Brewing Science & AI' -%}
+  {%- elsif t0 == 'distilling-maturation' -%}{%- assign banner_class = 'banner-distilling' -%}{%- assign track_label = 'Distilling & Maturation' -%}
+  {%- elsif t0 == 'winemaking' -%}{%- assign banner_class = 'banner-wine' -%}{%- assign track_label = 'Winemaking & AI' -%}
+  {%- endif -%}
   <header class="post-header">
-    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    <div class="post-banner {{ banner_class }}">
+      <span class="pb-circle" aria-hidden="true"></span>
+      <div class="pb-frame">
+        <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+        <span class="pb-rule" aria-hidden="true"></span>
+      </div>
+      {% if track_label %}<p class="pb-track">{{ track_label }}</p>{% endif %}
+    </div>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% if page.updated %} · Updated <time datetime="{{ page.updated | date_to_xmlschema }}" itemprop="dateModified">{{ page.updated | date: "%B %-d, %Y" }}</time>{% endif %}

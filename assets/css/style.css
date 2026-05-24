@@ -105,6 +105,19 @@ a.tag:hover { text-decoration: underline; }
 .share-btn svg { width:15px; height:15px; fill:currentColor; flex:none; }
 .share-btn:hover { background:#fff5e6; text-decoration:none; }
 
+/* Post title banner — framed-minimal, per-track accent (applies to every post) */
+.post-banner { position: relative; margin: .25rem 0 2rem; padding-top: .5rem; text-align: center; }
+.banner-brewing    { --pb: #b45309; } /* amber — beer/brewing */
+.banner-distilling { --pb: #7c4a2b; } /* oak — distilling/whiskey */
+.banner-wine       { --pb: #7b2d43; } /* plum — winemaking */
+.banner-neutral    { --pb: #1c1a17; } /* ink — all other tracks */
+.post-banner .pb-circle { position: absolute; top: 48%; left: 50%; width: min(72%, 320px); aspect-ratio: 1 / 1; transform: translate(-50%, -50%); border-radius: 50%; background: var(--pb); opacity: .06; z-index: 0; pointer-events: none; }
+.post-banner .pb-frame { position: relative; z-index: 1; border: 1px solid var(--pb); border-radius: 14px; padding: 2rem 1.5rem; background: transparent; }
+.post-banner .post-title { margin: 0; }
+.post-banner .pb-rule { display: block; width: 44px; height: 3px; margin: 1rem auto 0; border-radius: 2px; background: var(--pb); opacity: .85; }
+.post-banner .pb-track { margin: .85rem 0 0; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--pb); }
+@media (max-width: 30rem) { .post-banner .pb-frame { padding: 1.4rem 1rem; } }
+
 /* Related reading */
 .related { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
 .related h2 { margin-top: 0; font-size: 1.1rem; }
