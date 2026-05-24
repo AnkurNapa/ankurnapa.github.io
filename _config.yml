@@ -57,6 +57,14 @@ defaults:
       path: ""
     values:
       layout: "default"
+      # Default social share image (Open Graph / Twitter) so links render a
+      # preview card on WhatsApp, LinkedIn, X, etc. jekyll-seo-tag makes the
+      # URL absolute and upgrades the Twitter card to a large image.
+      image:
+        path: /assets/og-default.png
+        width: 1200
+        height: 630
+        alt: "Beer, Wine, Whiskey & AI"
 
 exclude:
   - Gemfile
