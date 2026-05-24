@@ -37,6 +37,15 @@ kramdown:
 feed:
   path: feed.xml
 
+# ─────────────────────────────────────────────────────────────
+#  Reader analytics — paste ONE id to turn it on (all optional).
+#  Only loads on the live site, never in local preview.
+# ─────────────────────────────────────────────────────────────
+google_analytics: ""      # e.g. "G-XXXXXXXXXX"  → location, time, referrer, behavior
+cloudflare_analytics: ""  # beacon token         → privacy-first, no cookie banner
+microsoft_clarity: ""     # e.g. "abcd1234"      → heatmaps + session replay
+goatcounter: ""           # e.g. "https://ankurnapa.goatcounter.com/count"
+
 # Default front matter so posts/pages "just work"
 defaults:
   - scope:

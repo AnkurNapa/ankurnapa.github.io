@@ -62,6 +62,30 @@ concise factual statements, so put the payoff up top, then expand below.
 - **`jekyll-seo-tag`** → `BlogPosting` structured data, OpenGraph, canonical URLs.
 - **`updated:` dates + author** → E-E-A-T freshness/credibility signals.
 
+## 📊 Reader analytics (who/when/where)
+
+Track readers for free. Analytics is **anonymous and aggregate** — you'll see
+country/city, time, referrer (where they came from), device, and which posts
+they read, but never a person's real identity.
+
+Pick a provider, get its id, and paste it into `_config.yml` — no code changes:
+
+| Provider | Get the id at | Shows |
+|---|---|---|
+| **Google Analytics 4** | analytics.google.com → create property → copy `G-XXXXXXXXXX` | Location, time, referrer, behavior (most detail) |
+| **Cloudflare Web Analytics** | dash.cloudflare.com → Web Analytics → copy token | Privacy-first, no cookie banner |
+| **Microsoft Clarity** | clarity.microsoft.com → create project → copy id | Heatmaps + session replay (watch how people read) |
+| **GoatCounter** | goatcounter.com → sign up → use `https://YOURCODE.goatcounter.com/count` | Open-source, privacy-friendly |
+
+```yaml
+# in _config.yml
+google_analytics: "G-XXXXXXXXXX"
+```
+
+Analytics only loads on the **live site** (not local preview), and GA4 runs with
+`anonymize_ip` on. If you use GA4 or Clarity, add a short privacy/cookie note to
+your About page to stay on the right side of GDPR.
+
 ## 📁 Structure
 
 ```
