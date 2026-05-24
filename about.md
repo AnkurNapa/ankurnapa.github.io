@@ -5,22 +5,32 @@ description: "About Beer, Wine, Whiskey & AI — an independent blog at the inte
 permalink: /about/
 ---
 
-**Beer, Wine, Whiskey & AI is an independent blog about where the drinks industry meets artificial intelligence.** It covers fermentation and distillation forecasting, production analytics, AI-assisted recipe and blend design, sensory/tasting models, and the data science that helps producers make better beer, wine, and spirits.
+**Beer, Wine, Whiskey & AI is an independent blog about where the drinks industry meets artificial intelligence.** It covers fermentation and distillation forecasting, production analytics, AI-assisted recipe and blend design, sensory/tasting models, and the data science that helps producers make better beer, wine, whiskey, and mead.
 
 ## What you'll find here
 
-- **Fermentation, distillation & process** — how machine learning predicts attenuation, timing, maturation, and off-flavors across brewing, winemaking, and distilling.
-- **Production analytics** — what data is worth collecting in a brewery, winery, or distillery, and what to do with it.
+- **Fermentation, distillation & process** — how machine learning predicts attenuation, timing, maturation, and off-flavors across brewing, winemaking, distilling, and meadmaking.
+- **Production analytics** — what data is worth collecting in a brewery, winery, distillery, or meadery, and what to do with it.
 - **AI in the tasting room & DTC** — demand forecasting, customer insight, and direct-to-consumer for drinks producers.
 - **Plain-English explainers** — practitioner-focused, no hype.
 
-## Who writes this
+## About {{ site.author.name }}
 
-Written by {{ site.author.name }} — {{ site.author.bio }} Posts cite their sources and note when they were last updated, so you can judge what's current.
+This blog is written by **{{ site.author.name }}**, who works and writes at the intersection of the drinks industry, data, and artificial intelligence — across beer, wine, whiskey, and mead. The angle here is deliberately practical: where machine learning, analytics, and modern data and ERP tooling genuinely help producers make and sell better drinks, and — just as important — where they fall short.
+
+It grew out of ongoing research into the beverage industry, ERP systems, AI/ML, and data analytics. Posts cite their sources and show when they were last updated, so you can judge what's current.
+
+## Press
+
+- ***Mid-Day*** — featured in the 45th-anniversary special, [“Mead of the Future”](https://www.mid-day.com/mumbai-guide/things-to-do/article/mid-day-45th-anniversary-special-mead-of-the-future-23368067).
 
 ## Get in touch
 
-Have a topic request or a correction? Open an issue on the [GitHub repository]({{ site.url }}) — this whole site is open and version-controlled.
+Want to connect, collaborate, or suggest a topic? Reach out:
+
+- **Email** — [napaankur@gmail.com](mailto:napaankur@gmail.com)
+- **GitHub** — [@AnkurNapa](https://github.com/AnkurNapa)
+- **This site** — open an issue or pull request on the [GitHub repository](https://github.com/AnkurNapa/ankurnapa.github.io); the whole blog is open and version-controlled.
 
 ## Privacy
 

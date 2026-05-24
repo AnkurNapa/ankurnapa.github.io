@@ -5,12 +5,12 @@ url: "https://ankurnapa.github.io"  # GitHub Pages user site
 baseurl: ""                          # leave empty for a username.github.io site
 
 title: "Beer, Wine, Whiskey & AI"
-tagline: "Where drinks meet artificial intelligence"
+tagline: "Beer, wine, whiskey, mead — where drinks meet AI"
 description: >-
   Beer, Wine, Whiskey & AI explores where the drinks industry meets
   artificial intelligence — fermentation and distillation forecasting,
   production analytics, AI tasting notes, and the data science behind
-  better beer, wine, and spirits.
+  better beer, wine, whiskey, and mead.
 lang: "en-US"
 
 author:
