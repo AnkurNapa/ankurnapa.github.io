@@ -192,6 +192,8 @@ def channel_article(c):
         body.append(f"{i+1}. **{nm}** — {ex}")
     body+=["","## The metrics that matter\n",
       f"Steer on {c['kpis']}. {c['ai']}","",d2,"",
+      "## The data and AI stack behind it\n",
+      "At scale this runs on a modern stack, not spreadsheets. **Data engineering** pipelines land depletions, scan and CRM data into a cloud **lakehouse or warehouse** — on **AWS** (S3, Redshift, SageMaker, Bedrock) or **Azure** (Fabric or Synapse, Azure ML, Azure OpenAI). On top, **AI / ML** runs the forecasting, account scoring and price-and-promo models; **generative AI** copilots draft account plans and answer questions in plain language; and a **vector database** (pgvector, Pinecone, Azure AI Search, OpenSearch) powers semantic search and RAG over account notes, distributor agreements and rep call history — so a rep can ask \"what did we promise this account last quarter?\" and get a grounded answer. The stack is the engine; the blueprint is the steering.","",
       "## Where this blueprint breaks\n",
       f"The honest caveat for this channel: {c['limit']}. The blueprint is a discipline, not a guarantee — it works when the measurement is real and the follow-through happens.","",
       "## The bottom line\n",
@@ -227,6 +229,9 @@ def lager_pillar():
         body.append(f"- **{c['player'].capitalize()}** — {c['motion'][0].upper()+c['motion'][1:]}. {L('Read the blueprint','/2026/'+c['slug']+'/')}.")
     body+=["","## The blueprint they share\n",
       "Every channel runs the same loop, only the content differs: **segment** the market players by volume and fit, **target** the specific openings, build the **offer** that fits the channel's economics, **execute** at the point of sale, and **measure** on depletions and velocity — then feed it back.","",steps,"",
+      "## The data and AI stack behind it\n",
+      "At scale, every blueprint here rides a modern data and AI stack rather than spreadsheets. **Data engineering** pipelines feed depletions, scan and CRM data into a cloud **lakehouse or warehouse** — on **AWS** (S3, Redshift, SageMaker, Bedrock) or **Azure** (Fabric or Synapse, Azure ML, Azure OpenAI). On top, **AI / ML** runs the forecasts and the account, price and promo models; **generative AI** copilots draft account plans and answer plain-language questions; and a **vector database** (pgvector, Pinecone, Azure AI Search, OpenSearch) powers semantic search and RAG over account notes and rep history. The stack is the engine; the blueprint is the steering.","",
+      steps_svg("The data & AI stack under the blueprint", AMBER, PEACH, [("Sources","depletions, scan, CRM"),("Data engineering","pipelines"),("Cloud lakehouse","AWS / Azure"),("AI layer","ML · GenAI · vectors"),("Sales team","decisions")], "Sources to decision: data engineering and a cloud lakehouse feed an AI layer — machine learning, generative AI and a vector database — that the sales team acts on."),"",
       "## Where it breaks\n",
       "Two honest limits. First, **shipments are not sales** — every blueprint here steers on depletions and velocity, because selling-in to a distributor or a retailer's back room just defers the problem. Second, **lager's thin margins punish bad promotion** — volume bought with deep, untracked discounts can lose money, so measure lift net of cannibalisation. The blueprint is a discipline; the data keeps it honest.","",
       "## The bottom line\n",

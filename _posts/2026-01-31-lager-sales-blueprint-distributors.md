@@ -41,6 +41,10 @@ Steer on depletions (not just shipments), distribution points (% ACV), days-on-h
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The sales funnel for this channel — the blueprint's job is to move outlets down it and keep them there.</figcaption>
 </figure>
 
+## The data and AI stack behind it
+
+At scale this runs on a modern stack, not spreadsheets. **Data engineering** pipelines land depletions, scan and CRM data into a cloud **lakehouse or warehouse** — on **AWS** (S3, Redshift, SageMaker, Bedrock) or **Azure** (Fabric or Synapse, Azure ML, Azure OpenAI). On top, **AI / ML** runs the forecasting, account scoring and price-and-promo models; **generative AI** copilots draft account plans and answer questions in plain language; and a **vector database** (pgvector, Pinecone, Azure AI Search, OpenSearch) powers semantic search and RAG over account notes, distributor agreements and rep call history — so a rep can ask "what did we promise this account last quarter?" and get a grounded answer. The stack is the engine; the blueprint is the steering.
+
 ## Where this blueprint breaks
 
 The honest caveat for this channel: shipments are not sales — if you steer on sell-in rather than depletions, you just load the distributor's warehouse and pay for it later in returns and stale beer. The blueprint is a discipline, not a guarantee — it works when the measurement is real and the follow-through happens.
