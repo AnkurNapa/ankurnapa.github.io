@@ -68,6 +68,11 @@ Social listening tools are only as good as their platform coverage, and that cov
 
 *Part of the Marketing track — [browse all]({{ '/tags/' | relative_url }}#marketing).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Free text in, a structured signal out — sentiment and themes scored from the words."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">TEXT → SIGNAL</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Social Listening: Early Signals of the Next Flavor Trend</text><rect x="80" y="90" width="200" height="150" rx="6" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><rect x="100" y="118" width="160" height="9" rx="3" fill="#f7ece0"/><rect x="100" y="140" width="120" height="9" rx="3" fill="#f7ece0"/><rect x="100" y="162" width="160" height="9" rx="3" fill="#f7ece0"/><rect x="100" y="184" width="120" height="9" rx="3" fill="#f7ece0"/><rect x="100" y="206" width="160" height="9" rx="3" fill="#f7ece0"/><text x="180" y="262" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#6b6258">reviews / notes</text><g fill="#b45309" stroke="#b45309" stroke-width="2.5"><line x1="300" y1="165" x2="350" y2="165"/><polygon points="350,158 362,165 350,172" stroke="none"/></g><rect x="385" y="150" width="200" height="26" rx="4" fill="#5b7a1f"/><rect x="525" y="150" width="60" height="26" rx="4" fill="#7a1f3d"/><text x="485" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">sentiment / topics scored</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Free text in, a structured signal out — sentiment and themes scored from the words.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **Can social listening genuinely predict the next flavor trend in beer?**

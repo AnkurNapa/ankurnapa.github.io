@@ -43,6 +43,11 @@ Early launch data is genuinely noisy. Two weeks of sell-through across a handful
 
 There is also the attribution trap. A spike might be a feature display, a competitor stockout, or a heatwave, none of which Tableau knows about. The chart shows the what; the why still needs a human who walked the trade. Generative-AI summaries amplify this risk: a fluent Pulse digest reads as authoritative even when the underlying sample is thin, so put confidence caveats in the dashboard itself.
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="How much each channel contributes — the longer the bar, the bigger the effect."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">CONTRIBUTION</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">A New-Product Launch Tracker in Tableau</text><text x="60" y="109" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel A</text><rect x="180" y="90" width="300" height="26" rx="4" fill="#b45309"/><text x="60" y="153" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel B</text><rect x="180" y="134" width="230" height="26" rx="4" fill="#b45309"/><text x="60" y="197" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel C</text><rect x="180" y="178" width="150" height="26" rx="4" fill="#b45309"/><text x="60" y="241" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel D</text><rect x="180" y="222" width="90" height="26" rx="4" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">How much each channel contributes — the longer the bar, the bigger the effect.</figcaption>
+</figure>
+
 ## The bottom line
 A launch tracker earns its place when it shifts the conversation from "how many did we ship" to "is it coming back". Build the cohort alignment with LOD and table calcs, lead with rate-of-sale and repeat, and let Pulse carry the weekly read to executives. Then hold your nerve on early data and let repeat rate mature before you call the launch.
 

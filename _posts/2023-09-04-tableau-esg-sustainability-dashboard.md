@@ -39,6 +39,11 @@ This is where ESG dashboards quietly mislead. Three failure modes recur. First, 
 
 Generative AI adds a subtler hazard. A Pulse digest that narrates "carbon intensity improved 8%" reads as a clean fact, but it cannot see that half the improvement came from a methodology change in your emission factors. Keep a human, ideally with a sustainability-reporting background, between the AI narrative and any external disclosure.
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Emissions split by scope — most of the footprint usually hides in Scope 3."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">FOOTPRINT BY SCOPE</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">An ESG Sustainability Dashboard in Tableau (Water, Energy, Carbon per hl)</text><rect x="300" y="80" width="120" height="40" fill="#5b7a1f"/><rect x="300" y="120" width="120" height="40" fill="#b45309"/><rect x="300" y="160" width="120" height="90" fill="#7a1f3d"/><rect x="460" y="84" width="14" height="14" fill="#5b7a1f"/><text x="482" y="96" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Scope 1 — direct</text><rect x="460" y="124" width="14" height="14" fill="#b45309"/><text x="482" y="136" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Scope 2 — energy</text><rect x="460" y="184" width="14" height="14" fill="#7a1f3d"/><text x="482" y="196" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Scope 3 — value chain (largest)</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Emissions split by scope — most of the footprint usually hides in Scope 3.</figcaption>
+</figure>
+
 ## The bottom line
 Build the ESG dashboard on normalised intensity metrics, separate the carbon scopes, and treat emission factors as maintained reference data rather than constants. Use Pulse to streamline routine reporting, but put boundaries and assumptions on the dashboard so the numbers can be defended. The chart is the easy 20%; the trustworthy data foundation is the 80% that actually matters.
 

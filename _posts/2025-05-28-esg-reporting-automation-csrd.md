@@ -59,6 +59,11 @@ Given the proliferation of vendors in this space, a practical evaluation should 
 
 *Part of the ESG track — [browse all]({{ '/tags/' | relative_url }}#esg).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Emissions split by scope — most of the footprint usually hides in Scope 3."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">FOOTPRINT BY SCOPE</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">The ESG Reporting Stack: Automating CSRD and GRI Disclosure</text><rect x="300" y="80" width="120" height="40" fill="#5b7a1f"/><rect x="300" y="120" width="120" height="40" fill="#b45309"/><rect x="300" y="160" width="120" height="90" fill="#7a1f3d"/><rect x="460" y="84" width="14" height="14" fill="#5b7a1f"/><text x="482" y="96" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Scope 1 — direct</text><rect x="460" y="124" width="14" height="14" fill="#b45309"/><text x="482" y="136" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Scope 2 — energy</text><rect x="460" y="184" width="14" height="14" fill="#7a1f3d"/><text x="482" y="196" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Scope 3 — value chain (largest)</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Emissions split by scope — most of the footprint usually hides in Scope 3.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **What is CSRD and does it apply to breweries?**

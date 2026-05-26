@@ -62,6 +62,11 @@ The operational output that makes the ESG-to-margin case navigable for leadershi
 
 *Part of the ESG track — [browse all]({{ '/tags/' | relative_url }}#esg).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 320" width="100%" style="max-width:720px;height:auto" role="img" aria-label="A continuous cycle — each step feeds the next, then round again."><rect x="0" y="0" width="720" height="320" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">THE CYCLE</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">The Business Case: Linking ESG Metrics to Margin</text><circle cx="360" cy="190" r="95" fill="none" stroke="#e0d8cc" stroke-width="1.5" stroke-dasharray="5 5"/><circle cx="360" cy="95" r="34" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="360" y="100" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">Plan</text><circle cx="455" cy="190" r="34" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="455" y="195" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">Do</text><circle cx="360" cy="285" r="34" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="360" y="290" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">Check</text><circle cx="265" cy="190" r="34" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="265" y="195" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">Act</text><circle cx="428" cy="140" r="4" fill="#b45309"/><circle cx="410" cy="258" r="4" fill="#b45309"/><circle cx="292" cy="240" r="4" fill="#b45309"/><circle cx="310" cy="122" r="4" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">A continuous cycle — each step feeds the next, then round again.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **Does investing in ESG actually improve a brewery's financial performance?**

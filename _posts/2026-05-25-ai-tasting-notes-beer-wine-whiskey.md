@@ -60,6 +60,11 @@ The real fix is giving AI something to actually sense: **electronic-nose** array
 3. **Edit the notes to match reality**, cutting invented specifics.
 4. **A human signs off** before anything is published.
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 260" width="100%" style="max-width:720px;height:auto" role="img" aria-label="The handful of numbers this comes down to."><rect x="0" y="0" width="720" height="260" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">THE NUMBERS</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Can AI Write Tasting Notes for Beer, Wine &amp; Whiskey?</text><rect x="70" y="90" width="160" height="120" rx="10" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="90" y="120" font-family="sans-serif" font-size="12" fill="#6b6258">metric 1</text><rect x="90" y="135" width="120" height="22" rx="3" fill="#b45309"/><text x="90" y="190" font-family="sans-serif" font-size="11.5" fill="#6b6258">vs target</text><rect x="280" y="90" width="160" height="120" rx="10" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="300" y="120" font-family="sans-serif" font-size="12" fill="#6b6258">metric 2</text><rect x="300" y="135" width="100" height="22" rx="3" fill="#b45309"/><text x="300" y="190" font-family="sans-serif" font-size="11.5" fill="#6b6258">vs target</text><rect x="490" y="90" width="160" height="120" rx="10" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="510" y="120" font-family="sans-serif" font-size="12" fill="#6b6258">metric 3</text><rect x="510" y="135" width="80" height="22" rx="3" fill="#b45309"/><text x="510" y="190" font-family="sans-serif" font-size="11.5" fill="#6b6258">vs target</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The handful of numbers this comes down to.</figcaption>
+</figure>
+
 ## The bottom line
 
 AI is a fluent ghostwriter with no palate. Let it draft your tasting copy and you'll save time; let it *be* your palate and you'll publish fiction. The taste — for beer, wine, and whiskey alike — still has to come from a person.

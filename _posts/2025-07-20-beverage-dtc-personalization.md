@@ -64,6 +64,11 @@ Personalisation engines built on purchase history require sufficient purchase de
 
 *Part of the Marketing track — [browse all]({{ '/tags/' | relative_url }}#marketing).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="From one profile to a ranked shortlist — the strongest match on top."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">RECOMMENDER</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Personalization in Beverage DTC Without Creeping People Out</text><circle cx="140" cy="165" r="34" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="140" y="170" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#1c1a17">profile</text><g fill="#b45309" stroke="#b45309" stroke-width="2.5"><line x1="184" y1="165" x2="240" y2="165"/><polygon points="240,158 252,165 240,172" stroke="none"/></g><rect x="280" y="120" width="300" height="28" rx="4" fill="#b45309" stroke="#b45309"/><text x="294" y="139" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">best match</text><rect x="280" y="160" width="230" height="28" rx="4" fill="#f7ece0" stroke="#b45309"/><text x="294" y="179" font-family="sans-serif" font-size="12" font-weight="700" fill="#1c1a17">#2</text><rect x="280" y="200" width="170" height="28" rx="4" fill="#f7ece0" stroke="#b45309"/><text x="294" y="219" font-family="sans-serif" font-size="12" font-weight="700" fill="#1c1a17">#3</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">From one profile to a ranked shortlist — the strongest match on top.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **What does effective personalization look like for a beer DTC programme?**

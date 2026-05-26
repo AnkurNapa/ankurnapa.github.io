@@ -66,6 +66,11 @@ The most common EHS technology implementation failure is not technical — it is
 
 *Part of the EHS track — [browse all]({{ '/tags/' | relative_url }}#ehs).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="The safety pyramid: many near-misses underlie each serious event — act on the base."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">SAFETY PYRAMID</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">EHS Reporting Automation: From Paper Logs to Live Dashboards</text><polygon points="335.0,80 385.0,80 415.0,138 305.0,138" fill="#7a1f3d"/><text x="360" y="118" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">Serious · 1</text><polygon points="305.0,144 415.0,144 460.0,202 260.0,202" fill="#b45309"/><text x="360" y="182" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">Minor injuries · ~30</text><polygon points="260.0,208 460.0,208 520.0,266 200.0,266" fill="#5b7a1f"/><text x="360" y="246" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">Near-misses · ~300</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The safety pyramid: many near-misses underlie each serious event — act on the base.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **What does EHS reporting automation actually replace in a brewery?**

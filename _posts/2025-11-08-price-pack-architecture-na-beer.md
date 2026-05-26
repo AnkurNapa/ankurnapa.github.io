@@ -68,6 +68,11 @@ Honest caveat: PPA strategy depends on retail execution, and in the off-premise 
 
 *Part of the Commercial Planning Analytics track — [browse all]({{ '/tags/' | relative_url }}#commercial-planning).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 320" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Two dimensions, four quadrants — where each item lands tells you what to do."><rect x="0" y="0" width="720" height="320" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">2×2 MATRIX</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Price-Pack Architecture for the Non-Alcoholic Beer Boom</text><rect x="180" y="70" width="380" height="210" fill="none" stroke="#e0d8cc" stroke-width="1.5"/><line x1="370.0" y1="70" x2="370.0" y2="280" stroke="#e0d8cc"/><line x1="180" y1="175.0" x2="560" y2="175.0" stroke="#e0d8cc"/><rect x="370.0" y="70" width="190.0" height="105.0" fill="#b45309" opacity="0.12"/><text x="192" y="266" font-family="sans-serif" font-size="12" fill="#6b6258">low / low</text><text x="382.0" y="94" font-family="sans-serif" font-size="12" fill="#6b6258">high focus</text><text x="192" y="94" font-family="sans-serif" font-size="12" fill="#6b6258">watch</text><text x="382.0" y="266" font-family="sans-serif" font-size="12" fill="#6b6258">hold</text><circle cx="440.0" cy="130" r="6" fill="#b45309"/><circle cx="480.0" cy="160" r="6" fill="#b45309"/><circle cx="420.0" cy="165" r="6" fill="#b45309"/><circle cx="240" cy="225.0" r="6" fill="#b45309"/><circle cx="410.0" cy="235.0" r="6" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Two dimensions, four quadrants — where each item lands tells you what to do.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **What is price-pack architecture and why does it matter for NA beer?**

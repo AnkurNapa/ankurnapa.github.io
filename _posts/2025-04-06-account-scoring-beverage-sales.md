@@ -68,6 +68,11 @@ Several failure modes are worth naming honestly:
 
 *Part of the Sales Intelligence track — [browse all]({{ '/tags/' | relative_url }}#sales-intelligence).*
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="A single score ranks each account or sample at a glance."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">SCORE</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Account Scoring: Finding Your Next 100 Outlets</text><path d="M180,230 A180,180 0 0,1 280,72" fill="none" stroke="#7a1f3d" stroke-width="22"/><path d="M280,72 A180,180 0 0,1 440,72" fill="none" stroke="#b45309" stroke-width="22"/><path d="M440,72 A180,180 0 0,1 540,230" fill="none" stroke="#5b7a1f" stroke-width="22"/><line x1="360" y1="230" x2="470" y2="120" stroke="#1c1a17" stroke-width="4"/><circle cx="360" cy="230" r="9" fill="#1c1a17"/><text x="360" y="180" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#1c1a17">72</text><text x="180" y="252" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">low</text><text x="540" y="252" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">high</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">A single score ranks each account or sample at a glance.</figcaption>
+</figure>
+
 ## Frequently asked questions
 
 **What is account scoring in beverage sales?**

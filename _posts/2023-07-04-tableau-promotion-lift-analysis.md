@@ -39,6 +39,11 @@ Three honest limits. First, the baseline is an estimate, not a fact, so every li
 
 Third is cannibalisation. A promotion on one SKU often steals volume from a sibling product or pulls forward sales that would have happened next month. A naive lift view counts that stolen and borrowed volume as a win. Build a portfolio view that nets promoted gains against related declines, and treat single-SKU lift as the optimistic ceiling, not the truth.
 
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="How much each channel contributes — the longer the bar, the bigger the effect."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">CONTRIBUTION</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Promotion-Lift Analysis in Tableau</text><text x="60" y="109" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel A</text><rect x="180" y="90" width="300" height="26" rx="4" fill="#b45309"/><text x="60" y="153" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel B</text><rect x="180" y="134" width="230" height="26" rx="4" fill="#b45309"/><text x="60" y="197" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel C</text><rect x="180" y="178" width="150" height="26" rx="4" fill="#b45309"/><text x="60" y="241" font-family="sans-serif" font-size="12.5" fill="#1c1a17">Channel D</text><rect x="180" y="222" width="90" height="26" rx="4" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">How much each channel contributes — the longer the bar, the bigger the effect.</figcaption>
+</figure>
+
 ## The bottom line
 Decide and document the baseline before anything else, measure incremental volume and margin with table calculations, and use a period parameter to stress-test the result. Let Explain Data point you at where to look. But hold the line on the limits: the baseline is an estimate, the relationship is correlation not proof, and cannibalisation can quietly turn a headline win into a portfolio loss.
 
