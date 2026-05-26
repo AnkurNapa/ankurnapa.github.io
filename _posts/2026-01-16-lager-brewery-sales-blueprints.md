@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Beer Sales Blueprints for Lager Breweries: Five Plays by Channel"
+image: /assets/og/lager-brewery-sales-blueprints.png
+description: "How lager breweries sell, market player by market player — distributor, off-premise, on-premise, national accounts and e-commerce — with a use-case blueprint and the metrics for each channel."
+date: 2026-01-16 09:00:00 -0700
+updated: 2026-01-16
+tags: [sales-intelligence, lager, beer-sales, commercial-planning]
+faq:
+  - q: "How do lager breweries grow sales?"
+    a: "By winning availability and velocity across five market players — distributors, off-premise retail, on-premise, national accounts and e-commerce — each with its own buyer and sales motion. Lager's thin margins mean the game is turning volume fast wherever the drinker reaches for it, measured on depletions and velocity rather than shipments."
+  - q: "What is a sales blueprint?"
+    a: "A repeatable five-step play — segment, target, offer, execute, measure — adapted to each channel. It turns selling from gut feel into a disciplined loop where the next account is chosen from data and every cycle is measured."
+  - q: "Which sales channel matters most for lager?"
+    a: "It depends on the market, but distribution breadth (distributors and off-premise retail) drives the volume base, on-premise drives visibility, national accounts drive scale, and e-commerce is a bounded but growing add-on. The blueprint is the same shape; the buyer and metrics differ."
+---
+
+**Short answer: lager is a volume game won on availability and velocity, and it's sold through five market players — distributors, off-premise retail, on-premise, national accounts and e-commerce. Each needs its own use-case blueprint, but they share one shape: segment, target, offer, execute, measure. Below is the map and a link to each channel's blueprint.**
+
+Lagers live or die on being everywhere, fresh, and turning fast. That makes sales less about persuasion and more about a disciplined, measured motion repeated across every channel. The buyer and the metrics change by market player; the five-step blueprint does not. It connects to the bigger picture in [route-to-market for beer]({{ '/2025/route-to-market-beer-vs-na/' | relative_url }}).
+
+<figure style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 1000 420" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="How lager breweries sell — five market players"><rect x="0" y="0" width="1000" height="420" fill="#fdfbf7"/><text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">How lager breweries sell — five market players</text><g stroke="#e0d8cc" stroke-width="1.5"><line x1="500" y1="210" x2="890" y2="210"/><line x1="500" y1="210" x2="775" y2="316"/><line x1="500" y1="210" x2="500" y2="360"/><line x1="500" y1="210" x2="224" y2="316"/><line x1="500" y1="210" x2="110" y2="210"/></g><g font-family="sans-serif" font-size="11.5" text-anchor="middle"><rect x="805" y="188" width="170" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="890" y="214" fill="#1c1a17">Distributors</text><rect x="690" y="294" width="170" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="775" y="320" fill="#1c1a17">Off-premise retail</text><rect x="415" y="338" width="170" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="500" y="364" fill="#1c1a17">On-premise</text><rect x="139" y="294" width="170" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="224" y="320" fill="#1c1a17">National accounts</text><rect x="25" y="188" width="170" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="110" y="214" fill="#1c1a17">E-commerce / DTC</text></g><circle cx="500" cy="210" r="64" fill="#b45309"/><text x="500" y="206" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fff">Lager sales</text><text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#f7ece0">by channel</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">One brewery, five market players — each needs its own blueprint, run on its own metrics.</figcaption>
+</figure>
+
+## The five channel blueprints
+
+- **Distributors & wholesalers** — Win share of the distributor's book and pull lager through on depletions, not just sell-in. [Read the blueprint]({{ '/2026/lager-sales-blueprint-distributors/' | relative_url }}).
+- **Off-premise retail** — Win shelf space, the right price-pack, and feature windows so velocity does the rest. [Read the blueprint]({{ '/2026/lager-sales-blueprint-off-premise-retail/' | relative_url }}).
+- **On-premise (bars & restaurants)** — Win and hold tap handles and menu placement, where lager throughput and brand visibility are highest. [Read the blueprint]({{ '/2026/lager-sales-blueprint-on-premise/' | relative_url }}).
+- **National & key accounts** — Win mandated authorisations through joint business plans, then defend compliance at store level. [Read the blueprint]({{ '/2026/lager-sales-blueprint-national-accounts/' | relative_url }}).
+- **E-commerce, delivery apps & dtc** — Win digital availability, search presence and repeat purchase on the platforms where beer can legally sell. [Read the blueprint]({{ '/2026/lager-sales-blueprint-ecommerce-dtc/' | relative_url }}).
+
+## The blueprint they share
+
+Every channel runs the same loop, only the content differs: **segment** the market players by volume and fit, **target** the specific openings, build the **offer** that fits the channel's economics, **execute** at the point of sale, and **measure** on depletions and velocity — then feed it back.
+
+<figure style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 1000 270" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="The blueprint every channel shares"><rect x="0" y="0" width="1000" height="270" fill="#fdfbf7"/><text x="500" y="34" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">The blueprint every channel shares</text><g font-family="sans-serif"><rect x="20" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="106" cy="114" r="15" fill="#b45309"/><text x="106" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text><text x="106" y="173" text-anchor="middle" font-size="14" font-weight="700" fill="#1c1a17">Segment</text><text x="106" y="195" text-anchor="middle" font-size="11.5" fill="#6b6258">by volume &amp; fit</text><rect x="216" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="302" cy="114" r="15" fill="#b45309"/><text x="302" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text><text x="302" y="173" text-anchor="middle" font-size="14" font-weight="700" fill="#1c1a17">Target</text><text x="302" y="195" text-anchor="middle" font-size="11.5" fill="#6b6258">priority accounts</text><rect x="412" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="498" cy="114" r="15" fill="#b45309"/><text x="498" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text><text x="498" y="173" text-anchor="middle" font-size="14" font-weight="700" fill="#1c1a17">Offer</text><text x="498" y="195" text-anchor="middle" font-size="11.5" fill="#6b6258">price-pack &amp; program</text><rect x="608" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="694" cy="114" r="15" fill="#b45309"/><text x="694" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">4</text><text x="694" y="173" text-anchor="middle" font-size="14" font-weight="700" fill="#1c1a17">Execute</text><text x="694" y="195" text-anchor="middle" font-size="11.5" fill="#6b6258">POS, calls, resets</text><rect x="804" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="890" cy="114" r="15" fill="#b45309"/><text x="890" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">5</text><text x="890" y="173" text-anchor="middle" font-size="14" font-weight="700" fill="#1c1a17">Measure</text><text x="890" y="195" text-anchor="middle" font-size="11.5" fill="#6b6258">depletions &amp; velocity</text></g><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="192" y1="155" x2="209" y2="155"/><polygon points="209,150 216,155 209,160" stroke="none"/><line x1="388" y1="155" x2="405" y2="155"/><polygon points="405,150 412,155 405,160" stroke="none"/><line x1="584" y1="155" x2="601" y2="155"/><polygon points="601,150 608,155 601,160" stroke="none"/><line x1="780" y1="155" x2="797" y2="155"/><polygon points="797,150 804,155 797,160" stroke="none"/></g></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Segment, target, offer, execute, measure — the shape is constant; the content changes by channel.</figcaption>
+</figure>
+
+## Where it breaks
+
+Two honest limits. First, **shipments are not sales** — every blueprint here steers on depletions and velocity, because selling-in to a distributor or a retailer's back room just defers the problem. Second, **lager's thin margins punish bad promotion** — volume bought with deep, untracked discounts can lose money, so measure lift net of cannibalisation. The blueprint is a discipline; the data keeps it honest.
+
+## The bottom line
+
+Lager sales are won channel by channel, with the same five-step blueprint tuned to each market player and run on the right metric. Start with the channel that carries your volume, measure on depletions, and let the data choose the next account. Pick a blueprint above to go deep.
+
+## Frequently asked questions
+
+**How do lager breweries grow sales?**
+By winning availability and velocity across five market players — distributors, off-premise retail, on-premise, national accounts and e-commerce — each with its own buyer and sales motion. Lager's thin margins mean the game is turning volume fast wherever the drinker reaches for it, measured on depletions and velocity rather than shipments.
+
+**What is a sales blueprint?**
+A repeatable five-step play — segment, target, offer, execute, measure — adapted to each channel. It turns selling from gut feel into a disciplined loop where the next account is chosen from data and every cycle is measured.
+
+**Which sales channel matters most for lager?**
+It depends on the market, but distribution breadth (distributors and off-premise retail) drives the volume base, on-premise drives visibility, national accounts drive scale, and e-commerce is a bounded but growing add-on. The blueprint is the same shape; the buyer and metrics differ.
+
+*Part of the [Sales Intelligence for Beverage]({{ '/tracks/sales-intelligence/' | relative_url }}) track.*
