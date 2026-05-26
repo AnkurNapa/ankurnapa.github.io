@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Vibe-Code a Product with Claude (It's a Loop, Not Magic)"
+image: /assets/og/vibe-code-a-product-with-claude.png
 description: "Vibe-coding with Claude isn't AI writing your app while you watch. It's a build–verify–fix loop — and the verifier is what separates a shippable product from a confident demo."
 date: 2026-05-26
 updated: 2026-05-26
@@ -76,7 +77,7 @@ That's it. The agent is capable; the structure is what makes it reliable.
 Be clear-eyed about the failure modes, because they're real:
 
 - **It fails on the first try, routinely.** The Tableau file was rejected before it worked. That's completely fine *if* you have a verifier — and a serious problem if you don't, because you won't know.
-- **It can't see everything.** That PDF had two pages that were pure diagrams, with no extractable text. Claude flagged them and left a template instead of inventing content — which is exactly the right behavior, and exactly the kind of gap you have to check for.
+- **It can't see everything.** That PDF had two pages that were pure diagrams, with no extractable text. Claude flagged them and left a template instead of inventing content — which is exactly the right behaviour, and exactly the kind of gap you have to check for.
 - **It produces confident, wrong output.** Hallucinated numbers, misquoted rules, fields that don't exist. This is the [honest limit of these tools]({{ '/2026/the-honest-limits-of-ai-in-brewing/' | relative_url }}), and no amount of good prompting removes it. It only gets caught downstream.
 - **It makes judgment calls you should audit.** It decided which 58 fields to drop. Good calls, this time — but I checked them. You should too.
 
