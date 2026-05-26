@@ -117,10 +117,10 @@ def loop(title):
     parts.append("</g>")
     edges = [(240, 260, cy), (460, 500, cy), (700, 740, cy)]
     parts.append(arrows(edges))
-    parts.append(f'<path d="M840,96 C840,52 840,52 800,52 L160,52 C140,52 140,52 140,96" '
+    parts.append(f'<path d="M840,96 C840,74 840,74 800,74 L160,74 C140,74 140,74 140,96" '
                  f'fill="none" stroke="{WINE}" stroke-width="2" stroke-dasharray="5 4"/>')
     parts.append(f'<polygon points="135,90 140,98 145,90" fill="{WINE}"/>')
-    parts.append(f'<text x="500" y="46" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="{WINE}">repeat</text>')
+    parts.append(f'<text x="500" y="70" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="{WINE}">repeat</text>')
     svg = (f'<svg viewBox="0 0 1000 280" width="100%" style="max-width:1000px;height:auto" '
            f'role="img" aria-label="The operating loop this post describes">' + "".join(parts) + "</svg>")
     return figure(svg, "The operating loop this post describes: measure, analyse, decide, act — then repeat.")
