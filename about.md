@@ -29,7 +29,6 @@ It grew out of ongoing research into the beverage industry, ERP systems, AI/ML, 
 Want to connect, collaborate, or suggest a topic? Reach out:
 
 - **Email** — [napaankur@gmail.com](mailto:napaankur@gmail.com)
-- **GitHub** — [@AnkurNapa](https://github.com/AnkurNapa)
 - **LinkedIn** — [ankur-napa](https://www.linkedin.com/in/ankur-napa)
 - **X** — [@AnkurNapa](https://x.com/AnkurNapa)
 - **YouTube** — [@napaankur](https://www.youtube.com/@napaankur)
