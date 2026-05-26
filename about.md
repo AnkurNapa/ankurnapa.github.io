@@ -30,6 +30,10 @@ Want to connect, collaborate, or suggest a topic? Reach out:
 
 - **Email** — [napaankur@gmail.com](mailto:napaankur@gmail.com)
 - **GitHub** — [@AnkurNapa](https://github.com/AnkurNapa)
+- **LinkedIn** — [ankur-napa](https://www.linkedin.com/in/ankur-napa)
+- **X** — [@AnkurNapa](https://x.com/AnkurNapa)
+- **YouTube** — [@napaankur](https://www.youtube.com/@napaankur)
+- **Podcast** — [Beer, Wine, Whiskey & AI](https://www.buzzsprout.com/2202528) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/ep-24-artificial-intelligence-ai-in-brewing-ankur-napa/id1691766076?i=1000658398731)
 - **This site** — open an issue or pull request on the [GitHub repository](https://github.com/AnkurNapa/ankurnapa.github.io); the whole blog is open and version-controlled.
 
 ## Privacy
