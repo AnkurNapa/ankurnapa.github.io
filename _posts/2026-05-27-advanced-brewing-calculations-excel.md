@@ -21,6 +21,19 @@ Brewing software hides the maths. That's fine until you need to tweak a recipe a
 
 A convention for the whole article: cell references like `B2` are examples — put your input in that cell and paste the formula next to it. Gravities are specific gravity (e.g. 1.050) unless stated; "points" means the last three digits ((SG − 1) × 1000), so 1.050 = 50 points. Spellings are British (colour, litres); imperial and metric notes are given where the constant changes.
 
+<aside style="margin:1.6rem 0;padding:1rem 1.25rem;border:1px solid #b45309;border-left:5px solid #b45309;border-radius:8px;background:#f7ece0">
+<strong style="color:#b45309">📊 The "Excel for brewers" series</strong>
+<p style="margin:.5rem 0 .35rem">This post is the hub. Six of the calculations below have a full deep-dive — a complete sheet build, extra formulas, worked examples and a diagram:</p>
+<ul style="margin:0;padding-left:1.2rem;line-height:1.5">
+<li><a href="{{ '/2026/build-brewing-water-chemistry-calculator-excel/' | relative_url }}">Water chemistry calculator</a> — salts, ions, residual alkalinity, sulfate:chloride <em>(use case 9)</em></li>
+<li><a href="{{ '/2026/mash-water-temperature-calculator-excel/' | relative_url }}">Mash water &amp; temperature calculator</a> — strike, steps, absorption, sparge <em>(5, 7, 8)</em></li>
+<li><a href="{{ '/2026/ibu-recipe-builder-excel/' | relative_url }}">IBU recipe builder</a> — multi-addition Tinseth, BU:GU, scaling <em>(10, 11)</em></li>
+<li><a href="{{ '/2026/yeast-pitching-rates-starters-excel/' | relative_url }}">Yeast pitching rates &amp; starters</a> — viability decay, starter growth <em>(13)</em></li>
+<li><a href="{{ '/2026/carbonation-calculator-excel/' | relative_url }}">Carbonation calculator</a> — priming sugar, keg PSI, line balancing <em>(17)</em></li>
+<li><a href="{{ '/2026/brewhouse-efficiency-yield-excel/' | relative_url }}">Brewhouse efficiency &amp; yield reconciliation</a> — conversion vs lauter loss <em>(2, 3)</em></li>
+</ul>
+</aside>
+
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1046 280" width="100%" style="max-width:1046px;height:auto" role="img" aria-label="Brew-day process flow showing which of the 20 calculations apply at each stage">
 <rect x="0" y="0" width="1046" height="280" fill="#fdfbf7"/>
