@@ -3,8 +3,8 @@ layout: post
 title: "A Carbonation Calculator in Excel: Priming Sugar, PSI and Line Balancing"
 image: /assets/og/carbonation-calculator-excel.png
 description: "Carbonate beer with confidence in Excel: priming sugar from residual CO2, the keg pressure for any target volume and temperature, and a simple draught line-length balance."
-date: 2026-06-01 09:00:00 -0700
-updated: 2026-06-01
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, excel, carbonation, packaging]
 faq:
   - q: "How do I calculate priming sugar in Excel?"

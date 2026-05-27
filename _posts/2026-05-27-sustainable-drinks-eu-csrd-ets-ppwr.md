@@ -3,8 +3,8 @@ layout: post
 title: "Sustainable Drinks in the EU: CSRD, EU ETS and Packaging (PPWR)"
 image: /assets/og/sustainable-drinks-eu-csrd-ets-ppwr.png
 description: "EU drinks producers face CSRD reporting, the EU ETS and the Packaging and Packaging Waste Regulation. How data and AI meet EU rules, with generative AI drafting disclosures."
-date: 2026-09-21 09:00:00 -0700
-updated: 2026-09-21
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, regional, esg-reporting, eu]
 faq:
   - q: "How can data and AI cut EU sustainability compliance?"

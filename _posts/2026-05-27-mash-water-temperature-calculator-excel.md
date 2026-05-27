@@ -3,8 +3,8 @@ layout: post
 title: "Mash Water and Temperature Calculator in Excel"
 image: /assets/og/mash-water-temperature-calculator-excel.png
 description: "Work out strike temperature, mash and sparge water volumes, grain absorption and total water needed in one Excel sheet — with a water balance that shows where every litre goes."
-date: 2026-05-30 09:00:00 -0700
-updated: 2026-05-30
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, excel, mashing, water-volumes]
 faq:
   - q: "How do I calculate strike water temperature in metric?"

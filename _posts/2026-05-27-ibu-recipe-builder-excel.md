@@ -3,8 +3,8 @@ layout: post
 title: "Build an IBU Recipe Builder in Excel (Tinseth, Multi-Addition)"
 image: /assets/og/ibu-recipe-builder-excel.png
 description: "A multi-addition IBU calculator in Excel: Tinseth utilisation per hop addition, total bitterness, the BU:GU balance ratio, hop substitution and scaling to a target IBU."
-date: 2026-05-31 09:00:00 -0700
-updated: 2026-05-31
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, excel, hops, recipe-formulation]
 faq:
   - q: "How do I calculate total IBU for multiple hop additions in Excel?"

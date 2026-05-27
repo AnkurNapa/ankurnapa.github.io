@@ -3,8 +3,8 @@ layout: post
 title: "Turning Spent Grain, Pomace and Draff into Value with Data"
 image: /assets/og/spent-grain-pomace-draff-value-data.png
 description: "Spent grain, grape pomace and draff are big by-products. How data and AI route each to its highest-value use — feed, food, or energy — net of haulage and spoilage, across regions."
-date: 2026-07-06 09:00:00 -0700
-updated: 2026-07-06
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, circular-economy, brewing]
 faq:
   - q: "How can data and AI cut by-product waste?"

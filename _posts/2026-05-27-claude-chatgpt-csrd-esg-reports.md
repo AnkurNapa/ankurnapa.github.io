@@ -3,8 +3,8 @@ layout: post
 title: "Using Claude and ChatGPT to Draft Your CSRD and ESG Reports"
 image: /assets/og/claude-chatgpt-csrd-esg-reports.png
 description: "ESG reporting is heavy on writing. How generative AI like Claude and ChatGPT drafts CSRD, SECR and voluntary reports from your data — and where a human must own the numbers."
-date: 2026-08-10 09:00:00 -0700
-updated: 2026-08-10
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, generative-ai, esg-reporting, claude]
 faq:
   - q: "How can data and AI cut ESG reporting effort?"

@@ -3,8 +3,8 @@ layout: post
 title: "IoT in the Brewery: Sensors at Every Step, from Mash to Package"
 image: /assets/og/iot-in-the-brewery-sensors-process.png
 description: "An IBD-grounded guide to IoT in brewing — which sensors belong at mashing, lautering, the boil, fermentation and packaging, the edge-to-cloud stack, and the AI that reads the streams."
-date: 2026-11-23 09:00:00 -0700
-updated: 2026-11-23
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, iot, sensors, automation, beer]
 faq:
   - q: "How is IoT used in a brewery?"

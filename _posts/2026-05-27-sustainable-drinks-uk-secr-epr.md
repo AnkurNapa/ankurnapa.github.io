@@ -3,8 +3,8 @@ layout: post
 title: "Sustainable Drinks in the UK: SECR, EPR and the Data Behind Compliance"
 image: /assets/og/sustainable-drinks-uk-secr-epr.png
 description: "UK drinks producers face SECR energy reporting and packaging EPR. How data and AI meet UK sustainability rules, and where generative AI drafts the disclosures."
-date: 2026-09-07 09:00:00 -0700
-updated: 2026-09-07
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, regional, esg-reporting, uk]
 faq:
   - q: "How can data and AI cut UK sustainability compliance?"

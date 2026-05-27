@@ -3,8 +3,8 @@ layout: post
 title: "Sustainable Drinks in the USA: EPA, State Programs and TTB"
 image: /assets/og/sustainable-drinks-usa-epa-state-ttb.png
 description: "US drinks producers navigate EPA rules, state programs and TTB. How data and AI drive sustainability where federal mandates are lighter and state rules vary, with generative AI support."
-date: 2026-10-05 09:00:00 -0700
-updated: 2026-10-05
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, regional, esg-reporting, usa]
 faq:
   - q: "How can data and AI cut US sustainability practice?"

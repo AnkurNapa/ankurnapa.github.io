@@ -3,8 +3,8 @@ layout: post
 title: "Sustainable Drinks in India: BEE, CPCB and Water Norms"
 image: /assets/og/sustainable-drinks-india-bee-cpcb.png
 description: "Indian drinks producers face BEE energy rules, CPCB effluent norms and water stress. How data and AI cut energy and water and meet Indian regulations, with generative AI support."
-date: 2026-10-19 09:00:00 -0700
-updated: 2026-10-19
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, regional, esg-reporting, india]
 faq:
   - q: "How can data and AI cut India sustainability compliance?"

@@ -3,8 +3,8 @@ layout: post
 title: "Cold Chain and Distribution Emissions: Route and Refrigeration Analytics"
 image: /assets/og/cold-chain-distribution-emissions-ai.png
 description: "Getting drinks to market burns fuel and refrigeration. How data and AI cut distribution and cold-chain emissions — route optimisation, load-fill and temperature analytics — across regions."
-date: 2026-06-22 09:00:00 -0700
-updated: 2026-06-22
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, carbon, logistics]
 faq:
   - q: "How can data and AI cut distribution and cold-chain emissions?"

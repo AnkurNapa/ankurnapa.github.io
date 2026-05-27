@@ -3,8 +3,8 @@ layout: post
 title: "Build a Brewing Water Chemistry Calculator in Excel"
 image: /assets/og/build-brewing-water-chemistry-calculator-excel.png
 description: "A step-by-step Excel water calculator for brewers: enter your source profile, add salts, and read out calcium, sulfate, chloride, residual alkalinity and the sulfate-to-chloride ratio."
-date: 2026-05-28 09:00:00 -0700
-updated: 2026-05-28
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, excel, water-chemistry, recipe-formulation]
 faq:
   - q: "How do I calculate brewing salt additions in Excel?"

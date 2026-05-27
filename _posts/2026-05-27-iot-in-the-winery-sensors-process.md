@@ -3,8 +3,8 @@ layout: post
 title: "IoT in the Winery: Sensors from Vineyard to Bottle"
 image: /assets/og/iot-in-the-winery-sensors-process.png
 description: "A process-grounded guide to IoT in winemaking — sensors in the vineyard, at crush and fermentation, in the barrel room and at bottling, the edge-to-cloud stack, and the AI on the streams."
-date: 2026-12-21 09:00:00 -0700
-updated: 2026-12-21
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [winemaking, iot, sensors, automation, wine]
 faq:
   - q: "How is IoT used in a winery?"

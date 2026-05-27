@@ -3,8 +3,8 @@ layout: post
 title: "IoT in the Distillery: Sensors from Mash to Cask"
 image: /assets/og/iot-in-the-distillery-sensors-process.png
 description: "An IBD-grounded guide to IoT in distilling — sensors at mashing, washback fermentation, the wash and spirit stills, the spirit cut, and the maturation warehouse, plus the edge-to-cloud stack and AI."
-date: 2026-12-07 09:00:00 -0700
-updated: 2026-12-07
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [distilling-maturation, iot, sensors, automation, whiskey]
 faq:
   - q: "How is IoT used in a distillery?"

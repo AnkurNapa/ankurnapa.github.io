@@ -3,8 +3,8 @@ layout: post
 title: "Brewhouse Efficiency and Yield Reconciliation in Excel"
 image: /assets/og/brewhouse-efficiency-yield-excel.png
 description: "Separate conversion, lauter and brewhouse efficiency in one Excel sheet, reconcile predicted versus actual gravity, and diagnose exactly where your extract is being lost."
-date: 2026-06-02 09:00:00 -0700
-updated: 2026-06-02
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, excel, efficiency, quality-control]
 faq:
   - q: "How do I calculate brewhouse efficiency in Excel?"

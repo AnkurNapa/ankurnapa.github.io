@@ -3,8 +3,8 @@ layout: post
 title: "By-Product and Circular-Economy Analytics for Drinks Producers"
 image: /assets/og/byproduct-circular-economy-analytics.png
 description: "Closing loops needs a material balance. How data and AI track every resource and by-product flow, find circular opportunities, and substantiate diversion claims, across regions."
-date: 2026-07-20 09:00:00 -0700
-updated: 2026-07-20
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [esg, sustainability, circular-economy, esg-reporting]
 faq:
   - q: "How can data and AI cut resource and by-product flows?"

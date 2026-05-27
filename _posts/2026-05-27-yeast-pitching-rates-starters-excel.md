@@ -3,8 +3,8 @@ layout: post
 title: "Yeast Pitching Rates and Starters in Excel"
 image: /assets/og/yeast-pitching-rates-starters-excel.png
 description: "Size your yeast properly in a spreadsheet: cells required by gravity and volume, viability decay by pack age, packs needed, and a simple starter-growth model with worked examples."
-date: 2026-05-29 09:00:00 -0700
-updated: 2026-05-29
+date: 2026-05-27 09:00:00 -0700
+updated: 2026-05-27
 tags: [brewing-science, excel, yeast, fermentation]
 faq:
   - q: "How do I calculate how much yeast to pitch?"
