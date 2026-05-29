@@ -2,3 +2,7 @@
 _site/
 .jekyll-cache/
 vendor/
+
+# Python bytecode
+__pycache__/
+*.pyc
