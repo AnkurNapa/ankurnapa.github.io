@@ -3,8 +3,8 @@ layout: post
 title: "From Pilot to Full Scale: The NPD Data Problem Nobody Warns You About"
 image: /assets/og/npd-scale-up-pilot-to-production-data.png
 description: "A beer that's perfect on the pilot kettle can drift off-spec at full scale. Here's how I used batch data, control charts and AI to close the scale-up gap when developing beers for AB InBev, SABMiller and United Breweries."
-date: 2026-06-03
-updated: 2026-06-03
+date: 2026-05-29
+updated: 2026-05-29
 tags: [beer-npd, brewing-science, scale-up, data-science]
 faq:
   - q: "Why does a beer taste different at full scale than on the pilot?"

@@ -3,8 +3,8 @@ layout: post
 title: "Which Beer Should We Make Next? How I Let the Data Decide"
 image: /assets/og/npd-which-beer-to-make-data.png
 description: "Developing beers for AB InBev, SABMiller and United Breweries meant crunching consumer and market data to choose what to brew — here's how AI and analytics shaped the front end of new product development."
-date: 2026-05-30
-updated: 2026-05-30
+date: 2026-05-27
+updated: 2026-05-27
 tags: [beer-npd, new-product-development, consumer-insight, data-science]
 faq:
   - q: "Can AI decide which new beer to develop?"

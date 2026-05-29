@@ -3,8 +3,8 @@ layout: post
 title: "Crunching Recipe and Sensory Data: How I Sped Up Beer Development"
 image: /assets/og/npd-recipe-sensory-data-development.png
 description: "Developing a new beer means closing the gap between a target flavour and what comes out of the pilot kettle. Here's how AI and sensory analytics cut the number of trial brews it took me to get there."
-date: 2026-06-01
-updated: 2026-06-01
+date: 2026-05-28
+updated: 2026-05-28
 tags: [beer-npd, brewing-science, sensory-analysis, machine-learning]
 faq:
   - q: "Can AI design a beer recipe?"

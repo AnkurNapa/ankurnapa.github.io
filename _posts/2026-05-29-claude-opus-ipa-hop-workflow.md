@@ -3,8 +3,8 @@ layout: post
 title: "Can Claude Opus 4.8 Help You Brew a Better IPA? A Hop-Forward Workflow"
 image: /assets/og/claude-opus-ipa-hop-workflow.png
 description: "A practical, honest use case: how I use Claude Opus 4.8 as a hop and IPA development copilot — from hop selection and dry-hop timing to biotransformation and hop creep — and exactly where it must hand back to the lab and the palate."
-date: 2026-05-30
-updated: 2026-05-30
+date: 2026-05-29
+updated: 2026-05-29
 tags: [brewing-science, claude, hops, ipa, ai-tools]
 faq:
   - q: "Can Claude Opus 4.8 design an IPA recipe?"
