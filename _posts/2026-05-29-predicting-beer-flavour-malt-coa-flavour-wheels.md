@@ -3,7 +3,7 @@ layout: post
 title: "Predicting Beer Flavour by Stacking Malt Flavour Wheels"
 image: /assets/og/predicting-beer-flavour-malt-coa-flavour-wheels.png
 description: "Give each malt its flavour wheel, scale it by its share of the grist, sum the wheels and ground the result in the COA. A weighted-sum fingerprint of beer flavour — and the perception physics it cannot fake."
-date: 2026-05-29 09:00:00 -0700
+date: 2026-05-29 06:00:00 -0700
 updated: 2026-05-29
 tags: [brewing-science, malting, flavour, data-science]
 faq:
