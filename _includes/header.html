@@ -1,13 +1,18 @@
+{%- assign lang = page.lang | default: 'en' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if lang == 'de' -%}{%- assign base = '/de' -%}{%- else -%}{%- assign base = '' -%}{%- endif -%}
+{%- if lang == 'de' -%}{%- assign alt_url = page.url | remove_first: '/de' -%}{%- else -%}{%- assign alt_url = '/de' | append: page.url -%}{%- endif -%}
 <header class="site-header">
-  <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <a class="site-title" href="{{ base | append: '/' | relative_url }}">{{ site.title }}</a>
   <nav class="site-nav">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/tracks/' | relative_url }}">Tracks</a>
-    <a href="{{ '/tags/' | relative_url }}">Topics</a>
-    <a href="{{ '/archive/' | relative_url }}">Archive</a>
-    <a href="{{ '/about/' | relative_url }}">About</a>
-    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-    <a href="{{ '/search/' | relative_url }}">Search</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    <a href="{{ base | append: '/' | relative_url }}">{{ t.nav.home }}</a>
+    <a href="{{ base | append: '/tracks/' | relative_url }}">{{ t.nav.tracks }}</a>
+    <a href="{{ base | append: '/tags/' | relative_url }}">{{ t.nav.topics }}</a>
+    <a href="{{ base | append: '/archive/' | relative_url }}">{{ t.nav.archive }}</a>
+    <a href="{{ base | append: '/about/' | relative_url }}">{{ t.nav.about }}</a>
+    <a href="{{ base | append: '/feed.xml' | relative_url }}">{{ t.nav.rss }}</a>
+    <a href="{{ base | append: '/search/' | relative_url }}">{{ t.nav.search }}</a>
+    <a href="{{ base | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a>
+    <a class="lang-switch" href="{{ alt_url | relative_url }}" hreflang="{{ t.lang_switch.target }}" aria-label="{{ t.lang_switch.aria }}">{{ t.lang_switch.label }}</a>
   </nav>
 </header>

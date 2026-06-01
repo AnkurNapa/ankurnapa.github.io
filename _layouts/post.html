@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
+{%- assign lang = page.lang | default: 'en' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if lang == 'de' -%}{%- assign base = '/de' -%}{%- else -%}{%- assign base = '' -%}{%- endif -%}
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
   {%- assign t0 = page.tags[0] -%}
   {%- assign banner_class = 'banner-neutral' -%}
   {%- assign track_label = '' -%}
-  {%- if t0 == 'brewing-science' -%}{%- assign banner_class = 'banner-brewing' -%}{%- assign track_label = 'Brewing Science & AI' -%}
-  {%- elsif t0 == 'distilling-maturation' -%}{%- assign banner_class = 'banner-distilling' -%}{%- assign track_label = 'Distilling & Maturation' -%}
-  {%- elsif t0 == 'winemaking' -%}{%- assign banner_class = 'banner-wine' -%}{%- assign track_label = 'Winemaking & AI' -%}
+  {%- if t0 == 'brewing-science' -%}{%- assign banner_class = 'banner-brewing' -%}{%- assign track_label = t.track['brewing-science'] -%}
+  {%- elsif t0 == 'distilling-maturation' -%}{%- assign banner_class = 'banner-distilling' -%}{%- assign track_label = t.track['distilling-maturation'] -%}
+  {%- elsif t0 == 'winemaking' -%}{%- assign banner_class = 'banner-wine' -%}{%- assign track_label = t.track['winemaking'] -%}
   {%- endif -%}
   <header class="post-header">
     <div class="post-banner {{ banner_class }}">
@@ -20,12 +23,12 @@ layout: default
     </div>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-      {% if page.updated %} · Updated <time datetime="{{ page.updated | date_to_xmlschema }}" itemprop="dateModified">{{ page.updated | date: "%B %-d, %Y" }}</time>{% endif %}
-      · by <span itemprop="author">{{ page.author | default: site.author.name }}</span>
+      {% if page.updated %} · {{ t.meta.updated }} <time datetime="{{ page.updated | date_to_xmlschema }}" itemprop="dateModified">{{ page.updated | date: "%B %-d, %Y" }}</time>{% endif %}
+      · {{ t.meta.by }} <span itemprop="author">{{ page.author | default: site.author.name }}</span>
     </p>
     {% if page.tags %}
     <p class="post-tags">
-      {% for tag in page.tags %}<a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a> {% endfor %}
+      {% for tag in page.tags %}<a class="tag" href="{{ base | append: '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a> {% endfor %}
     </p>
     {% endif %}
   </header>
@@ -40,7 +43,7 @@ layout: default
 
 {% include related.html %}
 
-<nav class="post-nav" aria-label="More posts">
+<nav class="post-nav" aria-label="{{ t.post.more_posts }}">
   {% if page.previous %}
   <a class="prev" href="{{ page.previous.url | relative_url }}">‹ {{ page.previous.title }}</a>
   {% endif %}
@@ -50,6 +53,6 @@ layout: default
 </nav>
 
 <p class="browse-links">
-  <a href="{{ '/tags/' | relative_url }}">Browse by topic</a> ·
-  <a href="{{ '/archive/' | relative_url }}">Full archive</a>
+  <a href="{{ base | append: '/tags/' | relative_url }}">{{ t.post.browse_topic }}</a> ·
+  <a href="{{ base | append: '/archive/' | relative_url }}">{{ t.post.full_archive }}</a>
 </p>

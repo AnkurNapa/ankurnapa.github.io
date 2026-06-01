@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────────────────────
+#  UI string translations. Looked up as site.data.i18n[lang] where
+#  lang is page.lang ("en" default, "de" for the German collection).
+#  Keep keys identical across languages. Add a new top-level block
+#  to add a language.
+# ─────────────────────────────────────────────────────────────
+en:
+  locale: "en"
+  html_lang: "en"
+  tagline: "Beer, wine, whiskey, mead — where drinks meet AI"
+  nav:
+    home: "Home"
+    tracks: "Tracks"
+    topics: "Topics"
+    archive: "Archive"
+    about: "About"
+    rss: "RSS"
+    search: "Search"
+    contact: "Contact"
+  lang_switch:
+    label: "Deutsch"          # link text shown to switch INTO German
+    aria: "Auf Deutsch lesen"
+    target: "de"
+  footer:
+    built: "Built with Jekyll on GitHub Pages."
+  meta:
+    updated: "Updated"
+    by: "by"
+  post:
+    browse_topic: "Browse by topic"
+    full_archive: "Full archive"
+    more_posts: "More posts"
+  related:
+    heading: "Related reading"
+  share:
+    label: "Share this"
+    copy: "Copy link"
+    copied: "Copied!"
+  author:
+    connect: "Connect with Ankur Napa"
+    blurb: "Beer, wine, whiskey & AI — say hello, or come find the conversation."
+  track:
+    brewing-science: "Brewing Science & AI"
+    distilling-maturation: "Distilling & Maturation"
+    winemaking: "Winemaking & AI"
+
+de:
+  locale: "de"
+  html_lang: "de"
+  tagline: "Bier, Wein, Whisky, Met — wo Getränke auf KI treffen"
+  nav:
+    home: "Start"
+    tracks: "Themenstrecken"
+    topics: "Themen"
+    archive: "Archiv"
+    about: "Über"
+    rss: "RSS"
+    search: "Suche"
+    contact: "Kontakt"
+  lang_switch:
+    label: "English"          # link text shown to switch INTO English
+    aria: "Read in English"
+    target: "en"
+  footer:
+    built: "Erstellt mit Jekyll auf GitHub Pages."
+  meta:
+    updated: "Aktualisiert"
+    by: "von"
+  post:
+    browse_topic: "Nach Thema stöbern"
+    full_archive: "Vollständiges Archiv"
+    more_posts: "Weitere Beiträge"
+  related:
+    heading: "Weiterlesen"
+  share:
+    label: "Teilen"
+    copy: "Link kopieren"
+    copied: "Kopiert!"
+  author:
+    connect: "Mit Ankur Napa vernetzen"
+    blurb: "Bier, Wein, Whisky & KI — sag Hallo oder steig in die Diskussion ein."
+  track:
+    brewing-science: "Brauwissenschaft & KI"
+    distilling-maturation: "Destillation & Reifung"
+    winemaking: "Weinherstellung & KI"

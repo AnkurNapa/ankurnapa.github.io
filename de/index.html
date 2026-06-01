@@ -1,0 +1,103 @@
+---
+layout: default
+lang: de
+title: "Bier, Wein, Whisky & KI — KI & Datenanalyse für die Getränkeindustrie"
+description: "Wie KI, Data Science und BI-Tools wie Power BI und Tableau Bier, alkoholfreies Bier, Wein, Whisky und Met verändern — Brauen und Destillieren, Gärungsprognosen, Absatzplanung, Qualität, sensorische Verkostung und ESG, von einem Brauer, der Data Scientist wurde."
+permalink: /de/
+faq:
+  - q: "Wie wird KI in der Getränkeindustrie eingesetzt?"
+    a: "KI und Datenanalyse helfen Brauereien, Weingütern und Brennereien, die Gärung zu prognostizieren, die Nachfrage vorherzusagen, die Qualität zu steuern, ESG-Kennzahlen wie Wasser und CO₂ zu optimieren und das Marketing zu schärfen — während menschliches Urteilsvermögen und Geschmack unverzichtbar bleiben."
+  - q: "Kann KI das Brauen und die Weinherstellung verbessern?"
+    a: "Ja, wo saubere Daten vorhanden sind. KI hilft zuverlässig bei Prognosen, Überwachung und Absatzplanung, aber sie kann nicht schmecken und ersetzt nicht das Handwerk eines Brauers oder Winzers — und sie kann selbstbewusst falsche Ergebnisse liefern, wenn diese nicht überprüft werden."
+  - q: "Wer schreibt Bier, Wein, Whisky & KI?"
+    a: "Ankur Napa, ein Brauer, der zum Brewing Data Scientist wurde und rund ein Jahrzehnt in Brauereien wie AB InBev, SABMiller und United Breweries verbrachte, bevor er KI- und Datenwerkzeuge für die Getränkeindustrie entwickelte."
+---
+
+<section class="hero">
+  <h1>Bier, Wein, Whisky &amp; KI</h1>
+  <p class="lead">Wie künstliche Intelligenz, Data Science und BI-Tools — Power BI, Tableau und die Power Platform — die Getränkeindustrie verändern: Bier, alkoholfreies Bier, Wein, Whisky und Met. Vom Sudhaus und der Brennblase bis zu Gärung, Qualitätskontrolle, sensorischer Verkostung, Absatzprognose und ESG. Praxisnah, ehrlich darüber, was funktioniert und was nicht, und frei von Hype.</p>
+  <p class="byline">Geschrieben von <a href="{{ '/de/about/' | relative_url }}">Ankur Napa</a> — einem Brauer, der zum Brewing Data Scientist wurde, mit einem Jahrzehnt in Brauereien, bevor er KI für die Branche entwickelte.</p>
+</section>
+
+<section>
+  <h2>Hier anfangen</h2>
+  <p>Neu im Blog? Beginne mit der Flaggschiff-Serie darüber, wie aus einem Brauer ein KI- und Datenexperte wird — der echte Weg, die Rückschläge und das, was wirklich funktioniert.</p>
+  <p><a class="cta" href="{{ '/de/series/brewer-to-ai/' | relative_url }}">Vom Brauer zur KI — eine ehrliche Reise in 8 Teilen →</a></p>
+</section>
+
+<section>
+  <h2>Nach Themenstrecke entdecken</h2>
+  <p>Zwei Arten der Vertiefung. <strong>Business-Strecken</strong> — datengetriebene Analytik auf Führungsebene über das gesamte Getränkegeschäft, angewendet auf Bier und das schnell wachsende alkoholfreie Segment. Und <strong>Produktions- &amp; Wissenschaftsstrecken</strong> — der technische Prozess selbst, von Korn und Traube bis ins Glas, durch KI, Data Science und generative KI:</p>
+  <ul class="track-grid">
+    <li><a href="{{ '/de/tracks/commercial-planning/' | relative_url }}">Kommerzielle Planung</a></li>
+    <li><a href="{{ '/de/tracks/sales-intelligence/' | relative_url }}">Vertriebsintelligenz</a></li>
+    <li><a href="{{ '/de/tracks/marketing/' | relative_url }}">Marketing</a></li>
+    <li><a href="{{ '/de/tracks/financial-planning-analytics/' | relative_url }}">Finanzplanung (FP&amp;A)</a></li>
+    <li><a href="{{ '/de/tracks/esg/' | relative_url }}">ESG</a></li>
+    <li><a href="{{ '/de/tracks/ehs/' | relative_url }}">EHS</a></li>
+    <li><a href="{{ '/de/tracks/sales-forecasting/' | relative_url }}">Absatzprognose</a></li>
+    <li><a href="{{ '/de/tracks/brewing-science-ai/' | relative_url }}">Brauwissenschaft &amp; KI</a></li>
+    <li><a href="{{ '/de/tracks/distilling-maturation/' | relative_url }}">Destillation &amp; Reifung</a></li>
+    <li><a href="{{ '/de/tracks/winemaking-ai/' | relative_url }}">Weinherstellung &amp; KI</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Grundlagenlektüre zu KI in Getränken</h2>
+  <ul>
+    <li><a href="{{ '/de/2026/what-can-ai-do-for-a-brewery/' | relative_url }}">Was kann KI wirklich für eine Brauerei leisten? 7 echte Anwendungsfälle</a></li>
+    <li><a href="{{ '/de/2026/the-honest-limits-of-ai-in-brewing/' | relative_url }}">Die ehrlichen Grenzen von KI beim Brauen</a></li>
+    <li><a href="{{ '/de/2026/can-ai-predict-beer-fermentation/' | relative_url }}">Kann KI die Biergärung vorhersagen?</a></li>
+    <li><a href="{{ '/de/2026/ai-tasting-notes-beer-wine-whiskey/' | relative_url }}">Kann KI Verkostungsnotizen für Bier, Wein &amp; Whisky schreiben?</a></li>
+    <li><a href="{{ '/de/2026/can-ai-predict-wine-quality/' | relative_url }}">Kann KI die Weinqualität vorhersagen?</a></li>
+    <li><a href="{{ '/de/2026/can-ai-predict-whiskey-maturation/' | relative_url }}">Kann KI die Whiskyreifung vorhersagen?</a></li>
+  </ul>
+</section>
+
+<section class="post-list">
+  <h2>Neueste Beiträge</h2>
+  <ul class="posts">
+    {% assign latest = site.de | sort: 'date' | reverse %}
+    {% for post in latest limit: 6 %}
+    <li class="post-item">
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d. %b %Y" }}</time>
+      {% if post.description %}<p class="post-excerpt">{{ post.description }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/de/archive/' | relative_url }}">Zum vollständigen Archiv →</a> &middot; <a href="{{ '/de/tags/' | relative_url }}">Nach Thema stöbern →</a></p>
+</section>
+
+<section class="home-faq">
+  <h2>Häufig gestellte Fragen</h2>
+  <h3>Wie wird KI in der Getränkeindustrie eingesetzt?</h3>
+  <p>KI und Datenanalyse helfen Brauereien, Weingütern und Brennereien, die Gärung zu prognostizieren, die Nachfrage vorherzusagen, die Qualität zu steuern, ESG-Kennzahlen wie Wasser und CO₂ zu optimieren und das Marketing zu schärfen — während menschliches Urteilsvermögen und Geschmack unverzichtbar bleiben.</p>
+  <h3>Kann KI das Brauen und die Weinherstellung verbessern?</h3>
+  <p>Ja, wo saubere Daten vorhanden sind. KI hilft zuverlässig bei Prognosen, Überwachung und Absatzplanung, aber sie kann nicht schmecken und ersetzt nicht das Handwerk eines Brauers oder Winzers — und sie kann selbstbewusst falsche Ergebnisse liefern, wenn diese nicht überprüft werden.</p>
+  <h3>Wer schreibt Bier, Wein, Whisky &amp; KI?</h3>
+  <p>Ankur Napa, ein Brauer, der zum Brewing Data Scientist wurde und rund ein Jahrzehnt in Brauereien wie AB InBev, SABMiller und United Breweries verbrachte, bevor er KI- und Datenwerkzeuge für die Getränkeindustrie entwickelte.</p>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Beer, Wine, Whiskey & AI",
+  "url": "{{ '/de/' | absolute_url }}",
+  "description": "KI und Datenanalyse für die Getränkeindustrie — Bier, alkoholfreies Bier, Wein, Whisky und Met.",
+  "inLanguage": "de",
+  "author": {
+    "@type": "Person",
+    "name": "Ankur Napa",
+    "url": "{{ '/de/about/' | absolute_url }}",
+    "jobTitle": "Brewing Data Scientist",
+    "knowsAbout": ["KI im Brauwesen","Data Science","maschinelles Lernen","generative KI","Power BI","Tableau","Power Apps","Bier","alkoholfreies Bier","Wein","Whisky","Met","Brauwissenschaft","Destillation","Weinherstellung","Gärungsprognose","Sensorik","Qualitätskontrolle","Absatzprognose","ESG im Brauwesen"],
+    "sameAs": [
+      "https://www.linkedin.com/in/ankur-napa/",
+      "https://github.com/AnkurNapa",
+      "https://medium.com/@napaankur"
+    ]
+  }
+}
+</script>

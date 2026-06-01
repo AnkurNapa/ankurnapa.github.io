@@ -38,6 +38,21 @@ kramdown:
 # RSS feed is a custom styled template (feed.xml + feed.xsl), not jekyll-feed.
 
 # ─────────────────────────────────────────────────────────────
+#  Languages / i18n
+#  English is the default site (root). German lives under /de/ as a
+#  Jekyll collection (_de/*.md). UI strings come from _data/i18n.yml.
+#  Each German post sets an explicit `permalink: /de/<year>/<slug>/`
+#  that mirrors its English counterpart, so hreflang + the language
+#  switcher can map EN <-> DE purely by URL prefix.
+# ─────────────────────────────────────────────────────────────
+default_lang: "en"
+languages: ["en", "de"]
+
+collections:
+  de:
+    output: true
+
+# ─────────────────────────────────────────────────────────────
 #  Reader analytics — paste ONE id to turn it on (all optional).
 #  Only loads on the live site, never in local preview.
 # ─────────────────────────────────────────────────────────────
@@ -53,6 +68,13 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "de"
+    values:
+      layout: "post"
+      lang: "de"
   - scope:
       path: ""
     values:

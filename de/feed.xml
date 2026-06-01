@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /de/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="{{ '/feed.xsl' | relative_url }}"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }} — Deutsch</title>
+    <link>{{ '/de/' | absolute_url }}</link>
+    <description>{{ site.description | strip_newlines | xml_escape }}</description>
+    <language>de</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ '/de/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+    <generator>Jekyll</generator>
+    {% assign de_feed = site.de | sort: 'date' | reverse %}
+    {% for post in de_feed limit: 25 %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <link>{{ post.url | absolute_url }}</link>
+      <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <description>{{ post.description | default: post.excerpt | strip_html | strip_newlines | xml_escape }}</description>
+      {% for tag in post.tags %}<category>{{ tag | xml_escape }}</category>{% endfor %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
