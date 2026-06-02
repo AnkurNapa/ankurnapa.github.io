@@ -1,0 +1,61 @@
+---
+layout: post
+lang: de
+title: "Ein Dashboard für Fassreifung und Angels' Share in Tableau"
+image: /assets/og/tableau-whisky-cask-maturation-dashboard.png
+description: "Baue ein Tableau-Dashboard für die Fassreifung, das Alter, Stärke und den Verdunstungsverlust des Angels' Share verfolgt — mit prognostizierten Reifeterminen und KI-gestützter Überwachung."
+date: 2023-06-14
+updated: 2023-06-14
+permalink: /de/2023/tableau-whisky-cask-maturation-dashboard/
+tags: [distilling-maturation, tableau, whiskey]
+faq:
+  - q: "Wie modelliere ich den Angels' Share in Tableau?"
+    a: "Nutze eine Tabellenberechnung, die eine jährliche Verlustrate (grob 2 % pro Jahr) über den Reifungsverlauf jedes Fasses aufzinst, idealerweise gegen deine eigenen Wägeaufzeichnungen kalibriert statt gegen eine pauschale Annahme."
+  - q: "Kann Tableau prognostizieren, wann ein Fass reif ist?"
+    a: "Ja, über ein berechnetes Feld, das Stärke und Volumen bis zum Zielalter fortschreibt — aber behandle das Datum als Planungsschätzung, nicht als Versprechen, denn die Schwankung von Fass zu Fass ist groß."
+  - q: "Ersetzt Tableau den Master Blender?"
+    a: "Nein. Tableau überwacht den Bestand und markiert Fässer, die ein Nosing wert sind; die Entscheidung zur Abfüllung beruht weiterhin auf der sensorischen Bewertung durch das Blending-Team."
+---
+
+**Kurze Antwort: Tableau verwandelt verstreute Fassaufzeichnungen in eine lebendige Reifungssicht, die zeigt, was du hast, wie schnell es verdunstet und ungefähr, wann es reif ist.** Der schwierige Teil sind nicht die Diagramme; es ist, saubere Daten zu haben und zu akzeptieren, dass Whisky sich auf einer Zeitskala bewegt, die kein Dashboard beschleunigen kann.
+
+<figure style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 1000 380" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Typisches Dashboard-Layout für Ein Dashboard für Fassreifung und Angels&#39; Share in Tableau"><rect x="0" y="0" width="1000" height="380" fill="#fdfbf7"/><text x="500" y="26" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">DASHBOARD-LAYOUT</text><text x="500" y="52" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">Ein Dashboard für Fassreifung und Angels&#39; Share in Tableau</text><rect x="40" y="64" width="920" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="52" y="84" font-family="sans-serif" font-size="12.5" fill="#6b6258">Filter:</text><rect x="120" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="250" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="380" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="40" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="58" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 1</text><rect x="58" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="355" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="373" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 2</text><rect x="373" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="670" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="688" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 3</text><rect x="688" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="40" y="198" width="575" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="56" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Trend</text><rect x="120" y="268" width="46" height="70" fill="#b45309"/><rect x="200" y="243" width="46" height="95" fill="#b45309"/><rect x="280" y="278" width="46" height="60" fill="#b45309"/><rect x="360" y="228" width="46" height="110" fill="#b45309"/><rect x="440" y="253" width="46" height="85" fill="#b45309"/><rect x="520" y="218" width="46" height="120" fill="#b45309"/><rect x="640" y="198" width="320" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="656" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Aufschlüsselung</text><rect x="656" y="238" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="238" width="60" height="10" rx="3" fill="#b45309"/><rect x="656" y="264" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="264" width="50" height="10" rx="3" fill="#b45309"/><rect x="656" y="290" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="290" width="40" height="10" rx="3" fill="#b45309"/><rect x="656" y="316" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="316" width="30" height="10" rx="3" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Ein typisches Layout für dieses Dashboard: Kennzahlen oben, ein Trend und eine Aufschlüsselung darunter, Filter zum Zerlegen.</figcaption>
+</figure>
+
+## Zuerst messen, dann visualisieren
+Bevor du Tableau öffnest, entscheide, was jede Datenzeile darstellt. Die natürliche Granularität ist eine Fass-pro-Datum-Beobachtung: Fass-ID, Befülldatum, Fasstyp (Ex-Bourbon, Ex-Sherry, neue Eiche), ursprüngliche Liter reinen Alkohols, aktuelle Stärke und das Datum jeder Wägung oder Probennahme. Die meisten Brennereien wiegen nicht jedes Fass jeden Monat, daher wird deine Datenquelle dünn und ungleichmäßig sein. Modelliere das ehrlich. Bring sie als Live-Verbindung herein, wenn dein Warehouse-System das unterstützt, oder forme sie in Tableau Prep zu einem sauberen Extrakt (.hyper), bevor du irgendetwas baust.
+
+Die Disziplin, die Granularität zuerst zu definieren, ist das, was ein Dashboard, das den Kontakt mit einem echten Lagerhaus übersteht, von einer hübschen Demo trennt. Mach das falsch, und jedes nachgelagerte berechnete Feld erbt den Fehler.
+
+## Kumulierter Verlust und prognostizierte Reifetermine
+Der Angels' Share — der durch Verdunstung verlorene Brand, rund 2 % des Volumens pro Jahr, aber stark schwankend — ist die Schlüsselkennzahl. Modelliere ihn mit einer Tabellenberechnung, die den jährlichen Verlust über das Leben jedes Fasses aufzinst, partitioniert nach Fass-ID und sortiert nach Datum. Ein LOD-Ausdruck wie `{ FIXED [Cask ID] : MIN([Fill Date]) }` liefert dir ein stabiles Reifungsalter-Feld je Fass, unabhängig davon, welche Filter der Benutzer anwendet.
+
+Lege einen Parameter für das Zielalter darüber, sodass ein Benutzer fragen kann: Welche Fässer erreichen nächstes Quartal zwölf Jahre? Eine Was-wäre-wenn-Aktion lässt dich die angenommene Verlustrate flexen und beobachten, wie prognostiziertes Volumen und Stärke reagieren. Tableau Pulse kann dann auf der veröffentlichten Arbeitsmappe sitzen und einen Klartext-Auszug senden — „Lager 3 hat dieses Quartal 0,4 % mehr verloren als letztes" — an das Team, ohne dass jemand das Dashboard öffnet.
+
+## Wo es versagt
+Dieses Dashboard ist nur so gut wie die Frequenz deiner Messungen. Wenn Fässer einmal im Jahr gewogen werden, ist deine kumulierte Verlustkurve eine Interpolation zwischen zwei Punkten, und der prognostizierte Reifetermin trägt Jahre an Unsicherheit. Die eingebaute Prognose in Tableau nutzt exponentielle Glättung, was für einen glatten Trend in Ordnung ist, aber die Fass-zu-Fass-Schwankung nicht erfassen kann, die durch Holz, Befüllstärke und Lagerposition getrieben wird. Dafür brauchst du entweder reichere Daten oder ein externes Modell über TabPy — siehe [die Prognose des Angels' Share von Whiskey]({{ '/de/2024/forecasting-whiskey-angels-share/' | relative_url }}) für die Modellierungsseite.
+
+Die tiefere Grenze ist Physik. Reifung gibt Rückmeldung in Jahren, daher belohnt das Dashboard Geduld, nicht Geschwindigkeit. Es sagt dir den Zustand deines Bestands; es macht den Brand nicht früher reif.
+
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Was die Reifung antreibt und was sie nachgelagert verändert."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">WAS ES ANTREIBT</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Ein Dashboard für Fassreifung und Angels&#39; Share in Tableau</text><rect x="50" y="90" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="118" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 1</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="112" x2="285" y2="150"/></g><rect x="50" y="150" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 2</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="172" x2="285" y2="150"/></g><rect x="50" y="210" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="238" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 3</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="232" x2="285" y2="150"/></g><rect x="290" y="116" width="140" height="68" rx="10" fill="#b45309"/><text x="360" y="156" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Reifung</text><g fill="#5b7a1f" stroke="#5b7a1f" stroke-width="2"><line x1="430" y1="150" x2="535" y2="142"/><polygon points="535,135 547,142 535,149" stroke="none"/></g><rect x="550" y="120" width="130" height="44" rx="8" fill="#f7ece0" stroke="#5b7a1f" stroke-width="1.5"/><text x="615" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">Qualität</text><g fill="#5b7a1f" stroke="#5b7a1f" stroke-width="2"><line x1="430" y1="150" x2="535" y2="202"/><polygon points="535,195 547,202 535,209" stroke="none"/></g><rect x="550" y="180" width="130" height="44" rx="8" fill="#f7ece0" stroke="#5b7a1f" stroke-width="1.5"/><text x="615" y="208" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">Kosten / Risiko</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Was die Reifung antreibt und was sie nachgelagert verändert.</figcaption>
+</figure>
+
+## Das Fazit
+Ein Tableau-Dashboard für die Fassreifung ist der günstigste Weg, deinen gesamten reifenden Bestand auf einen Blick zu sehen, die Verdunstung ehrlich zu verfolgen und die Abfüllung um realistische Reifetermine herum zu planen. Behandle seine Prognosen als Planungshilfen und behalte die Nase des Master Blenders als letztes Instrument. Gut gebaut, verdient es sich seinen Platz, indem es die wenigen Fässer ans Licht holt, die diesen Monat Aufmerksamkeit brauchen, aus den Tausenden, die es nicht tun.
+
+*Teil des Tracks [Distilling & Maturation]({{ '/de/tracks/distilling-maturation/' | relative_url }}).* Verwandt: [die Prognose des Angels' Share von Whiskey]({{ '/de/2024/forecasting-whiskey-angels-share/' | relative_url }}).
+
+## Häufig gestellte Fragen
+
+**Wie modelliere ich den Angels' Share in Tableau?**
+Nutze eine Tabellenberechnung, die eine jährliche Verlustrate (grob 2 % pro Jahr) über den Reifungsverlauf jedes Fasses aufzinst, idealerweise gegen deine eigenen Wägeaufzeichnungen kalibriert statt gegen eine pauschale Annahme.
+
+**Kann Tableau prognostizieren, wann ein Fass reif ist?**
+Ja, über ein berechnetes Feld, das Stärke und Volumen bis zum Zielalter fortschreibt — aber behandle das Datum als Planungsschätzung, nicht als Versprechen, denn die Schwankung von Fass zu Fass ist groß.
+
+**Ersetzt Tableau den Master Blender?**
+Nein. Tableau überwacht den Bestand und markiert Fässer, die ein Nosing wert sind; die Entscheidung zur Abfüllung beruht weiterhin auf der sensorischen Bewertung durch das Blending-Team.

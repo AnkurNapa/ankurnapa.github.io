@@ -1,0 +1,64 @@
+---
+layout: post
+lang: de
+title: "Ein Weinberg-Ertrags- und Ernte-Dashboard in Tableau"
+image: /assets/og/tableau-vineyard-yield-harvest-dashboard.png
+description: "Bauen Sie ein Tableau-Weinberg-Dashboard, das Parzellen kartiert, Brix- und Säure-Reifekurven verfolgt und die Ernte mit Pulse-Zusammenfassungen sequenziert."
+date: 2023-01-14
+updated: 2023-01-14
+permalink: /de/2023/tableau-vineyard-yield-harvest-dashboard/
+tags: [winemaking, tableau, viticulture]
+faq:
+  - q: "Welche Daten brauche ich für ein Weinberg-Ertrags-Dashboard in Tableau?"
+    a: "Mindestens brauchen Sie parzellenweise Beprobung (°Brix, titrierbare Säure, pH), Traubenzählungen oder Beerengewichte für Ertragsschätzungen sowie einen geografischen Bezug für jede Parzelle. Wetter- und NDVI-Feeds sind nützliche Extras, aber für den Anfang nicht unverzichtbar."
+  - q: "Kann Tableau mein Erntedatum prognostizieren?"
+    a: "Tableaus eingebaute Prognose nutzt exponentielle Glättung, was für eine grobe Reifekurve in Ordnung ist, aber kein echtes Erntemodell. Für eine belastbare Vorhersage bewerten Sie ein externes Modell über TabPy und visualisieren die Ausgabe."
+  - q: "Sollte ich Weinbergparzellen in Tableau kartieren?"
+    a: "Ja, wenn Ihre Entscheidungen räumlich sind. Weisen Sie geografische Rollen zu oder nutzen Sie benutzerdefinierte Geocodierung, damit jede Parzelle auf einer Karte erscheint, und färben Sie sie dann nach Reife oder Ertrag, um das ganze Weingut auf einen Blick zu erfassen."
+---
+
+**Kurze Antwort: Ein Weinberg-Dashboard funktioniert, wenn es Reife, Ertrag und Geografie auf einen Bildschirm bringt, sodass Sie die Lese sequenzieren können — und nicht nur die Ernte bewundern, nachdem sie geschehen ist.** Die Disziplin besteht darin, zu entscheiden, was Sie messen, bevor Sie ein einziges Diagramm zeichnen.
+
+<figure style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 1000 380" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Typisches Dashboard-Layout für Ein Weinberg-Ertrags- und Ernte-Dashboard in Tableau"><rect x="0" y="0" width="1000" height="380" fill="#fdfbf7"/><text x="500" y="26" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">DASHBOARD-LAYOUT</text><text x="500" y="52" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">Ein Weinberg-Ertrags- und Ernte-Dashboard in Tableau</text><rect x="40" y="64" width="920" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="52" y="84" font-family="sans-serif" font-size="12.5" fill="#6b6258">Filter:</text><rect x="120" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="250" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="380" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="40" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="58" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 1</text><rect x="58" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="355" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="373" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 2</text><rect x="373" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="670" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="688" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 3</text><rect x="688" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="40" y="198" width="575" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="56" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Trend</text><rect x="120" y="268" width="46" height="70" fill="#b45309"/><rect x="200" y="243" width="46" height="95" fill="#b45309"/><rect x="280" y="278" width="46" height="60" fill="#b45309"/><rect x="360" y="228" width="46" height="110" fill="#b45309"/><rect x="440" y="253" width="46" height="85" fill="#b45309"/><rect x="520" y="218" width="46" height="120" fill="#b45309"/><rect x="640" y="198" width="320" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="656" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Aufschlüsselung</text><rect x="656" y="238" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="238" width="60" height="10" rx="3" fill="#b45309"/><rect x="656" y="264" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="264" width="50" height="10" rx="3" fill="#b45309"/><rect x="656" y="290" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="290" width="40" height="10" rx="3" fill="#b45309"/><rect x="656" y="316" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="316" width="30" height="10" rx="3" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Ein typisches Layout für dieses Dashboard: Kennzahlen-Überschriften oben, ein Trend und eine Aufschlüsselung darunter, Filter zum Zerlegen.</figcaption>
+</figure>
+
+## Erst messen, dann kartieren
+Beginnen Sie mit der Frage, nicht mit der Datenquelle. Die Weinbergfrage zur Véraison ist brutal einfach: Welche Parzelle lese ich, und wann? Das sagt Ihnen die Messgrößen: °Brix als Zucker-Stellvertreter, titrierbare Säure und pH (Sie wollen einen pH-Wert irgendwo um 3,2 bis 3,6 für die meisten Rotweine) sowie eine Ertragsschätzung aus Traubenzählungen und Beerengewichten. Phenolische Reife steht selten in einer Tabelle, also kennzeichnen Sie sie als manuelle Verkostungsnotiz, statt vorzugeben, Sie hätten eine Zahl.
+
+Verbinden Sie Ihre Probendaten als Live-Quelle, wenn sie sich während der Ernte täglich aktualisieren, oder als Extrakt (.hyper), wenn es ein wöchentlicher Abzug ist. Tableau Prep verdient hier sein Geld: Probenblätter kommen mit uneinheitlichen Parzellennamen und verirrten Einheiten an, und Prep lässt Sie sie einmalig standardisieren, statt ewig mit berechneten Feldern zu kämpfen.
+
+## Bauen Sie die Parzellenkarte und die Reifekurve
+Geben Sie jeder Parzelle eine geografische Rolle oder laden Sie benutzerdefinierte Geocodierung, und Sie erhalten eine Weingutskarte, in der Farbe den °Brix und Größe den geschätzten Ertrag kodiert. Diese eine Ansicht beantwortet „wo ist das Lesegut und wie reif ist es" ohne Tabelle.
+
+Kombinieren Sie sie mit einer Reifekurve: Probendatum auf der Achse, °Brix auf der Linie, eine Markierung je Parzelle. Fügen Sie einen Parameter für Ihren Ziel-Brix nach Rebsorte hinzu und zeichnen Sie ihn als Bezugslinie, sodass der Abstand zwischen Kurve und Ziel sichtbar wird. Eine FIXED-Detailgrad-Berechnung — `{FIXED [Block] : AVG([Brix])}` — lässt Sie sauber je Parzelle aggregieren, selbst wenn Sie mehrere Proben pro Zeile haben, was die Farbkodierung ehrlich hält. Filteraktionen lassen Sie eine Parzelle auf der Karte anklicken und steuern die Kurve darunter.
+
+Für die Ertragssequenzierung verwandelt eine einfache, nach prognostiziertem Lesedatum sortierte und nach verfügbarer Tankkapazität gefärbte Tabelle das Dashboard von einem Bericht in ein Betriebswerkzeug.
+
+## Lassen Sie Pulse den Trend beobachten
+Hier fügt die KI-Schicht etwas Echtes hinzu. Richten Sie Tableau Pulse auf Ihre Reifekennzahl je Parzelle, und es überwacht die Entwicklung und sendet dann eine Zusammenfassung in natürlicher Sprache — „Parzelle 7 Cabernet diese Woche um 1,4 °Brix gestiegen, liegt vor dem Ziel." Das ist während einer komprimierten Ernte wirklich nützlich, wenn niemand Zeit hat, das Dashboard stündlich zu öffnen. Auch „Explain Data" von Einstein Copilot kann zutage fördern, warum eine Parzelle sprang, erklärt aber die Daten, die Sie ihm gefüttert haben, nicht die Rebe.
+
+## Wo es bricht
+Seien Sie ehrlich über die Grenzen. Die Karte ist nur so gut wie Ihre Probenahmefrequenz: Ein wöchentlich aktualisiertes Dashboard kann Sie nicht vor einer Hitzespitze warnen, die das Lesegut in drei Tagen reifen lässt. NDVI-Bilder haben Lücken durch Wolken und Überflugtiming, behandeln Sie sie also als Vigor-Hinweis, nicht als Evangelium. Wetter verändert Jahrgänge stärker als jedes Diagramm, und Tableaus eingebaute Prognose extrapoliert bereitwillig eine glatte Reifelinie schnurstracks durch eine prognostizierte Hitzewelle, von der sie nichts weiß. Das Dashboard sequenziert die Lese; es ersetzt nicht das Abgehen der Reihen und das Verkosten des Leseguts.
+
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Was die Ernte treibt und was sie nachgelagert verändert."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">WAS ES TREIBT</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Ein Weinberg-Ertrags- und Ernte-Dashboard in Tableau</text><rect x="50" y="90" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="118" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 1</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="112" x2="285" y2="150"/></g><rect x="50" y="150" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 2</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="172" x2="285" y2="150"/></g><rect x="50" y="210" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="238" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 3</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="232" x2="285" y2="150"/></g><rect x="290" y="116" width="140" height="68" rx="10" fill="#b45309"/><text x="360" y="156" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Die Ernte</text><g fill="#5b7a1f" stroke="#5b7a1f" stroke-width="2"><line x1="430" y1="150" x2="535" y2="142"/><polygon points="535,135 547,142 535,149" stroke="none"/></g><rect x="550" y="120" width="130" height="44" rx="8" fill="#f7ece0" stroke="#5b7a1f" stroke-width="1.5"/><text x="615" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">Qualität</text><g fill="#5b7a1f" stroke="#5b7a1f" stroke-width="2"><line x1="430" y1="150" x2="535" y2="202"/><polygon points="535,195 547,202 535,209" stroke="none"/></g><rect x="550" y="180" width="130" height="44" rx="8" fill="#f7ece0" stroke="#5b7a1f" stroke-width="1.5"/><text x="615" y="208" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">Kosten / Risiko</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Was die Ernte treibt und was sie nachgelagert verändert.</figcaption>
+</figure>
+
+## Das Fazit
+Ein Weinberg-Ertrags-Dashboard in Tableau ist ein Sequenzierungswerkzeug: Kartieren Sie die Parzellen, verfolgen Sie die Reife gegen ein parametrisiertes Ziel und lassen Sie Pulse die Bewegungen melden. Halten Sie die Messgrößen wenige und gut definiert, und akzeptieren Sie, dass Probenahmelücken und Wetter die Obergrenze der Genauigkeit setzen. Für ein tatsächliches Vorhersagemodell schauen Sie über die eingebaute Prognose hinaus.
+
+*Teil des Tracks [Weinherstellung & KI]({{ '/de/tracks/winemaking-ai/' | relative_url }}).* Verwandt: [KI-Ertragsprognose im Weinberg]({{ '/de/2024/ai-vineyard-yield-forecasting/' | relative_url }}).
+
+## Häufig gestellte Fragen
+
+**Welche Daten brauche ich für ein Weinberg-Ertrags-Dashboard in Tableau?**
+Mindestens brauchen Sie parzellenweise Beprobung (°Brix, titrierbare Säure, pH), Traubenzählungen oder Beerengewichte für Ertragsschätzungen sowie einen geografischen Bezug für jede Parzelle. Wetter- und NDVI-Feeds sind nützliche Extras, aber für den Anfang nicht unverzichtbar.
+
+**Kann Tableau mein Erntedatum prognostizieren?**
+Tableaus eingebaute Prognose nutzt exponentielle Glättung, was für eine grobe Reifekurve in Ordnung ist, aber kein echtes Erntemodell. Für eine belastbare Vorhersage bewerten Sie ein externes Modell über TabPy und visualisieren die Ausgabe.
+
+**Sollte ich Weinbergparzellen in Tableau kartieren?**
+Ja, wenn Ihre Entscheidungen räumlich sind. Weisen Sie geografische Rollen zu oder nutzen Sie benutzerdefinierte Geocodierung, damit jede Parzelle auf einer Karte erscheint, und färben Sie sie dann nach Reife oder Ertrag, um das ganze Weingut auf einen Blick zu erfassen.

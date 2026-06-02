@@ -1,0 +1,62 @@
+---
+layout: post
+lang: de
+title: "Ein Keller- und Barrique-Reifungs-Inventar-Dashboard in Tableau"
+image: /assets/og/tableau-wine-cellar-barrel-ageing-dashboard.png
+description: "Baue ein Tableau-Keller-Dashboard, das Fässer nach Typ und Alter via LOD, Auffüllung und Verdunstung, SO2-Status und einen Reifungs-Zeitstrahl mit Pulse-Benachrichtigungen verfolgt."
+date: 2023-03-14
+updated: 2023-03-14
+permalink: /de/2023/tableau-wine-cellar-barrel-ageing-dashboard/
+tags: [winemaking, tableau, inventory]
+faq:
+  - q: "Wie aggregiere ich Fässer nach Los in Tableau?"
+    a: "Nutze eine FIXED-Level-of-Detail-Berechnung mit Schlüssel auf das Los, etwa das Gesamtvolumen oder das durchschnittliche freie SO2 je Los. Das gibt dir eine saubere Aufrollung je Los, obwohl jede Zeile ein einzelnes Fass ist."
+  - q: "Kann Tableau die Fassverdunstung verfolgen?"
+    a: "Ja, wenn du Auffüllungen protokollierst. Berechne das je Fass über die Zeit hinzugefügte Volumen, und das Dashboard zeigt die Verdunstung als laufende Auffüllsumme — was auch Fässer markiert, die mehr als erwartet verlieren."
+  - q: "Sagt mir Tableau Pulse, welche Fässer fällig sind?"
+    a: "Pulse überwacht die von dir definierte Kennzahl, etwa Tage seit der letzten SO2-Prüfung oder Monate im Fass, und sendet eine Zusammenfassung, die die Fässer benennt, die deinen Schwellenwert überschreiten. Es bringt die Liste an die Oberfläche; den Rest erledigt der Keller weiterhin selbst."
+---
+
+**Kurze Antwort: Ein Keller-Dashboard lohnt sich, wenn es „was ist im Fass, wie alt ist es und welche Fässer brauchen Aufmerksamkeit" beantwortet, ohne dass jemand die Kellerkarte im Kopf öffnen muss.** Lege die Aggregationsebene — Fass, Los, Typ — fest, bevor du irgendetwas zeichnest.
+
+<figure style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 1000 380" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Typisches Dashboard-Layout für ein Keller- und Barrique-Reifungs-Inventar-Dashboard in Tableau"><rect x="0" y="0" width="1000" height="380" fill="#fdfbf7"/><text x="500" y="26" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">DASHBOARD-LAYOUT</text><text x="500" y="52" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">Ein Keller- und Barrique-Reifungs-Inventar-Dashboard in Tableau</text><rect x="40" y="64" width="920" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="52" y="84" font-family="sans-serif" font-size="12.5" fill="#6b6258">Filter:</text><rect x="120" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="250" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="380" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="40" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="58" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 1</text><rect x="58" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="355" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="373" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 2</text><rect x="373" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="670" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="688" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 3</text><rect x="688" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="40" y="198" width="575" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="56" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Trend</text><rect x="120" y="268" width="46" height="70" fill="#b45309"/><rect x="200" y="243" width="46" height="95" fill="#b45309"/><rect x="280" y="278" width="46" height="60" fill="#b45309"/><rect x="360" y="228" width="46" height="110" fill="#b45309"/><rect x="440" y="253" width="46" height="85" fill="#b45309"/><rect x="520" y="218" width="46" height="120" fill="#b45309"/><rect x="640" y="198" width="320" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="656" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Aufschlüsselung</text><rect x="656" y="238" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="238" width="60" height="10" rx="3" fill="#b45309"/><rect x="656" y="264" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="264" width="50" height="10" rx="3" fill="#b45309"/><rect x="656" y="290" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="290" width="40" height="10" rx="3" fill="#b45309"/><rect x="656" y="316" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="316" width="30" height="10" rx="3" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Ein typisches Layout für dieses Dashboard: Kennzahlen-Schlagzeilen oben, ein Trend und eine Aufschlüsselung darunter, Filter zum Zerlegen.</figcaption>
+</figure>
+
+## Modelliere zuerst die Kellergranularität
+Fassdaten sind hierarchisch, also entscheide deine Ebenen vor dem Bauen: einzelnes Fass, Los, Fasstyp (neue gegenüber gebrauchter Eiche) und Jahrgang. Jede Zeile in deiner Quelle ist meist ein Fass mit Attributen — Befülldatum, Eichentyp, Los, letzte Auffüllung, freies und gesamtes SO2. Die Disziplin des Erst-Messens bedeutet, sich darüber zu einigen, was ein „auffüllfälliges Fass" oder ein „SO2-gefährdetes Fass" tatsächlich heißt, bevor du es visualisierst.
+
+Kellerdaten werden oft von Hand protokolliert, also verbinde einen aktualisierten Extrakt statt einer Live-Anbindung hinterherzujagen, und nutze Tableau Prep, um Fass-IDs abzugleichen, die zwischen Tabellen abdriften. Level-of-Detail-Berechnungen leisten die Schwerstarbeit: `{FIXED [Lot] : SUM([Volume])}` ergibt Liter je Los, und ein INCLUDE-Ausdruck lässt dich freies SO2 auf Fassgranularität mitteln und es je Los anzeigen.
+
+## Die Inventar- und Reifungsansichten
+Baue eine Matrix von Fässern, eingefärbt nach Eichentyp und in der Größe nach Volumen skaliert, gefiltert nach Los und Jahrgang — der Keller auf einen Blick. Daneben trägt ein Reifungs-Zeitstrahl die Monate im Fass je Los gegen ein in einem Parameter gehaltenes Ziel-Reifungsfenster auf, sodass ein Los, das über seinen Plan hinausdriftet, offensichtlich ist.
+
+Verfolge Auffüllungen und Verdunstung als laufende Summe der je Fass hinzugefügten Liter; ein Fass, das weit mehr Auffüllung verlangt als seine Nachbarn, ist entweder durstige Eiche oder ein Problem. Eine SO2-Statusansicht färbt jedes Fass rot, gelb oder grün gegen deine Untergrenze für freies SO2 ein, mit einer Filteraktion, sodass das Anklicken eines Loses seine Fässer offenbart. Parameteraktionen lassen dich das Reifungsziel verbiegen und beobachten, welche Lose in oder aus dem Plan fallen.
+
+## Lass Pulse markieren, was fällig ist
+Setze Tableau Pulse auf „Fässer mit überfälliger SO2-Prüfung" und „Lose, die das Ende des Reifungsfensters erreichen". Es überwacht diese Kennzahlen und sendet eine Zusammenfassung, die die Fässer und Lose benennt, die die Linie überschreiten — die morgendliche To-do-Liste des Kellers, in Klartext geschrieben. Einsteins „Explain Data" kann helfen, wenn das SO2 eines Loses schneller fällt als der Rest, indem es auf die Felder zeigt, die sich unterscheiden.
+
+## Wo es scheitert
+Die offenen Grenzen drehen sich um Daten und Biologie. Kellerdaten sind weitgehend manuell, sodass das Dashboard nur so aktuell ist wie die Person, die zuletzt ins Protokoll schrieb; ein aufgefülltes, aber nie erfasstes Fass wirkt vernachlässigt. Variation von Fass zu Fass ist real — zwei Fässer derselben Eiche und desselben Alters können sehr unterschiedlich reifen — sodass ein Aggregat nach Typ einzelne Ausreißer verbirgt, die beim Verschnitt zählen. Und das Dashboard verfolgt die Reifung; es kann dir nicht sagen, dass ein Wein bereit ist. Das ist eine Versuchsverkostung und eine Gaumenentscheidung, und selbst ein KI-Qualitätsmodell ist eine Schätzung statt einer Verkostung.
+
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Was die Barrique-Reifung treibt und was sie nachgelagert verändert."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">WAS ES TREIBT</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Ein Keller- und Barrique-Reifungs-Inventar-Dashboard in Tableau</text><rect x="50" y="90" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="118" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 1</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="112" x2="285" y2="150"/></g><rect x="50" y="150" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 2</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="172" x2="285" y2="150"/></g><rect x="50" y="210" width="130" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="115" y="238" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">Eingabe 3</text><g fill="#b45309" stroke="#b45309" stroke-width="2"><line x1="180" y1="232" x2="285" y2="150"/></g><rect x="290" y="116" width="140" height="68" rx="10" fill="#b45309"/><text x="360" y="156" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Barrique-Reifung</text><g fill="#5b7a1f" stroke="#5b7a1f" stroke-width="2"><line x1="430" y1="150" x2="535" y2="142"/><polygon points="535,135 547,142 535,149" stroke="none"/></g><rect x="550" y="120" width="130" height="44" rx="8" fill="#f7ece0" stroke="#5b7a1f" stroke-width="1.5"/><text x="615" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">Qualität</text><g fill="#5b7a1f" stroke="#5b7a1f" stroke-width="2"><line x1="430" y1="150" x2="535" y2="202"/><polygon points="535,195 547,202 535,209" stroke="none"/></g><rect x="550" y="180" width="130" height="44" rx="8" fill="#f7ece0" stroke="#5b7a1f" stroke-width="1.5"/><text x="615" y="208" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">Kosten / Risiko</text></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Was die Barrique-Reifung treibt und was sie nachgelagert verändert.</figcaption>
+</figure>
+
+## Das Fazit
+Ein Tableau-Keller-Dashboard verwandelt ein verstreutes Fassprotokoll in ein verwaltetes Inventar: LOD-Aufrollungen nach Los und Typ, Auffüll- und Verdunstungsverfolgung, SO2-Status und ein Reifungs-Zeitstrahl, mit Pulse, das die fälligen Fässer benennt. Halte die Daten aktuell und denk daran, dass es Reifung verfolgt, nicht Trinkreife.
+
+*Teil des Tracks [Winemaking & AI]({{ '/de/tracks/winemaking-ai/' | relative_url }}).* Verwandt: [Kann KI die Weinqualität vorhersagen?]({{ '/de/2026/can-ai-predict-wine-quality/' | relative_url }}).
+
+## Häufig gestellte Fragen
+
+**Wie aggregiere ich Fässer nach Los in Tableau?**
+Nutze eine FIXED-Level-of-Detail-Berechnung mit Schlüssel auf das Los, etwa das Gesamtvolumen oder das durchschnittliche freie SO2 je Los. Das gibt dir eine saubere Aufrollung je Los, obwohl jede Zeile ein einzelnes Fass ist.
+
+**Kann Tableau die Fassverdunstung verfolgen?**
+Ja, wenn du Auffüllungen protokollierst. Berechne das je Fass über die Zeit hinzugefügte Volumen, und das Dashboard zeigt die Verdunstung als laufende Auffüllsumme — was auch Fässer markiert, die mehr als erwartet verlieren.
+
+**Sagt mir Tableau Pulse, welche Fässer fällig sind?**
+Pulse überwacht die von dir definierte Kennzahl, etwa Tage seit der letzten SO2-Prüfung oder Monate im Fass, und sendet eine Zusammenfassung, die die Fässer benennt, die deinen Schwellenwert überschreiten. Es bringt die Liste an die Oberfläche; den Rest erledigt der Keller weiterhin selbst.

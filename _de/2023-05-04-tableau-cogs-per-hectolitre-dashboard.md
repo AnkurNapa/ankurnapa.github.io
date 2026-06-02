@@ -1,0 +1,63 @@
+---
+layout: post
+lang: de
+title: "Ein COGS-pro-Hektoliter-Dashboard in Tableau"
+image: /assets/og/tableau-cogs-per-hectolitre-dashboard.png
+description: "Baue ein COGS-pro-Hektoliter-Dashboard in Tableau mit berechneten Feldern, einem Kostentreiber-Wasserfall und Preisparametern, um zu sehen, wohin die Getränkemarge wirklich geht."
+date: 2023-05-04
+updated: 2023-05-04
+permalink: /de/2023/tableau-cogs-per-hectolitre-dashboard/
+tags: [fpna, tableau, finance]
+faq:
+  - q: "Wie berechnet man COGS pro Hektoliter in Tableau?"
+    a: "Aggregiere die Gesamtkosten der verkauften Waren für ein Produkt und teile sie dann mit einem berechneten Feld durch die in Hektolitern produzierte Menge. Definiere die Kostenbestandteile — Zutaten, Verpackung, Energie, Arbeit, Gemeinkostenumlage — explizit, damit Nenner und Zähler denselben Umfang teilen."
+  - q: "Wofür ist ein Kostentreiber-Wasserfall gut?"
+    a: "Er zerlegt die COGS pro Hektoliter der Reihe nach in ihre beitragenden Treiber, sodass die Finanzabteilung sehen kann, ob eine Margenbewegung von Malzpreisen, Verpackung, Energie oder Ausbeute kam, statt aus einer einzelnen Summe zu raten."
+  - q: "Sagt Explain Data, warum die Marge fiel?"
+    a: "Es schlägt statistisch plausible Erklärungen für eine Ausreißer-Markierung vor, etwa welche Dimensionswerte ungewöhnlich hoch sind. Es ist ein Hypothesengenerator, kein Urteil; du bestätigst den Treiber weiterhin gegen das tatsächliche Kostenbuch."
+---
+
+**Kurze Antwort: Ein COGS-pro-Hektoliter-Dashboard verdient sich seinen Wert, wenn es Kosten mit einem Wasserfall in Treiber zerlegt und die Finanzabteilung Eingangspreise über Parameter flexen lässt — nicht, wenn es eine einzige gemischte Zahl zeigt.** Die Disziplin besteht darin, sich zu einigen, was in die Kosten gehört, bevor du durch die Menge teilst.
+
+<figure style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 1000 380" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Typisches Dashboard-Layout für Ein COGS-pro-Hektoliter-Dashboard in Tableau"><rect x="0" y="0" width="1000" height="380" fill="#fdfbf7"/><text x="500" y="26" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">DASHBOARD-LAYOUT</text><text x="500" y="52" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">Ein COGS-pro-Hektoliter-Dashboard in Tableau</text><rect x="40" y="64" width="920" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="52" y="84" font-family="sans-serif" font-size="12.5" fill="#6b6258">Filter:</text><rect x="120" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="250" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="380" y="71" width="100" height="16" rx="8" fill="#fdfbf7" stroke="#b45309"/><rect x="40" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="58" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 1</text><rect x="58" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="355" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="373" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 2</text><rect x="373" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="670" y="108" width="290" height="74" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="688" y="134" font-family="sans-serif" font-size="12" fill="#6b6258">KPI 3</text><rect x="688" y="144" width="120" height="20" rx="3" fill="#b45309"/><rect x="40" y="198" width="575" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="56" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Trend</text><rect x="120" y="268" width="46" height="70" fill="#b45309"/><rect x="200" y="243" width="46" height="95" fill="#b45309"/><rect x="280" y="278" width="46" height="60" fill="#b45309"/><rect x="360" y="228" width="46" height="110" fill="#b45309"/><rect x="440" y="253" width="46" height="85" fill="#b45309"/><rect x="520" y="218" width="46" height="120" fill="#b45309"/><rect x="640" y="198" width="320" height="150" rx="8" fill="#ffffff" stroke="#e0d8cc" stroke-width="1.5"/><text x="656" y="220" font-family="sans-serif" font-size="12.5" fill="#6b6258">Aufschlüsselung</text><rect x="656" y="238" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="238" width="60" height="10" rx="3" fill="#b45309"/><rect x="656" y="264" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="264" width="50" height="10" rx="3" fill="#b45309"/><rect x="656" y="290" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="290" width="40" height="10" rx="3" fill="#b45309"/><rect x="656" y="316" width="200" height="10" rx="3" fill="#f7ece0"/><rect x="876" y="316" width="30" height="10" rx="3" fill="#b45309"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Ein typisches Layout für dieses Dashboard: Kennzahlen oben, ein Trend und eine Aufschlüsselung darunter, Filter zum Zerschneiden.</figcaption>
+</figure>
+
+## Definiere die Kennzahl, bevor du baust
+COGS pro Hektoliter klingt einfach und ist still umstritten. Der Zähler sind die Gesamtkosten der verkauften Waren; der Nenner ist die Menge in Hektolitern. Der Streit dreht sich immer darum, was in den Zähler gehört. Schließt du die Verpackung ein? Energie? Eine Umlage fixer Gemeinkosten? Baue das berechnete Feld so, dass es exakt widerspiegelt, wie die Finanzabteilung Kosten definiert, und mache jeden Bestandteil zu seinem eigenen Feld — Zutatenkosten, Verpackung, Energie, direkte Arbeit, umgelegte Gemeinkosten — damit die Summe transparent und prüfbar ist statt eine Blackbox.
+
+Diese Mess-zuerst-Gewohnheit zahlt sich zweimal aus. Erstens, wenn jemand eine Zahl hinterfragt, kannst du sie auf einen Bestandteil zurückverfolgen. Zweitens erlaubt sie dir, den Kostentreiber-Wasserfall zu bauen, das analytische Herz des Dashboards. Ohne benannte Bestandteile gibt es nichts zu zerlegen. Lass die Definitionen von FP&A abzeichnen, bevor du eine einzige Markierung zeichnest; das Dashboard liegt dieser Einigung nachgelagert, niemals als Ersatz dafür.
+
+## Der Wasserfall und der Preisparameter
+Ein Wasserfalldiagramm nimmt eine Basis-COGS/hl und durchschreitet den Beitrag jedes Treibers zur aktuellen Zahl: Malz hoch, Verpackung flach, Energie hoch, Ausbeuteverbesserung runter. In Tableau baust du das mit Tabellenberechnungen über die laufende Summe der Treiber-Deltas und ordnest die Balken so, dass jeder dort beginnt, wo der letzte endete. Das Ergebnis beantwortet die einzige Frage, die ein CFO zu einer Margenbewegung stellt — *welcher Hebel sie bewegt hat* — statt ihn aus einer einzelnen Summe darauf schließen zu lassen.
+
+Füge dann eine Was-wäre-wenn-Ebene hinzu. Lege wichtige Eingangspreise als Parameter offen — Malzpreis, Aluminium, Energietarif — und verdrahte sie mit den Kosten-Berechnungsfeldern. Jetzt kann die Finanzabteilung einen Parameter ziehen und zusehen, wie COGS/hl und der Wasserfall live neu berechnen: „Wenn Malz um acht Prozent steigt, wo landet die Marge?" Das ist echte Szenarioanalyse innerhalb des Dashboards, und sie sitzt natürlich neben dem größeren Bild im [CFO-KI-Dashboard für Getränke]({{ '/de/2026/cfo-ai-dashboard-beverage/' | relative_url }}), das diese Unit Economics auf die GuV-Sicht hochzieht.
+
+Für die KI-Unterstützung nutze Explain Data bei einem Margeneinbruch. Wähle die störende Markierung, und Tableau schlägt vor, welche Dimensionswerte statistisch ungewöhnlich sind — vielleicht ist die Energiekosten einer SKU hochgeschnellt. Behandle es als schnelle Hypothese und bestätige dann gegen das Buch, bevor du jemanden informierst.
+
+## Wo es bricht
+Die erste Grenze sind Kostenumlage-Annahmen. Wie du fixe Gemeinkosten über Hektoliter verteilst, ist eine Ermessensfrage, und eine vertretbare kann dennoch eine Großvolumenlinie schmeicheln und eine kleine Charge bestrafen. Das Dashboard präsentiert jede einprogrammierte Umlage, als wäre sie Fakt. Dokumentiere die Grundlage auf dem Dashboard selbst, damit Nutzer die Zahl im Kontext lesen statt als Evangelium.
+
+Die zweite Grenze ist Datenqualität — das vertraute Garbage-in-Problem. Wenn Energie quartalsweise abgerechnet wird, die Menge aber täglich ist, oder wenn Verpackungskosten in der falschen Periode landen, ruckelt COGS/hl aus Gründen, die nichts mit dem Betrieb zu tun haben. Tableau kann dein Kostenbuch nicht abstimmen; es kann nur teilen, was du ihm gibst. Und das Parameter-Was-wäre-wenn ist von Natur aus linear: Es flext einen Preis, nicht die Effekte zweiter Ordnung dieser Preisänderung auf Nachfrage oder Mix — verwechsle also einen Schieberegler nicht mit einem Modell.
+
+<figure data-d2="1" style="margin:1.6rem 0;text-align:center">
+<svg viewBox="0 0 720 300" width="100%" style="max-width:720px;height:auto" role="img" aria-label="Von Anfang bis Ende, aufgeteilt in die Teile, die die Zahl bewegen."><rect x="0" y="0" width="720" height="300" fill="#fdfbf7"/><text x="360.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#b45309">BRÜCKE</text><text x="360.0" y="47" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Ein COGS-pro-Hektoliter-Dashboard in Tableau</text><line x1="60" y1="250" x2="680" y2="250" stroke="#1c1a17" stroke-width="1.5"/><rect x="90" y="100" width="80" height="150" fill="#b45309"/><text x="130" y="268" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#6b6258">Start</text><rect x="230" y="140" width="80" height="40" fill="#7a1f3d"/><text x="270" y="268" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#6b6258">−40</text><rect x="350" y="170" width="80" height="30" fill="#7a1f3d"/><text x="390" y="268" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#6b6258">−30</text><rect x="470" y="130" width="80" height="40" fill="#5b7a1f"/><text x="510" y="268" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#6b6258">+40</text><rect x="590" y="130" width="80" height="120" fill="#b45309"/><text x="630" y="268" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#6b6258">Ende</text><line x1="170" y1="100" x2="230" y2="100" stroke="#6b6258" stroke-width="1" stroke-dasharray="3 3"/><line x1="310" y1="140" x2="350" y2="140" stroke="#6b6258" stroke-width="1" stroke-dasharray="3 3"/><line x1="430" y1="170" x2="470" y2="170" stroke="#6b6258" stroke-width="1" stroke-dasharray="3 3"/><line x1="550" y1="130" x2="590" y2="130" stroke="#6b6258" stroke-width="1" stroke-dasharray="3 3"/></svg>
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Von Anfang bis Ende, aufgeteilt in die Teile, die die Zahl bewegen.</figcaption>
+</figure>
+
+## Das Fazit
+Baue COGS pro Hektoliter aus benannten, prüfbaren Kostenbestandteilen, zerlege es mit einem Wasserfall, sodass der Treiber hinter jeder Bewegung offensichtlich ist, und füge Preisparameter für Live-Szenariotests hinzu. Nutze Explain Data, um Hypothesen zu erzeugen, nicht Schlussfolgerungen. Vor allem: Lege deine Umlageannahmen offen — die Mathematik ist nur so ehrlich wie die Kostendaten und die Ermessensentscheidungen, die sie speisen.
+
+*Teil des Tracks [Financial Planning & Analytics]({{ '/de/tracks/financial-planning-analytics/' | relative_url }}).* Verwandt: [das CFO-KI-Dashboard für Getränke]({{ '/de/2026/cfo-ai-dashboard-beverage/' | relative_url }}).
+
+## Häufig gestellte Fragen
+
+**Wie berechnet man COGS pro Hektoliter in Tableau?**
+Aggregiere die Gesamtkosten der verkauften Waren für ein Produkt und teile sie dann mit einem berechneten Feld durch die in Hektolitern produzierte Menge. Definiere die Kostenbestandteile — Zutaten, Verpackung, Energie, Arbeit, Gemeinkostenumlage — explizit, damit Nenner und Zähler denselben Umfang teilen.
+
+**Wofür ist ein Kostentreiber-Wasserfall gut?**
+Er zerlegt die COGS pro Hektoliter der Reihe nach in ihre beitragenden Treiber, sodass die Finanzabteilung sehen kann, ob eine Margenbewegung von Malzpreisen, Verpackung, Energie oder Ausbeute kam, statt aus einer einzelnen Summe zu raten.
+
+**Sagt Explain Data, warum die Marge fiel?**
+Es schlägt statistisch plausible Erklärungen für eine Ausreißer-Markierung vor, etwa welche Dimensionswerte ungewöhnlich hoch sind. Es ist ein Hypothesengenerator, kein Urteil; du bestätigst den Treiber weiterhin gegen das tatsächliche Kostenbuch.
