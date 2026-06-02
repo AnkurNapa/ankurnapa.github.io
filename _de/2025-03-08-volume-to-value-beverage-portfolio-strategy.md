@@ -9,7 +9,7 @@ updated: 2025-03-08
 permalink: /de/2025/volume-to-value-beverage-portfolio-strategy/
 tags: [commercial-planning, portfolio-strategy, na-beer]
 faq:
-  - q: "Was bedeutet „von Volumen zu Wert" in der Getränke-Portfoliostrategie?"
+  - q: "Was bedeutet „von Volumen zu Wert“ in der Getränke-Portfoliostrategie?"
     a: "Es bedeutet, den Portfolio-Mix bewusst hin zu Marken und SKUs zu verschieben, die höheren Nettoumsatz je Einheit und bessere Deckungsbeiträge erzeugen — statt das Gesamtkistenvolumen zu jagen, das wachsen kann, während die Mischmarge sinkt, wenn sich der Mix in die falsche Richtung bewegt."
   - q: "Wie sollte alkoholfreies Bier innerhalb einer breiteren Portfoliostrategie positioniert werden?"
     a: "Alkoholfreies Bier erzielt typischerweise einen Preisaufschlag gegenüber Standardlagern und erreicht andere Konsumanlässe. Die strategische Frage ist, ob es den Gesamtportfolioumsatz erweitert oder bestehende alkoholische SKUs kannibalisiert — die Antwort unterscheidet sich je Kanal, und die Analysen zur Unterscheidung sind mit den meisten modernen POS-Datensätzen verfügbar."

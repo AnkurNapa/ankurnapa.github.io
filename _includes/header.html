@@ -1,7 +1,8 @@
 {%- assign lang = page.lang | default: 'en' -%}
 {%- assign t = site.data.i18n[lang] -%}
-{%- if lang == 'de' -%}{%- assign base = '/de' -%}{%- else -%}{%- assign base = '' -%}{%- endif -%}
-{%- if lang == 'de' -%}{%- assign alt_url = page.url | remove_first: '/de' -%}{%- else -%}{%- assign alt_url = '/de' | append: page.url -%}{%- endif -%}
+{%- if lang == 'en' -%}{%- assign base = '' -%}{%- else -%}{%- capture base -%}/{{ lang }}{%- endcapture -%}{%- endif -%}
+{%- capture curpfx -%}/{{ lang }}{%- endcapture -%}
+{%- if lang == 'en' -%}{%- assign neutral = page.url -%}{%- else -%}{%- assign neutral = page.url | remove_first: curpfx -%}{%- endif -%}
 <header class="site-header">
   <a class="site-title" href="{{ base | append: '/' | relative_url }}">{{ site.title }}</a>
   <nav class="site-nav">
@@ -13,6 +14,15 @@
     <a href="{{ base | append: '/feed.xml' | relative_url }}">{{ t.nav.rss }}</a>
     <a href="{{ base | append: '/search/' | relative_url }}">{{ t.nav.search }}</a>
     <a href="{{ base | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a>
-    <a class="lang-switch" href="{{ alt_url | relative_url }}" hreflang="{{ t.lang_switch.target }}" aria-label="{{ t.lang_switch.aria }}">{{ t.lang_switch.label }}</a>
+  </nav>
+  <nav class="lang-nav" aria-label="Language">
+    {%- for L in site.languages -%}
+      {%- if L.code == lang -%}
+        <span class="lang-current" aria-current="true">{{ L.label }}</span>
+      {%- else -%}
+        {%- if L.code == 'en' -%}{%- assign turl = neutral -%}{%- else -%}{%- capture turl -%}/{{ L.code }}{{ neutral }}{%- endcapture -%}{%- endif -%}
+        <a class="lang-switch" href="{{ turl | relative_url }}" hreflang="{{ L.code }}" lang="{{ L.code }}">{{ L.label }}</a>
+      {%- endif -%}
+    {%- endfor -%}
   </nav>
 </header>

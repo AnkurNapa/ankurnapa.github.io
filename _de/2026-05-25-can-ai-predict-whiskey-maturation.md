@@ -14,7 +14,7 @@ faq:
   - q: "Wie hilft KI bei der Fassauswahl?"
     a: "Indem sie Fässer aus Nahinfrarot- oder chemischer Analyse und historischen Ergebnissen bewertet, kann KI Fässer vorauswählen, die wahrscheinlich ein Zielprofil treffen — und so einen Prozess beschleunigen, der sonst vollständig auf manuellem Nosing beruht."
   - q: "Kann KI die Whiskey-Reifung beschleunigen?"
-    a: "Nicht von allein. KI kann erkennen, welche Fässer und Lagerpositionen schneller reifen, aber die Chemie braucht weiterhin Jahre. Behauptungen, KI ließe Whiskey „sofort altern", beziehen sich auf physikalische Prozesse, nicht auf die KI."
+    a: "Nicht von allein. KI kann erkennen, welche Fässer und Lagerpositionen schneller reifen, aber die Chemie braucht weiterhin Jahre. Behauptungen, KI ließe Whiskey „sofort altern“, beziehen sich auf physikalische Prozesse, nicht auf die KI."
 ---
 
 **Kurze Antwort: KI kann modellieren, wie sich Whiskey-Fässer entwickeln, und Brennereien helfen, Fässer auszuwählen und Abfüllungen zu terminieren — nützliche Entscheidungsunterstützung. Was sie nicht kann, ist die jahrelange Chemie abzukürzen oder die Nase eines Master Distillers zu ersetzen. Spärliche, langsam eintreffende Daten halten sie zu einem Assistenten, nicht zu einer Autorität.** Hier ist die realistische Sicht.

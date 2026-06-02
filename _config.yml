@@ -46,10 +46,28 @@ kramdown:
 #  switcher can map EN <-> DE purely by URL prefix.
 # ─────────────────────────────────────────────────────────────
 default_lang: "en"
-languages: ["en", "de"]
+# Visible in the language switcher (add a language here once its shell +
+# content exist, so the live nav never points at empty pages).
+languages:
+  - code: en
+    label: English
+  - code: de
+    label: Deutsch
+# Built but not yet surfaced in the switcher (content in progress):
+#   hi (हिन्दी) · mr (मराठी) · kn (ಕನ್ನಡ) · bn (বাংলা) · ta (தமிழ்)
 
 collections:
   de:
+    output: true
+  hi:
+    output: true
+  mr:
+    output: true
+  kn:
+    output: true
+  bn:
+    output: true
+  ta:
     output: true
 
 # ─────────────────────────────────────────────────────────────
@@ -75,6 +93,36 @@ defaults:
     values:
       layout: "post"
       lang: "de"
+  - scope:
+      path: ""
+      type: "hi"
+    values:
+      layout: "post"
+      lang: "hi"
+  - scope:
+      path: ""
+      type: "mr"
+    values:
+      layout: "post"
+      lang: "mr"
+  - scope:
+      path: ""
+      type: "kn"
+    values:
+      layout: "post"
+      lang: "kn"
+  - scope:
+      path: ""
+      type: "bn"
+    values:
+      layout: "post"
+      lang: "bn"
+  - scope:
+      path: ""
+      type: "ta"
+    values:
+      layout: "post"
+      lang: "ta"
   - scope:
       path: ""
     values:

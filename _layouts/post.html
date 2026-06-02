@@ -3,7 +3,7 @@ layout: default
 ---
 {%- assign lang = page.lang | default: 'en' -%}
 {%- assign t = site.data.i18n[lang] -%}
-{%- if lang == 'de' -%}{%- assign base = '/de' -%}{%- else -%}{%- assign base = '' -%}{%- endif -%}
+{%- if lang == 'en' -%}{%- assign base = '' -%}{%- else -%}{%- capture base -%}/{{ lang }}{%- endcapture -%}{%- endif -%}
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
   {%- assign t0 = page.tags[0] -%}
   {%- assign banner_class = 'banner-neutral' -%}

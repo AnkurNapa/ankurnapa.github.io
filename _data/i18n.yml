@@ -83,3 +83,203 @@ de:
     brewing-science: "Brauwissenschaft & KI"
     distilling-maturation: "Destillation & Reifung"
     winemaking: "Weinherstellung & KI"
+
+hi:
+  locale: "hi"
+  html_lang: "hi"
+  tagline: "बीयर, वाइन, व्हिस्की, मीड — जहाँ पेय मिलते हैं AI से"
+  nav:
+    home: "होम"
+    tracks: "ट्रैक"
+    topics: "विषय"
+    archive: "आर्काइव"
+    about: "परिचय"
+    rss: "RSS"
+    search: "खोज"
+    contact: "संपर्क"
+  lang_switch:
+    label: "हिन्दी"
+    aria: "हिन्दी में पढ़ें"
+    target: "en"
+  footer:
+    built: "Jekyll के साथ GitHub Pages पर बनाया गया।"
+  meta:
+    updated: "अपडेट किया गया"
+    by: "द्वारा"
+  post:
+    browse_topic: "विषय के अनुसार देखें"
+    full_archive: "पूरा आर्काइव"
+    more_posts: "और पोस्ट"
+  related:
+    heading: "संबंधित पठन"
+  share:
+    label: "साझा करें"
+    copy: "लिंक कॉपी करें"
+    copied: "कॉपी हो गया!"
+  author:
+    connect: "Ankur Napa से जुड़ें"
+    blurb: "बीयर, वाइन, व्हिस्की और AI — नमस्ते कहें या चर्चा में शामिल हों।"
+  track:
+    brewing-science: "ब्रूइंग साइंस और AI"
+    distilling-maturation: "डिस्टिलिंग और परिपक्वता"
+    winemaking: "वाइनमेकिंग और AI"
+
+mr:
+  locale: "mr"
+  html_lang: "mr"
+  tagline: "बीअर, वाइन, व्हिस्की, मीड — जिथे पेये भेटतात AI ला"
+  nav:
+    home: "मुख्यपृष्ठ"
+    tracks: "ट्रॅक"
+    topics: "विषय"
+    archive: "संग्रह"
+    about: "परिचय"
+    rss: "RSS"
+    search: "शोध"
+    contact: "संपर्क"
+  lang_switch:
+    label: "मराठी"
+    aria: "मराठीत वाचा"
+    target: "en"
+  footer:
+    built: "Jekyll वापरून GitHub Pages वर तयार केले."
+  meta:
+    updated: "अद्यतनित"
+    by: "द्वारा"
+  post:
+    browse_topic: "विषयानुसार पाहा"
+    full_archive: "संपूर्ण संग्रह"
+    more_posts: "अधिक पोस्ट"
+  related:
+    heading: "संबंधित वाचन"
+  share:
+    label: "शेअर करा"
+    copy: "दुवा कॉपी करा"
+    copied: "कॉपी झाले!"
+  author:
+    connect: "Ankur Napa यांच्याशी संपर्क साधा"
+    blurb: "बीअर, वाइन, व्हिस्की आणि AI — नमस्कार म्हणा किंवा चर्चेत सहभागी व्हा."
+  track:
+    brewing-science: "ब्रूइंग सायन्स आणि AI"
+    distilling-maturation: "डिस्टिलिंग आणि परिपक्वता"
+    winemaking: "वाइनमेकिंग आणि AI"
+
+kn:
+  locale: "kn"
+  html_lang: "kn"
+  tagline: "ಬಿಯರ್, ವೈನ್, ವಿಸ್ಕಿ, ಮೀಡ್ — ಪಾನೀಯಗಳು AI ಅನ್ನು ಸಂಧಿಸುವ ಸ್ಥಳ"
+  nav:
+    home: "ಮುಖಪುಟ"
+    tracks: "ಟ್ರ್ಯಾಕ್‌ಗಳು"
+    topics: "ವಿಷಯಗಳು"
+    archive: "ಆರ್ಕೈವ್"
+    about: "ಪರಿಚಯ"
+    rss: "RSS"
+    search: "ಹುಡುಕಿ"
+    contact: "ಸಂಪರ್ಕ"
+  lang_switch:
+    label: "ಕನ್ನಡ"
+    aria: "ಕನ್ನಡದಲ್ಲಿ ಓದಿ"
+    target: "en"
+  footer:
+    built: "Jekyll ಬಳಸಿ GitHub Pages ನಲ್ಲಿ ರಚಿಸಲಾಗಿದೆ."
+  meta:
+    updated: "ನವೀಕರಿಸಲಾಗಿದೆ"
+    by: "ಮೂಲಕ"
+  post:
+    browse_topic: "ವಿಷಯದ ಪ್ರಕಾರ ವೀಕ್ಷಿಸಿ"
+    full_archive: "ಪೂರ್ಣ ಆರ್ಕೈವ್"
+    more_posts: "ಇನ್ನಷ್ಟು ಪೋಸ್ಟ್‌ಗಳು"
+  related:
+    heading: "ಸಂಬಂಧಿತ ಓದು"
+  share:
+    label: "ಹಂಚಿಕೊಳ್ಳಿ"
+    copy: "ಲಿಂಕ್ ನಕಲಿಸಿ"
+    copied: "ನಕಲಾಗಿದೆ!"
+  author:
+    connect: "Ankur Napa ಅವರೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಿ"
+    blurb: "ಬಿಯರ್, ವೈನ್, ವಿಸ್ಕಿ ಮತ್ತು AI — ನಮಸ್ಕಾರ ಹೇಳಿ ಅಥವಾ ಚರ್ಚೆಯಲ್ಲಿ ಸೇರಿ."
+  track:
+    brewing-science: "ಬ್ರೂಯಿಂಗ್ ಸೈನ್ಸ್ ಮತ್ತು AI"
+    distilling-maturation: "ಡಿಸ್ಟಿಲಿಂಗ್ ಮತ್ತು ಪಕ್ವತೆ"
+    winemaking: "ವೈನ್‌ಮೇಕಿಂಗ್ ಮತ್ತು AI"
+
+bn:
+  locale: "bn"
+  html_lang: "bn"
+  tagline: "বিয়ার, ওয়াইন, হুইস্কি, মিড — যেখানে পানীয় AI-এর সাথে মেলে"
+  nav:
+    home: "হোম"
+    tracks: "ট্র্যাক"
+    topics: "বিষয়"
+    archive: "আর্কাইভ"
+    about: "পরিচিতি"
+    rss: "RSS"
+    search: "অনুসন্ধান"
+    contact: "যোগাযোগ"
+  lang_switch:
+    label: "বাংলা"
+    aria: "বাংলায় পড়ুন"
+    target: "en"
+  footer:
+    built: "Jekyll দিয়ে GitHub Pages-এ তৈরি।"
+  meta:
+    updated: "হালনাগাদ"
+    by: "লিখেছেন"
+  post:
+    browse_topic: "বিষয় অনুসারে দেখুন"
+    full_archive: "সম্পূর্ণ আর্কাইভ"
+    more_posts: "আরও পোস্ট"
+  related:
+    heading: "সম্পর্কিত পঠন"
+  share:
+    label: "শেয়ার করুন"
+    copy: "লিঙ্ক কপি করুন"
+    copied: "কপি হয়েছে!"
+  author:
+    connect: "Ankur Napa-র সাথে যুক্ত হন"
+    blurb: "বিয়ার, ওয়াইন, হুইস্কি ও AI — হ্যালো বলুন বা আলোচনায় যোগ দিন।"
+  track:
+    brewing-science: "ব্রুইং সায়েন্স ও AI"
+    distilling-maturation: "ডিস্টিলিং ও পরিপক্বতা"
+    winemaking: "ওয়াইনমেকিং ও AI"
+
+ta:
+  locale: "ta"
+  html_lang: "ta"
+  tagline: "பீர், ஒயின், விஸ்கி, மீட் — பானங்கள் AI-ஐ சந்திக்கும் இடம்"
+  nav:
+    home: "முகப்பு"
+    tracks: "தடங்கள்"
+    topics: "தலைப்புகள்"
+    archive: "காப்பகம்"
+    about: "பற்றி"
+    rss: "RSS"
+    search: "தேடல்"
+    contact: "தொடர்பு"
+  lang_switch:
+    label: "தமிழ்"
+    aria: "தமிழில் படியுங்கள்"
+    target: "en"
+  footer:
+    built: "Jekyll பயன்படுத்தி GitHub Pages-இல் உருவாக்கப்பட்டது."
+  meta:
+    updated: "புதுப்பிக்கப்பட்டது"
+    by: "எழுதியவர்"
+  post:
+    browse_topic: "தலைப்பு வாரியாக உலாவு"
+    full_archive: "முழு காப்பகம்"
+    more_posts: "மேலும் இடுகைகள்"
+  related:
+    heading: "தொடர்புடைய வாசிப்பு"
+  share:
+    label: "பகிர்"
+    copy: "இணைப்பை நகலெடு"
+    copied: "நகலெடுக்கப்பட்டது!"
+  author:
+    connect: "Ankur Napa உடன் இணையுங்கள்"
+    blurb: "பீர், ஒயின், விஸ்கி & AI — வணக்கம் சொல்லுங்கள் அல்லது உரையாடலில் இணையுங்கள்."
+  track:
+    brewing-science: "ப்ரூயிங் சயின்ஸ் & AI"
+    distilling-maturation: "டிஸ்டில்லிங் & முதிர்வு"
+    winemaking: "ஒயின்மேக்கிங் & AI"

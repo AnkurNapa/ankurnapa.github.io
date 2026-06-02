@@ -16,27 +16,19 @@
 <meta property="og:image:type" content="image/png">
 
 {%- comment -%}
-  hreflang: English lives at the root, German under /de/. The two map purely
-  by URL prefix, so each page advertises its counterpart automatically.
+  hreflang: English at the root, each other language under /<code>/. The
+  alternates map purely by URL prefix, so every page advertises all of them.
 {%- endcomment -%}
-{%- assign loc = page.lang | default: 'en' -%}
-{%- if loc == 'de' -%}
-  {%- assign en_url = page.url | remove_first: '/de' -%}
-<link rel="alternate" hreflang="de" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}">
-<link rel="alternate" type="application/rss+xml"
-      title="{{ site.title | escape }}"
-      href="{{ '/de/feed.xml' | absolute_url }}">
-{%- else -%}
-  {%- assign de_url = '/de' | append: page.url -%}
-<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="de" href="{{ de_url | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
-<link rel="alternate" type="application/rss+xml"
-      title="{{ site.title | escape }}"
-      href="{{ '/feed.xml' | absolute_url }}">
-{%- endif -%}
+{%- assign cur = page.lang | default: 'en' -%}
+{%- capture curpfx -%}/{{ cur }}{%- endcapture -%}
+{%- if cur == 'en' -%}{%- assign neutral = page.url -%}{%- else -%}{%- assign neutral = page.url | remove_first: curpfx -%}{%- endif -%}
+{%- for L in site.languages -%}
+  {%- if L.code == 'en' -%}{%- assign lurl = neutral -%}{%- else -%}{%- capture lurl -%}/{{ L.code }}{{ neutral }}{%- endcapture -%}{%- endif -%}
+<link rel="alternate" hreflang="{{ L.code }}" href="{{ lurl | absolute_url }}">
+{%- endfor -%}
+<link rel="alternate" hreflang="x-default" href="{{ neutral | absolute_url }}">
+{%- if cur == 'en' -%}{%- assign feedpath = '/feed.xml' -%}{%- else -%}{%- capture feedpath -%}/{{ cur }}/feed.xml{%- endcapture -%}{%- endif -%}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ feedpath | absolute_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 <!-- GEO: extra structured data (FAQPage) when a page defines it. -->

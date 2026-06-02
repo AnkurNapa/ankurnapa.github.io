@@ -12,7 +12,7 @@ faq:
   - q: "Wie können Daten und KI Nebenprodukt-Abfall reduzieren?"
     a: "ML prognostiziert das wöchentliche Nebenproduktvolumen aus dem Produktionsplan und verteilt es über die Routen Futter, Lebensmittel und Energie, um den Wert abzüglich Transportdistanz und der Verderbsuhr zu maximieren."
   - q: "Wo passen Claude und ChatGPT in die Nachhaltigkeit?"
-    a: "Ein Copilot entwirft das Kreislaufwirtschafts-Narrativ für eine CSRD- oder GRI-Offenlegung und beantwortet aus dem Nebenprodukt-Register „wie viel ging an Futter gegenüber Deponie?"."
+    a: "Ein Copilot entwirft das Kreislaufwirtschafts-Narrativ für eine CSRD- oder GRI-Offenlegung und beantwortet aus dem Nebenprodukt-Register „wie viel ging an Futter gegenüber Deponie?“."
   - q: "Was kann eine Brauerei mit Treber tun?"
     a: "Ihn zu seiner wertvollsten Nutzung leiten: Tierfutter (am billigsten, am schnellsten), lebensmitteltaugliches Mehl oder Protein (höchster Wert, nachfragebegrenzt) oder Biogas/Energie (schließt den Kreislauf). Die richtige Aufteilung hängt von deinen Volumina, der Feuchtigkeit und dem Transport ab — ein Allokationsproblem, das KI gut bewältigt."
 ---

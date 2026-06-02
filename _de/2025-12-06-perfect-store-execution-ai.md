@@ -9,7 +9,7 @@ updated: 2025-12-06
 permalink: /de/2025/perfect-store-execution-ai/
 tags: [sales-intelligence, ai-tools, retail-execution]
 faq:
-  - q: "Was ist das „Perfect Store"-Konzept in der Getränke-Handelsausführung?"
+  - q: "Was ist das „Perfect Store“-Konzept in der Getränke-Handelsausführung?"
     a: "Der Perfect Store ist ein definierter Standard dafür, wie eine Marke am Verkaufspunkt erscheinen sollte — korrekte Regalposition, volle Facing-Anzahl, konforme Preisgestaltung, aktives Zweitdisplay und sichtbare Point-of-Sale-Materialien. Er dient als messbarer Maßstab, an dem die reale Ausführung geprüft wird."
   - q: "Wie verbessert KI die Prüfung der Filialausführung gegenüber traditionellen Methoden?"
     a: "Traditionelle Prüfung stützt sich auf periodische Vertreterbesuche, die nur einen kleinen Bruchteil der Accounts abdecken. KI-gestützte Bilderkennung — mit Fotos, die von Vertreter-Smartphones oder Außendienstteams Dritter eingereicht werden — kann Regalbilder im großen Maßstab verarbeiten, nicht konforme Zustände automatisch markieren und eine konsistente Bewertung über Accounts hinweg liefern, die menschliche Stichproben nicht nachbilden können."

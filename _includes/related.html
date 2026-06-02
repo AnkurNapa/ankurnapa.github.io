@@ -6,7 +6,7 @@
 {%- endcomment -%}
 {%- assign lang = page.lang | default: 'en' -%}
 {%- assign t = site.data.i18n[lang] -%}
-{%- if lang == 'de' -%}{%- assign pool = site.de -%}{%- else -%}{%- assign pool = site.posts -%}{%- endif -%}
+{%- if lang == 'en' -%}{%- assign pool = site.posts -%}{%- else -%}{%- assign pool = site[lang] -%}{%- endif -%}
 {% if page.tags and page.tags.size > 0 %}
   {% assign scored = "" | split: "" %}
   {% for post in pool %}
