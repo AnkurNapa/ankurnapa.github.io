@@ -43,6 +43,11 @@ a:hover { text-decoration: underline; }
 .site-title { font-weight: 700; font-size: 1.25rem; color: var(--ink); }
 .site-nav a { margin-left: 1rem; color: var(--muted); }
 
+/* Language switcher */
+.lang-nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .75rem; }
+.lang-nav .lang-switch { color: var(--muted); }
+.lang-nav .lang-current { font-weight: 600; color: var(--ink); }
+
 /* Headings */
 h1 { line-height: 1.2; font-size: 2rem; margin: 0 0 .5rem; }
 h2 { margin-top: 2.25rem; font-size: 1.4rem; }
