@@ -53,8 +53,10 @@ languages:
     label: English
   - code: de
     label: Deutsch
+  - code: hi
+    label: हिन्दी
 # Built but not yet surfaced in the switcher (content in progress):
-#   hi (हिन्दी) · mr (मराठी) · kn (ಕನ್ನಡ) · bn (বাংলা) · ta (தமிழ்)
+#   mr (मराठी) · kn (ಕನ್ನಡ) · bn (বাংলা) · ta (தமিழ்)
 
 collections:
   de:
