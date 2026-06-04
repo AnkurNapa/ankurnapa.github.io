@@ -55,8 +55,10 @@ languages:
     label: Deutsch
   - code: hi
     label: हिन्दी
+  - code: mr
+    label: मराठी
 # Built but not yet surfaced in the switcher (content in progress):
-#   mr (मराठी) · kn (ಕನ್ನಡ) · bn (বাংলা) · ta (தமিழ்)
+#   kn (ಕನ್ನಡ) · bn (বাংলা) · ta (தமিழ்)
 
 collections:
   de:
