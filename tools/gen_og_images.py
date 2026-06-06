@@ -49,9 +49,18 @@ CIRCLE = (247, 236, 224) # pale peach decorative blob (top-right)
 W, H = 1200, 630
 MARGIN = 80
 
-FONTS = "C:/Windows/Fonts"
-F_BOLD = f"{FONTS}/segoeuib.ttf"
-F_REG = f"{FONTS}/segoeui.ttf"
+# Cross-platform font lookup: Segoe UI on Windows, Arial on macOS.
+_FONT_CANDIDATES = [
+    ("C:/Windows/Fonts/segoeuib.ttf", "C:/Windows/Fonts/segoeui.ttf"),  # Windows
+    ("/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+     "/System/Library/Fonts/Supplemental/Arial.ttf"),                   # macOS
+]
+for _bold, _reg in _FONT_CANDIDATES:
+    if Path(_bold).exists() and Path(_reg).exists():
+        F_BOLD, F_REG = _bold, _reg
+        break
+else:
+    sys.exit("No usable font found - add your platform's fonts to _FONT_CANDIDATES.")
 
 KICKER = "BEER . WINE . WHISKEY . AI"
 
