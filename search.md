@@ -12,21 +12,25 @@ Search across every article — by title, topic tag, summary or text.
 
 <p class="search-chips" style="margin:.4rem 0 1rem">Try:
   <a class="tag" href="?q=fermentation">fermentation</a>
-  <a class="tag" href="?q=Power BI">Power BI</a>
-  <a class="tag" href="?q=Microsoft Fabric">Microsoft Fabric</a>
+  <a class="tag" href="?q=machine learning">machine learning</a>
+  <a class="tag" href="?q=generative AI">generative AI</a>
+  <a class="tag" href="?q=vibe coding">vibe coding</a>
+  <a class="tag" href="?q=Fable 5">Fable 5</a>
   <a class="tag" href="?q=Claude">Claude</a>
+  <a class="tag" href="?q=Power BI">Power BI</a>
+  <a class="tag" href="?q=process intelligence">process intelligence</a>
+  <a class="tag" href="?q=Microsoft Fabric">Microsoft Fabric</a>
   <a class="tag" href="?q=Databricks">Databricks</a>
   <a class="tag" href="?q=Snowflake">Snowflake</a>
+  <a class="tag" href="?q=learning AI">learning AI</a>
   <a class="tag" href="?q=IoT">IoT</a>
   <a class="tag" href="?q=sustainability">sustainability</a>
-  <a class="tag" href="?q=water">water</a>
-  <a class="tag" href="?q=carbon">carbon</a>
+  <a class="tag" href="?q=angel's share">angel's share</a>
   <a class="tag" href="?q=cask">cask</a>
   <a class="tag" href="?q=ABV">ABV</a>
   <a class="tag" href="?q=IBU">IBU</a>
   <a class="tag" href="?q=Excel">Excel</a>
   <a class="tag" href="?q=forecasting">forecasting</a>
-  <a class="tag" href="?q=sales">sales</a>
   <a class="tag" href="?q=ESG">ESG</a>
 </p>
 
