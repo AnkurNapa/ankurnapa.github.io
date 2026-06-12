@@ -3,8 +3,8 @@ layout: post
 title: "What Claude Fable 5 Changes for Brewers Who Build"
 image: /assets/og/claude-fable-5-for-brewers-who-build.png
 description: "Anthropic's latest model, Claude Fable 5, doesn't replace the brewer's judgement — it lowers the skill floor for building. What actually changes for a brewer making their own tools, what doesn't, and how to use it without fooling yourself."
-date: 2026-06-13 11:10:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 11:10:00 -0700
+updated: 2026-06-12
 tags: [brewing-science, vibe-coding-brewers, claude, ai-tools, building-with-ai]
 faq:
   - q: "What is different about Claude Fable 5?"

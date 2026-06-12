@@ -3,8 +3,8 @@ layout: post
 title: "Your First Machine-Learning Model on Brewing Data (Free Courses)"
 image: /assets/og/brewer-first-machine-learning-model-free-courses.png
 description: "Stage 3 of the brewer's AI roadmap — the machine-learning concepts that matter, then building a first real model on your own brewery data, using free resources: Google's Machine Learning Crash Course, Kaggle Learn, Elements of AI and scikit-learn."
-date: 2026-06-13 10:20:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 10:20:00 -0700
+updated: 2026-06-12
 tags: [brewing-science, brewer-ai-roadmap, machine-learning, learning, data-science]
 faq:
   - q: "What is the best free course to learn machine learning?"

@@ -3,8 +3,8 @@ layout: post
 title: "Vibe-Coding a Fermentation Tracker: A Brewer's Build Log"
 image: /assets/og/vibe-coding-fermentation-dashboard-build-log.png
 description: "A concrete, step-by-step build log of vibe-coding a small fermentation tracker with Claude Fable 5 — the actual prompts, the verify steps, the bug it introduced and how it got caught, so you can copy the loop for your own brewery tool."
-date: 2026-06-13 11:20:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 11:20:00 -0700
+updated: 2026-06-12
 tags: [brewing-science, vibe-coding-brewers, vibe-coding, claude, building-with-ai]
 faq:
   - q: "How do you vibe-code a brewery tool step by step?"

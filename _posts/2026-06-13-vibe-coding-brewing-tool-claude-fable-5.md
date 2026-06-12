@@ -3,8 +3,8 @@ layout: post
 title: "Vibe-Coding a Brewing Tool with Claude Fable 5"
 image: /assets/og/vibe-coding-brewing-tool-claude-fable-5.png
 description: "Claude's latest model, Fable 5, makes it realistic for a brewer with no software background to build a small, genuinely useful brewery tool by describing what they want. Here's the honest loop, what Fable 5 changes, and where it still needs you."
-date: 2026-06-13 11:00:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 11:00:00 -0700
+updated: 2026-06-12
 tags: [brewing-science, vibe-coding-brewers, vibe-coding, claude, building-with-ai]
 faq:
   - q: "Can a brewer build a brewery tool without knowing how to code?"

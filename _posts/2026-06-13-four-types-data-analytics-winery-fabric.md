@@ -3,8 +3,8 @@ layout: post
 title: "Descriptive, Diagnostic, Predictive, Prescriptive: The Four Analytics in a Winery"
 image: /assets/og/four-types-data-analytics-winery-fabric.png
 description: "The four classic types of data analytics translated into winemaking language — yield per hectare, fermentation curves, wine faults, blend trials, barrel ageing — and where Microsoft Fabric's lakehouse, real-time intelligence and Direct Lake actually fit each one."
-date: 2026-06-13 09:00:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 09:00:00 -0700
+updated: 2026-06-12
 tags: [winemaking, process-intelligence, data-strategy, microsoft-fabric, wine]
 faq:
   - q: "What are the four types of data analytics for a winery?"

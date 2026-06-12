@@ -3,8 +3,8 @@ layout: post
 title: "Generative and Human-Centred AI for Brewers (with Google's PAIR Guidebook)"
 image: /assets/og/brewer-generative-human-centered-ai-pair-guidebook.png
 description: "The final stage of the brewer's AI roadmap — using generative AI well and building with it responsibly, grounded in Google's PAIR People + AI Guidebook and Microsoft Learn's responsible-AI resources, so what you make is something a brewer would actually trust."
-date: 2026-06-13 10:30:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 10:30:00 -0700
+updated: 2026-06-12
 tags: [brewing-science, brewer-ai-roadmap, generative-ai, ai-tools, learning]
 faq:
   - q: "How should a brewer learn to use generative AI well?"

@@ -3,8 +3,8 @@ layout: post
 title: "The Translator: When the Winemaker Is Also the Power BI Developer"
 image: /assets/og/winemaker-power-bi-fabric-developer.png
 description: "What changes when one person has stood on the crush pad, run the ferments and pulled barrel samples — and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds winery dashboards that survive a vintage, and the honest limits of being one."
-date: 2026-06-13 09:20:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 09:20:00 -0700
+updated: 2026-06-12
 tags: [winemaking, process-intelligence, power-bi, microsoft-fabric, career]
 faq:
   - q: "Why does a BI developer with winemaking experience build better winery dashboards?"

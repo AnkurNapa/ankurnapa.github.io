@@ -3,8 +3,8 @@ layout: post
 title: "Foundations First: Data Literacy and Python for Brewers (Free Resources)"
 image: /assets/og/brewer-ai-foundations-data-python-free-resources.png
 description: "Stages 1 and 2 of the brewer's AI roadmap — data literacy with spreadsheets and Power BI, then Python — using only free, open resources: Microsoft Learn, Kaggle Learn and freeCodeCamp, with a real brewing project to learn against."
-date: 2026-06-13 10:10:00 -0700
-updated: 2026-06-13
+date: 2026-06-12 10:10:00 -0700
+updated: 2026-06-12
 tags: [brewing-science, brewer-ai-roadmap, learning, power-bi, data-science]
 faq:
   - q: "What should a brewer learn first to get into data and AI?"
