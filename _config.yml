@@ -4,6 +4,14 @@
 url: "https://ankurnapa.github.io"  # GitHub Pages user site
 baseurl: ""                          # leave empty for a username.github.io site
 
+# Newsletter: your Buttondown username (the part after buttondown.com/).
+# Sign up free at https://buttondown.com, then set this to your handle.
+# Turn on Settings → Automations → "Email subscribers when the RSS feed
+# updates" and point it at https://ankurnapa.github.io/feed.xml so every
+# new post is emailed automatically. Until this is your real username the
+# form will not collect anyone.
+buttondown_username: "ankurnapa"
+
 title: "Beer, Wine, Whiskey & AI"
 tagline: "Beer, wine, whiskey, mead — where drinks meet AI"
 description: >-

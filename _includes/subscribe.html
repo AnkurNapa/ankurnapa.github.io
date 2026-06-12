@@ -1,0 +1,31 @@
+{%- assign lang = page.lang | default: 'en' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign s_title = t.subscribe.title | default: "Get every new article by email" -%}
+{%- assign s_blurb = t.subscribe.blurb | default: "No hype, no spam. When I publish a new piece on beer, wine, whiskey and applied AI, you get it in your inbox. Unsubscribe in one click, any time." -%}
+{%- assign s_email = t.subscribe.email_label | default: "Email address" -%}
+{%- assign s_placeholder = t.subscribe.placeholder | default: "you@example.com" -%}
+{%- assign s_button = t.subscribe.button | default: "Subscribe" -%}
+<aside class="subscribe-cta" style="margin:2rem 0;padding:1.2rem 1.35rem;border:1px solid #e0d8cc;border-left:5px solid #7a1f3d;border-radius:8px;background:#f7ece0">
+  <p style="margin:0 0 .35rem;font-weight:700;color:#1c1a17;font-size:1.05rem">&#9993; {{ s_title }}</p>
+  <p style="margin:0 0 .85rem;color:#6b6258;font-size:.92rem;max-width:46rem">{{ s_blurb }}</p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/{{ site.buttondown_username }}"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/{{ site.buttondown_username }}', 'popupwindow')"
+    class="embeddable-buttondown-form"
+    style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0">
+    <label for="bd-email" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">{{ s_email }}</label>
+    <input
+      type="email"
+      name="email"
+      id="bd-email"
+      required
+      autocomplete="email"
+      placeholder="{{ s_placeholder }}"
+      style="flex:1 1 16rem;min-width:0;padding:.55rem .8rem;border:1px solid #b45309;border-radius:999px;background:#fdfbf7;color:#1c1a17;font-size:.95rem" />
+    <button
+      type="submit"
+      style="flex:0 0 auto;padding:.55rem 1.2rem;border:1px solid #7a1f3d;border-radius:999px;background:#7a1f3d;color:#fdfbf7;font-size:.95rem;font-weight:600;cursor:pointer">{{ s_button }}</button>
+  </form>
+</aside>

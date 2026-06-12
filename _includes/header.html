@@ -12,6 +12,7 @@
     <a href="{{ base | append: '/archive/' | relative_url }}">{{ t.nav.archive }}</a>
     <a href="{{ base | append: '/about/' | relative_url }}">{{ t.nav.about }}</a>
     <a href="{{ base | append: '/feed.xml' | relative_url }}">{{ t.nav.rss }}</a>
+    <a href="{{ base | append: '/subscribe/' | relative_url }}">{{ t.nav.subscribe | default: "Subscribe" }}</a>
     <a href="{{ base | append: '/search/' | relative_url }}">{{ t.nav.search }}</a>
     <a href="{{ base | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a>
   </nav>
