@@ -3,8 +3,8 @@ layout: post
 title: "The Gauge and KPI Card in Brewing: Three Beer Use Cases"
 image: /assets/og/gauge-kpi-card-beer-use-cases.png
 description: "The gauge and the KPI card answer one question fast: are we hitting target right now? Three beer use cases (production vs plan, OEE, on-time-in-full) and why a single number needs context to mean anything."
-date: 2026-06-11 08:30:00 -0700
-updated: 2026-06-11
+date: 2020-11-17 09:00:00 -0700
+updated: 2020-11-17
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, quality-control]
 faq:
   - q: "When should a brewery use a gauge or KPI card?"
@@ -42,11 +42,11 @@ Service level as a KPI card with target and vs-last-month. One glance tells the 
 
 ## Where this breaks
 
-**A bare number lies by omission** — always show target, comparison and trend; "92%" alone is meaningless. **Gauges waste space** — one dial for one number; for many metrics, cards or [bullet-style]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) indicators are tighter. **Arbitrary colour zones judge** — red/amber/green bands imply thresholds; set them deliberately, not by default. **No history** — a card is a snapshot; add a sparkline so direction is visible.
+**A bare number lies by omission** — always show target, comparison and trend; "92%" alone is meaningless. **Gauges waste space** — one dial for one number; for many metrics, cards or [bullet-style]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) indicators are tighter. **Arbitrary colour zones judge** — red/amber/green bands imply thresholds; set them deliberately, not by default. **No history** — a card is a snapshot; add a sparkline so direction is visible.
 
 ## The bottom line
 
-Gauges and KPI cards deliver instant status-vs-target for headline metrics — production, OEE, OTIF — and belong on the dashboard's top row. Their one rule: never a bare number; pair it with target, comparison and trend, or it signals nothing. Use a gauge for the hero metric and cards for the rest. Next, scheduling and timelines: the [Gantt chart]({{ '/2026/gantt-chart-beer-use-cases/' | relative_url }}).
+Gauges and KPI cards deliver instant status-vs-target for headline metrics — production, OEE, OTIF — and belong on the dashboard's top row. Their one rule: never a bare number; pair it with target, comparison and trend, or it signals nothing. Use a gauge for the hero metric and cards for the rest. Next, scheduling and timelines: the [Gantt chart]({{ '/2020/gantt-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

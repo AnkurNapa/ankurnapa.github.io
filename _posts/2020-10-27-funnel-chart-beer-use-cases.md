@@ -3,8 +3,8 @@ layout: post
 title: "The Funnel Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/funnel-chart-beer-use-cases.png
 description: "A funnel chart shows how many survive each stage of a process — and where the biggest drop-off is. Three beer use cases (sales pipeline, NPD stage-gate, trade-promotion conversion) and when a funnel flatters more than it informs."
-date: 2026-06-11 08:20:00 -0700
-updated: 2026-06-11
+date: 2020-10-27 09:00:00 -0700
+updated: 2020-10-27
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, beer-npd]
 faq:
   - q: "When should a brewery use a funnel chart?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The funnel points at the leakiest step — here, getting a listing to actually place a first order.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It's a specialized view of ordered-stage attrition — a stacked, centred cousin of the [bar chart]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}).
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It's a specialized view of ordered-stage attrition — a stacked, centred cousin of the [bar chart]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}).
 
 ## When to reach for it
 
@@ -46,7 +46,7 @@ Displays placed → uplift achieved → repeat purchase. It shows whether promot
 
 ## The bottom line
 
-The funnel chart reveals stage-to-stage survival and the leakiest step — in the sales pipeline, the NPD gate, promotion conversion. Use it only for genuinely sequential stages, label each with count and conversion, and switch to bars when precise comparison matters. Next, the single-number-vs-target view: the [gauge and KPI card]({{ '/2026/gauge-kpi-card-beer-use-cases/' | relative_url }}).
+The funnel chart reveals stage-to-stage survival and the leakiest step — in the sales pipeline, the NPD gate, promotion conversion. Use it only for genuinely sequential stages, label each with count and conversion, and switch to bars when precise comparison matters. Next, the single-number-vs-target view: the [gauge and KPI card]({{ '/2020/gauge-kpi-card-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

@@ -3,8 +3,8 @@ layout: post
 title: "The Heat Map in Brewing: Three Beer Use Cases"
 image: /assets/og/heat-map-beer-use-cases.png
 description: "When two categories meet — hour by day, style by month, account by SKU — a heat map shows intensity as colour, so patterns jump out of a grid. Three beer use cases and the colour-scale rules that keep it honest."
-date: 2026-06-11 08:00:00 -0700
-updated: 2026-06-11
+date: 2020-09-15 09:00:00 -0700
+updated: 2020-09-15
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, commercial-planning]
 faq:
   - q: "When should a brewery use a heat map?"
@@ -30,7 +30,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Day × hour as colour: the weekend-evening hot spot is obvious, the quiet weekday afternoons just as clear.</figcaption>
 </figure>
 
-This closes [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). The heat map is the chart for *two* categorical dimensions at once — where a [bar]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) handles one.
+This closes [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). The heat map is the chart for *two* categorical dimensions at once — where a [bar]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) handles one.
 
 ## When to reach for it
 

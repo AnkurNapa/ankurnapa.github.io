@@ -3,8 +3,8 @@ layout: post
 title: "The Histogram in Brewing: Three Beer Use Cases"
 image: /assets/og/histogram-beer-use-cases.png
 description: "Averages hide the story; a histogram shows the whole distribution — the spread, the shape, the second peak. Three beer use cases (fill-volume distribution, ABV consistency, sensory score spread) and the bin-width trap."
-date: 2026-06-11 07:40:00 -0700
-updated: 2026-06-11
+date: 2020-08-04 09:00:00 -0700
+updated: 2020-08-04
 tags: [brewing-science, beer-chart-guide, data-visualization, quality-control, fermentation]
 faq:
   - q: "When should a brewery use a histogram?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The mean sits on the big peak — but the small left cluster of underfills is the thing worth finding.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). Where the [bar chart]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) compares categories, the histogram shows the shape of one variable.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). Where the [bar chart]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) compares categories, the histogram shows the shape of one variable.
 
 ## When to reach for it
 
@@ -42,11 +42,11 @@ For one attribute on one beer, the histogram of taster scores shows panel agreem
 
 ## Where this breaks
 
-**The bin-width trap** — too few bins hide structure, too many invent noise; try several and pick the honest one. **Small samples** — a histogram of fifteen points is mostly random shape; needs enough data. **Hidden over time** — a histogram is timeless; if the distribution drifts across the run, pair it with a [control chart]({{ '/2026/spc-capability-cusum-ewma-brewing/' | relative_url }}). **Comparing groups** — overlaid histograms get messy; a [box plot]({{ '/2026/box-plot-beer-use-cases/' | relative_url }}) compares many groups better.
+**The bin-width trap** — too few bins hide structure, too many invent noise; try several and pick the honest one. **Small samples** — a histogram of fifteen points is mostly random shape; needs enough data. **Hidden over time** — a histogram is timeless; if the distribution drifts across the run, pair it with a [control chart]({{ '/2026/spc-capability-cusum-ewma-brewing/' | relative_url }}). **Comparing groups** — overlaid histograms get messy; a [box plot]({{ '/2020/box-plot-beer-use-cases/' | relative_url }}) compares many groups better.
 
 ## The bottom line
 
-The histogram shows the distribution an average hides — spread, skew, second peaks — answering "how consistent are we?" for fills, ABV and sensory scores. Choose bin width honestly, use enough data, and pair with a control chart when time matters. When you need to compare distributions across many groups at once, the next chart does it cleanly: the [box plot]({{ '/2026/box-plot-beer-use-cases/' | relative_url }}).
+The histogram shows the distribution an average hides — spread, skew, second peaks — answering "how consistent are we?" for fills, ABV and sensory scores. Choose bin width honestly, use enough data, and pair with a control chart when time matters. When you need to compare distributions across many groups at once, the next chart does it cleanly: the [box plot]({{ '/2020/box-plot-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

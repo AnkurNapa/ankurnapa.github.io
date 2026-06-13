@@ -3,8 +3,8 @@ layout: post
 title: "The Bubble Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/bubble-chart-beer-use-cases.png
 description: "A scatter plot with a third variable encoded as bubble size — show volume, value and growth together. Three beer use cases (portfolio maps, account prioritisation, market opportunity) and why size can mislead."
-date: 2026-06-11 07:30:00 -0700
-updated: 2026-06-11
+date: 2020-07-14 09:00:00 -0700
+updated: 2020-07-14
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, sales-intelligence]
 faq:
   - q: "What is a bubble chart and when should a brewery use one?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Position for two variables, size for the third: a portfolio's shape in one frame.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It extends the [scatter plot]({{ '/2026/scatter-plot-beer-use-cases/' | relative_url }}) with a third dimension.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It extends the [scatter plot]({{ '/2020/scatter-plot-beer-use-cases/' | relative_url }}) with a third dimension.
 
 ## When to reach for it
 
@@ -46,7 +46,7 @@ Category growth (x), your fit/right-to-win (y), market size (size). A big bubble
 
 ## The bottom line
 
-The bubble chart shows three variables at once — position for two, size for the third — making it the go-to portfolio and prioritisation map for brands, accounts and opportunities. Keep size for rough magnitude, scale by area, label what matters, and don't overcrowd. Next, the distribution of a single variable: the [histogram]({{ '/2026/histogram-beer-use-cases/' | relative_url }}).
+The bubble chart shows three variables at once — position for two, size for the third — making it the go-to portfolio and prioritisation map for brands, accounts and opportunities. Keep size for rough magnitude, scale by area, label what matters, and don't overcrowd. Next, the distribution of a single variable: the [histogram]({{ '/2020/histogram-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

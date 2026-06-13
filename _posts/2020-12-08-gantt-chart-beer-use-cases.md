@@ -3,8 +3,8 @@ layout: post
 title: "The Gantt Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/gantt-chart-beer-use-cases.png
 description: "A Gantt chart lays tasks against time as bars — perfect for schedules and overlaps. Three beer use cases (the brew schedule, tank and vessel occupancy, NPD project timeline) and where a calendar or a different view serves better."
-date: 2026-06-11 08:40:00 -0700
-updated: 2026-06-11
+date: 2020-12-08 09:00:00 -0700
+updated: 2020-12-08
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, beer-npd]
 faq:
   - q: "When should a brewery use a Gantt chart?"
@@ -42,11 +42,11 @@ For a new product, the stages from recipe trials through pilot, scale-up and lau
 
 ## Where this breaks
 
-**Staleness** — a static Gantt is wrong the moment the plan shifts; connect it to live data or it misleads. **Complexity** — many vessels and batches crowd fast; filter to a horizon or a resource group. **Not a utilisation number** — it shows time and overlap, not capacity %; for that, use a [bar]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) or [heat map]({{ '/2026/heat-map-beer-use-cases/' | relative_url }}). **Over-detailed** — a Gantt of every micro-task is unreadable; show the activities that actually clash or gate.
+**Staleness** — a static Gantt is wrong the moment the plan shifts; connect it to live data or it misleads. **Complexity** — many vessels and batches crowd fast; filter to a horizon or a resource group. **Not a utilisation number** — it shows time and overlap, not capacity %; for that, use a [bar]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) or [heat map]({{ '/2020/heat-map-beer-use-cases/' | relative_url }}). **Over-detailed** — a Gantt of every micro-task is unreadable; show the activities that actually clash or gate.
 
 ## The bottom line
 
-The Gantt chart shows activities against time with duration and overlap — tank occupancy, the brew/packaging schedule, the NPD timeline — making clashes and critical paths visible at a glance. Keep it connected to real data, filtered to a sensible horizon, and reserve a different chart for pure utilisation. Last in the field guide's specialized set: spatial data, the [geographic map]({{ '/2026/geographic-map-beer-use-cases/' | relative_url }}).
+The Gantt chart shows activities against time with duration and overlap — tank occupancy, the brew/packaging schedule, the NPD timeline — making clashes and critical paths visible at a glance. Keep it connected to real data, filtered to a sensible horizon, and reserve a different chart for pure utilisation. Last in the field guide's specialized set: spatial data, the [geographic map]({{ '/2020/geographic-map-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

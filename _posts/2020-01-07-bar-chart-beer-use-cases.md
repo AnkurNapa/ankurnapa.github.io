@@ -3,8 +3,8 @@ layout: post
 title: "The Bar Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/bar-chart-beer-use-cases.png
 description: "The bar chart is the workhorse of brewery analytics — and the right default more often than any other chart. Three concrete beer use cases (style volumes, account ranking, brewhouse loss by stage) and the rules that keep it honest."
-date: 2026-06-11 06:00:00 -0700
-updated: 2026-06-11
+date: 2020-01-07 09:00:00 -0700
+updated: 2020-01-07
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, quality-control]
 faq:
   - q: "When should a brewery use a bar chart?"
@@ -42,11 +42,11 @@ A bar chart of extract loss by process stage, or QC rejects by defect cause, tur
 
 ## Where this breaks
 
-**Truncated axes lie** — because length *is* the value, starting the axis above zero exaggerates differences; always start at zero. **Too many bars** — sort and cap at the top N with an "others" bar. **Wrong tool for time** — for a value over time, a [line chart]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}) usually reads better; use bars for time only when periods are few and discrete.
+**Truncated axes lie** — because length *is* the value, starting the axis above zero exaggerates differences; always start at zero. **Too many bars** — sort and cap at the top N with an "others" bar. **Wrong tool for time** — for a value over time, a [line chart]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}) usually reads better; use bars for time only when periods are few and discrete.
 
 ## The bottom line
 
-The bar chart compares a value across categories better than anything else, because we read lengths accurately. Reach for it whenever the question is "which is biggest," sort by value, start at zero, and cap the categories. It's the least glamorous and most useful chart in the brewery. Next in the guide: when you have *two* series to compare, the [grouped bar chart]({{ '/2026/grouped-bar-chart-beer-use-cases/' | relative_url }}).
+The bar chart compares a value across categories better than anything else, because we read lengths accurately. Reach for it whenever the question is "which is biggest," sort by value, start at zero, and cap the categories. It's the least glamorous and most useful chart in the brewery. Next in the guide: when you have *two* series to compare, the [grouped bar chart]({{ '/2020/grouped-bar-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

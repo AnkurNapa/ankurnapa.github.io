@@ -3,8 +3,8 @@ layout: post
 title: "The Box Plot in Brewing: Three Beer Use Cases"
 image: /assets/og/box-plot-beer-use-cases.png
 description: "When you need to compare the spread and outliers of many groups at once, the box plot is unbeatable. Three beer use cases (consistency by brand, yield by shift, sensory spread by taster) and how to read the box."
-date: 2026-06-11 07:50:00 -0700
-updated: 2026-06-11
+date: 2020-08-25 09:00:00 -0700
+updated: 2020-08-25
 tags: [brewing-science, beer-chart-guide, data-visualization, quality-control, sensory-analysis]
 faq:
   - q: "When should a brewery use a box plot?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Four brands' attenuation at a glance: the lager is tight, the stout is variable with an outlier batch.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It's the companion to the [histogram]({{ '/2026/histogram-beer-use-cases/' | relative_url }}): less shape detail, far better for comparing many groups.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It's the companion to the [histogram]({{ '/2020/histogram-beer-use-cases/' | relative_url }}): less shape detail, far better for comparing many groups.
 
 ## How to read it (quickly)
 
@@ -42,11 +42,11 @@ One box per panellist for their scores on a reference beer. A taster with a wild
 
 ## Where this breaks
 
-**Hides shape** — a box plot won't show a second peak; if bimodality matters, use a [histogram]({{ '/2026/histogram-beer-use-cases/' | relative_url }}) too. **Small groups mislead** — quartiles from five points are unstable; needs enough data per group. **Unfamiliar to many** — operators may not know how to read it; label the parts once. **Outlier definition varies** — different tools draw whiskers differently; state the convention.
+**Hides shape** — a box plot won't show a second peak; if bimodality matters, use a [histogram]({{ '/2020/histogram-beer-use-cases/' | relative_url }}) too. **Small groups mislead** — quartiles from five points are unstable; needs enough data per group. **Unfamiliar to many** — operators may not know how to read it; label the parts once. **Outlier definition varies** — different tools draw whiskers differently; state the convention.
 
 ## The bottom line
 
-The box plot compares spread, median and outliers across many groups in one compact view — consistency by brand, yield by shift, sensory spread by taster. It trades the histogram's shape detail for side-by-side breadth, making it the right chart for "who's tightest and who has outlier problems." Use enough data per group and label the box for newcomers. Last in the guide, two dimensions at once: the [heat map]({{ '/2026/heat-map-beer-use-cases/' | relative_url }}).
+The box plot compares spread, median and outliers across many groups in one compact view — consistency by brand, yield by shift, sensory spread by taster. It trades the histogram's shape detail for side-by-side breadth, making it the right chart for "who's tightest and who has outlier problems." Use enough data per group and label the box for newcomers. Last in the guide, two dimensions at once: the [heat map]({{ '/2020/heat-map-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

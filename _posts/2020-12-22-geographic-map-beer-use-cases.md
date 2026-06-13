@@ -3,8 +3,8 @@ layout: post
 title: "The Geographic Map in Brewing: Three Beer Use Cases"
 image: /assets/og/geographic-map-beer-use-cases.png
 description: "When location is the variable, a map beats any table — choropleths, dot maps and catchment views put beer sales on the ground. Three beer use cases (territory performance, distribution coverage, taproom catchment) and the map traps to avoid."
-date: 2026-06-11 08:50:00 -0700
-updated: 2026-06-11
+date: 2020-12-22 09:00:00 -0700
+updated: 2020-12-22
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, marketing]
 faq:
   - q: "When should a brewery use a geographic map?"
@@ -26,7 +26,7 @@ This closes the specialized set of [The Brewer's Chart Field Guide]({{ '/series/
 
 ## When to reach for it
 
-Reach for a map when **location is genuinely the variable** — and not just decoration. A choropleth shades regions by value (sales per territory); a dot or proportional-symbol map places individual accounts or taprooms. If the spatial pattern is the insight, the map earns its place; if not, a [bar chart]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) of regions is clearer.
+Reach for a map when **location is genuinely the variable** — and not just decoration. A choropleth shades regions by value (sales per territory); a dot or proportional-symbol map places individual accounts or taprooms. If the spatial pattern is the insight, the map earns its place; if not, a [bar chart]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) of regions is clearer.
 
 ## Use case 1 — Territory performance
 

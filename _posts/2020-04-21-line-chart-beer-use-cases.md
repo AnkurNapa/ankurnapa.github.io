@@ -3,8 +3,8 @@ layout: post
 title: "The Line Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/line-chart-beer-use-cases.png
 description: "For anything that changes over time, the line chart is the default and usually the right one. Three beer use cases (fermentation curves, sales trends and seasonality, KPI vs target over time) and the rules that keep it readable."
-date: 2026-06-11 06:50:00 -0700
-updated: 2026-06-11
+date: 2020-04-21 09:00:00 -0700
+updated: 2020-04-21
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-forecasting, fermentation]
 faq:
   - q: "When should a brewery use a line chart?"
@@ -42,11 +42,11 @@ Plot the metric and draw the target as a flat reference line. Whether you're abo
 
 ## Where this breaks
 
-**Spaghetti** — more than ~5 lines blur together; use small multiples or highlight one. **Misleading axis** — for trends a non-zero axis is often fine (unlike bars), but be deliberate and label it. **False continuity** — don't connect points that aren't a real sequence; a line implies "in between" values exist. **Discrete few periods** — four quarters may read better as [bars]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}).
+**Spaghetti** — more than ~5 lines blur together; use small multiples or highlight one. **Misleading axis** — for trends a non-zero axis is often fine (unlike bars), but be deliberate and label it. **False continuity** — don't connect points that aren't a real sequence; a line implies "in between" values exist. **Discrete few periods** — four quarters may read better as [bars]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}).
 
 ## The bottom line
 
-The line chart is the default for time and usually the right call: fermentation curves, sales trends, KPIs vs target. Keep the lines few and labelled, choose the axis deliberately, and don't imply continuity that isn't there. When you need two different metrics on one time axis, the next chart handles it: the [combo line + bar]({{ '/2026/combo-line-bar-chart-beer-use-cases/' | relative_url }}).
+The line chart is the default for time and usually the right call: fermentation curves, sales trends, KPIs vs target. Keep the lines few and labelled, choose the axis deliberately, and don't imply continuity that isn't there. When you need two different metrics on one time axis, the next chart handles it: the [combo line + bar]({{ '/2020/combo-line-bar-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

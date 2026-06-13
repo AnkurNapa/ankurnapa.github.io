@@ -3,8 +3,8 @@ layout: post
 title: "The Grouped Bar Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/grouped-bar-chart-beer-use-cases.png
 description: "When you need to compare several series side by side — this year vs last, plan vs actual, style across regions — the grouped (clustered) bar chart is the tool. Three beer use cases and when to switch to a different chart."
-date: 2026-06-11 06:10:00 -0700
-updated: 2026-06-11
+date: 2020-01-28 09:00:00 -0700
+updated: 2020-01-28
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-forecasting, commercial-planning]
 faq:
   - q: "What is a grouped bar chart used for in a brewery?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Two bars per category: read within (this year vs last) and across (which style grew most).</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). The [plain bar chart]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) compares one series; the grouped bar adds a second or third.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). The [plain bar chart]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) compares one series; the grouped bar adds a second or third.
 
 ## When to reach for it
 
@@ -42,11 +42,11 @@ Volume (or rate of sale) by style, clustered by region, shows where a style over
 
 ## Where this breaks
 
-**Too many series** — two or three bars per cluster is the limit; more becomes a picket fence. **Too many categories × series** — the product crowds fast; cap categories or split. **Time series** — for many time periods a [line chart]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}) beats grouped bars; for many series, [small multiples]({{ '/2026/shelf-life-flavour-stability-trial-viz/' | relative_url }}) read cleaner.
+**Too many series** — two or three bars per cluster is the limit; more becomes a picket fence. **Too many categories × series** — the product crowds fast; cap categories or split. **Time series** — for many time periods a [line chart]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}) beats grouped bars; for many series, [small multiples]({{ '/2026/shelf-life-flavour-stability-trial-viz/' | relative_url }}) read cleaner.
 
 ## The bottom line
 
-The grouped bar chart is for comparing two or three series across shared categories — this year vs last, plan vs actual, style across regions — letting the eye compare within and across at once. Keep series and categories few, start at zero, and switch to lines or small multiples when it crowds. Next: when the series are *parts of a whole*, the [stacked bar chart]({{ '/2026/stacked-bar-chart-beer-use-cases/' | relative_url }}).
+The grouped bar chart is for comparing two or three series across shared categories — this year vs last, plan vs actual, style across regions — letting the eye compare within and across at once. Keep series and categories few, start at zero, and switch to lines or small multiples when it crowds. Next: when the series are *parts of a whole*, the [stacked bar chart]({{ '/2020/stacked-bar-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

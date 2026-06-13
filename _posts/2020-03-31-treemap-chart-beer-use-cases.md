@@ -3,8 +3,8 @@ layout: post
 title: "The Treemap in Brewing: Three Beer Use Cases"
 image: /assets/og/treemap-chart-beer-use-cases.png
 description: "When composition has many parts and a hierarchy, a treemap shows the whole portfolio in one rectangle sized by value. Three beer use cases (SKU portfolio, sales by region then account, ingredient spend) and where it beats a pie or a long bar chart."
-date: 2026-06-11 06:40:00 -0700
-updated: 2026-06-11
+date: 2020-03-31 09:00:00 -0700
+updated: 2020-03-31
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, financial-planning-analytics]
 faq:
   - q: "What is a treemap and when should a brewery use one?"
@@ -30,7 +30,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Tile area = value. The big sellers dominate, the long tail is still visible, all in one frame.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). When a [pie]({{ '/2026/pie-donut-chart-beer-use-cases/' | relative_url }}) has too many slices and a [bar chart]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) too many bars, the treemap is the answer.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). When a [pie]({{ '/2020/pie-donut-chart-beer-use-cases/' | relative_url }}) has too many slices and a [bar chart]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) too many bars, the treemap is the answer.
 
 ## When to reach for it
 
@@ -46,15 +46,15 @@ Nest accounts inside regions: big region rectangles subdivided into account tile
 
 ## Use case 3 — Ingredient or cost spend
 
-Total procurement spend nested by category (malt, hops, packaging) then item. The fattest tiles are where your money goes and where negotiation moves the most — a visual companion to the [cost build-up]({{ '/2026/stacked-bar-chart-beer-use-cases/' | relative_url }}).
+Total procurement spend nested by category (malt, hops, packaging) then item. The fattest tiles are where your money goes and where negotiation moves the most — a visual companion to the [cost build-up]({{ '/2020/stacked-bar-chart-beer-use-cases/' | relative_url }}).
 
 ## Where this breaks
 
-**Area beats length for "lots at once" but loses on precision** — similar tiles are hard to rank; label major tiles with values. **Tiny tiles vanish** — the smallest SKUs become unreadable slivers; group a "other / tail" tile. **No good for trends** — a treemap is a snapshot; for change over time use a [line]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}) or [stacked area]({{ '/2026/area-chart-beer-use-cases/' | relative_url }}).
+**Area beats length for "lots at once" but loses on precision** — similar tiles are hard to rank; label major tiles with values. **Tiny tiles vanish** — the smallest SKUs become unreadable slivers; group a "other / tail" tile. **No good for trends** — a treemap is a snapshot; for change over time use a [line]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}) or [stacked area]({{ '/2020/area-chart-beer-use-cases/' | relative_url }}).
 
 ## The bottom line
 
-The treemap shows a whole portfolio — many parts, optional hierarchy — as area-sized tiles, perfect for "show me everything at once" when a pie chokes and a bar chart scrolls. Use it for the SKU range, nested sales, and spend; label the big tiles, group the tail, and don't ask it for precise ranking or trends. Next, the chart for change over time: the [line chart]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}).
+The treemap shows a whole portfolio — many parts, optional hierarchy — as area-sized tiles, perfect for "show me everything at once" when a pie chokes and a bar chart scrolls. Use it for the SKU range, nested sales, and spend; label the big tiles, group the tail, and don't ask it for precise ranking or trends. Next, the chart for change over time: the [line chart]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

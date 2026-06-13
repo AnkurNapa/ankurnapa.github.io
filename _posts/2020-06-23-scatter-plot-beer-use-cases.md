@@ -3,8 +3,8 @@ layout: post
 title: "The Scatter Plot in Brewing: Three Beer Use Cases"
 image: /assets/og/scatter-plot-beer-use-cases.png
 description: "When the question is 'are these two things related,' the scatter plot is the answer — each point a batch, account or beer. Three beer use cases (process correlations, account value vs effort, recipe trade-offs) and the correlation-isn't-causation rule."
-date: 2026-06-11 07:20:00 -0700
-updated: 2026-06-11
+date: 2020-06-23 09:00:00 -0700
+updated: 2020-06-23
 tags: [brewing-science, beer-chart-guide, data-visualization, quality-control, sales-intelligence]
 faq:
   - q: "When should a brewery use a scatter plot?"
@@ -38,7 +38,7 @@ Each account a point: revenue on one axis, servicing cost (drops, returns, suppo
 
 ## Use case 3 — Recipe or sensory trade-offs
 
-Plot bitterness vs drinkability score, or hop rate vs cost-per-litre, across recipes to see the trade-off frontier and which recipes are off it (more bitter for no gain). Add a third variable as point size and it becomes a [bubble chart]({{ '/2026/bubble-chart-beer-use-cases/' | relative_url }}).
+Plot bitterness vs drinkability score, or hop rate vs cost-per-litre, across recipes to see the trade-off frontier and which recipes are off it (more bitter for no gain). Add a third variable as point size and it becomes a [bubble chart]({{ '/2020/bubble-chart-beer-use-cases/' | relative_url }}).
 
 ## Where this breaks
 
@@ -46,7 +46,7 @@ Plot bitterness vs drinkability score, or hop rate vs cost-per-litre, across rec
 
 ## The bottom line
 
-The scatter plot reveals whether two variables are related — process levers, account economics, recipe trade-offs — and exposes outliers, making it the honest first look before any model. Read the cloud's shape, respect that correlation isn't causation, and handle overplotting. Add a third variable as size and you get the next chart: the [bubble chart]({{ '/2026/bubble-chart-beer-use-cases/' | relative_url }}).
+The scatter plot reveals whether two variables are related — process levers, account economics, recipe trade-offs — and exposes outliers, making it the honest first look before any model. Read the cloud's shape, respect that correlation isn't causation, and handle overplotting. Add a third variable as size and you get the next chart: the [bubble chart]({{ '/2020/bubble-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

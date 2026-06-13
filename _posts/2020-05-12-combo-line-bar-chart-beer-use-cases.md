@@ -3,8 +3,8 @@ layout: post
 title: "The Combo (Line + Bar) Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/combo-line-bar-chart-beer-use-cases.png
 description: "Two metrics on two axes — volume as bars, margin as a line — the combo chart shows a quantity and a rate together. Three beer use cases and the dual-axis trap that makes this chart easy to misuse."
-date: 2026-06-11 07:00:00 -0700
-updated: 2026-06-11
+date: 2020-05-12 09:00:00 -0700
+updated: 2020-05-12
 tags: [brewing-science, beer-chart-guide, data-visualization, financial-planning-analytics, commercial-planning]
 faq:
   - q: "What is a combo chart and when should a brewery use one?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Bars for the quantity, a line for the rate — useful when the two genuinely belong together.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It marries the [bar]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) and the [line]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}) — handy, and easy to abuse.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It marries the [bar]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) and the [line]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}) — handy, and easy to abuse.
 
 ## When to reach for it
 
@@ -46,7 +46,7 @@ Actual sales as bars with forecast-accuracy % as a line exposes whether big mont
 
 ## The bottom line
 
-The combo chart shows a quantity and a rate together — volume + margin %, production + yield %, sales + accuracy — when the two genuinely belong on one canvas. Use a second axis only for different units, scale both honestly, and label clearly. Misused, two axes mislead; used well, the chart reveals what either metric alone would hide. Next, cumulative totals over time: the [area chart]({{ '/2026/area-chart-beer-use-cases/' | relative_url }}).
+The combo chart shows a quantity and a rate together — volume + margin %, production + yield %, sales + accuracy — when the two genuinely belong on one canvas. Use a second axis only for different units, scale both honestly, and label clearly. Misused, two axes mislead; used well, the chart reveals what either metric alone would hide. Next, cumulative totals over time: the [area chart]({{ '/2020/area-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

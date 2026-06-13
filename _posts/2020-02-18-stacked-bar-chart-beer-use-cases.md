@@ -3,8 +3,8 @@ layout: post
 title: "The Stacked Bar Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/stacked-bar-chart-beer-use-cases.png
 description: "When the question is composition — what makes up the total — the stacked bar chart shows the parts and the whole at once. Three beer use cases (channel mix, cost-per-hectolitre build-up, volume by style over time) and the 100% variant."
-date: 2026-06-11 06:20:00 -0700
-updated: 2026-06-11
+date: 2020-02-18 09:00:00 -0700
+updated: 2020-02-18
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, financial-planning-analytics]
 faq:
   - q: "When should a brewery use a stacked bar chart?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Bar height is the total; segments are the mix. The bottom segment is the only one easy to compare across bars.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). Where the [grouped bar]({{ '/2026/grouped-bar-chart-beer-use-cases/' | relative_url }}) compares series against each other, the stacked bar shows them adding up to a whole.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). Where the [grouped bar]({{ '/2020/grouped-bar-chart-beer-use-cases/' | relative_url }}) compares series against each other, the stacked bar shows them adding up to a whole.
 
 ## When to reach for it
 
@@ -38,7 +38,7 @@ Stack malt, hops, packaging, energy and labour into the [cost per hectolitre]({{
 
 ## Use case 3 — Volume by style over time
 
-Stack styles within each month's total. The total trend and the changing style mix appear together — your IPA growing its slice while the total holds. (When comparing *one* style across months is the goal, pull it onto its own [line]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}).)
+Stack styles within each month's total. The total trend and the changing style mix appear together — your IPA growing its slice while the total holds. (When comparing *one* style across months is the goal, pull it onto its own [line]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}).)
 
 ## Where this breaks
 
@@ -46,7 +46,7 @@ Stack styles within each month's total. The total trend and the changing style m
 
 ## The bottom line
 
-The stacked bar shows parts and whole together — channel mix, cost build-up, style mix over time — with the total as bar height and composition as segments. Use the 100% variant when only proportions matter, keep segments few, and pull a component out when comparing it across bars is the real question. Next, the part-to-whole chart to use sparingly: the [pie and donut]({{ '/2026/pie-donut-chart-beer-use-cases/' | relative_url }}).
+The stacked bar shows parts and whole together — channel mix, cost build-up, style mix over time — with the total as bar height and composition as segments. Use the 100% variant when only proportions matter, keep segments few, and pull a component out when comparing it across bars is the real question. Next, the part-to-whole chart to use sparingly: the [pie and donut]({{ '/2020/pie-donut-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

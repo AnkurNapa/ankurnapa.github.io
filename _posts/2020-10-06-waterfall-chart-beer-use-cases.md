@@ -3,8 +3,8 @@ layout: post
 title: "The Waterfall Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/waterfall-chart-beer-use-cases.png
 description: "A waterfall chart shows how you got from one number to another — the steps that build or erode a total. Three beer use cases (margin bridge, volume bridge, budget variance) and the rule that keeps the bridge honest."
-date: 2026-06-11 08:10:00 -0700
-updated: 2026-06-11
+date: 2020-10-06 09:00:00 -0700
+updated: 2020-10-06
 tags: [brewing-science, beer-chart-guide, data-visualization, financial-planning-analytics, commercial-planning]
 faq:
   - q: "What is a waterfall chart and when should a brewery use one?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The bridge turns "margin is up a bit" into "price and mix added, cost and volume took some back."</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). Where a [bar chart]({{ '/2026/bar-chart-beer-use-cases/' | relative_url }}) compares, the waterfall *explains a change*.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). Where a [bar chart]({{ '/2020/bar-chart-beer-use-cases/' | relative_url }}) compares, the waterfall *explains a change*.
 
 ## When to reach for it
 
@@ -46,7 +46,7 @@ Start at budget, step through each cost line's over/under, land on actual. The w
 
 ## The bottom line
 
-The waterfall explains how a total changed — margin, volume, budget — by stepping through the drivers, increases and decreases, from start to end. Make it reconcile exactly, avoid hidden buckets, and keep the steps few. It's the finance team's favourite for a reason: it answers *why*, not just *what*. Next: stage-to-stage drop-off, the [funnel chart]({{ '/2026/funnel-chart-beer-use-cases/' | relative_url }}).
+The waterfall explains how a total changed — margin, volume, budget — by stepping through the drivers, increases and decreases, from start to end. Make it reconcile exactly, avoid hidden buckets, and keep the steps few. It's the finance team's favourite for a reason: it answers *why*, not just *what*. Next: stage-to-stage drop-off, the [funnel chart]({{ '/2020/funnel-chart-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 

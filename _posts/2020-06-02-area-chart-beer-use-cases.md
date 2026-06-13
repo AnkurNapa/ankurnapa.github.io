@@ -3,8 +3,8 @@ layout: post
 title: "The Area and Stacked Area Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/area-chart-beer-use-cases.png
 description: "An area chart is a line chart with the space below filled — good for cumulative totals and, stacked, for how a composition shifts over time. Three beer use cases and when a line or stacked bar is the better call."
-date: 2026-06-11 07:10:00 -0700
-updated: 2026-06-11
+date: 2020-06-02 09:00:00 -0700
+updated: 2020-06-02
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, sales-forecasting]
 faq:
   - q: "When should a brewery use an area chart?"
@@ -22,7 +22,7 @@ faq:
 <figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Filled bands show the total growing and the composition changing across the year at once.</figcaption>
 </figure>
 
-Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It's the [line]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}) and the [stacked bar]({{ '/2026/stacked-bar-chart-beer-use-cases/' | relative_url }}) crossed — a filled line for flow.
+Part of [The Brewer's Chart Field Guide]({{ '/series/beer-chart-guide/' | relative_url }}). It's the [line]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}) and the [stacked bar]({{ '/2020/stacked-bar-chart-beer-use-cases/' | relative_url }}) crossed — a filled line for flow.
 
 ## When to reach for it
 
@@ -38,15 +38,15 @@ Stack styles as bands across twelve months: the total rises while the IPA band f
 
 ## Use case 3 — Channel share over time
 
-Off-/on-premise/e-commerce as stacked bands, or as a 100% stacked area, shows a channel gaining ground smoothly across the year — the trend version of the [channel-mix stacked bar]({{ '/2026/stacked-bar-chart-beer-use-cases/' | relative_url }}).
+Off-/on-premise/e-commerce as stacked bands, or as a 100% stacked area, shows a channel gaining ground smoothly across the year — the trend version of the [channel-mix stacked bar]({{ '/2020/stacked-bar-chart-beer-use-cases/' | relative_url }}).
 
 ## Where this breaks
 
-**Floating bands** — only the bottom band has a clean baseline; upper bands' movement is partly caused by those below, so don't read them precisely. **Stacked spaghetti** — many bands become unreadable; keep to three or four and put the stable one on the bottom. **Occlusion in overlapping (non-stacked) areas** — filled areas hide each other; use transparency or switch to lines. **Precise comparison** — if per-series exact values matter, use [lines]({{ '/2026/line-chart-beer-use-cases/' | relative_url }}).
+**Floating bands** — only the bottom band has a clean baseline; upper bands' movement is partly caused by those below, so don't read them precisely. **Stacked spaghetti** — many bands become unreadable; keep to three or four and put the stable one on the bottom. **Occlusion in overlapping (non-stacked) areas** — filled areas hide each other; use transparency or switch to lines. **Precise comparison** — if per-series exact values matter, use [lines]({{ '/2020/line-chart-beer-use-cases/' | relative_url }}).
 
 ## The bottom line
 
-The area chart fills a line to emphasise magnitude; stacked, it shows total and composition flowing over time — YTD volume, style mix, channel share. Use it when the shifting shape is the message, keep bands few with the stable one on the bottom, and switch to lines when precise comparison matters. Next, relationships between two variables: the [scatter plot]({{ '/2026/scatter-plot-beer-use-cases/' | relative_url }}).
+The area chart fills a line to emphasise magnitude; stacked, it shows total and composition flowing over time — YTD volume, style mix, channel share. Use it when the shifting shape is the message, keep bands few with the stable one on the bottom, and switch to lines when precise comparison matters. Next, relationships between two variables: the [scatter plot]({{ '/2020/scatter-plot-beer-use-cases/' | relative_url }}).
 
 ## Frequently asked questions
 
