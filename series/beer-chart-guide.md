@@ -30,6 +30,13 @@ A practical field guide to data visualization for the drinks industry: **one art
 **Two dimensions at once**
 13. **[Heat Map]({{ '/2026/heat-map-beer-use-cases/' | relative_url }})** — intensity across two categories (hour × day, style × month).
 
+**Specialized & operational**
+14. **[Waterfall (Bridge) Chart]({{ '/2026/waterfall-chart-beer-use-cases/' | relative_url }})** — how a total changed (margin bridge, volume bridge, variance).
+15. **[Funnel Chart]({{ '/2026/funnel-chart-beer-use-cases/' | relative_url }})** — stage-to-stage drop-off (sales pipeline, NPD stage-gate).
+16. **[Gauge &amp; KPI Card]({{ '/2026/gauge-kpi-card-beer-use-cases/' | relative_url }})** — single metric vs target at a glance (production, OEE, OTIF).
+17. **[Gantt Chart]({{ '/2026/gantt-chart-beer-use-cases/' | relative_url }})** — schedules and overlaps (tank occupancy, brew schedule, NPD timeline).
+18. **[Geographic Map]({{ '/2026/geographic-map-beer-use-cases/' | relative_url }})** — when location is the variable (territory, coverage, catchment).
+
 ## Already covered in depth
 
 These chart types have their own dedicated posts in the [Seeing Your Beer]({{ '/series/brewing-data-viz/' | relative_url }}) series:
