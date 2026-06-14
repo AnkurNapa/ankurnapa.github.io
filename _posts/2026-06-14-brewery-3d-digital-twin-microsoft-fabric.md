@@ -56,6 +56,11 @@ So the goal wasn't "make a 3D thing because 3D is cool." It was: keep the flow. 
 
 ## What's actually in the twin
 
+<figure style="margin:1.6rem 0;text-align:center">
+<img src="{{ '/assets/img/anbc-twin-overview.png' | relative_url }}" alt="The Ankur Napa Brewing Company 3D digital twin: brewhouse vessels on the left, taproom and POS on the right, with a heads-up display showing revenue and live sale points." width="100%" style="max-width:1000px;height:auto;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.18)">
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The whole plant on one screen — brewhouse, cellar, and taproom, with live revenue and sale points in the HUD.</figcaption>
+</figure>
+
 Every vessel in the real process is modeled and clickable:
 
 - **Hot side** — mill, hot liquor tank (HLT), cold liquor tank (CLT), mash tun, lauter tun, kettle, whirlpool, plate heat exchanger (PHE).
@@ -63,6 +68,11 @@ Every vessel in the real process is modeled and clickable:
 - **Front of house** — packaging and inventory, then a full taproom with three bar stations, POS terminals, tables, chairs and an open kitchen.
 
 Click a vessel and you get the chart that vessel actually deserves: a **mash step-temperature profile** for the mash tun, **run-off flow** for the lauter tun, a **falling-gravity and rising-ABV curve** for a fermenter, **carbonation** for a bright tank. Click a bar and you get **live point-of-sale** — food and beer revenue, per station, in rupees, with a sales trend that ticks up as the simulation runs. Six beers, a fifty-dish kitchen, three sale points, product visibly flowing through the pipes between vessels.
+
+<figure style="margin:1.6rem 0;text-align:center">
+<img src="{{ '/assets/img/anbc-twin-taproom-pos.png' | relative_url }}" alt="The taproom bar selected in the twin, showing beer and food revenue, pints sold, a live sales chart, and POS readouts floating above each bar station." width="100%" style="max-width:1000px;height:auto;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.18)">
+<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Click the Taproom Bar: beer and food sales in ₹, a live sales trend, and POS readouts on every bar station.</figcaption>
+</figure>
 
 ## The part that surprised me: Fabric carried the plumbing
 
