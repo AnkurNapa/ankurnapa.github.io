@@ -3,8 +3,8 @@ layout: post
 title: "I Turned My Brewery Into a 3D Digital Twin on Microsoft Fabric"
 image: /assets/og/brewery-3d-digital-twin-microsoft-fabric.png
 description: "Not a dashboard you read — a brewery you walk through. How I rebuilt Ankur Napa Brewing Company as a live 3D digital twin on Microsoft Fabric, shipped in an afternoon with the Rayfin SDK, with every vessel and POS wired to real-time data."
-date: 2026-06-15 09:00:00 -0700
-updated: 2026-06-15
+date: 2026-06-14 09:00:00 -0700
+updated: 2026-06-14
 tags: [digital-twin, microsoft-fabric, data-visualization, real-time, brewing]
 faq:
   - q: "What is a brewery digital twin?"
