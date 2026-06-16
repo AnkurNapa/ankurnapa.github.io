@@ -46,11 +46,6 @@ Pick a product and you get the diagnosis. The radar overlays three things: the *
 
 The same 16-axis model drives a brewer-facing producer panel too — comparing two of your own products side by side, or a single product against the world. The radar is the lingua franca of sensory work, and keeping every view on the same axes is what makes "your batch" and "the world" directly comparable.
 
-<figure style="margin:1.6rem 0;text-align:center">
-<img src="{{ '/assets/sensory/sensory-radar-comparison.png' | relative_url }}" alt="A producer panel comparing two beers side by side on radar charts across the 16 flavor axes, with a top strip showing style, intensity and review counts." style="width:100%;max-width:900px;height:auto;border:1px solid #e7ded2;border-radius:8px"/>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The producer's-eye view: compare two of your own products, or one product against its style's global benchmark.</figcaption>
-</figure>
-
 ## The part that's actually new: Rayfin
 
 The charts are the easy bit. The interesting bit is how it's hosted. At Build 2026 Microsoft shipped **Rayfin** — an open-source SDK and CLI for [Fabric Apps](https://learn.microsoft.com/fabric/apps/overview). You describe your backend in TypeScript — the data models, who can read what — and one command provisions all of it on Microsoft Fabric.
