@@ -4,7 +4,7 @@ title: "What AI in Beer Actually Looks Like in 2026"
 image: /assets/og/what-ai-in-beer-actually-looks-like-2026.png
 description: "Beyond the headlines about AI-designed beer: what artificial intelligence is genuinely doing in breweries in 2026 — recipe ideation, batch consistency, a brewers' chatbot, and the supply chain — and where the hype quietly breaks."
 date: 2026-06-14 10:30:00 -0700
-updated: 2026-06-14
+updated: 2026-07-07
 tags: [brewing-science, brewer-ai-roadmap, generative-ai, ai-tools, industry]
 faq:
   - q: "Can AI actually brew beer in 2026?"
@@ -30,7 +30,7 @@ The flashiest story is AI *designing* beer. AB InBev's Beck's has shipped an AI-
 
 ## Consistency: the quiet, real win
 
-Less glamorous and far more valuable: AI is helping breweries keep batches uniform and catch off-batches before they ship. This is the win that actually pays for itself. Predictive models trained on a brewery's own fermentation and quality data can flag a batch drifting out of spec while there's still time to act — the same process-intelligence idea I've written about for [wineries]({{ '/2026/four-types-data-analytics-winery-fabric/' | relative_url }}), applied to beer. It doesn't make headlines because "our beer tasted the same as last month" isn't a story. It's just good business.
+Less glamorous and far more valuable: AI is helping breweries keep batches uniform and catch off-batches before they ship. This is the win that actually pays for itself. Predictive models trained on a brewery's own fermentation and quality data can flag a batch drifting out of spec while there's still time to act — the same process-intelligence idea I've written about for [wineries]({{ '/2026/four-types-data-analytics-winery-fabric/' | relative_url }}), applied to beer. It doesn't make headlines because "our beer tasted the same as last month" isn't a story. It's just good business. Most of that consistency work lives in the QC lab, which is why I gave it a whole series — [AI in the Brewery Lab]({{ '/series/brewery-lab-ai/' | relative_url }}) walks the bench, from soft sensors that call a batch early to contamination-risk triage in micro.
 
 ## The brewers' chatbot: a pointer, not a brewer
 
