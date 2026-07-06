@@ -116,5 +116,3 @@ On clean, well-separated plates a vision counter is fast and consistent, and it 
 
 **Will a risk model miss a real contamination event?**
 That is the hard part. A brewery micro programme is overwhelmingly negative, so the model sees thousands of clean results and only a handful of true positives — and it is weakest exactly where you most need it, on the rare event it has barely seen. Recall on true contamination is the metric that matters, not overall accuracy, and a model that says low risk must never stop you sampling a critical control point. Build it to prioritise effort, never to grant permission to look away.
-</content>
-</invoke>
