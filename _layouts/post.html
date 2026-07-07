@@ -44,12 +44,37 @@ layout: default
 
 {% include related.html %}
 
+{%- comment -%}
+  Prev/next stay within the same industry (track = first tag), so a reader
+  who arrived from wine keeps moving through wine. Fall back to the site-wide
+  chronological neighbours only when a post has no first tag.
+{%- endcomment -%}
+{%- assign firsttag = page.tags[0] -%}
+{%- if lang == 'en' -%}{%- assign navpool = site.posts -%}{%- else -%}{%- assign navpool = site[lang] -%}{%- endif -%}
+{%- assign navpool = navpool | sort: 'date' | reverse -%}
+{%- if firsttag -%}
+  {%- assign found = false -%}
+  {%- for p in navpool -%}
+    {%- if p.tags[0] == firsttag -%}
+      {%- if found -%}
+        {%- unless next_post -%}{%- assign next_post = p -%}{%- endunless -%}
+      {%- elsif p.url == page.url -%}
+        {%- assign found = true -%}{%- assign prev_post = hold -%}
+      {%- else -%}
+        {%- assign hold = p -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign prev_post = page.previous -%}{%- assign next_post = page.next -%}
+{%- endif -%}
+
 <nav class="post-nav" aria-label="{{ t.post.more_posts }}">
-  {% if page.previous %}
-  <a class="prev" href="{{ page.previous.url | relative_url }}">‹ {{ page.previous.title }}</a>
+  {% if prev_post %}
+  <a class="prev" href="{{ prev_post.url | relative_url }}">‹ {{ prev_post.title }}</a>
   {% endif %}
-  {% if page.next %}
-  <a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} ›</a>
+  {% if next_post %}
+  <a class="next" href="{{ next_post.url | relative_url }}">{{ next_post.title }} ›</a>
   {% endif %}
 </nav>
 
