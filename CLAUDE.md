@@ -17,6 +17,12 @@ Filename `_posts/YYYY-MM-DD-slug.md`. Required structure, in order:
 
 Tags: **first tag = track** (drives the post banner and auto-populates `/tracks/<track>/`). Add a series tag when the post belongs to a series; series index pages live in `series/`, track pages in `tracks/`.
 
+## Reading flow (industry-aware)
+So a reader who arrives from one industry (wine, beer, whiskey, or a business track) stays in it:
+- **Related reading** (`_includes/related.html`) weights the reader's first tag heavily (+1000 vs +1 per other shared tag) so same-industry articles lead, and shows a **"More in <track> →"** hub link mapping the first tag to its `/tracks/<track>/` page.
+- **Prev/next** (`_layouts/post.html`) walk the same first-tag track (wine → wine), not site-wide chronology; they fall back to chronological only for posts with no track tag.
+- The first-tag → track-hub map (in both files) must stay in sync with the track pages: `winemaking`→winemaking-ai, `brewing-science`→brewing-science-ai, `distilling-maturation`, `commercial-planning`, `sales-intelligence`, `marketing`, `fpna`→financial-planning-analytics, `esg`, `ehs`, `forecasting`→sales-forecasting.
+
 ## House style
 - **No em dashes.** Despite the older back-catalogue, new writing must avoid `—`, en dashes, curly quotes, and stray spaces. Use colons (introduce/explain), commas or parentheses (asides), semicolons (join clauses), or a sentence split. Keep compound-word hyphens (soft-sensor, off-batch).
 - Honest, no-hype, practitioner voice. International/British spellings (colour, flavour, litre).
