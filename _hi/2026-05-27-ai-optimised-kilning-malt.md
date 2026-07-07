@@ -23,20 +23,20 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="किल्न शेड्यूल जो एयर-ऑन तापमान को बढ़ते हुए दिखाता है जबकि बेड-नमी गिरती है, एंज़ाइम-सुरक्षित और रंग-विकास क्षेत्रों के साथ">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">किल्न-वक्र — पहले सुखाएं, फिर क्योर करें</text>
-<line x1="60" y1="210" x2="710" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="60" y1="50" x2="60" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<polyline points="60,170 250,150 380,120 520,70 710,60" fill="none" stroke="#b45309" stroke-width="2.5"/>
-<text x="600" y="52" font-family="sans-serif" font-size="11" font-weight="700" fill="#b45309">एयर-ऑन तापमान</text>
-<polyline points="60,70 250,95 380,140 520,185 710,195" fill="none" stroke="#1c1a17" stroke-width="2.5" stroke-dasharray="6 4"/>
-<text x="120" y="64" font-family="sans-serif" font-size="11" font-weight="700" fill="#1c1a17">बेड-नमी</text>
-<line x1="430" y1="50" x2="430" y2="210" stroke="#6b6258" stroke-width="1" stroke-dasharray="3 3"/>
-<text x="430" y="228" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">ब्रेक-पॉइंट</text>
-<text x="225" y="200" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5b7a1f">मुक्त सुखाना · एंज़ाइम सुरक्षित</text>
-<text x="575" y="172" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7a1f3d">क्योर · रंग विकसित होता है</text>
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">किल्न-वक्र — पहले सुखाएं, फिर क्योर करें</text>
+<line x1="60" y1="210" x2="710" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="60" y1="50" x2="60" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<polyline points="60,170 250,150 380,120 520,70 710,60" fill="none" stroke="#00695c" stroke-width="2.5"/>
+<text x="600" y="52" font-family="sans-serif" font-size="11" font-weight="700" fill="#00695c">एयर-ऑन तापमान</text>
+<polyline points="60,70 250,95 380,140 520,185 710,195" fill="none" stroke="#06483f" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="120" y="64" font-family="sans-serif" font-size="11" font-weight="700" fill="#06483f">बेड-नमी</text>
+<line x1="430" y1="50" x2="430" y2="210" stroke="#4a6b64" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="430" y="228" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">ब्रेक-पॉइंट</text>
+<text x="225" y="200" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2e9e7c">मुक्त सुखाना · एंज़ाइम सुरक्षित</text>
+<text x="575" y="172" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">क्योर · रंग विकसित होता है</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">कम गर्मी पर नमी नीचे लाएं जबकि एंज़ाइम अभी भी गीले-संवेदनशील हैं, फिर बेड सूखने के बाद क्योर के लिए तापमान बढ़ाएं। अनुकूलक दोनों वक्रों को आकार देता है।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">कम गर्मी पर नमी नीचे लाएं जबकि एंज़ाइम अभी भी गीले-संवेदनशील हैं, फिर बेड सूखने के बाद क्योर के लिए तापमान बढ़ाएं। अनुकूलक दोनों वक्रों को आकार देता है।</figcaption>
 </figure>
 
 ## किल्न तीन चरणों में

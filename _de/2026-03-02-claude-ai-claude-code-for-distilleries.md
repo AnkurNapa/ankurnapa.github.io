@@ -23,26 +23,26 @@ Das Anthropic-Ökosystem ist eine Bandbreite, kein einzelnes Produkt: Claude fü
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 420" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Claude im Zentrum einer Brennerei, mit Speichen zu acht Bereichen, in denen es helfen kann">
-<rect x="0" y="0" width="1000" height="420" fill="#fdfbf7"/>
-<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Wo Claude quer durch eine Brennerei hilft</text>
-<g stroke="#e0d8cc" stroke-width="1.5">
+<rect x="0" y="0" width="1000" height="420" fill="#ffffff"/>
+<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Wo Claude quer durch eine Brennerei hilft</text>
+<g stroke="#d8e6e1" stroke-width="1.5">
 <line x1="500" y1="210" x2="890" y2="210"/><line x1="500" y1="210" x2="775" y2="316"/><line x1="500" y1="210" x2="500" y2="360"/><line x1="500" y1="210" x2="224" y2="316"/><line x1="500" y1="210" x2="110" y2="210"/><line x1="500" y1="210" x2="224" y2="104"/><line x1="500" y1="210" x2="500" y2="60"/><line x1="500" y1="210" x2="775" y2="104"/>
 </g>
 <g font-family="sans-serif" font-size="11.5" text-anchor="middle">
-<rect x="810" y="188" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="890" y="214" fill="#1c1a17">New Make &amp; F&amp;E</text>
-<rect x="695" y="294" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="775" y="320" fill="#1c1a17">Destillation</text>
-<rect x="420" y="338" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="500" y="364" fill="#1c1a17">Qualität / QC</text>
-<rect x="144" y="294" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="224" y="320" fill="#1c1a17">Fass &amp; Lagerhaus</text>
-<rect x="30" y="188" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="110" y="214" fill="#1c1a17">Vertrieb &amp; Distribution</text>
-<rect x="144" y="82" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="224" y="108" fill="#1c1a17">Marketing &amp; Marke</text>
-<rect x="420" y="38" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="500" y="64" fill="#1c1a17">Verbrauchsteuer &amp; Compliance</text>
-<rect x="695" y="82" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="775" y="108" fill="#1c1a17">Besucherzentrum &amp; DTC</text>
+<rect x="810" y="188" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="890" y="214" fill="#06483f">New Make &amp; F&amp;E</text>
+<rect x="695" y="294" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="775" y="320" fill="#06483f">Destillation</text>
+<rect x="420" y="338" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="500" y="364" fill="#06483f">Qualität / QC</text>
+<rect x="144" y="294" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="224" y="320" fill="#06483f">Fass &amp; Lagerhaus</text>
+<rect x="30" y="188" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="110" y="214" fill="#06483f">Vertrieb &amp; Distribution</text>
+<rect x="144" y="82" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="224" y="108" fill="#06483f">Marketing &amp; Marke</text>
+<rect x="420" y="38" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="500" y="64" fill="#06483f">Verbrauchsteuer &amp; Compliance</text>
+<rect x="695" y="82" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="775" y="108" fill="#06483f">Besucherzentrum &amp; DTC</text>
 </g>
-<circle cx="500" cy="210" r="62" fill="#8a5a2b"/>
-<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#fdfbf7">Claude</text>
-<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f7ece0">+ Claude Code</text>
+<circle cx="500" cy="210" r="62" fill="#06483f"/>
+<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">Claude</text>
+<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f0f6f5">+ Claude Code</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Ein Knotenpunkt, kein einzelner Trick — derselbe Assistent, das Code-Werkzeug und die Konnektoren erreichen jeden Teil der Brennerei.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Ein Knotenpunkt, kein einzelner Trick — derselbe Assistent, das Code-Werkzeug und die Konnektoren erreichen jeden Teil der Brennerei.</figcaption>
 </figure>
 
 ## New Make, Destillation und Qualität
@@ -79,24 +79,24 @@ Das Anthropic-Ökosystem ist eine Bandbreite, kein einzelnes Produkt: Claude fü
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 300" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Wie sich Claude über MCP mit den Systemen einer Brennerei verbindet">
-<rect x="0" y="0" width="1000" height="300" fill="#fdfbf7"/>
-<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Wie Claude deine Daten erreicht — die MCP-Brücke</text>
-<rect x="40" y="110" width="220" height="90" rx="10" fill="#8a5a2b"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fdfbf7">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f7ece0">claude.ai + Claude Code</text>
-<rect x="410" y="120" width="160" height="70" rx="10" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#6b6258">Konnektoren</text>
-<g font-family="sans-serif" font-size="12" fill="#1c1a17">
-<rect x="760" y="40" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="62" text-anchor="middle">Fasssystem</text>
-<rect x="760" y="84" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="106" text-anchor="middle">ERP / Finanzen</text>
-<rect x="760" y="128" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="150" text-anchor="middle">SOPs &amp; Dokumente</text>
-<rect x="760" y="172" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="194" text-anchor="middle">Power BI</text>
-<rect x="760" y="216" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="238" text-anchor="middle">E-Mail &amp; Dateien</text>
+<rect x="0" y="0" width="1000" height="300" fill="#ffffff"/>
+<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">Wie Claude deine Daten erreicht — die MCP-Brücke</text>
+<rect x="40" y="110" width="220" height="90" rx="10" fill="#06483f"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f0f6f5">claude.ai + Claude Code</text>
+<rect x="410" y="120" width="160" height="70" rx="10" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#4a6b64">Konnektoren</text>
+<g font-family="sans-serif" font-size="12" fill="#06483f">
+<rect x="760" y="40" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="62" text-anchor="middle">Fasssystem</text>
+<rect x="760" y="84" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="106" text-anchor="middle">ERP / Finanzen</text>
+<rect x="760" y="128" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="150" text-anchor="middle">SOPs &amp; Dokumente</text>
+<rect x="760" y="172" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="194" text-anchor="middle">Power BI</text>
+<rect x="760" y="216" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="238" text-anchor="middle">E-Mail &amp; Dateien</text>
 </g>
-<g stroke="#8a5a2b" stroke-width="2.5" fill="#8a5a2b"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
-<g stroke="#6b6258" stroke-width="1.5" fill="#6b6258">
+<g stroke="#06483f" stroke-width="2.5" fill="#06483f"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
+<g stroke="#4a6b64" stroke-width="1.5" fill="#4a6b64">
 <line x1="570" y1="155" x2="760" y2="57"/><line x1="570" y1="155" x2="760" y2="101"/><line x1="570" y1="155" x2="760" y2="145"/><line x1="570" y1="155" x2="760" y2="189"/><line x1="570" y1="155" x2="760" y2="233"/>
 </g>
-<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">MCP hält deine Daten unter deiner Kontrolle — Claude liest, was du verbindest, nichts weiter.</text>
+<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">MCP hält deine Daten unter deiner Kontrolle — Claude liest, was du verbindest, nichts weiter.</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Das Fasssystem bleibt das führende System; MCP lässt Claude nur darüber lesen und schließen, zu deinen Bedingungen.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Das Fasssystem bleibt das führende System; MCP lässt Claude nur darüber lesen und schließen, zu deinen Bedingungen.</figcaption>
 </figure>
 
 ## Wo man einen Menschen im Regelkreis behalten sollte

@@ -40,25 +40,25 @@ Beispiel: 2,5 Volumen bei 38 °F → etwa **11 psi**. Das Diagramm zeigt, warum 
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 620 340" width="100%" style="max-width:620px;height:auto" role="img" aria-label="Diagramm zur Zwangskarbonisierung: Keg-Druck steigt mit der Temperatur für 2,0, 2,5 und 3,0 Volumen CO2">
-<rect x="0" y="0" width="620" height="340" fill="#fdfbf7"/>
-<text x="320" y="26" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Keg-Druck für eine Zielkarbonisierung</text>
-<g stroke="#e0d8cc" stroke-width="1"><line x1="60" y1="170" x2="560" y2="170"/></g>
-<g stroke="#1c1a17" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="560" y2="300"/></g>
-<polyline points="60,255 310,224 560,189" fill="none" stroke="#8a5a2b" stroke-width="3"/>
-<polyline points="60,207 310,168 560,124" fill="none" stroke="#b45309" stroke-width="3"/>
-<polyline points="60,159 310,112 560,60" fill="none" stroke="#7a1f3d" stroke-width="3"/>
+<rect x="0" y="0" width="620" height="340" fill="#ffffff"/>
+<text x="320" y="26" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Keg-Druck für eine Zielkarbonisierung</text>
+<g stroke="#d8e6e1" stroke-width="1"><line x1="60" y1="170" x2="560" y2="170"/></g>
+<g stroke="#06483f" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="560" y2="300"/></g>
+<polyline points="60,255 310,224 560,189" fill="none" stroke="#06483f" stroke-width="3"/>
+<polyline points="60,207 310,168 560,124" fill="none" stroke="#00695c" stroke-width="3"/>
+<polyline points="60,159 310,112 560,60" fill="none" stroke="#06483f" stroke-width="3"/>
 <g font-family="sans-serif" font-size="12" font-weight="700">
-<text x="566" y="189" fill="#8a5a2b">2.0 vol</text><text x="566" y="124" fill="#b45309">2.5 vol</text><text x="566" y="60" fill="#7a1f3d">3.0 vol</text>
+<text x="566" y="189" fill="#06483f">2.0 vol</text><text x="566" y="124" fill="#00695c">2.5 vol</text><text x="566" y="60" fill="#06483f">3.0 vol</text>
 </g>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle">
 <text x="60" y="318">34 °F</text><text x="310" y="318">42 °F</text><text x="560" y="318">50 °F</text>
 <text x="310" y="338">Ausschanktemperatur</text>
 </g>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="end">
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="end">
 <text x="52" y="44">26</text><text x="52" y="174">13</text><text x="52" y="304">0</text></g>
-<text x="22" y="170" font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" transform="rotate(-90 22 170)">psi (Überdruck)</text>
+<text x="22" y="170" font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle" transform="rotate(-90 22 170)">psi (Überdruck)</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Jede Linie ist ein Zielvolumen; der Druck steigt mit der Temperatur. Setze den Druck für deine Kühlschranktemperatur, nicht für eine generische Zahl.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Jede Linie ist ein Zielvolumen; der Druck steigt mit der Temperatur. Setze den Druck für deine Kühlschranktemperatur, nicht für eine generische Zahl.</figcaption>
 </figure>
 
 ## Leitungsabgleich

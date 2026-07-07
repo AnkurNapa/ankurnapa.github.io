@@ -23,43 +23,43 @@ Es ist eine wirklich gute Idee und ein alter Brauerinstinkt, explizit gemacht. E
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 290" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Ein Radar-Aromarad mit zwei dünnen Malz-Polygonen und einem fetten Polygon des vorhergesagten Biers, neben einer Legende, die jedes Malz nach seinem Extraktanteil skaliert und summiert zeigt">
-<rect x="0" y="0" width="760" height="290" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Staple die Malzräder, gewichtet nach Extraktanteil</text>
+<rect x="0" y="0" width="760" height="290" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Staple die Malzräder, gewichtet nach Extraktanteil</text>
 <!-- radar grid hexagon -->
-<polygon points="210,55 292,103 292,197 210,245 128,197 128,103" fill="none" stroke="#d8cfc2" stroke-width="1"/>
-<polygon points="210,103 251,127 251,174 210,197 169,174 169,127" fill="none" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="210" y2="55" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="292" y2="103" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="292" y2="197" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="210" y2="245" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="128" y2="197" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="128" y2="103" stroke="#e7dfd2" stroke-width="1"/>
+<polygon points="210,55 292,103 292,197 210,245 128,197 128,103" fill="none" stroke="#d8e6e1" stroke-width="1"/>
+<polygon points="210,103 251,127 251,174 210,197 169,174 169,127" fill="none" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="210" y2="55" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="292" y2="103" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="292" y2="197" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="210" y2="245" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="128" y2="197" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="128" y2="103" stroke="#dcede8" stroke-width="1"/>
 <!-- axis labels -->
-<text x="210" y="46" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">Brotig</text>
-<text x="300" y="100" text-anchor="start" font-family="sans-serif" font-size="10" fill="#6b6258">Karamell</text>
-<text x="300" y="205" text-anchor="start" font-family="sans-serif" font-size="10" fill="#6b6258">Röstaroma</text>
-<text x="210" y="262" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">Nussig</text>
-<text x="120" y="205" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">Honig</text>
-<text x="120" y="100" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">Fruchtig</text>
+<text x="210" y="46" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">Brotig</text>
+<text x="300" y="100" text-anchor="start" font-family="sans-serif" font-size="10" fill="#4a6b64">Karamell</text>
+<text x="300" y="205" text-anchor="start" font-family="sans-serif" font-size="10" fill="#4a6b64">Röstaroma</text>
+<text x="210" y="262" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">Nussig</text>
+<text x="120" y="205" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">Honig</text>
+<text x="120" y="100" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">Fruchtig</text>
 <!-- malt A: pilsner (amber, thin) -->
-<polygon points="210,65 226,141 214,152 210,174 181,167 194,141" fill="none" stroke="#b45309" stroke-width="1.5"/>
+<polygon points="210,65 226,141 214,152 210,174 181,167 194,141" fill="none" stroke="#00695c" stroke-width="1.5"/>
 <!-- malt B: caramel/munich (maroon, thin) -->
-<polygon points="210,112 276,112 226,160 210,202 161,179 185,136" fill="none" stroke="#7a1f3d" stroke-width="1.5"/>
+<polygon points="210,112 276,112 226,160 210,202 161,179 185,136" fill="none" stroke="#06483f" stroke-width="1.5"/>
 <!-- predicted beer (ink, bold) -->
-<polygon points="210,84 255,124 222,157 210,188 173,171 189,138" fill="#1c1a17" fill-opacity="0.07" stroke="#1c1a17" stroke-width="2.5"/>
+<polygon points="210,84 255,124 222,157 210,188 173,171 189,138" fill="#06483f" fill-opacity="0.07" stroke="#06483f" stroke-width="2.5"/>
 <!-- legend / arithmetic -->
-<text x="440" y="70" font-family="sans-serif" font-size="12" font-weight="700" fill="#1c1a17">Rezept → Fingerabdruck</text>
-<line x1="440" y1="100" x2="470" y2="100" stroke="#b45309" stroke-width="2"/>
-<text x="478" y="104" font-family="sans-serif" font-size="11" fill="#1c1a17">Pilsner · 80 % Extrakt</text>
-<line x1="440" y1="124" x2="470" y2="124" stroke="#7a1f3d" stroke-width="2"/>
-<text x="478" y="128" font-family="sans-serif" font-size="11" fill="#1c1a17">CaraMunich · 15 %</text>
-<text x="478" y="150" font-family="sans-serif" font-size="11" fill="#6b6258">( + 5 % Röstmalz → Röst-Spitze )</text>
-<line x1="440" y1="170" x2="470" y2="170" stroke="#1c1a17" stroke-width="2.5"/>
-<text x="478" y="174" font-family="sans-serif" font-size="11" font-weight="700" fill="#1c1a17">Σ gewichtet = vorhergesagter Malzcharakter</text>
-<text x="440" y="214" font-family="sans-serif" font-size="11" fill="#6b6258">Dann am COA verankern (Farbe, Kolbach,</text>
-<text x="440" y="230" font-family="sans-serif" font-size="11" fill="#6b6258">FAN) und gegen dein Panel kalibrieren.</text>
+<text x="440" y="70" font-family="sans-serif" font-size="12" font-weight="700" fill="#06483f">Rezept → Fingerabdruck</text>
+<line x1="440" y1="100" x2="470" y2="100" stroke="#00695c" stroke-width="2"/>
+<text x="478" y="104" font-family="sans-serif" font-size="11" fill="#06483f">Pilsner · 80 % Extrakt</text>
+<line x1="440" y1="124" x2="470" y2="124" stroke="#06483f" stroke-width="2"/>
+<text x="478" y="128" font-family="sans-serif" font-size="11" fill="#06483f">CaraMunich · 15 %</text>
+<text x="478" y="150" font-family="sans-serif" font-size="11" fill="#4a6b64">( + 5 % Röstmalz → Röst-Spitze )</text>
+<line x1="440" y1="170" x2="470" y2="170" stroke="#06483f" stroke-width="2.5"/>
+<text x="478" y="174" font-family="sans-serif" font-size="11" font-weight="700" fill="#06483f">Σ gewichtet = vorhergesagter Malzcharakter</text>
+<text x="440" y="214" font-family="sans-serif" font-size="11" fill="#4a6b64">Dann am COA verankern (Farbe, Kolbach,</text>
+<text x="440" y="230" font-family="sans-serif" font-size="11" fill="#4a6b64">FAN) und gegen dein Panel kalibrieren.</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Jedes Malz ist ein Polygon auf dem Aromarad. Skaliere nach Extraktanteil, summiere zum fetten Fingerabdruck, verankere es im Zertifikat — korrigiere dann mit echten Verkostungs-Scores für Maskierung und Sättigung.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Jedes Malz ist ein Polygon auf dem Aromarad. Skaliere nach Extraktanteil, summiere zum fetten Fingerabdruck, verankere es im Zertifikat — korrigiere dann mit echten Verkostungs-Scores für Maskierung und Sättigung.</figcaption>
 </figure>
 
 ## Das Malz als Vektor, das Rezept als Summe

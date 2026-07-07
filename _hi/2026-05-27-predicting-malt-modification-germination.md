@@ -23,24 +23,24 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="एक किल्न-ऑफ़ निर्णय विंडो के साथ, पाँच दिनों के अंकुरण में एक लक्ष्य बैंड तक बढ़ता संशोधन">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">अंकुरण में संशोधन — और कब किल्न-ऑफ़ करें</text>
-<rect x="60" y="70" width="640" height="36" fill="#f7ece0"/>
-<text x="700" y="92" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">लक्ष्य बैंड</text>
-<line x1="60" y1="210" x2="700" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="60" y1="56" x2="60" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<text x="28" y="92" font-family="sans-serif" font-size="11" fill="#6b6258">लक्ष्य</text>
-<text x="28" y="208" font-family="sans-serif" font-size="11" fill="#6b6258">कच्चा</text>
-<path d="M60,205 C200,190 300,150 420,100 C500,75 600,70 700,68" fill="none" stroke="#1c1a17" stroke-width="2.5"/>
-<rect x="420" y="56" width="80" height="154" fill="#b45309" fill-opacity="0.12"/>
-<text x="460" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#b45309">किल्न-ऑफ़ विंडो</text>
-<text x="200" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">अल्प-संशोधित</text>
-<text x="610" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">अति-संशोधित · हानि</text>
-<g font-family="sans-serif" font-size="10" fill="#6b6258" text-anchor="middle">
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">अंकुरण में संशोधन — और कब किल्न-ऑफ़ करें</text>
+<rect x="60" y="70" width="640" height="36" fill="#f0f6f5"/>
+<text x="700" y="92" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">लक्ष्य बैंड</text>
+<line x1="60" y1="210" x2="700" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="60" y1="56" x2="60" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<text x="28" y="92" font-family="sans-serif" font-size="11" fill="#4a6b64">लक्ष्य</text>
+<text x="28" y="208" font-family="sans-serif" font-size="11" fill="#4a6b64">कच्चा</text>
+<path d="M60,205 C200,190 300,150 420,100 C500,75 600,70 700,68" fill="none" stroke="#06483f" stroke-width="2.5"/>
+<rect x="420" y="56" width="80" height="154" fill="#00695c" fill-opacity="0.12"/>
+<text x="460" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#00695c">किल्न-ऑफ़ विंडो</text>
+<text x="200" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">अल्प-संशोधित</text>
+<text x="610" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">अति-संशोधित · हानि</text>
+<g font-family="sans-serif" font-size="10" fill="#4a6b64" text-anchor="middle">
 <text x="120" y="224">d1</text><text x="250" y="224">d2</text><text x="380" y="224">d3</text><text x="460" y="224">d4</text><text x="620" y="224">d5</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">मॉडल संशोधन वक्र को लक्ष्य बैंड में पूर्वानुमानित करता है ताकि किल्न-ऑफ़ को विंडो के अनुसार समयबद्ध किया जा सके — श्वसन के एक्सट्रैक्ट खाना शुरू करने से पहले।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">मॉडल संशोधन वक्र को लक्ष्य बैंड में पूर्वानुमानित करता है ताकि किल्न-ऑफ़ को विंडो के अनुसार समयबद्ध किया जा सके — श्वसन के एक्सट्रैक्ट खाना शुरू करने से पहले।</figcaption>
 </figure>
 
 ## "पर्याप्त रूप से संशोधित" का वास्तव में क्या अर्थ है

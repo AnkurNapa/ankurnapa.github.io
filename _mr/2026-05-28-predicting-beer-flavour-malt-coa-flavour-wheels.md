@@ -23,43 +23,43 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 290" width="100%" style="max-width:760px;height:auto" role="img" aria-label="दोन पातळ malt बहुभुज आणि एक ठळक वर्तवलेली-बिअर बहुभुज असलेले एक radar फ्लेवर व्हील, बाजूला एक legend जे प्रत्येक malt extract मधील त्याच्या वाट्यानुसार प्रमाण ठरवून बेरीज केलेले दाखवते">
-<rect x="0" y="0" width="760" height="290" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">malt व्हील्स रचा, extract वाट्यानुसार भारित</text>
+<rect x="0" y="0" width="760" height="290" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">malt व्हील्स रचा, extract वाट्यानुसार भारित</text>
 <!-- radar grid hexagon -->
-<polygon points="210,55 292,103 292,197 210,245 128,197 128,103" fill="none" stroke="#d8cfc2" stroke-width="1"/>
-<polygon points="210,103 251,127 251,174 210,197 169,174 169,127" fill="none" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="210" y2="55" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="292" y2="103" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="292" y2="197" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="210" y2="245" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="128" y2="197" stroke="#e7dfd2" stroke-width="1"/>
-<line x1="210" y1="150" x2="128" y2="103" stroke="#e7dfd2" stroke-width="1"/>
+<polygon points="210,55 292,103 292,197 210,245 128,197 128,103" fill="none" stroke="#d8e6e1" stroke-width="1"/>
+<polygon points="210,103 251,127 251,174 210,197 169,174 169,127" fill="none" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="210" y2="55" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="292" y2="103" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="292" y2="197" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="210" y2="245" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="128" y2="197" stroke="#dcede8" stroke-width="1"/>
+<line x1="210" y1="150" x2="128" y2="103" stroke="#dcede8" stroke-width="1"/>
 <!-- axis labels -->
-<text x="210" y="46" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">Bready</text>
-<text x="300" y="100" text-anchor="start" font-family="sans-serif" font-size="10" fill="#6b6258">Caramel</text>
-<text x="300" y="205" text-anchor="start" font-family="sans-serif" font-size="10" fill="#6b6258">Roast</text>
-<text x="210" y="262" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">Nutty</text>
-<text x="120" y="205" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">Honey</text>
-<text x="120" y="100" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">Fruity</text>
+<text x="210" y="46" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">Bready</text>
+<text x="300" y="100" text-anchor="start" font-family="sans-serif" font-size="10" fill="#4a6b64">Caramel</text>
+<text x="300" y="205" text-anchor="start" font-family="sans-serif" font-size="10" fill="#4a6b64">Roast</text>
+<text x="210" y="262" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">Nutty</text>
+<text x="120" y="205" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">Honey</text>
+<text x="120" y="100" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">Fruity</text>
 <!-- malt A: pilsner (amber, thin) -->
-<polygon points="210,65 226,141 214,152 210,174 181,167 194,141" fill="none" stroke="#b45309" stroke-width="1.5"/>
+<polygon points="210,65 226,141 214,152 210,174 181,167 194,141" fill="none" stroke="#00695c" stroke-width="1.5"/>
 <!-- malt B: caramel/munich (maroon, thin) -->
-<polygon points="210,112 276,112 226,160 210,202 161,179 185,136" fill="none" stroke="#7a1f3d" stroke-width="1.5"/>
+<polygon points="210,112 276,112 226,160 210,202 161,179 185,136" fill="none" stroke="#06483f" stroke-width="1.5"/>
 <!-- predicted beer (ink, bold) -->
-<polygon points="210,84 255,124 222,157 210,188 173,171 189,138" fill="#1c1a17" fill-opacity="0.07" stroke="#1c1a17" stroke-width="2.5"/>
+<polygon points="210,84 255,124 222,157 210,188 173,171 189,138" fill="#06483f" fill-opacity="0.07" stroke="#06483f" stroke-width="2.5"/>
 <!-- legend / arithmetic -->
-<text x="440" y="70" font-family="sans-serif" font-size="12" font-weight="700" fill="#1c1a17">रेसिपी → ठसा</text>
-<line x1="440" y1="100" x2="470" y2="100" stroke="#b45309" stroke-width="2"/>
-<text x="478" y="104" font-family="sans-serif" font-size="11" fill="#1c1a17">Pilsner · ८०% extract</text>
-<line x1="440" y1="124" x2="470" y2="124" stroke="#7a1f3d" stroke-width="2"/>
-<text x="478" y="128" font-family="sans-serif" font-size="11" fill="#1c1a17">CaraMunich · १५%</text>
-<text x="478" y="150" font-family="sans-serif" font-size="11" fill="#6b6258">( + ५% roast → roast उसळी )</text>
-<line x1="440" y1="170" x2="470" y2="170" stroke="#1c1a17" stroke-width="2.5"/>
-<text x="478" y="174" font-family="sans-serif" font-size="11" font-weight="700" fill="#1c1a17">Σ भारित = वर्तवलेले malt गुणवैशिष्ट्य</text>
-<text x="440" y="214" font-family="sans-serif" font-size="11" fill="#6b6258">मग COA वर आधारित करा (रंग, Kolbach,</text>
-<text x="440" y="230" font-family="sans-serif" font-size="11" fill="#6b6258">FAN) आणि तुमच्या पॅनेलविरुद्ध calibrate करा.</text>
+<text x="440" y="70" font-family="sans-serif" font-size="12" font-weight="700" fill="#06483f">रेसिपी → ठसा</text>
+<line x1="440" y1="100" x2="470" y2="100" stroke="#00695c" stroke-width="2"/>
+<text x="478" y="104" font-family="sans-serif" font-size="11" fill="#06483f">Pilsner · ८०% extract</text>
+<line x1="440" y1="124" x2="470" y2="124" stroke="#06483f" stroke-width="2"/>
+<text x="478" y="128" font-family="sans-serif" font-size="11" fill="#06483f">CaraMunich · १५%</text>
+<text x="478" y="150" font-family="sans-serif" font-size="11" fill="#4a6b64">( + ५% roast → roast उसळी )</text>
+<line x1="440" y1="170" x2="470" y2="170" stroke="#06483f" stroke-width="2.5"/>
+<text x="478" y="174" font-family="sans-serif" font-size="11" font-weight="700" fill="#06483f">Σ भारित = वर्तवलेले malt गुणवैशिष्ट्य</text>
+<text x="440" y="214" font-family="sans-serif" font-size="11" fill="#4a6b64">मग COA वर आधारित करा (रंग, Kolbach,</text>
+<text x="440" y="230" font-family="sans-serif" font-size="11" fill="#4a6b64">FAN) आणि तुमच्या पॅनेलविरुद्ध calibrate करा.</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">प्रत्येक malt फ्लेवर व्हीलवरील एक बहुभुज आहे. extract वाट्यानुसार प्रमाण ठरवा, ठळक ठशात बेरीज करा, certificate वर आधारित करा — मग खऱ्या tasting गुणांसह masking व saturation साठी दुरुस्ती करा.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">प्रत्येक malt फ्लेवर व्हीलवरील एक बहुभुज आहे. extract वाट्यानुसार प्रमाण ठरवा, ठळक ठशात बेरीज करा, certificate वर आधारित करा — मग खऱ्या tasting गुणांसह masking व saturation साठी दुरुस्ती करा.</figcaption>
 </figure>
 
 ## vector म्हणून malt, बेरीज म्हणून रेसिपी

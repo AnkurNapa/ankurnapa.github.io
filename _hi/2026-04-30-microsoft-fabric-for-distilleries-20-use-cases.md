@@ -23,28 +23,28 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 360" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="एक डिस्टिलरी के लिए Microsoft Fabric संदर्भ-वास्तुकला: स्रोत OneLake वर्कलोड में, लोगों के लिए Power BI में">
-<rect x="0" y="0" width="1000" height="360" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">Microsoft Fabric पर एक डिस्टिलरी — डेटा की एक प्रति</text>
+<rect x="0" y="0" width="1000" height="360" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#06483f">Microsoft Fabric पर एक डिस्टिलरी — डेटा की एक प्रति</text>
 <g font-family="sans-serif">
-<text x="105" y="76" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#b45309">स्रोत</text>
-<rect x="20" y="86" width="170" height="40" rx="6" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="105" y="111" text-anchor="middle" font-size="12.5" fill="#1c1a17">स्टिल टेलीमेट्री</text>
-<rect x="20" y="134" width="170" height="40" rx="6" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="105" y="159" text-anchor="middle" font-size="12.5" fill="#1c1a17">कास्क / वेयरहाउस तंत्र</text>
-<rect x="20" y="182" width="170" height="40" rx="6" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="105" y="207" text-anchor="middle" font-size="12.5" fill="#1c1a17">वेयरहाउस जलवायु</text>
-<rect x="20" y="230" width="170" height="40" rx="6" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="105" y="255" text-anchor="middle" font-size="12.5" fill="#1c1a17">ERP और बॉटलिंग</text>
-<rect x="220" y="70" width="560" height="225" rx="10" fill="#ffffff" stroke="#8a5a2b" stroke-width="1.5"/>
-<text x="500" y="92" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8a5a2b">Microsoft Fabric · OneLake</text>
-<rect x="236" y="104" width="262" height="80" rx="8" fill="#f7ece0" stroke="#6b6258"/><text x="367" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Data Factory</text><text x="367" y="158" text-anchor="middle" font-size="11.5" fill="#6b6258">पाइपलाइन · Mirroring · Shortcuts</text>
-<rect x="502" y="104" width="262" height="80" rx="8" fill="#f7ece0" stroke="#6b6258"/><text x="633" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Lakehouse</text><text x="633" y="158" text-anchor="middle" font-size="11.5" fill="#6b6258">कास्क लेजर · परिपक्व स्टॉक</text>
-<rect x="236" y="196" width="262" height="80" rx="8" fill="#f7ece0" stroke="#6b6258"/><text x="367" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Real-Time Intelligence</text><text x="367" y="250" text-anchor="middle" font-size="11.5" fill="#6b6258">स्टिल और वेयरहाउस जलवायु</text>
-<rect x="502" y="196" width="262" height="80" rx="8" fill="#f7ece0" stroke="#6b6258"/><text x="633" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Data Science</text><text x="633" y="250" text-anchor="middle" font-size="11.5" fill="#6b6258">एंजल्स-शेयर · परिपक्वता</text>
-<rect x="810" y="104" width="170" height="74" rx="8" fill="#8a5a2b"/><text x="895" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#fdfbf7">Power BI</text><text x="895" y="158" text-anchor="middle" font-size="11.5" fill="#f7ece0">Direct Lake</text>
-<rect x="810" y="188" width="170" height="38" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="895" y="212" text-anchor="middle" font-size="12.5" fill="#1c1a17">Copilot</text>
-<rect x="810" y="236" width="170" height="38" rx="8" fill="#f7ece0" stroke="#7a1f3d" stroke-width="1.5"/><text x="895" y="260" text-anchor="middle" font-size="12.5" fill="#7a1f3d">Activator अलर्ट</text>
+<text x="105" y="76" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#00695c">स्रोत</text>
+<rect x="20" y="86" width="170" height="40" rx="6" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="105" y="111" text-anchor="middle" font-size="12.5" fill="#06483f">स्टिल टेलीमेट्री</text>
+<rect x="20" y="134" width="170" height="40" rx="6" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="105" y="159" text-anchor="middle" font-size="12.5" fill="#06483f">कास्क / वेयरहाउस तंत्र</text>
+<rect x="20" y="182" width="170" height="40" rx="6" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="105" y="207" text-anchor="middle" font-size="12.5" fill="#06483f">वेयरहाउस जलवायु</text>
+<rect x="20" y="230" width="170" height="40" rx="6" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="105" y="255" text-anchor="middle" font-size="12.5" fill="#06483f">ERP और बॉटलिंग</text>
+<rect x="220" y="70" width="560" height="225" rx="10" fill="#ffffff" stroke="#06483f" stroke-width="1.5"/>
+<text x="500" y="92" text-anchor="middle" font-size="13.5" font-weight="700" fill="#06483f">Microsoft Fabric · OneLake</text>
+<rect x="236" y="104" width="262" height="80" rx="8" fill="#f0f6f5" stroke="#4a6b64"/><text x="367" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Data Factory</text><text x="367" y="158" text-anchor="middle" font-size="11.5" fill="#4a6b64">पाइपलाइन · Mirroring · Shortcuts</text>
+<rect x="502" y="104" width="262" height="80" rx="8" fill="#f0f6f5" stroke="#4a6b64"/><text x="633" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Lakehouse</text><text x="633" y="158" text-anchor="middle" font-size="11.5" fill="#4a6b64">कास्क लेजर · परिपक्व स्टॉक</text>
+<rect x="236" y="196" width="262" height="80" rx="8" fill="#f0f6f5" stroke="#4a6b64"/><text x="367" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Real-Time Intelligence</text><text x="367" y="250" text-anchor="middle" font-size="11.5" fill="#4a6b64">स्टिल और वेयरहाउस जलवायु</text>
+<rect x="502" y="196" width="262" height="80" rx="8" fill="#f0f6f5" stroke="#4a6b64"/><text x="633" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Data Science</text><text x="633" y="250" text-anchor="middle" font-size="11.5" fill="#4a6b64">एंजल्स-शेयर · परिपक्वता</text>
+<rect x="810" y="104" width="170" height="74" rx="8" fill="#06483f"/><text x="895" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Power BI</text><text x="895" y="158" text-anchor="middle" font-size="11.5" fill="#f0f6f5">Direct Lake</text>
+<rect x="810" y="188" width="170" height="38" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="895" y="212" text-anchor="middle" font-size="12.5" fill="#06483f">Copilot</text>
+<rect x="810" y="236" width="170" height="38" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="895" y="260" text-anchor="middle" font-size="12.5" fill="#06483f">Activator अलर्ट</text>
 </g>
-<g fill="#8a5a2b" stroke="#8a5a2b" stroke-width="2"><line x1="190" y1="182" x2="213" y2="182"/><polygon points="213,177 220,182 213,187" stroke="none"/><line x1="780" y1="141" x2="803" y2="141"/><polygon points="803,136 810,141 803,146" stroke="none"/></g>
-<text x="500" y="332" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#6b6258">→ डिस्टिलर, वेयरहाउस, वित्त और लेखा-परीक्षक सभी एक ही शासित डेटा पढ़ते हैं</text>
+<g fill="#06483f" stroke="#06483f" stroke-width="2"><line x1="190" y1="182" x2="213" y2="182"/><polygon points="213,177 220,182 213,187" stroke="none"/><line x1="780" y1="141" x2="803" y2="141"/><polygon points="803,136 810,141 803,146" stroke="none"/></g>
+<text x="500" y="332" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#4a6b64">→ डिस्टिलर, वेयरहाउस, वित्त और लेखा-परीक्षक सभी एक ही शासित डेटा पढ़ते हैं</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">किसी भी Fabric एस्टेट जैसी ही संदर्भ-आकृति, डिस्टिलरी के अनुसार समायोजित: कास्क लेजर और वेयरहाउस जलवायु गुरुत्व-केंद्र हैं।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">किसी भी Fabric एस्टेट जैसी ही संदर्भ-आकृति, डिस्टिलरी के अनुसार समायोजित: कास्क लेजर और वेयरहाउस जलवायु गुरुत्व-केंद्र हैं।</figcaption>
 </figure>
 
 ## इंजेस्ट और एकीकृत करें (OneLake + Data Factory)
@@ -113,18 +113,18 @@ Fabric स्टिल-टेलीमेट्री, कास्क/वेय
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 240" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="एक डिस्टिलरी के लिए मेडलियन प्रवाह: ब्रॉन्ज़ से सिल्वर से गोल्ड से सिमेंटिक मॉडल से Power BI तक">
-<rect x="0" y="0" width="1000" height="240" fill="#fdfbf7"/>
-<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">कच्चे कास्क-इवेंट से एक परिपक्व-स्टॉक दृश्य तक — मेडलियन मार्ग</text>
+<rect x="0" y="0" width="1000" height="240" fill="#ffffff"/>
+<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">कच्चे कास्क-इवेंट से एक परिपक्व-स्टॉक दृश्य तक — मेडलियन मार्ग</text>
 <g font-family="sans-serif">
-<rect x="10" y="70" width="170" height="110" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="95" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#8a5a2b">ब्रॉन्ज़</text><text x="95" y="120" text-anchor="middle" font-size="11.5" fill="#6b6258">कास्क-इवेंट,</text><text x="95" y="138" text-anchor="middle" font-size="11.5" fill="#6b6258">स्टिल टेलीमेट्री</text>
-<rect x="220" y="70" width="170" height="110" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="305" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#8a5a2b">सिल्वर</text><text x="305" y="120" text-anchor="middle" font-size="11.5" fill="#6b6258">साफ़ कास्क</text><text x="305" y="138" text-anchor="middle" font-size="11.5" fill="#6b6258">लेजर</text>
-<rect x="430" y="70" width="170" height="110" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="515" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#8a5a2b">गोल्ड</text><text x="515" y="120" text-anchor="middle" font-size="11.5" fill="#6b6258">परिपक्व स्टॉक,</text><text x="515" y="138" text-anchor="middle" font-size="11.5" fill="#6b6258">एंजल्स-शेयर</text>
-<rect x="640" y="70" width="170" height="110" rx="8" fill="#f7ece0" stroke="#6b6258" stroke-width="1.5"/><text x="725" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">सिमेंटिक मॉडल</text><text x="725" y="122" text-anchor="middle" font-size="11.5" fill="#6b6258">Direct Lake</text>
-<rect x="850" y="70" width="140" height="110" rx="8" fill="#8a5a2b"/><text x="920" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#fdfbf7">Power BI</text>
+<rect x="10" y="70" width="170" height="110" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="95" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">ब्रॉन्ज़</text><text x="95" y="120" text-anchor="middle" font-size="11.5" fill="#4a6b64">कास्क-इवेंट,</text><text x="95" y="138" text-anchor="middle" font-size="11.5" fill="#4a6b64">स्टिल टेलीमेट्री</text>
+<rect x="220" y="70" width="170" height="110" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="305" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">सिल्वर</text><text x="305" y="120" text-anchor="middle" font-size="11.5" fill="#4a6b64">साफ़ कास्क</text><text x="305" y="138" text-anchor="middle" font-size="11.5" fill="#4a6b64">लेजर</text>
+<rect x="430" y="70" width="170" height="110" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="515" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">गोल्ड</text><text x="515" y="120" text-anchor="middle" font-size="11.5" fill="#4a6b64">परिपक्व स्टॉक,</text><text x="515" y="138" text-anchor="middle" font-size="11.5" fill="#4a6b64">एंजल्स-शेयर</text>
+<rect x="640" y="70" width="170" height="110" rx="8" fill="#f0f6f5" stroke="#4a6b64" stroke-width="1.5"/><text x="725" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">सिमेंटिक मॉडल</text><text x="725" y="122" text-anchor="middle" font-size="11.5" fill="#4a6b64">Direct Lake</text>
+<rect x="850" y="70" width="140" height="110" rx="8" fill="#06483f"/><text x="920" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Power BI</text>
 </g>
-<g fill="#8a5a2b" stroke="#8a5a2b" stroke-width="2"><line x1="180" y1="125" x2="213" y2="125"/><polygon points="213,120 220,125 213,130" stroke="none"/><line x1="390" y1="125" x2="423" y2="125"/><polygon points="423,120 430,125 423,130" stroke="none"/><line x1="600" y1="125" x2="633" y2="125"/><polygon points="633,120 640,125 633,130" stroke="none"/><line x1="810" y1="125" x2="843" y2="125"/><polygon points="843,120 850,125 843,130" stroke="none"/></g>
+<g fill="#06483f" stroke="#06483f" stroke-width="2"><line x1="180" y1="125" x2="213" y2="125"/><polygon points="213,120 220,125 213,130" stroke="none"/><line x1="390" y1="125" x2="423" y2="125"/><polygon points="423,120 430,125 423,130" stroke="none"/><line x1="600" y1="125" x2="633" y2="125"/><polygon points="633,120 640,125 633,130" stroke="none"/><line x1="810" y1="125" x2="843" y2="125"/><polygon points="843,120 850,125 843,130" stroke="none"/></g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">कास्क लेजर इसका दिल है: ब्रॉन्ज़ में कच्चे इवेंट, सिल्वर में एक साफ़ लेजर, गोल्ड में मूल्यांकित परिपक्व स्टॉक, Power BI में लाइव।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">कास्क लेजर इसका दिल है: ब्रॉन्ज़ में कच्चे इवेंट, सिल्वर में एक साफ़ लेजर, गोल्ड में मूल्यांकित परिपक्व स्टॉक, Power BI में लाइव।</figcaption>
 </figure>
 
 *[डिस्टिलिंग और परिपक्वता]({{ '/hi/tracks/distilling-maturation/' | relative_url }}) ट्रैक का हिस्सा।*

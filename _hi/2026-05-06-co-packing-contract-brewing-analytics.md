@@ -23,23 +23,23 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 270" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="कॉन्ट्रैक्ट ब्रूइंग विश्लेषण प्रवाह: क्षमता, कार्यक्रम, प्रति ब्रांड ब्रू, लागत और उपज, बिल और मार्जिन">
-<rect x="0" y="0" width="1000" height="270" fill="#fdfbf7"/>
-<text x="500" y="34" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">कॉन्ट्रैक्ट ब्रूअरी, संख्याओं के हिसाब से</text>
+<rect x="0" y="0" width="1000" height="270" fill="#ffffff"/>
+<text x="500" y="34" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#06483f">कॉन्ट्रैक्ट ब्रूअरी, संख्याओं के हिसाब से</text>
 <g font-family="sans-serif">
-<rect x="20" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="106" cy="114" r="15" fill="#b45309"/><text x="106" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">1</text><text x="106" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">क्षमता</text><text x="106" y="193" text-anchor="middle" font-size="11" fill="#6b6258">टैंक-दिन, लाइन घंटे</text>
-<rect x="216" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="302" cy="114" r="15" fill="#b45309"/><text x="302" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">2</text><text x="302" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">कार्यक्रम</text><text x="302" y="193" text-anchor="middle" font-size="11" fill="#6b6258">ब्रांडों को फ़िट करें</text>
-<rect x="412" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="498" cy="114" r="15" fill="#b45309"/><text x="498" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">3</text><text x="498" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">प्रति ब्रांड ब्रू</text><text x="498" y="193" text-anchor="middle" font-size="11" fill="#6b6258">हर स्पेक तक</text>
-<rect x="608" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="694" cy="114" r="15" fill="#b45309"/><text x="694" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">4</text><text x="694" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">लागत और उपज</text><text x="694" y="193" text-anchor="middle" font-size="11" fill="#6b6258">प्रति अनुबंध</text>
-<rect x="804" y="80" width="172" height="150" rx="8" fill="#b45309"/><circle cx="890" cy="114" r="15" fill="#fff"/><text x="890" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#b45309">5</text><text x="890" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">बिल और मार्जिन</text><text x="890" y="193" text-anchor="middle" font-size="11" fill="#f7ece0">सच्चा लाभ</text>
+<rect x="20" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="106" cy="114" r="15" fill="#00695c"/><text x="106" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">1</text><text x="106" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">क्षमता</text><text x="106" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">टैंक-दिन, लाइन घंटे</text>
+<rect x="216" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="302" cy="114" r="15" fill="#00695c"/><text x="302" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">2</text><text x="302" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">कार्यक्रम</text><text x="302" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">ब्रांडों को फ़िट करें</text>
+<rect x="412" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="498" cy="114" r="15" fill="#00695c"/><text x="498" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">3</text><text x="498" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">प्रति ब्रांड ब्रू</text><text x="498" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">हर स्पेक तक</text>
+<rect x="608" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="694" cy="114" r="15" fill="#00695c"/><text x="694" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">4</text><text x="694" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">लागत और उपज</text><text x="694" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">प्रति अनुबंध</text>
+<rect x="804" y="80" width="172" height="150" rx="8" fill="#00695c"/><circle cx="890" cy="114" r="15" fill="#fff"/><text x="890" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#00695c">5</text><text x="890" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">बिल और मार्जिन</text><text x="890" y="193" text-anchor="middle" font-size="11" fill="#f0f6f5">सच्चा लाभ</text>
 </g>
-<g fill="#b45309" stroke="#b45309" stroke-width="2">
+<g fill="#00695c" stroke="#00695c" stroke-width="2">
 <line x1="192" y1="155" x2="209" y2="155"/><polygon points="209,150 216,155 209,160" stroke="none"/>
 <line x1="388" y1="155" x2="405" y2="155"/><polygon points="405,150 412,155 405,160" stroke="none"/>
 <line x1="584" y1="155" x2="601" y2="155"/><polygon points="601,150 608,155 601,160" stroke="none"/>
 <line x1="780" y1="155" x2="797" y2="155"/><polygon points="797,150 804,155 797,160" stroke="none"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">एक कॉन्ट्रैक्ट ब्रूअरी की मूल्य-श्रृंखला क्षमता और प्रति अनुबंध लागत पर चलती है — अपनी खपत पर नहीं।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">एक कॉन्ट्रैक्ट ब्रूअरी की मूल्य-श्रृंखला क्षमता और प्रति अनुबंध लागत पर चलती है — अपनी खपत पर नहीं।</figcaption>
 </figure>
 
 ## क्षमता ही उत्पाद है
@@ -56,21 +56,21 @@ faq:
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 210" width="100%" style="max-width:760px;height:auto" role="img" aria-label="क्षमता कहाँ जाती है: बिल किया गया उत्पादन, चेंजओवर और CIP, उपज-हानि, और निष्क्रिय">
-<rect x="0" y="0" width="760" height="210" fill="#fdfbf7"/>
-<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">क्षमता (उत्पाद) कहाँ जाती है</text>
-<rect x="60" y="62" width="396.8" height="44" fill="#b45309"/>
-<rect x="456.8" y="62" width="89.6" height="44" fill="#8a5a2b"/>
-<rect x="546.4" y="62" width="51.2" height="44" fill="#7a1f3d"/>
-<rect x="597.6" y="62" width="102.4" height="44" fill="#6b6258"/>
-<text x="258" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fdfbf7">बिल किया गया उत्पादन 62%</text>
-<g font-family="sans-serif" font-size="12.5" fill="#1c1a17">
-<rect x="60" y="140" width="14" height="14" fill="#b45309"/><text x="80" y="152">बिल किया गया उत्पादन — 62%</text>
-<rect x="300" y="140" width="14" height="14" fill="#8a5a2b"/><text x="320" y="152">चेंजओवर और CIP — 14%</text>
-<rect x="540" y="140" width="14" height="14" fill="#7a1f3d"/><text x="560" y="152">उपज-हानि — 8%</text>
-<rect x="60" y="166" width="14" height="14" fill="#6b6258"/><text x="80" y="178">निष्क्रिय / बिना बिका — 16%</text>
+<rect x="0" y="0" width="760" height="210" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">क्षमता (उत्पाद) कहाँ जाती है</text>
+<rect x="60" y="62" width="396.8" height="44" fill="#00695c"/>
+<rect x="456.8" y="62" width="89.6" height="44" fill="#06483f"/>
+<rect x="546.4" y="62" width="51.2" height="44" fill="#06483f"/>
+<rect x="597.6" y="62" width="102.4" height="44" fill="#4a6b64"/>
+<text x="258" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">बिल किया गया उत्पादन 62%</text>
+<g font-family="sans-serif" font-size="12.5" fill="#06483f">
+<rect x="60" y="140" width="14" height="14" fill="#00695c"/><text x="80" y="152">बिल किया गया उत्पादन — 62%</text>
+<rect x="300" y="140" width="14" height="14" fill="#06483f"/><text x="320" y="152">चेंजओवर और CIP — 14%</text>
+<rect x="540" y="140" width="14" height="14" fill="#06483f"/><text x="560" y="152">उपज-हानि — 8%</text>
+<rect x="60" y="166" width="14" height="14" fill="#4a6b64"/><text x="80" y="178">निष्क्रिय / बिना बिका — 16%</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">केवल बिल किया गया हिस्सा कमाता है। चेंजओवर, CIP, उपज-हानि और निष्क्रिय समय वह क्षमता है जिसके लिए आपने भुगतान किया और बेची नहीं — विश्लेषण का निशाना।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">केवल बिल किया गया हिस्सा कमाता है। चेंजओवर, CIP, उपज-हानि और निष्क्रिय समय वह क्षमता है जिसके लिए आपने भुगतान किया और बेची नहीं — विश्लेषण का निशाना।</figcaption>
 </figure>
 
 ## AI कहाँ मदद करता है — और कहाँ नहीं

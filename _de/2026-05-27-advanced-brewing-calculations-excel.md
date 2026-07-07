@@ -23,8 +23,8 @@ Brausoftware verbirgt die Mathematik. Das ist in Ordnung, bis du um 6 Uhr morgen
 
 Eine Konvention für den ganzen Artikel: Zellbezüge wie `B2` sind Beispiele — trag deinen Input in jene Zelle ein und füge die Formel daneben ein. Dichten sind spezifisches Gewicht (z. B. 1.050), sofern nicht anders angegeben; „Punkte" meint die letzten drei Ziffern ((SG − 1) × 1000), also 1.050 = 50 Punkte. Schreibweisen sind britisch (colour, litres); imperiale und metrische Hinweise stehen dort, wo sich die Konstante ändert.
 
-<aside style="margin:1.6rem 0;padding:1rem 1.25rem;border:1px solid #b45309;border-left:5px solid #b45309;border-radius:8px;background:#f7ece0">
-<strong style="color:#b45309">📊 Die Serie „Excel für Brauer"</strong>
+<aside style="margin:1.6rem 0;padding:1rem 1.25rem;border:1px solid #00695c;border-left:5px solid #00695c;border-radius:8px;background:#f0f6f5">
+<strong style="color:#00695c">📊 Die Serie „Excel für Brauer"</strong>
 <p style="margin:.5rem 0 .35rem">Dieser Beitrag ist der Knotenpunkt. Sechs der untenstehenden Berechnungen haben eine vollständige Vertiefung — ein kompletter Blatt-Aufbau, zusätzliche Formeln, durchgerechnete Beispiele und ein Diagramm:</p>
 <ul style="margin:0;padding-left:1.2rem;line-height:1.5">
 <li><a href="{{ '/de/2026/build-brewing-water-chemistry-calculator-excel/' | relative_url }}">Wasserchemie-Rechner</a> — Salze, Ionen, Restalkalität, Sulfat:Chlorid <em>(Anwendungsfall 9)</em></li>
@@ -38,44 +38,44 @@ Eine Konvention für den ganzen Artikel: Zellbezüge wie `B2` sind Beispiele —
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1046 280" width="100%" style="max-width:1046px;height:auto" role="img" aria-label="Brautag-Prozessfluss, der zeigt, welche der 20 Berechnungen in jeder Phase gelten">
-<rect x="0" y="0" width="1046" height="280" fill="#fdfbf7"/>
-<text x="523" y="34" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#1c1a17">Der Brautag in Zahlen — wo jede Berechnung landet</text>
+<rect x="0" y="0" width="1046" height="280" fill="#ffffff"/>
+<text x="523" y="34" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#06483f">Der Brautag in Zahlen — wo jede Berechnung landet</text>
 <g font-family="sans-serif">
-<rect x="4" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="83" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">REZEPT</text>
-<text x="83" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">1 · SG ↔ °Plato</text>
-<text x="83" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">2 · OG aus Schüttung</text>
-<text x="83" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">3 · Effizienz</text>
-<text x="83" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">12 · Farbe SRM</text>
-<rect x="180" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="259" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">MAISCHE</text>
-<text x="259" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">5 · Einmaischtemp.</text>
-<text x="259" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">6 · Rasten-Infusion</text>
-<text x="259" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">7 · Wasser:Schüttung</text>
-<text x="259" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">9 · Wassersalze</text>
-<rect x="356" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="435" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">KOCHEN</text>
-<text x="435" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">8 · Verdampfung</text>
-<text x="435" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">10 · IBU (Tinseth)</text>
-<text x="435" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">11 · Hopfen-Ersatz</text>
-<rect x="532" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="611" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">GÄRUNG</text>
-<text x="611" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">13 · Anstellrate</text>
-<text x="611" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">14 · Vergärungsgrad</text>
-<text x="611" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">4 · Temp.-Korrektur</text>
-<text x="611" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">15 · Refraktometer</text>
-<rect x="708" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="787" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">ABFÜLLEN</text>
-<text x="787" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">16 · ABV</text>
-<text x="787" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">17 · Karbonisierung</text>
-<text x="787" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">18 · Verschnitt/Verdünnung</text>
-<text x="787" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">19 · Kalorien</text>
-<rect x="884" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#7a1f3d" stroke-width="1.5"/>
-<text x="963" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#7a1f3d">KOSTEN</text>
-<text x="963" y="118" text-anchor="middle" font-size="12.5" fill="#1c1a17">20 · COGS / hL</text>
-<text x="963" y="142" text-anchor="middle" font-size="12.5" fill="#1c1a17">&amp; Kosten pro Pint</text>
+<rect x="4" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="83" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">REZEPT</text>
+<text x="83" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">1 · SG ↔ °Plato</text>
+<text x="83" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">2 · OG aus Schüttung</text>
+<text x="83" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">3 · Effizienz</text>
+<text x="83" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">12 · Farbe SRM</text>
+<rect x="180" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="259" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">MAISCHE</text>
+<text x="259" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">5 · Einmaischtemp.</text>
+<text x="259" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">6 · Rasten-Infusion</text>
+<text x="259" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">7 · Wasser:Schüttung</text>
+<text x="259" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">9 · Wassersalze</text>
+<rect x="356" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="435" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">KOCHEN</text>
+<text x="435" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">8 · Verdampfung</text>
+<text x="435" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">10 · IBU (Tinseth)</text>
+<text x="435" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">11 · Hopfen-Ersatz</text>
+<rect x="532" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="611" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">GÄRUNG</text>
+<text x="611" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">13 · Anstellrate</text>
+<text x="611" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">14 · Vergärungsgrad</text>
+<text x="611" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">4 · Temp.-Korrektur</text>
+<text x="611" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">15 · Refraktometer</text>
+<rect x="708" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="787" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">ABFÜLLEN</text>
+<text x="787" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">16 · ABV</text>
+<text x="787" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">17 · Karbonisierung</text>
+<text x="787" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">18 · Verschnitt/Verdünnung</text>
+<text x="787" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">19 · Kalorien</text>
+<rect x="884" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/>
+<text x="963" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#06483f">KOSTEN</text>
+<text x="963" y="118" text-anchor="middle" font-size="12.5" fill="#06483f">20 · COGS / hL</text>
+<text x="963" y="142" text-anchor="middle" font-size="12.5" fill="#06483f">&amp; Kosten pro Pint</text>
 </g>
-<g fill="#b45309" stroke="#b45309" stroke-width="2">
+<g fill="#00695c" stroke="#00695c" stroke-width="2">
 <line x1="162" y1="155" x2="174" y2="155"/><polygon points="174,150 181,155 174,160" stroke="none"/>
 <line x1="338" y1="155" x2="350" y2="155"/><polygon points="350,150 357,155 350,160" stroke="none"/>
 <line x1="514" y1="155" x2="526" y2="155"/><polygon points="526,150 533,155 526,160" stroke="none"/>
@@ -83,7 +83,7 @@ Eine Konvention für den ganzen Artikel: Zellbezüge wie `B2` sind Beispiele —
 <line x1="866" y1="155" x2="878" y2="155"/><polygon points="878,150 885,155 878,160" stroke="none"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Die 20 Berechnungen, zugeordnet zu der Phase, in der du sie nutzt. Die Nummern unten entsprechen dieser Karte.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Die 20 Berechnungen, zugeordnet zu der Phase, in der du sie nutzt. Die Nummern unten entsprechen dieser Karte.</figcaption>
 </figure>
 
 ## Rezept und Dichte
@@ -112,24 +112,24 @@ Beispiel: 1.050 abgelesen bei 100 °F, kalibriert bei 60 °F → **1.056**.
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 230" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Einmaischwasser-Wärmebilanz: heißes Brauwasser plus kühle Schüttung ergibt Maische auf Zieltemperatur">
-<rect x="0" y="0" width="760" height="230" fill="#fdfbf7"/>
-<rect x="20" y="60" width="180" height="110" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="110" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">Heißes Brauwasser</text>
-<text x="110" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#b45309">Tw ≈ 164 °F</text>
-<text x="110" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">(worauf du erhitzt)</text>
-<text x="230" y="122" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#6b6258">+</text>
-<rect x="260" y="60" width="180" height="110" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="350" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">Schüttung</text>
-<text x="350" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#b45309">T1 = 65 °F</text>
-<text x="350" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">(spezif. Wärme ≈ 0.2)</text>
-<g fill="#b45309" stroke="#b45309" stroke-width="2.5"><line x1="450" y1="115" x2="490" y2="115"/><polygon points="490,108 502,115 490,122" stroke="none"/></g>
-<rect x="510" y="60" width="220" height="110" rx="8" fill="#b45309"/>
-<text x="620" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fdfbf7">Maischbottich</text>
-<text x="620" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#fdfbf7">T2 = 152 °F Ziel</text>
-<text x="620" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#f7ece0">(was du willst)</text>
-<text x="380" y="205" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#1c1a17">Tw = (0.2 ÷ R)(T2 − T1) + T2  →  erhitze das Wasser heißer, um die kalte Masse der Schüttung aufzunehmen</text>
+<rect x="0" y="0" width="760" height="230" fill="#ffffff"/>
+<rect x="20" y="60" width="180" height="110" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="110" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">Heißes Brauwasser</text>
+<text x="110" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#00695c">Tw ≈ 164 °F</text>
+<text x="110" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">(worauf du erhitzt)</text>
+<text x="230" y="122" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#4a6b64">+</text>
+<rect x="260" y="60" width="180" height="110" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="350" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">Schüttung</text>
+<text x="350" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#00695c">T1 = 65 °F</text>
+<text x="350" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">(spezif. Wärme ≈ 0.2)</text>
+<g fill="#00695c" stroke="#00695c" stroke-width="2.5"><line x1="450" y1="115" x2="490" y2="115"/><polygon points="490,108 502,115 490,122" stroke="none"/></g>
+<rect x="510" y="60" width="220" height="110" rx="8" fill="#00695c"/>
+<text x="620" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Maischbottich</text>
+<text x="620" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ffffff">T2 = 152 °F Ziel</text>
+<text x="620" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#f0f6f5">(was du willst)</text>
+<text x="380" y="205" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#06483f">Tw = (0.2 ÷ R)(T2 − T1) + T2  →  erhitze das Wasser heißer, um die kalte Masse der Schüttung aufzunehmen</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Einmaischwasser-Wärmebilanz (Anwendungsfall 5): Das Wasser muss heiß genug laufen, dass die kühle Schüttung die Mischung auf das Ziel herunterzieht.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Einmaischwasser-Wärmebilanz (Anwendungsfall 5): Das Wasser muss heiß genug laufen, dass die kühle Schüttung die Mischung auf das Ziel herunterzieht.</figcaption>
 </figure>
 
 **5. Einmaisch-Wassertemperatur.** Erhitze das Brauwasser heiß genug, dass kalte Schüttung dich aufs Ziel bringt.
@@ -162,23 +162,23 @@ Beispiel: Alkalität 100, Ca 50, Mg 10 → RA **84 ppm**; SO₄ 150, Cl 50 → *
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 620 350" width="100%" style="max-width:620px;height:auto" role="img" aria-label="Tinseth-Hopfenausnutzungskurve, die steil ansteigt und dann bei 60 Minuten Kochzeit abflacht">
-<rect x="0" y="0" width="620" height="350" fill="#fdfbf7"/>
-<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Hopfenausnutzung vs. Kochzeit (Tinseth)</text>
-<g stroke="#e0d8cc" stroke-width="1">
+<rect x="0" y="0" width="620" height="350" fill="#ffffff"/>
+<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Hopfenausnutzung vs. Kochzeit (Tinseth)</text>
+<g stroke="#d8e6e1" stroke-width="1">
 <line x1="60" y1="40" x2="580" y2="40"/><line x1="60" y1="170" x2="580" y2="170"/>
 </g>
-<g stroke="#1c1a17" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="580" y2="300"/></g>
-<polyline points="60,300 117.8,217.3 175.6,161.9 233.3,124.9 291.1,100.1 406.7,72.1 493.3,61.9 580,56.2" fill="none" stroke="#b45309" stroke-width="3"/>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">
+<g stroke="#06483f" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="580" y2="300"/></g>
+<polyline points="60,300 117.8,217.3 175.6,161.9 233.3,124.9 291.1,100.1 406.7,72.1 493.3,61.9 580,56.2" fill="none" stroke="#00695c" stroke-width="3"/>
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle">
 <text x="60" y="318">0</text><text x="233" y="318">30</text><text x="406" y="318">60</text><text x="580" y="318">90</text>
 <text x="320" y="340">Kochzeit (Minuten)</text>
 </g>
-<text x="20" y="170" font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" transform="rotate(-90 20 170)">Ausnutzung</text>
-<line x1="406" y1="72" x2="470" y2="120" stroke="#7a1f3d" stroke-width="1"/>
-<text x="475" y="124" font-family="sans-serif" font-size="12" fill="#7a1f3d">die meiste Bittere</text>
-<text x="475" y="140" font-family="sans-serif" font-size="12" fill="#7a1f3d">bis ~60 Min. festgelegt</text>
+<text x="20" y="170" font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle" transform="rotate(-90 20 170)">Ausnutzung</text>
+<line x1="406" y1="72" x2="470" y2="120" stroke="#06483f" stroke-width="1"/>
+<text x="475" y="124" font-family="sans-serif" font-size="12" fill="#06483f">die meiste Bittere</text>
+<text x="475" y="140" font-family="sans-serif" font-size="12" fill="#06483f">bis ~60 Min. festgelegt</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Warum eine 90-Minuten-Gabe nicht viel bitterer ist als eine 60-Minuten-Gabe (Anwendungsfall 10).</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Warum eine 90-Minuten-Gabe nicht viel bitterer ist als eine 60-Minuten-Gabe (Anwendungsfall 10).</figcaption>
 </figure>
 
 **10. IBU nach der Tinseth-Methode.** Die branchenübliche Bitterkeitsschätzung, in zwei Zellen.
@@ -222,21 +222,21 @@ Beispiel: 1.050 → 1.011 → **5,1 % (einfach) / 5,2 % (genau)**.
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 560 300" width="100%" style="max-width:560px;height:auto" role="img" aria-label="Pearson-Quadrat zum Verschneiden zweier Biere auf einen Ziel-ABV">
-<rect x="0" y="0" width="560" height="300" fill="#fdfbf7"/>
-<text x="280" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Pearson-Quadrat — auf ein Ziel verschneiden</text>
-<rect x="170" y="60" width="220" height="180" fill="none" stroke="#b45309" stroke-width="1.5"/>
-<line x1="170" y1="60" x2="390" y2="240" stroke="#e0d8cc" stroke-width="1.5"/>
-<line x1="170" y1="240" x2="390" y2="60" stroke="#e0d8cc" stroke-width="1.5"/>
-<rect x="232" y="128" width="96" height="44" rx="6" fill="#b45309"/>
-<text x="280" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#fdfbf7">ZIEL</text>
-<text x="280" y="164" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fdfbf7">5.0%</text>
-<text x="178" y="84" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">A: 6.5%</text>
-<text x="178" y="232" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">B: 3.0%</text>
-<text x="382" y="84" text-anchor="end" font-family="sans-serif" font-size="13" fill="#7a1f3d">Teile A = 5.0−3.0 = 2.0</text>
-<text x="382" y="232" text-anchor="end" font-family="sans-serif" font-size="13" fill="#7a1f3d">Teile B = 6.5−5.0 = 1.5</text>
-<text x="280" y="278" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1c1a17">Verschneide 2.0 : 1.5 (A : B) → 5.0% ✓</text>
+<rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+<text x="280" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Pearson-Quadrat — auf ein Ziel verschneiden</text>
+<rect x="170" y="60" width="220" height="180" fill="none" stroke="#00695c" stroke-width="1.5"/>
+<line x1="170" y1="60" x2="390" y2="240" stroke="#d8e6e1" stroke-width="1.5"/>
+<line x1="170" y1="240" x2="390" y2="60" stroke="#d8e6e1" stroke-width="1.5"/>
+<rect x="232" y="128" width="96" height="44" rx="6" fill="#00695c"/>
+<text x="280" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#ffffff">ZIEL</text>
+<text x="280" y="164" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">5.0%</text>
+<text x="178" y="84" font-family="sans-serif" font-size="13" font-weight="700" fill="#06483f">A: 6.5%</text>
+<text x="178" y="232" font-family="sans-serif" font-size="13" font-weight="700" fill="#06483f">B: 3.0%</text>
+<text x="382" y="84" text-anchor="end" font-family="sans-serif" font-size="13" fill="#06483f">Teile A = 5.0−3.0 = 2.0</text>
+<text x="382" y="232" text-anchor="end" font-family="sans-serif" font-size="13" fill="#06483f">Teile B = 6.5−5.0 = 1.5</text>
+<text x="280" y="278" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#06483f">Verschneide 2.0 : 1.5 (A : B) → 5.0% ✓</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Pearson-Quadrat (Anwendungsfall 18): Jede Ecke subtrahiert diagonal, um das Verschnittverhältnis zu ergeben.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Pearson-Quadrat (Anwendungsfall 18): Jede Ecke subtrahiert diagonal, um das Verschnittverhältnis zu ergeben.</figcaption>
 </figure>
 
 **17. Speisezucker für die Flaschenkarbonisierung.** Triff ein CO₂-Ziel ohne Flaschenbomben.

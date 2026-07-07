@@ -23,26 +23,26 @@ Das Weichen ist die erste und am stärksten gehebelte Entscheidung beim Mälzen:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 240" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Kornfeuchte steigt in Stufen durch abwechselnde Nassweichen und Luftrasten zu 44 Prozent Weich-Endfeuchte">
-<rect x="0" y="0" width="760" height="240" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Wasseraufnahme — Nassweichen heben die Feuchte, Luftrasten versorgen mit Sauerstoff</text>
-<line x1="70" y1="200" x2="720" y2="200" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="70" y1="60" x2="70" y2="200" stroke="#6b6258" stroke-width="1.5"/>
-<text x="36" y="70" font-family="sans-serif" font-size="11" fill="#6b6258">46%</text>
-<text x="36" y="200" font-family="sans-serif" font-size="11" fill="#6b6258">12%</text>
-<line x1="70" y1="78" x2="720" y2="78" stroke="#b45309" stroke-width="1" stroke-dasharray="5 4"/>
-<text x="636" y="73" font-family="sans-serif" font-size="11" font-weight="700" fill="#b45309">Weich-Endfeuchte 44%</text>
-<polyline points="70,190 150,150 210,150 290,118 350,118 430,95 490,92 570,80 720,80" fill="none" stroke="#1c1a17" stroke-width="2.5"/>
+<rect x="0" y="0" width="760" height="240" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Wasseraufnahme — Nassweichen heben die Feuchte, Luftrasten versorgen mit Sauerstoff</text>
+<line x1="70" y1="200" x2="720" y2="200" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="70" y1="60" x2="70" y2="200" stroke="#4a6b64" stroke-width="1.5"/>
+<text x="36" y="70" font-family="sans-serif" font-size="11" fill="#4a6b64">46%</text>
+<text x="36" y="200" font-family="sans-serif" font-size="11" fill="#4a6b64">12%</text>
+<line x1="70" y1="78" x2="720" y2="78" stroke="#00695c" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="636" y="73" font-family="sans-serif" font-size="11" font-weight="700" fill="#00695c">Weich-Endfeuchte 44%</text>
+<polyline points="70,190 150,150 210,150 290,118 350,118 430,95 490,92 570,80 720,80" fill="none" stroke="#06483f" stroke-width="2.5"/>
 <g font-family="sans-serif" font-size="10" text-anchor="middle">
-<rect x="70" y="208" width="80" height="14" fill="#7a1f3d"/><text x="110" y="218" fill="#fdfbf7">nass</text>
-<rect x="150" y="208" width="60" height="14" fill="#f7ece0"/><text x="180" y="218" fill="#6b6258">Luft</text>
-<rect x="210" y="208" width="80" height="14" fill="#7a1f3d"/><text x="250" y="218" fill="#fdfbf7">nass</text>
-<rect x="290" y="208" width="60" height="14" fill="#f7ece0"/><text x="320" y="218" fill="#6b6258">Luft</text>
-<rect x="350" y="208" width="80" height="14" fill="#7a1f3d"/><text x="390" y="218" fill="#fdfbf7">nass</text>
-<rect x="430" y="208" width="60" height="14" fill="#f7ece0"/><text x="460" y="218" fill="#6b6258">Luft</text>
-<rect x="490" y="208" width="80" height="14" fill="#7a1f3d"/><text x="530" y="218" fill="#fdfbf7">nass</text>
+<rect x="70" y="208" width="80" height="14" fill="#06483f"/><text x="110" y="218" fill="#ffffff">nass</text>
+<rect x="150" y="208" width="60" height="14" fill="#f0f6f5"/><text x="180" y="218" fill="#4a6b64">Luft</text>
+<rect x="210" y="208" width="80" height="14" fill="#06483f"/><text x="250" y="218" fill="#ffffff">nass</text>
+<rect x="290" y="208" width="60" height="14" fill="#f0f6f5"/><text x="320" y="218" fill="#4a6b64">Luft</text>
+<rect x="350" y="208" width="80" height="14" fill="#06483f"/><text x="390" y="218" fill="#ffffff">nass</text>
+<rect x="430" y="208" width="60" height="14" fill="#f0f6f5"/><text x="460" y="218" fill="#4a6b64">Luft</text>
+<rect x="490" y="208" width="80" height="14" fill="#06483f"/><text x="530" y="218" fill="#ffffff">nass</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Die Feuchte steigt in Stufen: Sie nimmt während jeder getauchten Nassweiche zu und plateaut während der Luftraste, die den Embryo atmen lässt. Ein Modell sagt die Höhe jeder Stufe voraus.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Die Feuchte steigt in Stufen: Sie nimmt während jeder getauchten Nassweiche zu und plateaut während der Luftraste, die den Embryo atmen lässt. Ein Modell sagt die Höhe jeder Stufe voraus.</figcaption>
 </figure>
 
 ## Was das Weichen tatsächlich steuert

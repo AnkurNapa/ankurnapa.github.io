@@ -23,31 +23,31 @@ Ein Malzzertifikat ist eine Wand aus Zahlen, die ein Brauer durch Erfahrung zu l
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 220" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Pipeline von einem Malzzertifikat-PDF über Extraktion und Erdung zu Erklärung, Markierung, Entwurf und menschlicher Freigabe">
-<rect x="0" y="0" width="760" height="220" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Geerdeter Copilot — erst extrahieren, dann generieren</text>
-<rect x="20" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="80" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">COA</text>
-<text x="80" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">PDF / Scan</text>
-<rect x="175" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="235" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">extrahieren</text>
-<text x="235" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">strukturierte Felder</text>
-<rect x="330" y="80" width="120" height="60" rx="6" fill="#b45309"/>
-<text x="390" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#fdfbf7">erden</text>
-<text x="390" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fdfbf7">Spez. + frühere Chargen</text>
-<rect x="485" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="545" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">erklären ·</text>
-<text x="545" y="116" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">markieren · entwerfen</text>
-<rect x="640" y="80" width="100" height="60" rx="6" fill="#5b7a1f" fill-opacity="0.18" stroke="#5b7a1f"/>
-<text x="690" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">Mensch</text>
-<text x="690" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">Freigabe</text>
-<g stroke="#6b6258" stroke-width="2" fill="#6b6258">
+<rect x="0" y="0" width="760" height="220" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Geerdeter Copilot — erst extrahieren, dann generieren</text>
+<rect x="20" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="80" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">COA</text>
+<text x="80" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">PDF / Scan</text>
+<rect x="175" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="235" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">extrahieren</text>
+<text x="235" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">strukturierte Felder</text>
+<rect x="330" y="80" width="120" height="60" rx="6" fill="#00695c"/>
+<text x="390" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">erden</text>
+<text x="390" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff">Spez. + frühere Chargen</text>
+<rect x="485" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="545" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">erklären ·</text>
+<text x="545" y="116" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">markieren · entwerfen</text>
+<rect x="640" y="80" width="100" height="60" rx="6" fill="#2e9e7c" fill-opacity="0.18" stroke="#2e9e7c"/>
+<text x="690" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">Mensch</text>
+<text x="690" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">Freigabe</text>
+<g stroke="#4a6b64" stroke-width="2" fill="#4a6b64">
 <line x1="140" y1="110" x2="170" y2="110"/><polygon points="175,110 167,106 167,114"/>
 <line x1="295" y1="110" x2="325" y2="110"/><polygon points="330,110 322,106 322,114"/>
 <line x1="450" y1="110" x2="480" y2="110"/><polygon points="485,110 477,106 477,114"/>
 <line x1="605" y1="110" x2="635" y2="110"/><polygon points="640,110 632,106 632,114"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Das Modell spricht immer nur über Zahlen, die aus dem Zertifikat extrahiert und gegen deine Spezifikation geprüft wurden. Es erklärt und entwirft; der Brauer gibt frei.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Das Modell spricht immer nur über Zahlen, die aus dem Zertifikat extrahiert und gegen deine Spezifikation geprüft wurden. Es erklärt und entwirft; der Brauer gibt frei.</figcaption>
 </figure>
 
 ## Was das Zertifikat dir tatsächlich sagt

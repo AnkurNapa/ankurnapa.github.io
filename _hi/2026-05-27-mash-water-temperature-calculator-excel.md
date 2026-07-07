@@ -43,23 +43,23 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 200" width="100%" style="max-width:760px;height:auto" role="img" aria-label="जल संतुलन बार जो 30.5 लीटर को फ़र्मेंटर, ट्रब, बॉइल-ऑफ़, अनाज अवशोषण और डेड स्पेस में विभाजित होते दिखाता है">
-<rect x="0" y="0" width="760" height="200" fill="#fdfbf7"/>
-<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">30.5 L ब्रूइंग जल कहाँ जाता है</text>
-<rect x="60" y="60" width="398.6" height="44" fill="#b45309"/>
-<rect x="458.6" y="60" width="42" height="44" fill="#7a1f3d"/>
-<rect x="500.6" y="60" width="83.9" height="44" fill="#a9743a"/>
-<rect x="584.5" y="60" width="94.4" height="44" fill="#8a5a2b"/>
-<rect x="678.9" y="60" width="21" height="44" fill="#6b6258"/>
-<text x="259" y="88" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fdfbf7">फ़र्मेंटर में 19 L</text>
-<g font-family="sans-serif" font-size="12.5" fill="#1c1a17">
-<rect x="60" y="135" width="14" height="14" fill="#b45309"/><text x="80" y="147">फ़र्मेंटर में — 19 L</text>
-<rect x="250" y="135" width="14" height="14" fill="#7a1f3d"/><text x="270" y="147">ट्रब / चिलर हानि — 2 L</text>
-<rect x="470" y="135" width="14" height="14" fill="#a9743a"/><text x="490" y="147">बॉइल-ऑफ़ — 4 L</text>
-<rect x="60" y="160" width="14" height="14" fill="#8a5a2b"/><text x="80" y="172">अनाज अवशोषण — 4.5 L</text>
-<rect x="250" y="160" width="14" height="14" fill="#6b6258"/><text x="270" y="172">मैश टन डेड स्पेस — 1 L</text>
+<rect x="0" y="0" width="760" height="200" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">30.5 L ब्रूइंग जल कहाँ जाता है</text>
+<rect x="60" y="60" width="398.6" height="44" fill="#00695c"/>
+<rect x="458.6" y="60" width="42" height="44" fill="#06483f"/>
+<rect x="500.6" y="60" width="83.9" height="44" fill="#4db6a2"/>
+<rect x="584.5" y="60" width="94.4" height="44" fill="#06483f"/>
+<rect x="678.9" y="60" width="21" height="44" fill="#4a6b64"/>
+<text x="259" y="88" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">फ़र्मेंटर में 19 L</text>
+<g font-family="sans-serif" font-size="12.5" fill="#06483f">
+<rect x="60" y="135" width="14" height="14" fill="#00695c"/><text x="80" y="147">फ़र्मेंटर में — 19 L</text>
+<rect x="250" y="135" width="14" height="14" fill="#06483f"/><text x="270" y="147">ट्रब / चिलर हानि — 2 L</text>
+<rect x="470" y="135" width="14" height="14" fill="#4db6a2"/><text x="490" y="147">बॉइल-ऑफ़ — 4 L</text>
+<rect x="60" y="160" width="14" height="14" fill="#06483f"/><text x="80" y="172">अनाज अवशोषण — 4.5 L</text>
+<rect x="250" y="160" width="14" height="14" fill="#4a6b64"/><text x="270" y="172">मैश टन डेड स्पेस — 1 L</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">आप जो जल गर्म करते हैं उसका केवल ~62% बीयर बनता है। बाकी अवशोषित, वाष्पित, या पीछे छूट जाता है — और यही ठीक कारण है कि स्पार्ज मात्रा को उसका हिसाब रखना होता है।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">आप जो जल गर्म करते हैं उसका केवल ~62% बीयर बनता है। बाकी अवशोषित, वाष्पित, या पीछे छूट जाता है — और यही ठीक कारण है कि स्पार्ज मात्रा को उसका हिसाब रखना होता है।</figcaption>
 </figure>
 
 ## चरण 3 — स्टेप मैश और मैश-आउट

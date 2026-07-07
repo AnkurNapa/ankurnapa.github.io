@@ -41,21 +41,21 @@ Durchgerechnetes Beispiel, 23 L bei OG 1,050:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 620 340" width="100%" style="max-width:620px;height:auto" role="img" aria-label="Balkendiagramm des IBU-Beitrags je Hopfengabe: die 60-Minuten-Gabe dominiert">
-<rect x="0" y="0" width="620" height="340" fill="#fdfbf7"/>
-<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">IBU-Beitrag je Gabe (jeweils dieselben 28 g)</text>
-<g stroke="#1c1a17" stroke-width="1.5"><line x1="80" y1="40" x2="80" y2="300"/><line x1="80" y1="300" x2="560" y2="300"/></g>
-<rect x="120" y="66" width="90" height="234" fill="#b45309"/>
-<rect x="270" y="184.3" width="90" height="115.7" fill="#a9743a"/>
-<rect x="420" y="215.5" width="90" height="84.5" fill="#8a5a2b"/>
-<g font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17" text-anchor="middle">
+<rect x="0" y="0" width="620" height="340" fill="#ffffff"/>
+<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">IBU-Beitrag je Gabe (jeweils dieselben 28 g)</text>
+<g stroke="#06483f" stroke-width="1.5"><line x1="80" y1="40" x2="80" y2="300"/><line x1="80" y1="300" x2="560" y2="300"/></g>
+<rect x="120" y="66" width="90" height="234" fill="#00695c"/>
+<rect x="270" y="184.3" width="90" height="115.7" fill="#4db6a2"/>
+<rect x="420" y="215.5" width="90" height="84.5" fill="#06483f"/>
+<g font-family="sans-serif" font-size="13" font-weight="700" fill="#06483f" text-anchor="middle">
 <text x="165" y="58">18.0</text><text x="315" y="176">8.9</text><text x="465" y="207">6.5</text>
 </g>
-<g font-family="sans-serif" font-size="12.5" fill="#6b6258" text-anchor="middle">
+<g font-family="sans-serif" font-size="12.5" fill="#4a6b64" text-anchor="middle">
 <text x="165" y="318">60 min</text><text x="315" y="318">15 min</text><text x="465" y="318">Whirlpool</text>
 </g>
-<text x="36" y="170" font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" transform="rotate(-90 36 170)">IBU</text>
+<text x="36" y="170" font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle" transform="rotate(-90 36 170)">IBU</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Identische Gewichte, sehr unterschiedliche Bittere: Die 60-Minuten-Gabe leistet mehr als die anderen beiden zusammen. *Whirlpool als 10-Minuten-Äquivalent modelliert — siehe den Vorbehalt.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Identische Gewichte, sehr unterschiedliche Bittere: Die 60-Minuten-Gabe leistet mehr als die anderen beiden zusammen. *Whirlpool als 10-Minuten-Äquivalent modelliert — siehe den Vorbehalt.</figcaption>
 </figure>
 
 ## Schritt 2 — das Balanceverhältnis und das Ziel

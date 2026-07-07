@@ -8,12 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title><xsl:value-of select="/rss/channel/title"/> — RSS Feed</title>
         <style>
-          :root{--ink:#1c1a17;--muted:#6b6258;--accent:#b45309;--bg:#fdfbf7;--rule:#e7e0d6}
+          :root{--ink:#06483f;--muted:#4a6b64;--accent:#00695c;--bg:#ffffff;--rule:#e7e0d6}
           body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
           .container{max-width:44rem;margin:0 auto;padding:1.5rem 1.25rem 4rem}
           a{color:var(--accent);text-decoration:none}
           a:hover{text-decoration:underline}
-          .banner{background:#fff5e6;border:1px solid var(--accent);border-radius:8px;padding:1rem 1.25rem;margin:1rem 0 2rem;font-size:.95rem}
+          .banner{background:#e3f3ec;border:1px solid var(--accent);border-radius:8px;padding:1rem 1.25rem;margin:1rem 0 2rem;font-size:.95rem}
           h1{font-size:1.8rem;margin:.25rem 0}
           h2{font-size:1.2rem;margin-top:2rem}
           .desc{color:var(--muted)}

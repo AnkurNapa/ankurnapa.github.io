@@ -56,22 +56,22 @@ Mit den fertigen Ionenwerten an Ort und Stelle sagen dir vier Formeln, ob das Wa
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 180" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Sulfat-zu-Chlorid-Verhältnis-Spektrum von malzig über ausgewogen bis hopfig">
-<rect x="0" y="0" width="760" height="180" fill="#fdfbf7"/>
-<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Sulfat : Chlorid-Verhältnis — der Malz-Hopfen-Regler</text>
-<rect x="60" y="70" width="80" height="40" fill="#8a5a2b"/>
-<rect x="140" y="70" width="80" height="40" fill="#a9743a"/>
-<rect x="220" y="70" width="160" height="40" fill="#b45309"/>
-<rect x="380" y="70" width="320" height="40" fill="#5b7a1f"/>
-<polygon points="540,62 533,52 547,52" fill="#1c1a17"/>
-<text x="540" y="46" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1c1a17">du: 3.0</text>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">
+<rect x="0" y="0" width="760" height="180" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Sulfat : Chlorid-Verhältnis — der Malz-Hopfen-Regler</text>
+<rect x="60" y="70" width="80" height="40" fill="#06483f"/>
+<rect x="140" y="70" width="80" height="40" fill="#4db6a2"/>
+<rect x="220" y="70" width="160" height="40" fill="#00695c"/>
+<rect x="380" y="70" width="320" height="40" fill="#2e9e7c"/>
+<polygon points="540,62 533,52 547,52" fill="#06483f"/>
+<text x="540" y="46" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#06483f">du: 3.0</text>
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle">
 <text x="100" y="128">0.5</text><text x="220" y="128">1.0</text><text x="380" y="128">2.0</text><text x="700" y="128">4.0</text>
 </g>
 <g font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">
-<text x="100" y="152" fill="#8a5a2b">malzig</text><text x="300" y="152" fill="#b45309">ausgewogen</text><text x="540" y="152" fill="#5b7a1f">hopfig / trocken</text>
+<text x="100" y="152" fill="#06483f">malzig</text><text x="300" y="152" fill="#00695c">ausgewogen</text><text x="540" y="152" fill="#2e9e7c">hopfig / trocken</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Das Verhältnis, nicht die absoluten Werte, setzt die wahrgenommene Balance. Ein Pale Ale sitzt bequem bei 2–4; ein malziges Lager nahe 0,5.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Das Verhältnis, nicht die absoluten Werte, setzt die wahrgenommene Balance. Ein Pale Ale sitzt bequem bei 2–4; ein malziges Lager nahe 0,5.</figcaption>
 </figure>
 
 ## Wo das Blatt nur eine Schätzung ist

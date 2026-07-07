@@ -23,31 +23,31 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 220" width="100%" style="max-width:760px;height:auto" role="img" aria-label="एक माल्ट प्रमाणपत्र PDF से निष्कर्षण और आधार देने के माध्यम से व्याख्या, चिह्नन, मसौदा, और मानव मंज़ूरी तक पाइपलाइन">
-<rect x="0" y="0" width="760" height="220" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">आधारित कोपायलट — पहले निकालें, बाद में उत्पन्न करें</text>
-<rect x="20" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="80" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">COA</text>
-<text x="80" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">PDF / स्कैन</text>
-<rect x="175" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="235" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">निकालें</text>
-<text x="235" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">संरचित फ़ील्ड</text>
-<rect x="330" y="80" width="120" height="60" rx="6" fill="#b45309"/>
-<text x="390" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#fdfbf7">आधार दें</text>
-<text x="390" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fdfbf7">स्पेक + पिछले लॉट</text>
-<rect x="485" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="545" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">समझाएँ ·</text>
-<text x="545" y="116" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">चिह्नित करें · मसौदा</text>
-<rect x="640" y="80" width="100" height="60" rx="6" fill="#5b7a1f" fill-opacity="0.18" stroke="#5b7a1f"/>
-<text x="690" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">मानव</text>
-<text x="690" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">मंज़ूरी</text>
-<g stroke="#6b6258" stroke-width="2" fill="#6b6258">
+<rect x="0" y="0" width="760" height="220" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">आधारित कोपायलट — पहले निकालें, बाद में उत्पन्न करें</text>
+<rect x="20" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="80" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">COA</text>
+<text x="80" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">PDF / स्कैन</text>
+<rect x="175" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="235" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">निकालें</text>
+<text x="235" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">संरचित फ़ील्ड</text>
+<rect x="330" y="80" width="120" height="60" rx="6" fill="#00695c"/>
+<text x="390" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">आधार दें</text>
+<text x="390" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff">स्पेक + पिछले लॉट</text>
+<rect x="485" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="545" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">समझाएँ ·</text>
+<text x="545" y="116" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">चिह्नित करें · मसौदा</text>
+<rect x="640" y="80" width="100" height="60" rx="6" fill="#2e9e7c" fill-opacity="0.18" stroke="#2e9e7c"/>
+<text x="690" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">मानव</text>
+<text x="690" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">मंज़ूरी</text>
+<g stroke="#4a6b64" stroke-width="2" fill="#4a6b64">
 <line x1="140" y1="110" x2="170" y2="110"/><polygon points="175,110 167,106 167,114"/>
 <line x1="295" y1="110" x2="325" y2="110"/><polygon points="330,110 322,106 322,114"/>
 <line x1="450" y1="110" x2="480" y2="110"/><polygon points="485,110 477,106 477,114"/>
 <line x1="605" y1="110" x2="635" y2="110"/><polygon points="640,110 632,106 632,114"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">मॉडल केवल उन्हीं संख्याओं के बारे में बात करता है जो प्रमाणपत्र से निकाली गईं और आपके स्पेक के विरुद्ध जाँची गईं। यह समझाता और मसौदा बनाता है; ब्रूअर मंज़ूरी देता है।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">मॉडल केवल उन्हीं संख्याओं के बारे में बात करता है जो प्रमाणपत्र से निकाली गईं और आपके स्पेक के विरुद्ध जाँची गईं। यह समझाता और मसौदा बनाता है; ब्रूअर मंज़ूरी देता है।</figcaption>
 </figure>
 
 ## प्रमाणपत्र दरअसल आपको क्या बताता है

@@ -23,24 +23,24 @@ Den Darrabbruch zu bestimmen ist das schwierigste Timing-Urteil des Mälzers. St
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Lösung, die über fünf Keimtage in ein Zielband ansteigt, mit einem Entscheidungsfenster für den Darrabbruch">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Lösung über die Keimung — und wann abgedarrt wird</text>
-<rect x="60" y="70" width="640" height="36" fill="#f7ece0"/>
-<text x="700" y="92" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">Zielband</text>
-<line x1="60" y1="210" x2="700" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="60" y1="56" x2="60" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<text x="28" y="92" font-family="sans-serif" font-size="11" fill="#6b6258">Ziel</text>
-<text x="28" y="208" font-family="sans-serif" font-size="11" fill="#6b6258">roh</text>
-<path d="M60,205 C200,190 300,150 420,100 C500,75 600,70 700,68" fill="none" stroke="#1c1a17" stroke-width="2.5"/>
-<rect x="420" y="56" width="80" height="154" fill="#b45309" fill-opacity="0.12"/>
-<text x="460" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#b45309">Darrabbruch-Fenster</text>
-<text x="200" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">unterlöst</text>
-<text x="610" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">überlöst · Verlust</text>
-<g font-family="sans-serif" font-size="10" fill="#6b6258" text-anchor="middle">
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Lösung über die Keimung — und wann abgedarrt wird</text>
+<rect x="60" y="70" width="640" height="36" fill="#f0f6f5"/>
+<text x="700" y="92" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">Zielband</text>
+<line x1="60" y1="210" x2="700" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="60" y1="56" x2="60" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<text x="28" y="92" font-family="sans-serif" font-size="11" fill="#4a6b64">Ziel</text>
+<text x="28" y="208" font-family="sans-serif" font-size="11" fill="#4a6b64">roh</text>
+<path d="M60,205 C200,190 300,150 420,100 C500,75 600,70 700,68" fill="none" stroke="#06483f" stroke-width="2.5"/>
+<rect x="420" y="56" width="80" height="154" fill="#00695c" fill-opacity="0.12"/>
+<text x="460" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#00695c">Darrabbruch-Fenster</text>
+<text x="200" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">unterlöst</text>
+<text x="610" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">überlöst · Verlust</text>
+<g font-family="sans-serif" font-size="10" fill="#4a6b64" text-anchor="middle">
 <text x="120" y="224">T1</text><text x="250" y="224">T2</text><text x="380" y="224">T3</text><text x="460" y="224">T4</text><text x="620" y="224">T5</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Das Modell prognostiziert die Lösungskurve in das Zielband hinein, sodass der Darrabbruch auf das Fenster getaktet werden kann — bevor die Atmung beginnt, Extrakt zu fressen.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Das Modell prognostiziert die Lösungskurve in das Zielband hinein, sodass der Darrabbruch auf das Fenster getaktet werden kann — bevor die Atmung beginnt, Extrakt zu fressen.</figcaption>
 </figure>
 
 ## Was „ausreichend gelöst" tatsächlich bedeutet

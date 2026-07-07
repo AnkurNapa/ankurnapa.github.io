@@ -23,26 +23,26 @@ Anthropic इकोसिस्टम एक विस्तार है, ए�
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 420" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="एक डिस्टिलरी के केंद्र में Claude, आठ क्षेत्रों तक स्पोक के साथ जिनमें यह मदद कर सकता है">
-<rect x="0" y="0" width="1000" height="420" fill="#fdfbf7"/>
-<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Claude एक डिस्टिलरी में कहां मदद करता है</text>
-<g stroke="#e0d8cc" stroke-width="1.5">
+<rect x="0" y="0" width="1000" height="420" fill="#ffffff"/>
+<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Claude एक डिस्टिलरी में कहां मदद करता है</text>
+<g stroke="#d8e6e1" stroke-width="1.5">
 <line x1="500" y1="210" x2="890" y2="210"/><line x1="500" y1="210" x2="775" y2="316"/><line x1="500" y1="210" x2="500" y2="360"/><line x1="500" y1="210" x2="224" y2="316"/><line x1="500" y1="210" x2="110" y2="210"/><line x1="500" y1="210" x2="224" y2="104"/><line x1="500" y1="210" x2="500" y2="60"/><line x1="500" y1="210" x2="775" y2="104"/>
 </g>
 <g font-family="sans-serif" font-size="11.5" text-anchor="middle">
-<rect x="810" y="188" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="890" y="214" fill="#1c1a17">न्यू मेक और R&amp;D</text>
-<rect x="695" y="294" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="775" y="320" fill="#1c1a17">आसवन</text>
-<rect x="420" y="338" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="500" y="364" fill="#1c1a17">गुणवत्ता / QC</text>
-<rect x="144" y="294" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="224" y="320" fill="#1c1a17">कास्क और वेयरहाउस</text>
-<rect x="30" y="188" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="110" y="214" fill="#1c1a17">बिक्री और वितरण</text>
-<rect x="144" y="82" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="224" y="108" fill="#1c1a17">मार्केटिंग और ब्रांड</text>
-<rect x="420" y="38" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="500" y="64" fill="#1c1a17">एक्साइज़ और अनुपालन</text>
-<rect x="695" y="82" width="160" height="44" rx="8" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="775" y="108" fill="#1c1a17">विज़िटर सेंटर और DTC</text>
+<rect x="810" y="188" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="890" y="214" fill="#06483f">न्यू मेक और R&amp;D</text>
+<rect x="695" y="294" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="775" y="320" fill="#06483f">आसवन</text>
+<rect x="420" y="338" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="500" y="364" fill="#06483f">गुणवत्ता / QC</text>
+<rect x="144" y="294" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="224" y="320" fill="#06483f">कास्क और वेयरहाउस</text>
+<rect x="30" y="188" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="110" y="214" fill="#06483f">बिक्री और वितरण</text>
+<rect x="144" y="82" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="224" y="108" fill="#06483f">मार्केटिंग और ब्रांड</text>
+<rect x="420" y="38" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="500" y="64" fill="#06483f">एक्साइज़ और अनुपालन</text>
+<rect x="695" y="82" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="775" y="108" fill="#06483f">विज़िटर सेंटर और DTC</text>
 </g>
-<circle cx="500" cy="210" r="62" fill="#8a5a2b"/>
-<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#fdfbf7">Claude</text>
-<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f7ece0">+ Claude Code</text>
+<circle cx="500" cy="210" r="62" fill="#06483f"/>
+<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">Claude</text>
+<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f0f6f5">+ Claude Code</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">एक हब, एकल तरकीब नहीं — वही सहायक, कोड-उपकरण और कनेक्टर डिस्टिलरी के हर हिस्से तक पहुंचते हैं।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">एक हब, एकल तरकीब नहीं — वही सहायक, कोड-उपकरण और कनेक्टर डिस्टिलरी के हर हिस्से तक पहुंचते हैं।</figcaption>
 </figure>
 
 ## न्यू मेक, आसवन और गुणवत्ता
@@ -79,24 +79,24 @@ Anthropic इकोसिस्टम एक विस्तार है, ए�
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 300" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Claude MCP के ज़रिए एक डिस्टिलरी के सिस्टमों से कैसे जुड़ता है">
-<rect x="0" y="0" width="1000" height="300" fill="#fdfbf7"/>
-<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Claude आपके डेटा तक कैसे पहुंचता है — MCP पुल</text>
-<rect x="40" y="110" width="220" height="90" rx="10" fill="#8a5a2b"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fdfbf7">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f7ece0">claude.ai + Claude Code</text>
-<rect x="410" y="120" width="160" height="70" rx="10" fill="#f7ece0" stroke="#8a5a2b" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#6b6258">कनेक्टर</text>
-<g font-family="sans-serif" font-size="12" fill="#1c1a17">
-<rect x="760" y="40" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="62" text-anchor="middle">कास्क-सिस्टम</text>
-<rect x="760" y="84" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="106" text-anchor="middle">ERP / वित्त</text>
-<rect x="760" y="128" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="150" text-anchor="middle">SOP और दस्तावेज़</text>
-<rect x="760" y="172" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="194" text-anchor="middle">Power BI</text>
-<rect x="760" y="216" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="238" text-anchor="middle">ईमेल और फ़ाइलें</text>
+<rect x="0" y="0" width="1000" height="300" fill="#ffffff"/>
+<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">Claude आपके डेटा तक कैसे पहुंचता है — MCP पुल</text>
+<rect x="40" y="110" width="220" height="90" rx="10" fill="#06483f"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f0f6f5">claude.ai + Claude Code</text>
+<rect x="410" y="120" width="160" height="70" rx="10" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#4a6b64">कनेक्टर</text>
+<g font-family="sans-serif" font-size="12" fill="#06483f">
+<rect x="760" y="40" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="62" text-anchor="middle">कास्क-सिस्टम</text>
+<rect x="760" y="84" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="106" text-anchor="middle">ERP / वित्त</text>
+<rect x="760" y="128" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="150" text-anchor="middle">SOP और दस्तावेज़</text>
+<rect x="760" y="172" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="194" text-anchor="middle">Power BI</text>
+<rect x="760" y="216" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="238" text-anchor="middle">ईमेल और फ़ाइलें</text>
 </g>
-<g stroke="#8a5a2b" stroke-width="2.5" fill="#8a5a2b"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
-<g stroke="#6b6258" stroke-width="1.5" fill="#6b6258">
+<g stroke="#06483f" stroke-width="2.5" fill="#06483f"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
+<g stroke="#4a6b64" stroke-width="1.5" fill="#4a6b64">
 <line x1="570" y1="155" x2="760" y2="57"/><line x1="570" y1="155" x2="760" y2="101"/><line x1="570" y1="155" x2="760" y2="145"/><line x1="570" y1="155" x2="760" y2="189"/><line x1="570" y1="155" x2="760" y2="233"/>
 </g>
-<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">MCP आपके डेटा को आपके नियंत्रण में रखता है — Claude वही पढ़ता है जो आप जोड़ते हैं, उससे अधिक नहीं।</text>
+<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">MCP आपके डेटा को आपके नियंत्रण में रखता है — Claude वही पढ़ता है जो आप जोड़ते हैं, उससे अधिक नहीं।</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">कास्क-सिस्टम रिकॉर्ड का सिस्टम रहता है; MCP बस Claude को उस पर पढ़ने और तर्क करने देता है, आपकी शर्तों पर।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">कास्क-सिस्टम रिकॉर्ड का सिस्टम रहता है; MCP बस Claude को उस पर पढ़ने और तर्क करने देता है, आपकी शर्तों पर।</figcaption>
 </figure>
 
 ## कहां एक मनुष्य को लूप में रखें

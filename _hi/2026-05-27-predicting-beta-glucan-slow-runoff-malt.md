@@ -23,23 +23,23 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="माल्ट बीटा-ग्लूकेन बनाम लॉटर-समय का स्कैटर जो एक बढ़ता रुझान और एक उच्च-जोखिम क्षेत्र दिखाता है">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">माल्ट बीटा-ग्लूकेन बनाम लॉटर-समय</text>
-<line x1="80" y1="210" x2="710" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="80" y1="50" x2="80" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<text x="395" y="240" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">बीटा-ग्लूकेन (mg/L) →</text>
-<text x="46" y="130" font-family="sans-serif" font-size="11" fill="#6b6258" transform="rotate(-90 46,130)">लॉटर-समय →</text>
-<rect x="470" y="50" width="240" height="160" fill="#7a1f3d" fill-opacity="0.08"/>
-<text x="590" y="68" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#7a1f3d">उच्च-जोखिम क्षेत्र</text>
-<line x1="80" y1="195" x2="710" y2="80" stroke="#b45309" stroke-width="2" stroke-dasharray="6 4"/>
-<g fill="#1c1a17">
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">माल्ट बीटा-ग्लूकेन बनाम लॉटर-समय</text>
+<line x1="80" y1="210" x2="710" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="80" y1="50" x2="80" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<text x="395" y="240" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">बीटा-ग्लूकेन (mg/L) →</text>
+<text x="46" y="130" font-family="sans-serif" font-size="11" fill="#4a6b64" transform="rotate(-90 46,130)">लॉटर-समय →</text>
+<rect x="470" y="50" width="240" height="160" fill="#06483f" fill-opacity="0.08"/>
+<text x="590" y="68" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#06483f">उच्च-जोखिम क्षेत्र</text>
+<line x1="80" y1="195" x2="710" y2="80" stroke="#00695c" stroke-width="2" stroke-dasharray="6 4"/>
+<g fill="#06483f">
 <circle cx="130" cy="190" r="5"/><circle cx="175" cy="185" r="5"/><circle cx="215" cy="178" r="5"/><circle cx="265" cy="170" r="5"/><circle cx="305" cy="160" r="5"/><circle cx="355" cy="150" r="5"/><circle cx="415" cy="140" r="5"/>
 </g>
-<g fill="#7a1f3d">
+<g fill="#06483f">
 <circle cx="520" cy="120" r="5"/><circle cx="560" cy="100" r="5"/><circle cx="620" cy="95" r="5"/><circle cx="660" cy="75" r="5"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">रनऑफ़-समय बीटा-ग्लूकेन के साथ चढ़ता है, पर फैलाव चौड़ा है — श्यानता और homogeneity भविष्यवाणी को तेज़ करते हैं। मॉडल जोखिम रैंक करता है; यह एक रुके मैश का वादा नहीं करता।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">रनऑफ़-समय बीटा-ग्लूकेन के साथ चढ़ता है, पर फैलाव चौड़ा है — श्यानता और homogeneity भविष्यवाणी को तेज़ करते हैं। मॉडल जोखिम रैंक करता है; यह एक रुके मैश का वादा नहीं करता।</figcaption>
 </figure>
 
 ## बीटा-ग्लूकेन लॉटर को क्यों धीमा करता है

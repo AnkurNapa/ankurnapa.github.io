@@ -42,26 +42,26 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 700 360" width="100%" style="max-width:700px;height:auto" role="img" aria-label="दक्षता वॉटरफ़ॉल: 370 संभावित पॉइंट कन्वर्ज़न को 18.5 और लॉटर को 76.5 खोते हैं, 275 एकत्रित छोड़ते हुए">
-<rect x="0" y="0" width="700" height="360" fill="#fdfbf7"/>
-<text x="350" y="26" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">एक्सट्रैक्ट कहाँ जाता है (ग्रैविटी पॉइंट)</text>
-<g stroke="#1c1a17" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="320"/><line x1="60" y1="320" x2="660" y2="320"/></g>
-<g stroke="#6b6258" stroke-width="1" stroke-dasharray="4 3">
+<rect x="0" y="0" width="700" height="360" fill="#ffffff"/>
+<text x="350" y="26" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">एक्सट्रैक्ट कहाँ जाता है (ग्रैविटी पॉइंट)</text>
+<g stroke="#06483f" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="320"/><line x1="60" y1="320" x2="660" y2="320"/></g>
+<g stroke="#4a6b64" stroke-width="1" stroke-dasharray="4 3">
 <line x1="160" y1="61" x2="190" y2="61"/><line x1="280" y1="73.95" x2="310" y2="73.95"/>
 <line x1="400" y1="73.95" x2="430" y2="73.95"/><line x1="520" y1="127.5" x2="550" y2="127.5"/>
 </g>
-<rect x="70" y="61" width="90" height="259" fill="#b45309"/>
-<rect x="190" y="61" width="90" height="12.95" fill="#7a1f3d"/>
-<rect x="310" y="73.95" width="90" height="246.05" fill="#a9743a"/>
-<rect x="430" y="73.95" width="90" height="53.55" fill="#7a1f3d"/>
-<rect x="550" y="127.5" width="90" height="192.5" fill="#b45309"/>
-<g font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17" text-anchor="middle">
+<rect x="70" y="61" width="90" height="259" fill="#00695c"/>
+<rect x="190" y="61" width="90" height="12.95" fill="#06483f"/>
+<rect x="310" y="73.95" width="90" height="246.05" fill="#4db6a2"/>
+<rect x="430" y="73.95" width="90" height="53.55" fill="#06483f"/>
+<rect x="550" y="127.5" width="90" height="192.5" fill="#00695c"/>
+<g font-family="sans-serif" font-size="13" font-weight="700" fill="#06483f" text-anchor="middle">
 <text x="115" y="53">370</text><text x="235" y="55">−18.5</text><text x="355" y="66">351.5</text><text x="475" y="66">−76.5</text><text x="595" y="120">275</text>
 </g>
-<g font-family="sans-serif" font-size="11.5" fill="#6b6258" text-anchor="middle">
+<g font-family="sans-serif" font-size="11.5" fill="#4a6b64" text-anchor="middle">
 <text x="115" y="338">संभावित</text><text x="235" y="338">कन्वर्ज़न</text><text x="355" y="338">परिवर्तित</text><text x="475" y="338">लॉटर हानि</text><text x="595" y="338">एकत्रित</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">मैश मुश्किल से कुछ खोता है (95% कन्वर्ज़न); असली रिसाव लॉटर है — अनाज अवशोषण और डेड स्पेस में छूटी शर्करा।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">मैश मुश्किल से कुछ खोता है (95% कन्वर्ज़न); असली रिसाव लॉटर है — अनाज अवशोषण और डेड स्पेस में छूटी शर्करा।</figcaption>
 </figure>
 
 ## चरण 3 — मिलान करें और निदान करें

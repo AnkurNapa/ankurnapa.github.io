@@ -23,26 +23,26 @@ Anthropic इकोसिस्टम एक उत्पाद नहीं ह
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 420" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="एक ब्रूअरी के केंद्र में Claude, उन आठ क्षेत्रों के लिए स्पोक के साथ जिनमें यह मदद कर सकता है">
-<rect x="0" y="0" width="1000" height="420" fill="#fdfbf7"/>
-<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">एक ब्रूअरी भर में Claude कहाँ मदद करता है</text>
-<g stroke="#e0d8cc" stroke-width="1.5">
+<rect x="0" y="0" width="1000" height="420" fill="#ffffff"/>
+<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">एक ब्रूअरी भर में Claude कहाँ मदद करता है</text>
+<g stroke="#d8e6e1" stroke-width="1.5">
 <line x1="500" y1="210" x2="890" y2="210"/><line x1="500" y1="210" x2="775" y2="316"/><line x1="500" y1="210" x2="500" y2="360"/><line x1="500" y1="210" x2="224" y2="316"/><line x1="500" y1="210" x2="110" y2="210"/><line x1="500" y1="210" x2="224" y2="104"/><line x1="500" y1="210" x2="500" y2="60"/><line x1="500" y1="210" x2="775" y2="104"/>
 </g>
 <g font-family="sans-serif" font-size="11.5" text-anchor="middle">
-<rect x="810" y="188" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="890" y="214" fill="#1c1a17">R&amp;D और रेसिपी</text>
-<rect x="695" y="294" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="775" y="320" fill="#1c1a17">उत्पादन</text>
-<rect x="420" y="338" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="500" y="364" fill="#1c1a17">गुणवत्ता / QC</text>
-<rect x="144" y="294" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="224" y="320" fill="#1c1a17">आपूर्ति और खरीद</text>
-<rect x="30" y="188" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="110" y="214" fill="#1c1a17">बिक्री और वितरण</text>
-<rect x="144" y="82" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="224" y="108" fill="#1c1a17">मार्केटिंग और ब्रांड</text>
-<rect x="420" y="38" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="500" y="64" fill="#1c1a17">अनुपालन (TTB)</text>
-<rect x="695" y="82" width="160" height="44" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="775" y="108" fill="#1c1a17">टैपरूम और DTC</text>
+<rect x="810" y="188" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="890" y="214" fill="#06483f">R&amp;D और रेसिपी</text>
+<rect x="695" y="294" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="775" y="320" fill="#06483f">उत्पादन</text>
+<rect x="420" y="338" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="500" y="364" fill="#06483f">गुणवत्ता / QC</text>
+<rect x="144" y="294" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="224" y="320" fill="#06483f">आपूर्ति और खरीद</text>
+<rect x="30" y="188" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="110" y="214" fill="#06483f">बिक्री और वितरण</text>
+<rect x="144" y="82" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="224" y="108" fill="#06483f">मार्केटिंग और ब्रांड</text>
+<rect x="420" y="38" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="500" y="64" fill="#06483f">अनुपालन (TTB)</text>
+<rect x="695" y="82" width="160" height="44" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="775" y="108" fill="#06483f">टैपरूम और DTC</text>
 </g>
-<circle cx="500" cy="210" r="62" fill="#b45309"/>
-<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#fdfbf7">Claude</text>
-<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f7ece0">+ Claude Code</text>
+<circle cx="500" cy="210" r="62" fill="#00695c"/>
+<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">Claude</text>
+<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f0f6f5">+ Claude Code</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">एक उपयोग मामला नहीं — एक हब। वही सहायक, कोड उपकरण और कनेक्टर ब्रूअरी के हर हिस्से तक पहुँचते हैं।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">एक उपयोग मामला नहीं — एक हब। वही सहायक, कोड उपकरण और कनेक्टर ब्रूअरी के हर हिस्से तक पहुँचते हैं।</figcaption>
 </figure>
 
 ## रेसिपी, उत्पादन और गुणवत्ता
@@ -76,24 +76,24 @@ Anthropic इकोसिस्टम एक उत्पाद नहीं ह
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 300" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="MCP के माध्यम से Claude किसी ब्रूअरी के सिस्टम से कैसे जुड़ता है">
-<rect x="0" y="0" width="1000" height="300" fill="#fdfbf7"/>
-<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Claude आपके डेटा तक कैसे पहुँचता है — MCP सेतु</text>
-<rect x="40" y="110" width="220" height="90" rx="10" fill="#b45309"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fdfbf7">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f7ece0">claude.ai + Claude Code</text>
-<rect x="410" y="120" width="160" height="70" rx="10" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#6b6258">कनेक्टर</text>
-<g font-family="sans-serif" font-size="12" fill="#1c1a17">
-<rect x="760" y="40" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="62" text-anchor="middle">ERP</text>
-<rect x="760" y="84" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="106" text-anchor="middle">Lakehouse / SQL</text>
-<rect x="760" y="128" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="150" text-anchor="middle">SOP और दस्तावेज़</text>
-<rect x="760" y="172" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="194" text-anchor="middle">Power BI</text>
-<rect x="760" y="216" width="210" height="34" rx="6" fill="#f7ece0" stroke="#6b6258"/><text x="865" y="238" text-anchor="middle">ईमेल और फ़ाइलें</text>
+<rect x="0" y="0" width="1000" height="300" fill="#ffffff"/>
+<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">Claude आपके डेटा तक कैसे पहुँचता है — MCP सेतु</text>
+<rect x="40" y="110" width="220" height="90" rx="10" fill="#00695c"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f0f6f5">claude.ai + Claude Code</text>
+<rect x="410" y="120" width="160" height="70" rx="10" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#4a6b64">कनेक्टर</text>
+<g font-family="sans-serif" font-size="12" fill="#06483f">
+<rect x="760" y="40" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="62" text-anchor="middle">ERP</text>
+<rect x="760" y="84" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="106" text-anchor="middle">Lakehouse / SQL</text>
+<rect x="760" y="128" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="150" text-anchor="middle">SOP और दस्तावेज़</text>
+<rect x="760" y="172" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="194" text-anchor="middle">Power BI</text>
+<rect x="760" y="216" width="210" height="34" rx="6" fill="#f0f6f5" stroke="#4a6b64"/><text x="865" y="238" text-anchor="middle">ईमेल और फ़ाइलें</text>
 </g>
-<g stroke="#b45309" stroke-width="2.5" fill="#b45309"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
-<g stroke="#6b6258" stroke-width="1.5" fill="#6b6258">
+<g stroke="#00695c" stroke-width="2.5" fill="#00695c"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
+<g stroke="#4a6b64" stroke-width="1.5" fill="#4a6b64">
 <line x1="570" y1="155" x2="760" y2="57"/><line x1="570" y1="155" x2="760" y2="101"/><line x1="570" y1="155" x2="760" y2="145"/><line x1="570" y1="155" x2="760" y2="189"/><line x1="570" y1="155" x2="760" y2="233"/>
 </g>
-<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">MCP आपके डेटा को आपके नियंत्रण में रखता है — Claude वही पढ़ता है जो आप जोड़ते हैं, उससे अधिक कुछ नहीं।</text>
+<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">MCP आपके डेटा को आपके नियंत्रण में रखता है — Claude वही पढ़ता है जो आप जोड़ते हैं, उससे अधिक कुछ नहीं।</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">वह सेतु जो एक चतुर चैटबॉट को एक ब्रूअरी सहायक में बदल देता है: MCP Claude को आपके वास्तविक सिस्टम से, आपकी शर्तों पर जोड़ता है।</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">वह सेतु जो एक चतुर चैटबॉट को एक ब्रूअरी सहायक में बदल देता है: MCP Claude को आपके वास्तविक सिस्टम से, आपकी शर्तों पर जोड़ता है।</figcaption>
 </figure>
 
 ## मानव को लूप में कहाँ रखना है
