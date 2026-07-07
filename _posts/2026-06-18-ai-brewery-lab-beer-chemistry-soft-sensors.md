@@ -19,40 +19,40 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 310" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="The soft-sensor pattern in the beer-chemistry lab. On the left, cheap and fast inputs you already collect: inline density, the fermentation temperature curve, dissolved oxygen at the filler, and trace metals. These feed a model in the centre that estimates lab results faster: extract, diacetyl and VDK, and shelf-life. On the right, the reference methods (GC, distillation and ESR) sit as the arbiter that confirms the calls that matter.">
-<rect width="1000" height="310" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">THE SOFT SENSOR: CHEAP INPUTS IN, FAST ESTIMATE OUT, METHOD AS ARBITER</text>
+<rect width="1000" height="310" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00695c">THE SOFT SENSOR: CHEAP INPUTS IN, FAST ESTIMATE OUT, METHOD AS ARBITER</text>
 <g font-family="sans-serif">
-<text x="150" y="66" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#6b6258">INPUTS YOU ALREADY COLLECT</text>
-<rect x="46" y="80" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="150" y="102" text-anchor="middle" font-size="11" fill="#1c1a17">inline density</text>
-<rect x="46" y="122" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="150" y="144" text-anchor="middle" font-size="11" fill="#1c1a17">fermentation temperature curve</text>
-<rect x="46" y="164" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="150" y="186" text-anchor="middle" font-size="11" fill="#1c1a17">dissolved oxygen at the filler</text>
-<rect x="46" y="206" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="150" y="228" text-anchor="middle" font-size="11" fill="#1c1a17">trace metals &amp; antioxidants</text>
-<rect x="396" y="118" width="208" height="86" rx="10" fill="#7a1f3d"/>
-<text x="500" y="152" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fdfbf7">SOFT SENSOR</text>
-<text x="500" y="174" text-anchor="middle" font-size="10.5" fill="#f1e0d2">estimates the result faster</text>
-<line x1="254" y1="97" x2="396" y2="150" stroke="#b45309" stroke-width="1.5"/>
-<line x1="254" y1="139" x2="396" y2="155" stroke="#b45309" stroke-width="1.5"/>
-<line x1="254" y1="181" x2="396" y2="165" stroke="#b45309" stroke-width="1.5"/>
-<line x1="254" y1="223" x2="396" y2="172" stroke="#b45309" stroke-width="1.5"/>
-<text x="850" y="66" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#6b6258">ESTIMATES, FAST</text>
-<rect x="746" y="80" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="850" y="102" text-anchor="middle" font-size="11" fill="#1c1a17">extract</text>
-<rect x="746" y="122" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="850" y="144" text-anchor="middle" font-size="11" fill="#1c1a17">diacetyl &amp; VDK</text>
-<rect x="746" y="164" width="208" height="34" rx="7" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="850" y="186" text-anchor="middle" font-size="11" fill="#1c1a17">shelf-life</text>
-<line x1="604" y1="150" x2="746" y2="97" stroke="#b45309" stroke-width="1.5"/>
-<line x1="604" y1="161" x2="746" y2="139" stroke="#b45309" stroke-width="1.5"/>
-<line x1="604" y1="172" x2="746" y2="181" stroke="#b45309" stroke-width="1.5"/>
-<rect x="46" y="262" width="908" height="34" rx="8" fill="none" stroke="#b45309" stroke-width="1.3" stroke-dasharray="4 3"/>
-<text x="500" y="284" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">GC &#183; distillation &#183; ESR: the reference method stays the arbiter, confirming the calls that matter</text>
+<text x="150" y="66" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#4a6b64">INPUTS YOU ALREADY COLLECT</text>
+<rect x="46" y="80" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="150" y="102" text-anchor="middle" font-size="11" fill="#06483f">inline density</text>
+<rect x="46" y="122" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="150" y="144" text-anchor="middle" font-size="11" fill="#06483f">fermentation temperature curve</text>
+<rect x="46" y="164" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="150" y="186" text-anchor="middle" font-size="11" fill="#06483f">dissolved oxygen at the filler</text>
+<rect x="46" y="206" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="150" y="228" text-anchor="middle" font-size="11" fill="#06483f">trace metals &amp; antioxidants</text>
+<rect x="396" y="118" width="208" height="86" rx="10" fill="#06483f"/>
+<text x="500" y="152" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">SOFT SENSOR</text>
+<text x="500" y="174" text-anchor="middle" font-size="10.5" fill="#cfe6df">estimates the result faster</text>
+<line x1="254" y1="97" x2="396" y2="150" stroke="#00695c" stroke-width="1.5"/>
+<line x1="254" y1="139" x2="396" y2="155" stroke="#00695c" stroke-width="1.5"/>
+<line x1="254" y1="181" x2="396" y2="165" stroke="#00695c" stroke-width="1.5"/>
+<line x1="254" y1="223" x2="396" y2="172" stroke="#00695c" stroke-width="1.5"/>
+<text x="850" y="66" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#4a6b64">ESTIMATES, FAST</text>
+<rect x="746" y="80" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="850" y="102" text-anchor="middle" font-size="11" fill="#06483f">extract</text>
+<rect x="746" y="122" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="850" y="144" text-anchor="middle" font-size="11" fill="#06483f">diacetyl &amp; VDK</text>
+<rect x="746" y="164" width="208" height="34" rx="7" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="850" y="186" text-anchor="middle" font-size="11" fill="#06483f">shelf-life</text>
+<line x1="604" y1="150" x2="746" y2="97" stroke="#00695c" stroke-width="1.5"/>
+<line x1="604" y1="161" x2="746" y2="139" stroke="#00695c" stroke-width="1.5"/>
+<line x1="604" y1="172" x2="746" y2="181" stroke="#00695c" stroke-width="1.5"/>
+<rect x="46" y="262" width="908" height="34" rx="8" fill="none" stroke="#00695c" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="500" y="284" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">GC &#183; distillation &#183; ESR: the reference method stays the arbiter, confirming the calls that matter</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The pattern repeats down the bench: cheap inputs you already log, a model that estimates sooner, the method that confirms what counts.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The pattern repeats down the bench: cheap inputs you already log, a model that estimates sooner, the method that confirms what counts.</figcaption>
 </figure>
 
 The beer-chemistry bench is where measurement is most continuous and most consequential. Extract by pycnometer or density meter, diacetyl and other vicinal diketones by headspace GC, dissolved oxygen at the filler, colour and bitterness by spectrophotometer, haze by nephelometer, foam stability on the Nibem, and, underpinning shelf-life, the slow accelerated and ESR work that tells you how the beer will age. Almost all of it correlates with something cheaper and faster that you are already recording. That is the whole opening for a soft sensor: not a new instrument, but a model that reads the inputs you already have and estimates the answer before the reference method gets there.

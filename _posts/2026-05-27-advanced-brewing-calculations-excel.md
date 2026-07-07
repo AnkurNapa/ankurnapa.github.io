@@ -21,8 +21,8 @@ Brewing software hides the maths. That's fine until you need to tweak a recipe a
 
 A convention for the whole article: cell references like `B2` are examples — put your input in that cell and paste the formula next to it. Gravities are specific gravity (e.g. 1.050) unless stated; "points" means the last three digits ((SG − 1) × 1000), so 1.050 = 50 points. Spellings are British (colour, litres); imperial and metric notes are given where the constant changes.
 
-<aside style="margin:1.6rem 0;padding:1rem 1.25rem;border:1px solid #b45309;border-left:5px solid #b45309;border-radius:8px;background:#f7ece0">
-<strong style="color:#b45309">📊 The "Excel for brewers" series</strong>
+<aside style="margin:1.6rem 0;padding:1rem 1.25rem;border:1px solid #00695c;border-left:5px solid #00695c;border-radius:8px;background:#f0f6f5">
+<strong style="color:#00695c">📊 The "Excel for brewers" series</strong>
 <p style="margin:.5rem 0 .35rem">This post is the hub. Six of the calculations below have a full deep-dive — a complete sheet build, extra formulas, worked examples and a diagram:</p>
 <ul style="margin:0;padding-left:1.2rem;line-height:1.5">
 <li><a href="{{ '/2026/build-brewing-water-chemistry-calculator-excel/' | relative_url }}">Water chemistry calculator</a> — salts, ions, residual alkalinity, sulfate:chloride <em>(use case 9)</em></li>
@@ -36,44 +36,44 @@ A convention for the whole article: cell references like `B2` are examples — p
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1046 280" width="100%" style="max-width:1046px;height:auto" role="img" aria-label="Brew-day process flow showing which of the 20 calculations apply at each stage">
-<rect x="0" y="0" width="1046" height="280" fill="#fdfbf7"/>
-<text x="523" y="34" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#1c1a17">The brew day, by the numbers — where each calculation lands</text>
+<rect x="0" y="0" width="1046" height="280" fill="#ffffff"/>
+<text x="523" y="34" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#06483f">The brew day, by the numbers — where each calculation lands</text>
 <g font-family="sans-serif">
-<rect x="4" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="83" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">RECIPE</text>
-<text x="83" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">1 · SG ↔ °Plato</text>
-<text x="83" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">2 · OG from grist</text>
-<text x="83" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">3 · Efficiency</text>
-<text x="83" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">12 · Colour SRM</text>
-<rect x="180" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="259" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">MASH</text>
-<text x="259" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">5 · Strike temp</text>
-<text x="259" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">6 · Step infusion</text>
-<text x="259" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">7 · Liquor:grist</text>
-<text x="259" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">9 · Water salts</text>
-<rect x="356" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="435" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">BOIL</text>
-<text x="435" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">8 · Boil-off</text>
-<text x="435" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">10 · IBU (Tinseth)</text>
-<text x="435" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">11 · Hop sub</text>
-<rect x="532" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="611" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">FERMENT</text>
-<text x="611" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">13 · Pitch rate</text>
-<text x="611" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">14 · Attenuation</text>
-<text x="611" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">4 · Temp correct</text>
-<text x="611" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">15 · Refractometer</text>
-<rect x="708" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="787" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">PACKAGE</text>
-<text x="787" y="114" text-anchor="middle" font-size="12.5" fill="#1c1a17">16 · ABV</text>
-<text x="787" y="138" text-anchor="middle" font-size="12.5" fill="#1c1a17">17 · Carbonation</text>
-<text x="787" y="162" text-anchor="middle" font-size="12.5" fill="#1c1a17">18 · Blend/dilute</text>
-<text x="787" y="186" text-anchor="middle" font-size="12.5" fill="#1c1a17">19 · Calories</text>
-<rect x="884" y="60" width="158" height="190" rx="8" fill="#f7ece0" stroke="#7a1f3d" stroke-width="1.5"/>
-<text x="963" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#7a1f3d">COST</text>
-<text x="963" y="118" text-anchor="middle" font-size="12.5" fill="#1c1a17">20 · COGS / hL</text>
-<text x="963" y="142" text-anchor="middle" font-size="12.5" fill="#1c1a17">&amp; cost per pint</text>
+<rect x="4" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="83" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">RECIPE</text>
+<text x="83" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">1 · SG ↔ °Plato</text>
+<text x="83" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">2 · OG from grist</text>
+<text x="83" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">3 · Efficiency</text>
+<text x="83" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">12 · Colour SRM</text>
+<rect x="180" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="259" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">MASH</text>
+<text x="259" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">5 · Strike temp</text>
+<text x="259" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">6 · Step infusion</text>
+<text x="259" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">7 · Liquor:grist</text>
+<text x="259" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">9 · Water salts</text>
+<rect x="356" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="435" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">BOIL</text>
+<text x="435" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">8 · Boil-off</text>
+<text x="435" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">10 · IBU (Tinseth)</text>
+<text x="435" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">11 · Hop sub</text>
+<rect x="532" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="611" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">FERMENT</text>
+<text x="611" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">13 · Pitch rate</text>
+<text x="611" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">14 · Attenuation</text>
+<text x="611" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">4 · Temp correct</text>
+<text x="611" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">15 · Refractometer</text>
+<rect x="708" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="787" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#00695c">PACKAGE</text>
+<text x="787" y="114" text-anchor="middle" font-size="12.5" fill="#06483f">16 · ABV</text>
+<text x="787" y="138" text-anchor="middle" font-size="12.5" fill="#06483f">17 · Carbonation</text>
+<text x="787" y="162" text-anchor="middle" font-size="12.5" fill="#06483f">18 · Blend/dilute</text>
+<text x="787" y="186" text-anchor="middle" font-size="12.5" fill="#06483f">19 · Calories</text>
+<rect x="884" y="60" width="158" height="190" rx="8" fill="#f0f6f5" stroke="#06483f" stroke-width="1.5"/>
+<text x="963" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#06483f">COST</text>
+<text x="963" y="118" text-anchor="middle" font-size="12.5" fill="#06483f">20 · COGS / hL</text>
+<text x="963" y="142" text-anchor="middle" font-size="12.5" fill="#06483f">&amp; cost per pint</text>
 </g>
-<g fill="#b45309" stroke="#b45309" stroke-width="2">
+<g fill="#00695c" stroke="#00695c" stroke-width="2">
 <line x1="162" y1="155" x2="174" y2="155"/><polygon points="174,150 181,155 174,160" stroke="none"/>
 <line x1="338" y1="155" x2="350" y2="155"/><polygon points="350,150 357,155 350,160" stroke="none"/>
 <line x1="514" y1="155" x2="526" y2="155"/><polygon points="526,150 533,155 526,160" stroke="none"/>
@@ -81,7 +81,7 @@ A convention for the whole article: cell references like `B2` are examples — p
 <line x1="866" y1="155" x2="878" y2="155"/><polygon points="878,150 885,155 878,160" stroke="none"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The 20 calculations, mapped to the stage where you use them. Numbers below match this map.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The 20 calculations, mapped to the stage where you use them. Numbers below match this map.</figcaption>
 </figure>
 
 ## Recipe and gravity
@@ -110,24 +110,24 @@ Example: 1.050 read at 100 °F, calibrated at 60 °F → **1.056**.
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 230" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Strike water heat balance: hot liquor plus cool grain equals mash at target temperature">
-<rect x="0" y="0" width="760" height="230" fill="#fdfbf7"/>
-<rect x="20" y="60" width="180" height="110" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="110" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">Hot liquor</text>
-<text x="110" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#b45309">Tw ≈ 164 °F</text>
-<text x="110" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">(what you heat to)</text>
-<text x="230" y="122" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#6b6258">+</text>
-<rect x="260" y="60" width="180" height="110" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="350" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">Grain</text>
-<text x="350" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#b45309">T1 = 65 °F</text>
-<text x="350" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">(specific heat ≈ 0.2)</text>
-<g fill="#b45309" stroke="#b45309" stroke-width="2.5"><line x1="450" y1="115" x2="490" y2="115"/><polygon points="490,108 502,115 490,122" stroke="none"/></g>
-<rect x="510" y="60" width="220" height="110" rx="8" fill="#b45309"/>
-<text x="620" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fdfbf7">Mash tun</text>
-<text x="620" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#fdfbf7">T2 = 152 °F target</text>
-<text x="620" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#f7ece0">(what you want)</text>
-<text x="380" y="205" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#1c1a17">Tw = (0.2 ÷ R)(T2 − T1) + T2  →  heat the water hotter to absorb the grain's cold mass</text>
+<rect x="0" y="0" width="760" height="230" fill="#ffffff"/>
+<rect x="20" y="60" width="180" height="110" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="110" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">Hot liquor</text>
+<text x="110" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#00695c">Tw ≈ 164 °F</text>
+<text x="110" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">(what you heat to)</text>
+<text x="230" y="122" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#4a6b64">+</text>
+<rect x="260" y="60" width="180" height="110" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="350" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">Grain</text>
+<text x="350" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#00695c">T1 = 65 °F</text>
+<text x="350" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">(specific heat ≈ 0.2)</text>
+<g fill="#00695c" stroke="#00695c" stroke-width="2.5"><line x1="450" y1="115" x2="490" y2="115"/><polygon points="490,108 502,115 490,122" stroke="none"/></g>
+<rect x="510" y="60" width="220" height="110" rx="8" fill="#00695c"/>
+<text x="620" y="100" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Mash tun</text>
+<text x="620" y="126" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ffffff">T2 = 152 °F target</text>
+<text x="620" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#f0f6f5">(what you want)</text>
+<text x="380" y="205" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#06483f">Tw = (0.2 ÷ R)(T2 − T1) + T2  →  heat the water hotter to absorb the grain's cold mass</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Strike-water heat balance (use case 5): the water must run hot enough that cool grain pulls the mix down to target.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Strike-water heat balance (use case 5): the water must run hot enough that cool grain pulls the mix down to target.</figcaption>
 </figure>
 
 **5. Strike (mash-in) water temperature.** Heat the liquor hot enough that cold grain lands you on target.
@@ -160,23 +160,23 @@ Example: alkalinity 100, Ca 50, Mg 10 → RA **84 ppm**; SO₄ 150, Cl 50 → **
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 620 350" width="100%" style="max-width:620px;height:auto" role="img" aria-label="Tinseth hop utilisation curve rising steeply then plateauing by 60 minutes of boil">
-<rect x="0" y="0" width="620" height="350" fill="#fdfbf7"/>
-<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Hop utilisation vs boil time (Tinseth)</text>
-<g stroke="#e0d8cc" stroke-width="1">
+<rect x="0" y="0" width="620" height="350" fill="#ffffff"/>
+<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Hop utilisation vs boil time (Tinseth)</text>
+<g stroke="#d8e6e1" stroke-width="1">
 <line x1="60" y1="40" x2="580" y2="40"/><line x1="60" y1="170" x2="580" y2="170"/>
 </g>
-<g stroke="#1c1a17" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="580" y2="300"/></g>
-<polyline points="60,300 117.8,217.3 175.6,161.9 233.3,124.9 291.1,100.1 406.7,72.1 493.3,61.9 580,56.2" fill="none" stroke="#b45309" stroke-width="3"/>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">
+<g stroke="#06483f" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="580" y2="300"/></g>
+<polyline points="60,300 117.8,217.3 175.6,161.9 233.3,124.9 291.1,100.1 406.7,72.1 493.3,61.9 580,56.2" fill="none" stroke="#00695c" stroke-width="3"/>
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle">
 <text x="60" y="318">0</text><text x="233" y="318">30</text><text x="406" y="318">60</text><text x="580" y="318">90</text>
 <text x="320" y="340">Boil time (minutes)</text>
 </g>
-<text x="20" y="170" font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle" transform="rotate(-90 20 170)">Utilisation</text>
-<line x1="406" y1="72" x2="470" y2="120" stroke="#7a1f3d" stroke-width="1"/>
-<text x="475" y="124" font-family="sans-serif" font-size="12" fill="#7a1f3d">most bitterness</text>
-<text x="475" y="140" font-family="sans-serif" font-size="12" fill="#7a1f3d">locked in by ~60 min</text>
+<text x="20" y="170" font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle" transform="rotate(-90 20 170)">Utilisation</text>
+<line x1="406" y1="72" x2="470" y2="120" stroke="#06483f" stroke-width="1"/>
+<text x="475" y="124" font-family="sans-serif" font-size="12" fill="#06483f">most bitterness</text>
+<text x="475" y="140" font-family="sans-serif" font-size="12" fill="#06483f">locked in by ~60 min</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Why a 90-minute addition isn't much more bitter than a 60-minute one (use case 10).</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Why a 90-minute addition isn't much more bitter than a 60-minute one (use case 10).</figcaption>
 </figure>
 
 **10. IBU by the Tinseth method.** The industry-standard bitterness estimate, in two cells.
@@ -220,21 +220,21 @@ Example: 1.050 → 1.011 → **5.1% (simple) / 5.2% (accurate)**.
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 560 300" width="100%" style="max-width:560px;height:auto" role="img" aria-label="Pearson's square for blending two beers to a target ABV">
-<rect x="0" y="0" width="560" height="300" fill="#fdfbf7"/>
-<text x="280" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Pearson's square — blend to a target</text>
-<rect x="170" y="60" width="220" height="180" fill="none" stroke="#b45309" stroke-width="1.5"/>
-<line x1="170" y1="60" x2="390" y2="240" stroke="#e0d8cc" stroke-width="1.5"/>
-<line x1="170" y1="240" x2="390" y2="60" stroke="#e0d8cc" stroke-width="1.5"/>
-<rect x="232" y="128" width="96" height="44" rx="6" fill="#b45309"/>
-<text x="280" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#fdfbf7">TARGET</text>
-<text x="280" y="164" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fdfbf7">5.0%</text>
-<text x="178" y="84" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">A: 6.5%</text>
-<text x="178" y="232" font-family="sans-serif" font-size="13" font-weight="700" fill="#1c1a17">B: 3.0%</text>
-<text x="382" y="84" text-anchor="end" font-family="sans-serif" font-size="13" fill="#7a1f3d">parts A = 5.0−3.0 = 2.0</text>
-<text x="382" y="232" text-anchor="end" font-family="sans-serif" font-size="13" fill="#7a1f3d">parts B = 6.5−5.0 = 1.5</text>
-<text x="280" y="278" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1c1a17">Blend 2.0 : 1.5 (A : B) → 5.0% ✓</text>
+<rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+<text x="280" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Pearson's square — blend to a target</text>
+<rect x="170" y="60" width="220" height="180" fill="none" stroke="#00695c" stroke-width="1.5"/>
+<line x1="170" y1="60" x2="390" y2="240" stroke="#d8e6e1" stroke-width="1.5"/>
+<line x1="170" y1="240" x2="390" y2="60" stroke="#d8e6e1" stroke-width="1.5"/>
+<rect x="232" y="128" width="96" height="44" rx="6" fill="#00695c"/>
+<text x="280" y="148" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#ffffff">TARGET</text>
+<text x="280" y="164" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">5.0%</text>
+<text x="178" y="84" font-family="sans-serif" font-size="13" font-weight="700" fill="#06483f">A: 6.5%</text>
+<text x="178" y="232" font-family="sans-serif" font-size="13" font-weight="700" fill="#06483f">B: 3.0%</text>
+<text x="382" y="84" text-anchor="end" font-family="sans-serif" font-size="13" fill="#06483f">parts A = 5.0−3.0 = 2.0</text>
+<text x="382" y="232" text-anchor="end" font-family="sans-serif" font-size="13" fill="#06483f">parts B = 6.5−5.0 = 1.5</text>
+<text x="280" y="278" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#06483f">Blend 2.0 : 1.5 (A : B) → 5.0% ✓</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Pearson's square (use case 18): each corner subtracts diagonally to give the blend ratio.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Pearson's square (use case 18): each corner subtracts diagonally to give the blend ratio.</figcaption>
 </figure>
 
 **17. Priming sugar for bottle carbonation.** Hit a target CO₂ without bottle bombs.

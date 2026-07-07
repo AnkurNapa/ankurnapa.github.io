@@ -19,43 +19,43 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 320" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="A contamination-risk funnel. On the left, many brewery sample points feed in: propagation, FV and maturation, pre and post filter, packaging, water, gases, and CIP. They feed a central risk model built on CIP records, temperature, and history of positives, which ranks the points by failure likelihood so plating effort concentrates on the high-risk few. A maroon banner underneath notes the reference plate still confirms every positive.">
-<rect width="1000" height="320" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">CONTAMINATION-RISK TRIAGE: RANK THE SAMPLE POINTS, POUR WHERE THE RISK IS</text>
+<rect width="1000" height="320" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00695c">CONTAMINATION-RISK TRIAGE: RANK THE SAMPLE POINTS, POUR WHERE THE RISK IS</text>
 <g font-family="sans-serif">
-<text x="118" y="60" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1" fill="#6b6258">MANY SAMPLE POINTS</text>
-<rect x="40" y="72" width="156" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.3"/>
-<text x="118" y="91" text-anchor="middle" font-size="10.5" fill="#1c1a17">propagation</text>
-<rect x="40" y="108" width="156" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.3"/>
-<text x="118" y="127" text-anchor="middle" font-size="10.5" fill="#1c1a17">FV &amp; maturation</text>
-<rect x="40" y="144" width="156" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.3"/>
-<text x="118" y="163" text-anchor="middle" font-size="10.5" fill="#1c1a17">pre / post filter</text>
-<rect x="40" y="180" width="156" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.3"/>
-<text x="118" y="199" text-anchor="middle" font-size="10.5" fill="#1c1a17">packaging</text>
-<rect x="40" y="216" width="156" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.3"/>
-<text x="118" y="235" text-anchor="middle" font-size="10.5" fill="#1c1a17">water &#183; gases &#183; CIP</text>
-<path d="M 204 150 L 356 150" stroke="#b45309" stroke-width="1.5" fill="none" marker-end="url(#ar)"/>
-<defs><marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#b45309"/></marker></defs>
-<rect x="366" y="86" width="230" height="128" rx="10" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="481" y="112" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">RISK MODEL</text>
-<text x="481" y="140" text-anchor="middle" font-size="10.5" fill="#6b6258">CIP records</text>
-<text x="481" y="160" text-anchor="middle" font-size="10.5" fill="#6b6258">temperature</text>
-<text x="481" y="180" text-anchor="middle" font-size="10.5" fill="#6b6258">history of positives</text>
-<path d="M 604 150 L 636 150" stroke="#b45309" stroke-width="1.5" fill="none" marker-end="url(#ar)"/>
-<text x="800" y="60" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1" fill="#6b6258">RANKED BY FAILURE LIKELIHOOD</text>
-<rect x="646" y="72" width="314" height="30" rx="6" fill="#7a1f3d"/>
-<text x="662" y="91" font-size="10.5" font-weight="700" fill="#fdfbf7">1 &#183; post-filter line, high</text>
-<rect x="646" y="108" width="270" height="30" rx="6" fill="#b45309"/>
-<text x="662" y="127" font-size="10.5" font-weight="700" fill="#fdfbf7">2 &#183; recovery CIP tank</text>
-<rect x="646" y="144" width="210" height="30" rx="6" fill="#e8b877"/>
-<text x="662" y="163" font-size="10.5" fill="#1c1a17">3 &#183; packaging filler</text>
-<rect x="646" y="180" width="150" height="30" rx="6" fill="#f7ece0" stroke="#b45309" stroke-width="1.3"/>
-<text x="662" y="199" font-size="10.5" fill="#6b6258">4 &#183; water, low</text>
-<text x="803" y="235" text-anchor="middle" font-size="10" fill="#6b6258">pour plates on the high-risk few first</text>
-<rect x="40" y="264" width="920" height="42" rx="9" fill="#7a1f3d"/>
-<text x="500" y="290" text-anchor="middle" font-size="11.5" font-weight="700" fill="#fdfbf7">THE REFERENCE PLATE STILL CONFIRMS EVERY POSITIVE &#183; the model triages effort, it never signs a result</text>
+<text x="118" y="60" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1" fill="#4a6b64">MANY SAMPLE POINTS</text>
+<rect x="40" y="72" width="156" height="30" rx="6" fill="#f0f6f5" stroke="#00695c" stroke-width="1.3"/>
+<text x="118" y="91" text-anchor="middle" font-size="10.5" fill="#06483f">propagation</text>
+<rect x="40" y="108" width="156" height="30" rx="6" fill="#f0f6f5" stroke="#00695c" stroke-width="1.3"/>
+<text x="118" y="127" text-anchor="middle" font-size="10.5" fill="#06483f">FV &amp; maturation</text>
+<rect x="40" y="144" width="156" height="30" rx="6" fill="#f0f6f5" stroke="#00695c" stroke-width="1.3"/>
+<text x="118" y="163" text-anchor="middle" font-size="10.5" fill="#06483f">pre / post filter</text>
+<rect x="40" y="180" width="156" height="30" rx="6" fill="#f0f6f5" stroke="#00695c" stroke-width="1.3"/>
+<text x="118" y="199" text-anchor="middle" font-size="10.5" fill="#06483f">packaging</text>
+<rect x="40" y="216" width="156" height="30" rx="6" fill="#f0f6f5" stroke="#00695c" stroke-width="1.3"/>
+<text x="118" y="235" text-anchor="middle" font-size="10.5" fill="#06483f">water &#183; gases &#183; CIP</text>
+<path d="M 204 150 L 356 150" stroke="#00695c" stroke-width="1.5" fill="none" marker-end="url(#ar)"/>
+<defs><marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#00695c"/></marker></defs>
+<rect x="366" y="86" width="230" height="128" rx="10" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="481" y="112" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">RISK MODEL</text>
+<text x="481" y="140" text-anchor="middle" font-size="10.5" fill="#4a6b64">CIP records</text>
+<text x="481" y="160" text-anchor="middle" font-size="10.5" fill="#4a6b64">temperature</text>
+<text x="481" y="180" text-anchor="middle" font-size="10.5" fill="#4a6b64">history of positives</text>
+<path d="M 604 150 L 636 150" stroke="#00695c" stroke-width="1.5" fill="none" marker-end="url(#ar)"/>
+<text x="800" y="60" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1" fill="#4a6b64">RANKED BY FAILURE LIKELIHOOD</text>
+<rect x="646" y="72" width="314" height="30" rx="6" fill="#06483f"/>
+<text x="662" y="91" font-size="10.5" font-weight="700" fill="#ffffff">1 &#183; post-filter line, high</text>
+<rect x="646" y="108" width="270" height="30" rx="6" fill="#00695c"/>
+<text x="662" y="127" font-size="10.5" font-weight="700" fill="#ffffff">2 &#183; recovery CIP tank</text>
+<rect x="646" y="144" width="210" height="30" rx="6" fill="#4db6a2"/>
+<text x="662" y="163" font-size="10.5" fill="#06483f">3 &#183; packaging filler</text>
+<rect x="646" y="180" width="150" height="30" rx="6" fill="#f0f6f5" stroke="#00695c" stroke-width="1.3"/>
+<text x="662" y="199" font-size="10.5" fill="#4a6b64">4 &#183; water, low</text>
+<text x="803" y="235" text-anchor="middle" font-size="10" fill="#4a6b64">pour plates on the high-risk few first</text>
+<rect x="40" y="264" width="920" height="42" rx="9" fill="#06483f"/>
+<text x="500" y="290" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">THE REFERENCE PLATE STILL CONFIRMS EVERY POSITIVE &#183; the model triages effort, it never signs a result</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Many sample points, one risk model, a ranked list. Effort concentrates on the high-risk few; the plate confirms every call.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Many sample points, one risk model, a ranked list. Effort concentrates on the high-risk few; the plate confirms every call.</figcaption>
 </figure>
 
 This is part four of a six-part series that walks the brewery QC lab bench by bench. The [overview]({{ '/2026/ai-brewery-lab-what-is-real/' | relative_url }}) laid out the three jobs AI actually does (risk triage, soft sensing, and machine vision) and the last post covered [the beer-chemistry lab]({{ '/2026/ai-brewery-lab-beer-chemistry-soft-sensors/' | relative_url }}) and its soft sensors. Microbiology is the one I'd start with if I could only do one, because it's where the volume-to-payoff ratio is highest. It's also the bench where a confident model does the most damage if you let it decide what not to test.

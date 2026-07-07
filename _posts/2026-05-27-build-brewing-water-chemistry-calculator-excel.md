@@ -54,22 +54,22 @@ With finished ion levels in place, four formulas tell you whether the water suit
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 180" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Sulfate to chloride ratio spectrum from malty to balanced to hoppy">
-<rect x="0" y="0" width="760" height="180" fill="#fdfbf7"/>
-<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Sulfate : chloride ratio — the malt–hop dial</text>
-<rect x="60" y="70" width="80" height="40" fill="#8a5a2b"/>
-<rect x="140" y="70" width="80" height="40" fill="#a9743a"/>
-<rect x="220" y="70" width="160" height="40" fill="#b45309"/>
-<rect x="380" y="70" width="320" height="40" fill="#5b7a1f"/>
-<polygon points="540,62 533,52 547,52" fill="#1c1a17"/>
-<text x="540" y="46" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#1c1a17">you: 3.0</text>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">
+<rect x="0" y="0" width="760" height="180" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Sulfate : chloride ratio — the malt–hop dial</text>
+<rect x="60" y="70" width="80" height="40" fill="#06483f"/>
+<rect x="140" y="70" width="80" height="40" fill="#4db6a2"/>
+<rect x="220" y="70" width="160" height="40" fill="#00695c"/>
+<rect x="380" y="70" width="320" height="40" fill="#2e9e7c"/>
+<polygon points="540,62 533,52 547,52" fill="#06483f"/>
+<text x="540" y="46" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#06483f">you: 3.0</text>
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle">
 <text x="100" y="128">0.5</text><text x="220" y="128">1.0</text><text x="380" y="128">2.0</text><text x="700" y="128">4.0</text>
 </g>
 <g font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">
-<text x="100" y="152" fill="#8a5a2b">malty</text><text x="300" y="152" fill="#b45309">balanced</text><text x="540" y="152" fill="#5b7a1f">hoppy / dry</text>
+<text x="100" y="152" fill="#06483f">malty</text><text x="300" y="152" fill="#00695c">balanced</text><text x="540" y="152" fill="#2e9e7c">hoppy / dry</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The ratio, not the absolute levels, sets perceived balance. A pale ale sits comfortably at 2–4; a malty lager near 0.5.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The ratio, not the absolute levels, sets perceived balance. A pale ale sits comfortably at 2–4; a malty lager near 0.5.</figcaption>
 </figure>
 
 ## Where the sheet is only an estimate

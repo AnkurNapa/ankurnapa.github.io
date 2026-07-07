@@ -19,40 +19,40 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 320" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="The brewery QC lab as five benches: raw materials, beer chemistry, microbiology, packaging, and sensory and QA governance, each with the AI job that fits it: machine vision and NIR, soft sensors and forecasting, contamination-risk triage, inline vision inspection, and NLP plus predictive calibration. Underneath all five, the analyst still owns the release decision.">
-<rect width="1000" height="320" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">THE BREWERY QC LAB: WHERE AI FITS, BENCH BY BENCH</text>
+<rect width="1000" height="320" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00695c">THE BREWERY QC LAB: WHERE AI FITS, BENCH BY BENCH</text>
 <g font-family="sans-serif">
-<rect x="40" y="52" width="176" height="150" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="128" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">RAW MATERIALS</text>
-<text x="128" y="104" text-anchor="middle" font-size="10.5" fill="#6b6258">malt, barley, hops</text>
-<text x="128" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">machine vision</text>
-<text x="128" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">&amp; NIR soft sensors</text>
-<rect x="228" y="52" width="176" height="150" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="316" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">BEER CHEMISTRY</text>
-<text x="316" y="104" text-anchor="middle" font-size="10.5" fill="#6b6258">extract, VDK, DO, haze</text>
-<text x="316" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">soft sensors</text>
-<text x="316" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">&amp; forecasting</text>
-<rect x="416" y="52" width="176" height="150" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="504" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">MICROBIOLOGY</text>
-<text x="504" y="104" text-anchor="middle" font-size="10.5" fill="#6b6258">plating, sterility, yeast</text>
-<text x="504" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">contamination</text>
-<text x="504" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">risk triage</text>
-<rect x="604" y="52" width="176" height="150" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="692" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">PACKAGING</text>
-<text x="692" y="104" text-anchor="middle" font-size="10.5" fill="#6b6258">fills, crowns, labels</text>
-<text x="692" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">inline vision</text>
-<text x="692" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">inspection</text>
-<rect x="792" y="52" width="176" height="150" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="880" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">SENSORY &amp; QA</text>
-<text x="880" y="104" text-anchor="middle" font-size="10.5" fill="#6b6258">tasting, calibration</text>
-<text x="880" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">NLP &amp; predictive</text>
-<text x="880" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">calibration</text>
-<rect x="40" y="228" width="928" height="60" rx="10" fill="#7a1f3d"/>
-<text x="504" y="254" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fdfbf7">UNDERNEATH ALL FIVE &#183; the analyst still owns the release</text>
-<text x="504" y="276" text-anchor="middle" font-size="11" fill="#f1e0d2">the reference method is the arbiter &#183; AI decides where to look, not what to sign</text>
+<rect x="40" y="52" width="176" height="150" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="128" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">RAW MATERIALS</text>
+<text x="128" y="104" text-anchor="middle" font-size="10.5" fill="#4a6b64">malt, barley, hops</text>
+<text x="128" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">machine vision</text>
+<text x="128" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">&amp; NIR soft sensors</text>
+<rect x="228" y="52" width="176" height="150" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="316" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">BEER CHEMISTRY</text>
+<text x="316" y="104" text-anchor="middle" font-size="10.5" fill="#4a6b64">extract, VDK, DO, haze</text>
+<text x="316" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">soft sensors</text>
+<text x="316" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">&amp; forecasting</text>
+<rect x="416" y="52" width="176" height="150" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="504" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">MICROBIOLOGY</text>
+<text x="504" y="104" text-anchor="middle" font-size="10.5" fill="#4a6b64">plating, sterility, yeast</text>
+<text x="504" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">contamination</text>
+<text x="504" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">risk triage</text>
+<rect x="604" y="52" width="176" height="150" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="692" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">PACKAGING</text>
+<text x="692" y="104" text-anchor="middle" font-size="10.5" fill="#4a6b64">fills, crowns, labels</text>
+<text x="692" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">inline vision</text>
+<text x="692" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">inspection</text>
+<rect x="792" y="52" width="176" height="150" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="880" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">SENSORY &amp; QA</text>
+<text x="880" y="104" text-anchor="middle" font-size="10.5" fill="#4a6b64">tasting, calibration</text>
+<text x="880" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">NLP &amp; predictive</text>
+<text x="880" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">calibration</text>
+<rect x="40" y="228" width="928" height="60" rx="10" fill="#06483f"/>
+<text x="504" y="254" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">UNDERNEATH ALL FIVE &#183; the analyst still owns the release</text>
+<text x="504" y="276" text-anchor="middle" font-size="11" fill="#cfe6df">the reference method is the arbiter &#183; AI decides where to look, not what to sign</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Five benches, three AI jobs: triage, soft sensing, and vision. The release decision stays human on every one.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Five benches, three AI jobs: triage, soft sensing, and vision. The release decision stays human on every one.</figcaption>
 </figure>
 
 Walk into a modern brewery QC lab and you'll find a manual that runs to hundreds of methods: acrospire counts on the malt bench, extract by pycnometer, diacetyl by headspace GC, sterility checks on every autoclave load, fill-height verification on the line, a tasting panel down the hall. It is a lot of careful, repetitive measurement, and that profile (high-volume, pattern-heavy, repetitive) is exactly the shape where machine learning earns its keep. It is also, method for method, exactly the kind of work a confident model will get subtly wrong if you let it off the leash. This series is the honest map of both.

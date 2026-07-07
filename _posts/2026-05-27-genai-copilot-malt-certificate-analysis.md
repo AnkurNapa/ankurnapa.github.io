@@ -21,31 +21,31 @@ A malt certificate is a wall of numbers that a brewer learns to read by experien
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 220" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Pipeline from a malt certificate PDF through extraction and grounding to explanation, flagging, drafting, and human sign-off">
-<rect x="0" y="0" width="760" height="220" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Grounded copilot — extract first, generate second</text>
-<rect x="20" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="80" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">COA</text>
-<text x="80" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">PDF / scan</text>
-<rect x="175" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="235" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">extract</text>
-<text x="235" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">structured fields</text>
-<rect x="330" y="80" width="120" height="60" rx="6" fill="#b45309"/>
-<text x="390" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#fdfbf7">ground</text>
-<text x="390" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fdfbf7">spec + past lots</text>
-<rect x="485" y="80" width="120" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="545" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">explain ·</text>
-<text x="545" y="116" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">flag · draft</text>
-<rect x="640" y="80" width="100" height="60" rx="6" fill="#5b7a1f" fill-opacity="0.18" stroke="#5b7a1f"/>
-<text x="690" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1c1a17">human</text>
-<text x="690" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">sign-off</text>
-<g stroke="#6b6258" stroke-width="2" fill="#6b6258">
+<rect x="0" y="0" width="760" height="220" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Grounded copilot — extract first, generate second</text>
+<rect x="20" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="80" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">COA</text>
+<text x="80" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">PDF / scan</text>
+<rect x="175" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="235" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">extract</text>
+<text x="235" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">structured fields</text>
+<rect x="330" y="80" width="120" height="60" rx="6" fill="#00695c"/>
+<text x="390" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">ground</text>
+<text x="390" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff">spec + past lots</text>
+<rect x="485" y="80" width="120" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="545" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">explain ·</text>
+<text x="545" y="116" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">flag · draft</text>
+<rect x="640" y="80" width="100" height="60" rx="6" fill="#2e9e7c" fill-opacity="0.18" stroke="#2e9e7c"/>
+<text x="690" y="106" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#06483f">human</text>
+<text x="690" y="124" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">sign-off</text>
+<g stroke="#4a6b64" stroke-width="2" fill="#4a6b64">
 <line x1="140" y1="110" x2="170" y2="110"/><polygon points="175,110 167,106 167,114"/>
 <line x1="295" y1="110" x2="325" y2="110"/><polygon points="330,110 322,106 322,114"/>
 <line x1="450" y1="110" x2="480" y2="110"/><polygon points="485,110 477,106 477,114"/>
 <line x1="605" y1="110" x2="635" y2="110"/><polygon points="640,110 632,106 632,114"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The model only ever speaks about numbers that were extracted from the certificate and checked against your spec. It explains and drafts; the brewer signs off.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The model only ever speaks about numbers that were extracted from the certificate and checked against your spec. It explains and drafts; the brewer signs off.</figcaption>
 </figure>
 
 ## What the certificate actually tells you

@@ -19,38 +19,38 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 320" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Two halves of the sensory and QA bench. On the sensory side, taster free-text notes feed NLP clustering into consistent flavour descriptors, which feeds a predictive freshness and consistency index correlating panel scores with chemistry. On the QA-system side, calibration, deviation, inter-lab and control-sample data feed predictive calibration, deviation triage, and an LLM lab assistant that surfaces the right SOP. Underneath both, a maroon banner: the panel and the analyst still make the call, AI organises the evidence.">
-<rect width="1000" height="320" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">SENSORY &amp; THE QA SYSTEM: WHERE AI ORGANISES THE EVIDENCE</text>
+<rect width="1000" height="320" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00695c">SENSORY &amp; THE QA SYSTEM: WHERE AI ORGANISES THE EVIDENCE</text>
 <g font-family="sans-serif">
-<text x="250" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#6b6258">SENSORY SIDE</text>
-<text x="750" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#6b6258">QA-SYSTEM SIDE</text>
-<rect x="40" y="70" width="180" height="66" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="130" y="98" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1c1a17">taster free-text</text>
-<text x="130" y="118" text-anchor="middle" font-size="10.5" fill="#6b6258">panel notes, comments</text>
-<rect x="240" y="70" width="180" height="66" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="330" y="94" text-anchor="middle" font-size="11.5" font-weight="700" fill="#b45309">NLP clustering</text>
-<text x="330" y="112" text-anchor="middle" font-size="10.5" fill="#6b6258">consistent</text>
-<text x="330" y="128" text-anchor="middle" font-size="10.5" fill="#6b6258">descriptors</text>
-<rect x="40" y="152" width="380" height="52" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="230" y="176" text-anchor="middle" font-size="11.5" font-weight="700" fill="#b45309">predictive freshness &amp; consistency index</text>
-<text x="230" y="194" text-anchor="middle" font-size="10.5" fill="#6b6258">panel staling scores correlated with chemistry</text>
-<rect x="560" y="70" width="180" height="66" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="650" y="94" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1c1a17">calibration &amp; QC data</text>
-<text x="650" y="112" text-anchor="middle" font-size="10.5" fill="#6b6258">drift, deviations,</text>
-<text x="650" y="128" text-anchor="middle" font-size="10.5" fill="#6b6258">control samples</text>
-<rect x="760" y="70" width="200" height="66" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="860" y="94" text-anchor="middle" font-size="11.5" font-weight="700" fill="#b45309">predictive calibration</text>
-<text x="860" y="112" text-anchor="middle" font-size="10.5" fill="#6b6258">&amp; deviation triage</text>
-<text x="860" y="128" text-anchor="middle" font-size="10.5" fill="#6b6258">by root cause</text>
-<rect x="560" y="152" width="400" height="52" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="760" y="176" text-anchor="middle" font-size="11.5" font-weight="700" fill="#b45309">LLM lab assistant</text>
-<text x="760" y="194" text-anchor="middle" font-size="10.5" fill="#6b6258">answers method questions, surfaces the right SOP</text>
-<rect x="40" y="228" width="920" height="60" rx="10" fill="#7a1f3d"/>
-<text x="500" y="254" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fdfbf7">THE PANEL AND THE ANALYST STILL MAKE THE CALL</text>
-<text x="500" y="276" text-anchor="middle" font-size="11" fill="#f1e0d2">AI organises the evidence &#183; the reference method and the human decision are the arbiters</text>
+<text x="250" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#4a6b64">SENSORY SIDE</text>
+<text x="750" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#4a6b64">QA-SYSTEM SIDE</text>
+<rect x="40" y="70" width="180" height="66" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="130" y="98" text-anchor="middle" font-size="11.5" font-weight="700" fill="#06483f">taster free-text</text>
+<text x="130" y="118" text-anchor="middle" font-size="10.5" fill="#4a6b64">panel notes, comments</text>
+<rect x="240" y="70" width="180" height="66" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="330" y="94" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00695c">NLP clustering</text>
+<text x="330" y="112" text-anchor="middle" font-size="10.5" fill="#4a6b64">consistent</text>
+<text x="330" y="128" text-anchor="middle" font-size="10.5" fill="#4a6b64">descriptors</text>
+<rect x="40" y="152" width="380" height="52" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="230" y="176" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00695c">predictive freshness &amp; consistency index</text>
+<text x="230" y="194" text-anchor="middle" font-size="10.5" fill="#4a6b64">panel staling scores correlated with chemistry</text>
+<rect x="560" y="70" width="180" height="66" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="650" y="94" text-anchor="middle" font-size="11.5" font-weight="700" fill="#06483f">calibration &amp; QC data</text>
+<text x="650" y="112" text-anchor="middle" font-size="10.5" fill="#4a6b64">drift, deviations,</text>
+<text x="650" y="128" text-anchor="middle" font-size="10.5" fill="#4a6b64">control samples</text>
+<rect x="760" y="70" width="200" height="66" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="860" y="94" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00695c">predictive calibration</text>
+<text x="860" y="112" text-anchor="middle" font-size="10.5" fill="#4a6b64">&amp; deviation triage</text>
+<text x="860" y="128" text-anchor="middle" font-size="10.5" fill="#4a6b64">by root cause</text>
+<rect x="560" y="152" width="400" height="52" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="760" y="176" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00695c">LLM lab assistant</text>
+<text x="760" y="194" text-anchor="middle" font-size="10.5" fill="#4a6b64">answers method questions, surfaces the right SOP</text>
+<rect x="40" y="228" width="920" height="60" rx="10" fill="#06483f"/>
+<text x="500" y="254" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">THE PANEL AND THE ANALYST STILL MAKE THE CALL</text>
+<text x="500" y="276" text-anchor="middle" font-size="11" fill="#cfe6df">AI organises the evidence &#183; the reference method and the human decision are the arbiters</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Two halves of one bench: sensory notes and QA paperwork, both turned into evidence a person still has to weigh.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Two halves of one bench: sensory notes and QA paperwork, both turned into evidence a person still has to weigh.</figcaption>
 </figure>
 
 Four benches into this series we have been reading beer: malt under a camera, extract from density, colonies on a plate, fills on the line. The last bench reads two things beer never quite becomes: the words a taster writes down, and the paperwork the lab generates about itself. Both are messy, human, and full of pattern, which is exactly why machine learning has something to offer and exactly why it has to be kept on a short leash. This is the [sixth and final post]({{ '/2026/ai-brewery-lab-what-is-real/' | relative_url }}) in the bench-by-bench walk; if you have followed from [the packaging line]({{ '/2026/ai-brewery-lab-packaging-qc-vision/' | relative_url }}), you know the rule by now: the model organises, the human decides.

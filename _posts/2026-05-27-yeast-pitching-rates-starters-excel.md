@@ -38,22 +38,22 @@ A pack stamped 45 days ago is at `100-0.7*45 = 68.5%` viability — so two packs
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 620 340" width="100%" style="max-width:620px;height:auto" role="img" aria-label="Yeast viability declining roughly linearly from 100 percent at manufacture to about 16 percent at 120 days">
-<rect x="0" y="0" width="620" height="340" fill="#fdfbf7"/>
-<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Liquid yeast viability vs pack age</text>
-<g stroke="#e0d8cc" stroke-width="1"><line x1="60" y1="170" x2="560" y2="170"/></g>
-<g stroke="#1c1a17" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="560" y2="300"/></g>
-<polyline points="60,40 185,94.6 310,149.2 435,203.8 560,258.4" fill="none" stroke="#b45309" stroke-width="3"/>
-<circle cx="310" cy="149.2" r="5" fill="#7a1f3d"/>
-<text x="318" y="143" font-family="sans-serif" font-size="12" fill="#7a1f3d">60 days ≈ 58%</text>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="middle">
+<rect x="0" y="0" width="620" height="340" fill="#ffffff"/>
+<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Liquid yeast viability vs pack age</text>
+<g stroke="#d8e6e1" stroke-width="1"><line x1="60" y1="170" x2="560" y2="170"/></g>
+<g stroke="#06483f" stroke-width="1.5"><line x1="60" y1="40" x2="60" y2="300"/><line x1="60" y1="300" x2="560" y2="300"/></g>
+<polyline points="60,40 185,94.6 310,149.2 435,203.8 560,258.4" fill="none" stroke="#00695c" stroke-width="3"/>
+<circle cx="310" cy="149.2" r="5" fill="#06483f"/>
+<text x="318" y="143" font-family="sans-serif" font-size="12" fill="#06483f">60 days ≈ 58%</text>
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="middle">
 <text x="60" y="318">0</text><text x="185" y="318">30</text><text x="310" y="318">60</text><text x="435" y="318">90</text><text x="560" y="318">120</text>
 <text x="320" y="338">Days since manufacture</text>
 </g>
-<g font-family="sans-serif" font-size="12" fill="#6b6258" text-anchor="end">
+<g font-family="sans-serif" font-size="12" fill="#4a6b64" text-anchor="end">
 <text x="52" y="44">100%</text><text x="52" y="174">50%</text><text x="52" y="304">0%</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Roughly 0.7% lost per day. Plug your pack's age into =MAX(0,100-0.7*days)/100 before you trust the cell count on the label.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Roughly 0.7% lost per day. Plug your pack's age into =MAX(0,100-0.7*days)/100 before you trust the cell count on the label.</figcaption>
 </figure>
 
 ## Step 3 — size the starter to close the gap

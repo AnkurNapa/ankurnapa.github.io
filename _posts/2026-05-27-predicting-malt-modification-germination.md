@@ -21,24 +21,24 @@ Calling the kiln-off is the maltster's hardest timing judgement. Stop germinatio
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Modification rising over five days of germination into a target band, with a kiln-off decision window">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Modification over germination — and when to kiln off</text>
-<rect x="60" y="70" width="640" height="36" fill="#f7ece0"/>
-<text x="700" y="92" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b6258">target band</text>
-<line x1="60" y1="210" x2="700" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="60" y1="56" x2="60" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<text x="28" y="92" font-family="sans-serif" font-size="11" fill="#6b6258">target</text>
-<text x="28" y="208" font-family="sans-serif" font-size="11" fill="#6b6258">raw</text>
-<path d="M60,205 C200,190 300,150 420,100 C500,75 600,70 700,68" fill="none" stroke="#1c1a17" stroke-width="2.5"/>
-<rect x="420" y="56" width="80" height="154" fill="#b45309" fill-opacity="0.12"/>
-<text x="460" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#b45309">kiln-off window</text>
-<text x="200" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">under-modified</text>
-<text x="610" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">over-modified · loss</text>
-<g font-family="sans-serif" font-size="10" fill="#6b6258" text-anchor="middle">
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Modification over germination — and when to kiln off</text>
+<rect x="60" y="70" width="640" height="36" fill="#f0f6f5"/>
+<text x="700" y="92" text-anchor="end" font-family="sans-serif" font-size="10" fill="#4a6b64">target band</text>
+<line x1="60" y1="210" x2="700" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="60" y1="56" x2="60" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<text x="28" y="92" font-family="sans-serif" font-size="11" fill="#4a6b64">target</text>
+<text x="28" y="208" font-family="sans-serif" font-size="11" fill="#4a6b64">raw</text>
+<path d="M60,205 C200,190 300,150 420,100 C500,75 600,70 700,68" fill="none" stroke="#06483f" stroke-width="2.5"/>
+<rect x="420" y="56" width="80" height="154" fill="#00695c" fill-opacity="0.12"/>
+<text x="460" y="244" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#00695c">kiln-off window</text>
+<text x="200" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">under-modified</text>
+<text x="610" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">over-modified · loss</text>
+<g font-family="sans-serif" font-size="10" fill="#4a6b64" text-anchor="middle">
 <text x="120" y="224">d1</text><text x="250" y="224">d2</text><text x="380" y="224">d3</text><text x="460" y="224">d4</text><text x="620" y="224">d5</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The model forecasts the modification curve into the target band so the kiln-off can be timed to the window — before respiration starts eating extract.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The model forecasts the modification curve into the target band so the kiln-off can be timed to the window — before respiration starts eating extract.</figcaption>
 </figure>
 
 ## What "modified enough" actually means

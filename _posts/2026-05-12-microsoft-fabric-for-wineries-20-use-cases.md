@@ -21,28 +21,28 @@ A winery's data spans the widest range in drinks: satellites and soil probes in 
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 360" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Microsoft Fabric reference architecture for a winery: sources into OneLake workloads into Power BI for people">
-<rect x="0" y="0" width="1000" height="360" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">A winery on Microsoft Fabric — one copy of the data</text>
+<rect x="0" y="0" width="1000" height="360" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#06483f">A winery on Microsoft Fabric — one copy of the data</text>
 <g font-family="sans-serif">
-<text x="105" y="76" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#7a1f3d">SOURCES</text>
-<rect x="20" y="86" width="170" height="40" rx="6" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="105" y="111" text-anchor="middle" font-size="12.5" fill="#1c1a17">Vineyard sensors / NDVI</text>
-<rect x="20" y="134" width="170" height="40" rx="6" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="105" y="159" text-anchor="middle" font-size="12.5" fill="#1c1a17">Cellar &amp; lab data</text>
-<rect x="20" y="182" width="170" height="40" rx="6" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="105" y="207" text-anchor="middle" font-size="12.5" fill="#1c1a17">Winery ERP</text>
-<rect x="20" y="230" width="170" height="40" rx="6" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="105" y="255" text-anchor="middle" font-size="12.5" fill="#1c1a17">DTC / e-commerce</text>
-<rect x="220" y="70" width="560" height="225" rx="10" fill="#ffffff" stroke="#7a1f3d" stroke-width="1.5"/>
-<text x="500" y="92" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7a1f3d">Microsoft Fabric · OneLake</text>
-<rect x="236" y="104" width="262" height="80" rx="8" fill="#f4e9ee" stroke="#6b6258"/><text x="367" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Data Factory</text><text x="367" y="158" text-anchor="middle" font-size="11.5" fill="#6b6258">pipelines · Mirroring · Shortcuts</text>
-<rect x="502" y="104" width="262" height="80" rx="8" fill="#f4e9ee" stroke="#6b6258"/><text x="633" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Lakehouse</text><text x="633" y="158" text-anchor="middle" font-size="11.5" fill="#6b6258">lot ledger · barrel program</text>
-<rect x="236" y="196" width="262" height="80" rx="8" fill="#f4e9ee" stroke="#6b6258"/><text x="367" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Real-Time Intelligence</text><text x="367" y="250" text-anchor="middle" font-size="11.5" fill="#6b6258">ferment Brix &amp; temp</text>
-<rect x="502" y="196" width="262" height="80" rx="8" fill="#f4e9ee" stroke="#6b6258"/><text x="633" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">Data Science</text><text x="633" y="250" text-anchor="middle" font-size="11.5" fill="#6b6258">yield · ripeness</text>
-<rect x="810" y="104" width="170" height="74" rx="8" fill="#7a1f3d"/><text x="895" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#fdfbf7">Power BI</text><text x="895" y="158" text-anchor="middle" font-size="11.5" fill="#f4e9ee">Direct Lake</text>
-<rect x="810" y="188" width="170" height="38" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="895" y="212" text-anchor="middle" font-size="12.5" fill="#1c1a17">Copilot</text>
-<rect x="810" y="236" width="170" height="38" rx="8" fill="#f4e9ee" stroke="#b45309" stroke-width="1.5"/><text x="895" y="260" text-anchor="middle" font-size="12.5" fill="#b45309">Activator alerts</text>
+<text x="105" y="76" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#06483f">SOURCES</text>
+<rect x="20" y="86" width="170" height="40" rx="6" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="105" y="111" text-anchor="middle" font-size="12.5" fill="#06483f">Vineyard sensors / NDVI</text>
+<rect x="20" y="134" width="170" height="40" rx="6" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="105" y="159" text-anchor="middle" font-size="12.5" fill="#06483f">Cellar &amp; lab data</text>
+<rect x="20" y="182" width="170" height="40" rx="6" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="105" y="207" text-anchor="middle" font-size="12.5" fill="#06483f">Winery ERP</text>
+<rect x="20" y="230" width="170" height="40" rx="6" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="105" y="255" text-anchor="middle" font-size="12.5" fill="#06483f">DTC / e-commerce</text>
+<rect x="220" y="70" width="560" height="225" rx="10" fill="#ffffff" stroke="#06483f" stroke-width="1.5"/>
+<text x="500" y="92" text-anchor="middle" font-size="13.5" font-weight="700" fill="#06483f">Microsoft Fabric · OneLake</text>
+<rect x="236" y="104" width="262" height="80" rx="8" fill="#fbe9ee" stroke="#4a6b64"/><text x="367" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Data Factory</text><text x="367" y="158" text-anchor="middle" font-size="11.5" fill="#4a6b64">pipelines · Mirroring · Shortcuts</text>
+<rect x="502" y="104" width="262" height="80" rx="8" fill="#fbe9ee" stroke="#4a6b64"/><text x="633" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Lakehouse</text><text x="633" y="158" text-anchor="middle" font-size="11.5" fill="#4a6b64">lot ledger · barrel program</text>
+<rect x="236" y="196" width="262" height="80" rx="8" fill="#fbe9ee" stroke="#4a6b64"/><text x="367" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Real-Time Intelligence</text><text x="367" y="250" text-anchor="middle" font-size="11.5" fill="#4a6b64">ferment Brix &amp; temp</text>
+<rect x="502" y="196" width="262" height="80" rx="8" fill="#fbe9ee" stroke="#4a6b64"/><text x="633" y="230" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">Data Science</text><text x="633" y="250" text-anchor="middle" font-size="11.5" fill="#4a6b64">yield · ripeness</text>
+<rect x="810" y="104" width="170" height="74" rx="8" fill="#06483f"/><text x="895" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Power BI</text><text x="895" y="158" text-anchor="middle" font-size="11.5" fill="#fbe9ee">Direct Lake</text>
+<rect x="810" y="188" width="170" height="38" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="895" y="212" text-anchor="middle" font-size="12.5" fill="#06483f">Copilot</text>
+<rect x="810" y="236" width="170" height="38" rx="8" fill="#fbe9ee" stroke="#00695c" stroke-width="1.5"/><text x="895" y="260" text-anchor="middle" font-size="12.5" fill="#00695c">Activator alerts</text>
 </g>
-<g fill="#7a1f3d" stroke="#7a1f3d" stroke-width="2"><line x1="190" y1="182" x2="213" y2="182"/><polygon points="213,177 220,182 213,187" stroke="none"/><line x1="780" y1="141" x2="803" y2="141"/><polygon points="803,136 810,141 803,146" stroke="none"/></g>
-<text x="500" y="332" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#6b6258">→ vineyard, cellar, winemakers, finance and DTC all read the same governed data</text>
+<g fill="#06483f" stroke="#06483f" stroke-width="2"><line x1="190" y1="182" x2="213" y2="182"/><polygon points="213,177 220,182 213,187" stroke="none"/><line x1="780" y1="141" x2="803" y2="141"/><polygon points="803,136 810,141 803,146" stroke="none"/></g>
+<text x="500" y="332" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#4a6b64">→ vineyard, cellar, winemakers, finance and DTC all read the same governed data</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The reference shape, tuned to wine: vineyard, cellar and DTC land once in OneLake and feed every downstream workload.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The reference shape, tuned to wine: vineyard, cellar and DTC land once in OneLake and feed every downstream workload.</figcaption>
 </figure>
 
 ## Ingest and unify (OneLake + Data Factory)
@@ -111,18 +111,18 @@ Yes. Mirroring brings the e-commerce and ERP databases into OneLake with no ETL,
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 240" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Medallion flow for a winery: bronze to silver to gold to semantic model to Power BI">
-<rect x="0" y="0" width="1000" height="240" fill="#fdfbf7"/>
-<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">From vineyard and cellar data to a vintage view — the medallion path</text>
+<rect x="0" y="0" width="1000" height="240" fill="#ffffff"/>
+<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">From vineyard and cellar data to a vintage view — the medallion path</text>
 <g font-family="sans-serif">
-<rect x="10" y="70" width="170" height="110" rx="8" fill="#f4e9ee" stroke="#8a5a2b" stroke-width="1.5"/><text x="95" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#8a5a2b">Bronze</text><text x="95" y="120" text-anchor="middle" font-size="11.5" fill="#6b6258">vineyard, cellar,</text><text x="95" y="138" text-anchor="middle" font-size="11.5" fill="#6b6258">DTC</text>
-<rect x="220" y="70" width="170" height="110" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="305" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#7a1f3d">Silver</text><text x="305" y="120" text-anchor="middle" font-size="11.5" fill="#6b6258">clean lot</text><text x="305" y="138" text-anchor="middle" font-size="11.5" fill="#6b6258">ledger</text>
-<rect x="430" y="70" width="170" height="110" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="515" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#7a1f3d">Gold</text><text x="515" y="120" text-anchor="middle" font-size="11.5" fill="#6b6258">vintage KPIs,</text><text x="515" y="138" text-anchor="middle" font-size="11.5" fill="#6b6258">COGS / case</text>
-<rect x="640" y="70" width="170" height="110" rx="8" fill="#f4e9ee" stroke="#6b6258" stroke-width="1.5"/><text x="725" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">Semantic model</text><text x="725" y="122" text-anchor="middle" font-size="11.5" fill="#6b6258">Direct Lake</text>
-<rect x="850" y="70" width="140" height="110" rx="8" fill="#7a1f3d"/><text x="920" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#fdfbf7">Power BI</text>
+<rect x="10" y="70" width="170" height="110" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="95" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Bronze</text><text x="95" y="120" text-anchor="middle" font-size="11.5" fill="#4a6b64">vineyard, cellar,</text><text x="95" y="138" text-anchor="middle" font-size="11.5" fill="#4a6b64">DTC</text>
+<rect x="220" y="70" width="170" height="110" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="305" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Silver</text><text x="305" y="120" text-anchor="middle" font-size="11.5" fill="#4a6b64">clean lot</text><text x="305" y="138" text-anchor="middle" font-size="11.5" fill="#4a6b64">ledger</text>
+<rect x="430" y="70" width="170" height="110" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="515" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Gold</text><text x="515" y="120" text-anchor="middle" font-size="11.5" fill="#4a6b64">vintage KPIs,</text><text x="515" y="138" text-anchor="middle" font-size="11.5" fill="#4a6b64">COGS / case</text>
+<rect x="640" y="70" width="170" height="110" rx="8" fill="#fbe9ee" stroke="#4a6b64" stroke-width="1.5"/><text x="725" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Semantic model</text><text x="725" y="122" text-anchor="middle" font-size="11.5" fill="#4a6b64">Direct Lake</text>
+<rect x="850" y="70" width="140" height="110" rx="8" fill="#06483f"/><text x="920" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Power BI</text>
 </g>
-<g fill="#7a1f3d" stroke="#7a1f3d" stroke-width="2"><line x1="180" y1="125" x2="213" y2="125"/><polygon points="213,120 220,125 213,130" stroke="none"/><line x1="390" y1="125" x2="423" y2="125"/><polygon points="423,120 430,125 423,130" stroke="none"/><line x1="600" y1="125" x2="633" y2="125"/><polygon points="633,120 640,125 633,130" stroke="none"/><line x1="810" y1="125" x2="843" y2="125"/><polygon points="843,120 850,125 843,130" stroke="none"/></g>
+<g fill="#06483f" stroke="#06483f" stroke-width="2"><line x1="180" y1="125" x2="213" y2="125"/><polygon points="213,120 220,125 213,130" stroke="none"/><line x1="390" y1="125" x2="423" y2="125"/><polygon points="423,120 430,125 423,130" stroke="none"/><line x1="600" y1="125" x2="633" y2="125"/><polygon points="633,120 640,125 633,130" stroke="none"/><line x1="810" y1="125" x2="843" y2="125"/><polygon points="843,120 850,125 843,130" stroke="none"/></g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Vineyard, cellar and DTC land in bronze, reconcile into a clean lot ledger in silver, become vintage KPIs in gold, and go live in Power BI.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Vineyard, cellar and DTC land in bronze, reconcile into a clean lot ledger in silver, become vintage KPIs in gold, and go live in Power BI.</figcaption>
 </figure>
 
 *Part of the [Winemaking &amp; AI]({{ '/tracks/winemaking-ai/' | relative_url }}) track.*

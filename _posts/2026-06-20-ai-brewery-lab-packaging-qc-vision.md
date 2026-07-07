@@ -19,45 +19,45 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 320" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="A packaging conveyor with four inline camera stations, each inspecting one check as containers pass: fill height and volume, crown crimp seal integrity, label placement and wrinkle, and washed-bottle cleanliness. Each station feeds a shared statistical process control chart that flags a drift trend in real time. A maroon banner underneath notes the tradeoff: inline vision runs at line speed, so a missed defect fails silently and monitoring is mandatory.">
-<rect width="1000" height="320" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">THE PACKAGING LINE: FOUR INLINE VISION STATIONS FEEDING ONE SPC CHART</text>
+<rect width="1000" height="320" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00695c">THE PACKAGING LINE: FOUR INLINE VISION STATIONS FEEDING ONE SPC CHART</text>
 <g font-family="sans-serif">
-<rect x="40" y="150" width="920" height="26" rx="4" fill="#f1e0d2" stroke="#b45309" stroke-width="1.2"/>
-<text x="500" y="168" text-anchor="middle" font-size="10.5" fill="#6b6258">conveyor &#183; containers move at line speed &#8594;</text>
-<rect x="52" y="58" width="200" height="80" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="152" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#1c1a17">FILL CHECK</text>
-<text x="152" y="102" text-anchor="middle" font-size="10.5" fill="#6b6258">height &amp; volume</text>
-<text x="152" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#b45309">under / over-fill</text>
-<rect x="272" y="58" width="200" height="80" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="372" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#1c1a17">CROWN SEAL</text>
-<text x="372" y="102" text-anchor="middle" font-size="10.5" fill="#6b6258">crimp geometry</text>
-<text x="372" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#b45309">sound / suspect</text>
-<rect x="492" y="58" width="200" height="80" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="592" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#1c1a17">LABEL QC</text>
-<text x="592" y="102" text-anchor="middle" font-size="10.5" fill="#6b6258">skew, wrinkle, bond</text>
-<text x="592" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#b45309">defect grade</text>
-<rect x="712" y="58" width="200" height="80" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="812" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#1c1a17">WASH INSPECT</text>
-<text x="812" y="102" text-anchor="middle" font-size="10.5" fill="#6b6258">residue, carry-over</text>
-<text x="812" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#b45309">clean / reject</text>
-<line x1="152" y1="138" x2="152" y2="150" stroke="#b45309" stroke-width="1.5"/>
-<line x1="372" y1="138" x2="372" y2="150" stroke="#b45309" stroke-width="1.5"/>
-<line x1="592" y1="138" x2="592" y2="150" stroke="#b45309" stroke-width="1.5"/>
-<line x1="812" y1="138" x2="812" y2="150" stroke="#b45309" stroke-width="1.5"/>
-<rect x="52" y="196" width="500" height="90" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="72" y="218" font-size="11" font-weight="700" fill="#1c1a17">SPC CONTROL CHART &#183; every reading, every pack</text>
-<line x1="72" y1="262" x2="532" y2="262" stroke="#6b6258" stroke-width="1" stroke-dasharray="3 3"/>
-<polyline points="72,258 132,256 192,259 252,252 312,248 372,244 432,238 492,232" fill="none" stroke="#b45309" stroke-width="2"/>
-<circle cx="492" cy="232" r="4" fill="#7a1f3d"/>
-<text x="500" y="228" font-size="10" font-weight="700" fill="#7a1f3d">DRIFT</text>
-<text x="72" y="278" font-size="9.5" fill="#6b6258">flags the trend before it crosses spec, not the single bad pack</text>
-<rect x="572" y="196" width="340" height="90" rx="9" fill="#7a1f3d"/>
-<text x="742" y="228" text-anchor="middle" font-size="11.5" font-weight="700" fill="#fdfbf7">INLINE VISION RUNS AT LINE SPEED</text>
-<text x="742" y="250" text-anchor="middle" font-size="10" fill="#f1e0d2">a missed defect fails silently and ships at scale</text>
-<text x="742" y="268" text-anchor="middle" font-size="10" fill="#f1e0d2">monitoring is mandatory, not optional</text>
+<rect x="40" y="150" width="920" height="26" rx="4" fill="#cfe6df" stroke="#00695c" stroke-width="1.2"/>
+<text x="500" y="168" text-anchor="middle" font-size="10.5" fill="#4a6b64">conveyor &#183; containers move at line speed &#8594;</text>
+<rect x="52" y="58" width="200" height="80" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="152" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#06483f">FILL CHECK</text>
+<text x="152" y="102" text-anchor="middle" font-size="10.5" fill="#4a6b64">height &amp; volume</text>
+<text x="152" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#00695c">under / over-fill</text>
+<rect x="272" y="58" width="200" height="80" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="372" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#06483f">CROWN SEAL</text>
+<text x="372" y="102" text-anchor="middle" font-size="10.5" fill="#4a6b64">crimp geometry</text>
+<text x="372" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#00695c">sound / suspect</text>
+<rect x="492" y="58" width="200" height="80" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="592" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#06483f">LABEL QC</text>
+<text x="592" y="102" text-anchor="middle" font-size="10.5" fill="#4a6b64">skew, wrinkle, bond</text>
+<text x="592" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#00695c">defect grade</text>
+<rect x="712" y="58" width="200" height="80" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="812" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#06483f">WASH INSPECT</text>
+<text x="812" y="102" text-anchor="middle" font-size="10.5" fill="#4a6b64">residue, carry-over</text>
+<text x="812" y="122" text-anchor="middle" font-size="10.5" font-weight="700" fill="#00695c">clean / reject</text>
+<line x1="152" y1="138" x2="152" y2="150" stroke="#00695c" stroke-width="1.5"/>
+<line x1="372" y1="138" x2="372" y2="150" stroke="#00695c" stroke-width="1.5"/>
+<line x1="592" y1="138" x2="592" y2="150" stroke="#00695c" stroke-width="1.5"/>
+<line x1="812" y1="138" x2="812" y2="150" stroke="#00695c" stroke-width="1.5"/>
+<rect x="52" y="196" width="500" height="90" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="72" y="218" font-size="11" font-weight="700" fill="#06483f">SPC CONTROL CHART &#183; every reading, every pack</text>
+<line x1="72" y1="262" x2="532" y2="262" stroke="#4a6b64" stroke-width="1" stroke-dasharray="3 3"/>
+<polyline points="72,258 132,256 192,259 252,252 312,248 372,244 432,238 492,232" fill="none" stroke="#00695c" stroke-width="2"/>
+<circle cx="492" cy="232" r="4" fill="#06483f"/>
+<text x="500" y="228" font-size="10" font-weight="700" fill="#06483f">DRIFT</text>
+<text x="72" y="278" font-size="9.5" fill="#4a6b64">flags the trend before it crosses spec, not the single bad pack</text>
+<rect x="572" y="196" width="340" height="90" rx="9" fill="#06483f"/>
+<text x="742" y="228" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">INLINE VISION RUNS AT LINE SPEED</text>
+<text x="742" y="250" text-anchor="middle" font-size="10" fill="#cfe6df">a missed defect fails silently and ships at scale</text>
+<text x="742" y="268" text-anchor="middle" font-size="10" fill="#cfe6df">monitoring is mandatory, not optional</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Four inline stations, one control chart. Vision buys inspection coverage on every pack, at the price of a monitoring burden.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Four inline stations, one control chart. Vision buys inspection coverage on every pack, at the price of a monitoring burden.</figcaption>
 </figure>
 
 The packaging hall is the loudest, wettest, fastest room in the brewery, and it is where a defect is cheapest to catch and most expensive to miss. A short-fill that slips through is a consumer complaint and a duty question; a bad crown is a flat pack or a burst bottle; a skewed label is a rejected pallet at the retailer. Historically this is guarded by a line inspector pulling samples every so often and a QC bench running secure-seal and fill checks on a schedule. That sampling leaves long gaps between checks, and the work, looking closely at a repetitive thing, over and over, under fatigue, is exactly the shape machine vision fits. The point of this post is not that cameras replace the QC bench. It is that they turn a handful of spot checks per hour into a reading on every container, and that the reading is only worth having if you do something statistical with it.

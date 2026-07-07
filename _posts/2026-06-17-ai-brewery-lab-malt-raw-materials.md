@@ -19,37 +19,37 @@ faq:
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 320" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="The malt and raw-materials bench with four manual visual checks along the top (acrospire count on a light box, malt colour against a comparator, foreign material by eye, and grist sieve analysis), each paired with the AI method underneath: CNN kernel counting, colour regression from a photo, object detection, and particle-size vision. A separate NIR soft-sensor lane predicts moisture and extract before the mash. Underneath, the reference method still owns the release.">
-<rect width="1000" height="320" fill="#fdfbf7"/>
-<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#b45309">THE MALT BENCH: WHAT THE EYE DOES, WHAT THE MODEL DOES</text>
+<rect width="1000" height="320" fill="#ffffff"/>
+<text x="500" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00695c">THE MALT BENCH: WHAT THE EYE DOES, WHAT THE MODEL DOES</text>
 <g font-family="sans-serif">
-<rect x="40" y="52" width="212" height="118" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="146" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">ACROSPIRE COUNT</text>
-<text x="146" y="100" text-anchor="middle" font-size="10.5" fill="#6b6258">backlit kernels, by eye</text>
-<text x="146" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">CNN vision</text>
-<text x="146" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">growth-stage count</text>
-<rect x="264" y="52" width="212" height="118" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="370" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">MALT COLOUR</text>
-<text x="370" y="100" text-anchor="middle" font-size="10.5" fill="#6b6258">against a comparator</text>
-<text x="370" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">colour regression</text>
-<text x="370" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">from a photo</text>
-<rect x="488" y="52" width="212" height="118" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="594" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">FOREIGN MATERIAL</text>
-<text x="594" y="100" text-anchor="middle" font-size="10.5" fill="#6b6258">seeds, broken kernels</text>
-<text x="594" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">object detection</text>
-<text x="594" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">&amp; grading</text>
-<rect x="712" y="52" width="248" height="118" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="836" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1c1a17">GRIST &amp; SIEVE</text>
-<text x="836" y="100" text-anchor="middle" font-size="10.5" fill="#6b6258">particle-size analysis</text>
-<text x="836" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">particle-size vision</text>
-<text x="836" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">&amp; classification</text>
-<rect x="40" y="196" width="920" height="52" rx="10" fill="#7a1f3d"/>
-<text x="500" y="219" text-anchor="middle" font-size="12" font-weight="700" fill="#fdfbf7">NIR SOFT-SENSOR LANE &#183; predict moisture &amp; extract from a reflectance spectrum</text>
-<text x="500" y="238" text-anchor="middle" font-size="10.5" fill="#f1e0d2">a number before the mash: screen the malts, Congress-mash the ones that matter</text>
-<rect x="40" y="264" width="920" height="40" rx="9" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/>
-<text x="500" y="289" text-anchor="middle" font-size="11" font-weight="700" fill="#1c1a17">underneath all of it &#183; the reference method still owns the release number</text>
+<rect x="40" y="52" width="212" height="118" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="146" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">ACROSPIRE COUNT</text>
+<text x="146" y="100" text-anchor="middle" font-size="10.5" fill="#4a6b64">backlit kernels, by eye</text>
+<text x="146" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">CNN vision</text>
+<text x="146" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">growth-stage count</text>
+<rect x="264" y="52" width="212" height="118" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="370" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">MALT COLOUR</text>
+<text x="370" y="100" text-anchor="middle" font-size="10.5" fill="#4a6b64">against a comparator</text>
+<text x="370" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">colour regression</text>
+<text x="370" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">from a photo</text>
+<rect x="488" y="52" width="212" height="118" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="594" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">FOREIGN MATERIAL</text>
+<text x="594" y="100" text-anchor="middle" font-size="10.5" fill="#4a6b64">seeds, broken kernels</text>
+<text x="594" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">object detection</text>
+<text x="594" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">&amp; grading</text>
+<rect x="712" y="52" width="248" height="118" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="836" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="#06483f">GRIST &amp; SIEVE</text>
+<text x="836" y="100" text-anchor="middle" font-size="10.5" fill="#4a6b64">particle-size analysis</text>
+<text x="836" y="134" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">particle-size vision</text>
+<text x="836" y="153" text-anchor="middle" font-size="11" font-weight="700" fill="#00695c">&amp; classification</text>
+<rect x="40" y="196" width="920" height="52" rx="10" fill="#06483f"/>
+<text x="500" y="219" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">NIR SOFT-SENSOR LANE &#183; predict moisture &amp; extract from a reflectance spectrum</text>
+<text x="500" y="238" text-anchor="middle" font-size="10.5" fill="#cfe6df">a number before the mash: screen the malts, Congress-mash the ones that matter</text>
+<rect x="40" y="264" width="920" height="40" rx="9" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/>
+<text x="500" y="289" text-anchor="middle" font-size="11" font-weight="700" fill="#06483f">underneath all of it &#183; the reference method still owns the release number</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Four visual checks, four vision models, and an NIR lane that hands you a number before the mash. The reference method still signs off.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Four visual checks, four vision models, and an NIR lane that hands you a number before the mash. The reference method still signs off.</figcaption>
 </figure>
 
 Incoming raw materials are where the QC lab meets the loading dock, and it is a bottleneck by design: a delivery of malt has to be characterised before it goes anywhere near a brew, and much of that characterisation is a person looking closely and counting. This is the first post in the [series]({{ '/2026/ai-brewery-lab-what-is-real/' | relative_url }}) where machine vision does most of the work, because the raw-materials bench is full of exactly the tasks it was built for: repetitive visual judgements made under fatigue, against a physical reference. Let's walk them.

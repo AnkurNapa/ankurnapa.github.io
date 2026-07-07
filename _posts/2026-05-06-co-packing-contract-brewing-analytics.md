@@ -21,23 +21,23 @@ A contract brewery's product is its brewhouse, fermentation tanks and packaging 
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 270" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Contract brewing analytics flow: capacity, schedule, brew per brand, cost and yield, bill and margin">
-<rect x="0" y="0" width="1000" height="270" fill="#fdfbf7"/>
-<text x="500" y="34" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1c1a17">The contract brewery, by the numbers</text>
+<rect x="0" y="0" width="1000" height="270" fill="#ffffff"/>
+<text x="500" y="34" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#06483f">The contract brewery, by the numbers</text>
 <g font-family="sans-serif">
-<rect x="20" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="106" cy="114" r="15" fill="#b45309"/><text x="106" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">1</text><text x="106" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">Capacity</text><text x="106" y="193" text-anchor="middle" font-size="11" fill="#6b6258">tank-days, line hours</text>
-<rect x="216" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="302" cy="114" r="15" fill="#b45309"/><text x="302" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">2</text><text x="302" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">Schedule</text><text x="302" y="193" text-anchor="middle" font-size="11" fill="#6b6258">fit the brands in</text>
-<rect x="412" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="498" cy="114" r="15" fill="#b45309"/><text x="498" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">3</text><text x="498" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">Brew per brand</text><text x="498" y="193" text-anchor="middle" font-size="11" fill="#6b6258">to each spec</text>
-<rect x="608" y="80" width="172" height="150" rx="8" fill="#f7ece0" stroke="#b45309" stroke-width="1.5"/><circle cx="694" cy="114" r="15" fill="#b45309"/><text x="694" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">4</text><text x="694" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1c1a17">Cost & yield</text><text x="694" y="193" text-anchor="middle" font-size="11" fill="#6b6258">per contract</text>
-<rect x="804" y="80" width="172" height="150" rx="8" fill="#b45309"/><circle cx="890" cy="114" r="15" fill="#fff"/><text x="890" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#b45309">5</text><text x="890" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Bill & margin</text><text x="890" y="193" text-anchor="middle" font-size="11" fill="#f7ece0">the true profit</text>
+<rect x="20" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="106" cy="114" r="15" fill="#00695c"/><text x="106" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">1</text><text x="106" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Capacity</text><text x="106" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">tank-days, line hours</text>
+<rect x="216" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="302" cy="114" r="15" fill="#00695c"/><text x="302" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">2</text><text x="302" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Schedule</text><text x="302" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">fit the brands in</text>
+<rect x="412" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="498" cy="114" r="15" fill="#00695c"/><text x="498" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">3</text><text x="498" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Brew per brand</text><text x="498" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">to each spec</text>
+<rect x="608" y="80" width="172" height="150" rx="8" fill="#f0f6f5" stroke="#00695c" stroke-width="1.5"/><circle cx="694" cy="114" r="15" fill="#00695c"/><text x="694" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#fff">4</text><text x="694" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#06483f">Cost & yield</text><text x="694" y="193" text-anchor="middle" font-size="11" fill="#4a6b64">per contract</text>
+<rect x="804" y="80" width="172" height="150" rx="8" fill="#00695c"/><circle cx="890" cy="114" r="15" fill="#fff"/><text x="890" y="119" text-anchor="middle" font-size="13.5" font-weight="700" fill="#00695c">5</text><text x="890" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Bill & margin</text><text x="890" y="193" text-anchor="middle" font-size="11" fill="#f0f6f5">the true profit</text>
 </g>
-<g fill="#b45309" stroke="#b45309" stroke-width="2">
+<g fill="#00695c" stroke="#00695c" stroke-width="2">
 <line x1="192" y1="155" x2="209" y2="155"/><polygon points="209,150 216,155 209,160" stroke="none"/>
 <line x1="388" y1="155" x2="405" y2="155"/><polygon points="405,150 412,155 405,160" stroke="none"/>
 <line x1="584" y1="155" x2="601" y2="155"/><polygon points="601,150 608,155 601,160" stroke="none"/>
 <line x1="780" y1="155" x2="797" y2="155"/><polygon points="797,150 804,155 797,160" stroke="none"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">A contract brewery's value chain runs on capacity and cost per contract — not on its own depletions.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">A contract brewery's value chain runs on capacity and cost per contract — not on its own depletions.</figcaption>
 </figure>
 
 ## Capacity is the product
@@ -54,21 +54,21 @@ Running several customers' brands through shared vessels and lines makes traceab
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 210" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Where capacity goes: billed production, changeover and CIP, yield loss, and idle">
-<rect x="0" y="0" width="760" height="210" fill="#fdfbf7"/>
-<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">Where the capacity (the product) goes</text>
-<rect x="60" y="62" width="396.8" height="44" fill="#b45309"/>
-<rect x="456.8" y="62" width="89.6" height="44" fill="#8a5a2b"/>
-<rect x="546.4" y="62" width="51.2" height="44" fill="#7a1f3d"/>
-<rect x="597.6" y="62" width="102.4" height="44" fill="#6b6258"/>
-<text x="258" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#fdfbf7">Billed production 62%</text>
-<g font-family="sans-serif" font-size="12.5" fill="#1c1a17">
-<rect x="60" y="140" width="14" height="14" fill="#b45309"/><text x="80" y="152">Billed production — 62%</text>
-<rect x="300" y="140" width="14" height="14" fill="#8a5a2b"/><text x="320" y="152">Changeover & CIP — 14%</text>
-<rect x="540" y="140" width="14" height="14" fill="#7a1f3d"/><text x="560" y="152">Yield loss — 8%</text>
-<rect x="60" y="166" width="14" height="14" fill="#6b6258"/><text x="80" y="178">Idle / unsold — 16%</text>
+<rect x="0" y="0" width="760" height="210" fill="#ffffff"/>
+<text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">Where the capacity (the product) goes</text>
+<rect x="60" y="62" width="396.8" height="44" fill="#00695c"/>
+<rect x="456.8" y="62" width="89.6" height="44" fill="#06483f"/>
+<rect x="546.4" y="62" width="51.2" height="44" fill="#06483f"/>
+<rect x="597.6" y="62" width="102.4" height="44" fill="#4a6b64"/>
+<text x="258" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">Billed production 62%</text>
+<g font-family="sans-serif" font-size="12.5" fill="#06483f">
+<rect x="60" y="140" width="14" height="14" fill="#00695c"/><text x="80" y="152">Billed production — 62%</text>
+<rect x="300" y="140" width="14" height="14" fill="#06483f"/><text x="320" y="152">Changeover & CIP — 14%</text>
+<rect x="540" y="140" width="14" height="14" fill="#06483f"/><text x="560" y="152">Yield loss — 8%</text>
+<rect x="60" y="166" width="14" height="14" fill="#4a6b64"/><text x="80" y="178">Idle / unsold — 16%</text>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Only the billed slice earns. Changeover, CIP, yield loss and idle time are capacity you paid for and didn't sell — the analytics target.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Only the billed slice earns. Changeover, CIP, yield loss and idle time are capacity you paid for and didn't sell — the analytics target.</figcaption>
 </figure>
 
 ## Where AI helps — and where it doesn't

@@ -21,26 +21,26 @@ The Anthropic ecosystem is a spread: Claude for analysis and writing, Claude Cod
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 420" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="Claude at the centre of a winery, with spokes to eight areas it can help">
-<rect x="0" y="0" width="1000" height="420" fill="#fdfbf7"/>
-<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Where Claude helps across a winery</text>
-<g stroke="#e0d8cc" stroke-width="1.5">
+<rect x="0" y="0" width="1000" height="420" fill="#ffffff"/>
+<text x="500" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Where Claude helps across a winery</text>
+<g stroke="#d8e6e1" stroke-width="1.5">
 <line x1="500" y1="210" x2="890" y2="210"/><line x1="500" y1="210" x2="775" y2="316"/><line x1="500" y1="210" x2="500" y2="360"/><line x1="500" y1="210" x2="224" y2="316"/><line x1="500" y1="210" x2="110" y2="210"/><line x1="500" y1="210" x2="224" y2="104"/><line x1="500" y1="210" x2="500" y2="60"/><line x1="500" y1="210" x2="775" y2="104"/>
 </g>
 <g font-family="sans-serif" font-size="11.5" text-anchor="middle">
-<rect x="810" y="188" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="890" y="214" fill="#1c1a17">Vineyard &amp; viticulture</text>
-<rect x="695" y="294" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="775" y="320" fill="#1c1a17">Winemaking &amp; cellar</text>
-<rect x="420" y="338" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="500" y="364" fill="#1c1a17">Lab / quality</text>
-<rect x="144" y="294" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="224" y="320" fill="#1c1a17">Barrel &amp; supply</text>
-<rect x="30" y="188" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="110" y="214" fill="#1c1a17">Sales &amp; distribution</text>
-<rect x="144" y="82" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="224" y="108" fill="#1c1a17">Marketing &amp; brand</text>
-<rect x="420" y="38" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="500" y="64" fill="#1c1a17">Compliance (TTB)</text>
-<rect x="695" y="82" width="160" height="44" rx="8" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="775" y="108" fill="#1c1a17">Wine club &amp; DTC</text>
+<rect x="810" y="188" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="890" y="214" fill="#06483f">Vineyard &amp; viticulture</text>
+<rect x="695" y="294" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="775" y="320" fill="#06483f">Winemaking &amp; cellar</text>
+<rect x="420" y="338" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="500" y="364" fill="#06483f">Lab / quality</text>
+<rect x="144" y="294" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="224" y="320" fill="#06483f">Barrel &amp; supply</text>
+<rect x="30" y="188" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="110" y="214" fill="#06483f">Sales &amp; distribution</text>
+<rect x="144" y="82" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="224" y="108" fill="#06483f">Marketing &amp; brand</text>
+<rect x="420" y="38" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="500" y="64" fill="#06483f">Compliance (TTB)</text>
+<rect x="695" y="82" width="160" height="44" rx="8" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="775" y="108" fill="#06483f">Wine club &amp; DTC</text>
 </g>
-<circle cx="500" cy="210" r="62" fill="#7a1f3d"/>
-<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#fdfbf7">Claude</text>
-<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f4e9ee">+ Claude Code</text>
+<circle cx="500" cy="210" r="62" fill="#06483f"/>
+<text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">Claude</text>
+<text x="500" y="226" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fbe9ee">+ Claude Code</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">A hub across the widest value chain in drinks — vineyard to wine club, one assistant and one code tool.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">A hub across the widest value chain in drinks — vineyard to wine club, one assistant and one code tool.</figcaption>
 </figure>
 
 ## Vineyard, winemaking and lab
@@ -74,24 +74,24 @@ The Anthropic ecosystem is a spread: Claude for analysis and writing, Claude Cod
 
 <figure data-d2="1" style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 1000 300" width="100%" style="max-width:1000px;height:auto" role="img" aria-label="How Claude connects to a winery's systems through MCP">
-<rect x="0" y="0" width="1000" height="300" fill="#fdfbf7"/>
-<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#1c1a17">How Claude reaches your data — the MCP bridge</text>
-<rect x="40" y="110" width="220" height="90" rx="10" fill="#7a1f3d"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fdfbf7">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#f4e9ee">claude.ai + Claude Code</text>
-<rect x="410" y="120" width="160" height="70" rx="10" fill="#f4e9ee" stroke="#7a1f3d" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1c1a17">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#6b6258">connectors</text>
-<g font-family="sans-serif" font-size="12" fill="#1c1a17">
-<rect x="760" y="40" width="210" height="34" rx="6" fill="#f4e9ee" stroke="#6b6258"/><text x="865" y="62" text-anchor="middle">Winery ERP</text>
-<rect x="760" y="84" width="210" height="34" rx="6" fill="#f4e9ee" stroke="#6b6258"/><text x="865" y="106" text-anchor="middle">DTC / e-commerce</text>
-<rect x="760" y="128" width="210" height="34" rx="6" fill="#f4e9ee" stroke="#6b6258"/><text x="865" y="150" text-anchor="middle">Lab &amp; SOPs</text>
-<rect x="760" y="172" width="210" height="34" rx="6" fill="#f4e9ee" stroke="#6b6258"/><text x="865" y="194" text-anchor="middle">Power BI</text>
-<rect x="760" y="216" width="210" height="34" rx="6" fill="#f4e9ee" stroke="#6b6258"/><text x="865" y="238" text-anchor="middle">Email &amp; files</text>
+<rect x="0" y="0" width="1000" height="300" fill="#ffffff"/>
+<text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="15.5" font-weight="700" fill="#06483f">How Claude reaches your data — the MCP bridge</text>
+<rect x="40" y="110" width="220" height="90" rx="10" fill="#06483f"/><text x="150" y="148" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Claude</text><text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#fbe9ee">claude.ai + Claude Code</text>
+<rect x="410" y="120" width="160" height="70" rx="10" fill="#fbe9ee" stroke="#06483f" stroke-width="1.5"/><text x="490" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#06483f">MCP</text><text x="490" y="170" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#4a6b64">connectors</text>
+<g font-family="sans-serif" font-size="12" fill="#06483f">
+<rect x="760" y="40" width="210" height="34" rx="6" fill="#fbe9ee" stroke="#4a6b64"/><text x="865" y="62" text-anchor="middle">Winery ERP</text>
+<rect x="760" y="84" width="210" height="34" rx="6" fill="#fbe9ee" stroke="#4a6b64"/><text x="865" y="106" text-anchor="middle">DTC / e-commerce</text>
+<rect x="760" y="128" width="210" height="34" rx="6" fill="#fbe9ee" stroke="#4a6b64"/><text x="865" y="150" text-anchor="middle">Lab &amp; SOPs</text>
+<rect x="760" y="172" width="210" height="34" rx="6" fill="#fbe9ee" stroke="#4a6b64"/><text x="865" y="194" text-anchor="middle">Power BI</text>
+<rect x="760" y="216" width="210" height="34" rx="6" fill="#fbe9ee" stroke="#4a6b64"/><text x="865" y="238" text-anchor="middle">Email &amp; files</text>
 </g>
-<g stroke="#7a1f3d" stroke-width="2.5" fill="#7a1f3d"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
-<g stroke="#6b6258" stroke-width="1.5" fill="#6b6258">
+<g stroke="#06483f" stroke-width="2.5" fill="#06483f"><line x1="260" y1="155" x2="410" y2="155"/><polygon points="403,150 413,155 403,160" stroke="none"/><polygon points="267,150 257,155 267,160" stroke="none"/></g>
+<g stroke="#4a6b64" stroke-width="1.5" fill="#4a6b64">
 <line x1="570" y1="155" x2="760" y2="57"/><line x1="570" y1="155" x2="760" y2="101"/><line x1="570" y1="155" x2="760" y2="145"/><line x1="570" y1="155" x2="760" y2="189"/><line x1="570" y1="155" x2="760" y2="233"/>
 </g>
-<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b6258">MCP keeps your data under your control — Claude reads what you connect, nothing more.</text>
+<text x="500" y="282" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a6b64">MCP keeps your data under your control — Claude reads what you connect, nothing more.</text>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">From cellar to club: MCP lets Claude read and reason over the winery's real systems, on your terms.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">From cellar to club: MCP lets Claude read and reason over the winery's real systems, on your terms.</figcaption>
 </figure>
 
 ## Where to keep a human in the loop

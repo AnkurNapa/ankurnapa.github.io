@@ -4,6 +4,7 @@
 {%- capture curpfx -%}/{{ lang }}{%- endcapture -%}
 {%- if lang == 'en' -%}{%- assign neutral = page.url -%}{%- else -%}{%- assign neutral = page.url | remove_first: curpfx -%}{%- endif -%}
 <header class="site-header">
+  <div class="topbar-inner">
   <a class="site-title" href="{{ base | append: '/' | relative_url }}">{{ site.title }}</a>
   <nav class="site-nav">
     <a href="{{ base | append: '/' | relative_url }}">{{ t.nav.home }}</a>
@@ -26,4 +27,5 @@
       {%- endif -%}
     {%- endfor -%}
   </nav>
+  </div>
 </header>

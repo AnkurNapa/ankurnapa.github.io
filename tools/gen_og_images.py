@@ -39,12 +39,12 @@ OG_DIR = ROOT / "assets" / "og"
 OG_URL_PREFIX = "/assets/og"
 
 # --- brand (from assets/css/style.css :root) -------------------------------
-BG = (253, 251, 247)     # --bg     #fdfbf7  cream
-INK = (28, 26, 23)       # --ink    #1c1a17  near-black
-MUTED = (107, 98, 88)    # --muted  #6b6258
-ACCENT = (180, 83, 9)    # --accent #b45309  amber (beer)
-MAROON = (122, 31, 61)   #          #7a1f3d  wine
-CIRCLE = (247, 236, 224) # pale peach decorative blob (top-right)
+BG = (240, 246, 245)     # --section #f0f6f5  pale teal-grey
+INK = (6, 72, 63)        # --teal-deep #06483f
+MUTED = (122, 139, 135)  # --muted  #7a8b87
+ACCENT = (0, 105, 92)    # --teal   #00695c
+MAROON = (6, 72, 63)     # --teal-deep #06483f
+CIRCLE = (227, 243, 236) # light teal tint decorative blob (top-right)
 
 W, H = 1200, 630
 MARGIN = 80

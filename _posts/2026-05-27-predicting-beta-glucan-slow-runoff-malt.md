@@ -21,23 +21,23 @@ A stuck or crawling runoff is one of the most expensive things that happens in a
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Scatter of malt beta-glucan against lauter time showing a rising trend and a high-risk zone">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Malt beta-glucan vs. lauter time</text>
-<line x1="80" y1="210" x2="710" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="80" y1="50" x2="80" y2="210" stroke="#6b6258" stroke-width="1.5"/>
-<text x="395" y="240" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b6258">beta-glucan (mg/L) →</text>
-<text x="46" y="130" font-family="sans-serif" font-size="11" fill="#6b6258" transform="rotate(-90 46,130)">lauter time →</text>
-<rect x="470" y="50" width="240" height="160" fill="#7a1f3d" fill-opacity="0.08"/>
-<text x="590" y="68" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#7a1f3d">high-risk zone</text>
-<line x1="80" y1="195" x2="710" y2="80" stroke="#b45309" stroke-width="2" stroke-dasharray="6 4"/>
-<g fill="#1c1a17">
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Malt beta-glucan vs. lauter time</text>
+<line x1="80" y1="210" x2="710" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="80" y1="50" x2="80" y2="210" stroke="#4a6b64" stroke-width="1.5"/>
+<text x="395" y="240" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a6b64">beta-glucan (mg/L) →</text>
+<text x="46" y="130" font-family="sans-serif" font-size="11" fill="#4a6b64" transform="rotate(-90 46,130)">lauter time →</text>
+<rect x="470" y="50" width="240" height="160" fill="#06483f" fill-opacity="0.08"/>
+<text x="590" y="68" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#06483f">high-risk zone</text>
+<line x1="80" y1="195" x2="710" y2="80" stroke="#00695c" stroke-width="2" stroke-dasharray="6 4"/>
+<g fill="#06483f">
 <circle cx="130" cy="190" r="5"/><circle cx="175" cy="185" r="5"/><circle cx="215" cy="178" r="5"/><circle cx="265" cy="170" r="5"/><circle cx="305" cy="160" r="5"/><circle cx="355" cy="150" r="5"/><circle cx="415" cy="140" r="5"/>
 </g>
-<g fill="#7a1f3d">
+<g fill="#06483f">
 <circle cx="520" cy="120" r="5"/><circle cx="560" cy="100" r="5"/><circle cx="620" cy="95" r="5"/><circle cx="660" cy="75" r="5"/>
 </g>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">Runoff time climbs with beta-glucan, but the spread is wide — viscosity and homogeneity sharpen the prediction. The model ranks risk; it does not promise a stuck mash.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Runoff time climbs with beta-glucan, but the spread is wide — viscosity and homogeneity sharpen the prediction. The model ranks risk; it does not promise a stuck mash.</figcaption>
 </figure>
 
 ## Why beta-glucan slows the lauter

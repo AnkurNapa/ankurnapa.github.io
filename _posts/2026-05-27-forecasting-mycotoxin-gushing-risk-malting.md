@@ -21,29 +21,29 @@ DON and gushing are the two malthouse problems that start before the barley ever
 
 <figure style="margin:1.6rem 0;text-align:center">
 <svg viewBox="0 0 760 250" width="100%" style="max-width:760px;height:auto" role="img" aria-label="Incoming barley lots scored by a risk model and routed to accept, segregate and test, or reject">
-<rect x="0" y="0" width="760" height="250" fill="#fdfbf7"/>
-<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1c1a17">Intake triage — score, then route</text>
-<rect x="40" y="95" width="150" height="60" rx="6" fill="#f7ece0" stroke="#6b6258"/>
-<text x="115" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">incoming lot</text>
-<text x="115" y="138" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b6258">weather · variety · NIR</text>
-<rect x="270" y="95" width="150" height="60" rx="6" fill="#b45309"/>
-<text x="345" y="122" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#fdfbf7">risk score</text>
-<text x="345" y="140" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fdfbf7">low · med · high</text>
-<line x1="190" y1="125" x2="262" y2="125" stroke="#6b6258" stroke-width="2"/>
-<polygon points="270,125 260,120 260,130" fill="#6b6258"/>
+<rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#06483f">Intake triage — score, then route</text>
+<rect x="40" y="95" width="150" height="60" rx="6" fill="#f0f6f5" stroke="#4a6b64"/>
+<text x="115" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#06483f">incoming lot</text>
+<text x="115" y="138" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4a6b64">weather · variety · NIR</text>
+<rect x="270" y="95" width="150" height="60" rx="6" fill="#00695c"/>
+<text x="345" y="122" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">risk score</text>
+<text x="345" y="140" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#ffffff">low · med · high</text>
+<line x1="190" y1="125" x2="262" y2="125" stroke="#4a6b64" stroke-width="2"/>
+<polygon points="270,125 260,120 260,130" fill="#4a6b64"/>
 <g>
-<rect x="500" y="50" width="220" height="40" rx="6" fill="#5b7a1f" fill-opacity="0.15" stroke="#5b7a1f"/>
-<text x="610" y="75" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">accept</text>
-<rect x="500" y="105" width="220" height="40" rx="6" fill="#b45309" fill-opacity="0.15" stroke="#b45309"/>
-<text x="610" y="130" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">segregate &amp; assay DON</text>
-<rect x="500" y="160" width="220" height="40" rx="6" fill="#7a1f3d" fill-opacity="0.15" stroke="#7a1f3d"/>
-<text x="610" y="185" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1c1a17">reject / divert</text>
+<rect x="500" y="50" width="220" height="40" rx="6" fill="#2e9e7c" fill-opacity="0.15" stroke="#2e9e7c"/>
+<text x="610" y="75" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#06483f">accept</text>
+<rect x="500" y="105" width="220" height="40" rx="6" fill="#00695c" fill-opacity="0.15" stroke="#00695c"/>
+<text x="610" y="130" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#06483f">segregate &amp; assay DON</text>
+<rect x="500" y="160" width="220" height="40" rx="6" fill="#06483f" fill-opacity="0.15" stroke="#06483f"/>
+<text x="610" y="185" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#06483f">reject / divert</text>
 </g>
-<line x1="420" y1="120" x2="500" y2="72" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="420" y1="125" x2="500" y2="125" stroke="#6b6258" stroke-width="1.5"/>
-<line x1="420" y1="130" x2="500" y2="178" stroke="#6b6258" stroke-width="1.5"/>
+<line x1="420" y1="120" x2="500" y2="72" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="420" y1="125" x2="500" y2="125" stroke="#4a6b64" stroke-width="1.5"/>
+<line x1="420" y1="130" x2="500" y2="178" stroke="#4a6b64" stroke-width="1.5"/>
 </svg>
-<figcaption style="font-size:.85rem;color:#6b6258;margin-top:.4rem">The model does not pass or fail a lot; it sorts lots so the lab assay and the human decision land where the risk is highest.</figcaption>
+<figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">The model does not pass or fail a lot; it sorts lots so the lab assay and the human decision land where the risk is highest.</figcaption>
 </figure>
 
 ## Where gushing and DON come from
