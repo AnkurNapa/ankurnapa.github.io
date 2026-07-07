@@ -34,7 +34,14 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    {%- assign _p0 = content | split: '</figure>' | first -%}
+    {%- if content contains '</figure>' -%}
+      {{ _p0 }}</figure>
+      {% include inline-cta.html %}
+      {{ content | remove_first: _p0 | remove_first: '</figure>' }}
+    {%- else -%}
+      {{ content }}
+    {%- endif -%}
   </div>
 
   {% include work-with-me.html %}
