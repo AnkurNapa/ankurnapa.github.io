@@ -235,6 +235,8 @@ pre code { background: none; padding: 0; color: inherit; }
 .related h2 { margin-top: 0; font-size: 1.2rem; }
 .related ul { list-style: none; padding: 0; }
 .related li { padding: .4rem 0; }
+.related .track-hub { display: inline-flex; align-items: center; margin-top: 1rem; font-family: var(--font-display); font-weight: 600; font-size: .9rem; color: #fff; background: var(--teal); padding: .55rem 1.15rem; border-radius: 999px; }
+.related .track-hub:hover { background: var(--teal-deep); text-decoration: none; }
 
 /* ---------- Prev / next (pills) ---------- */
 .post-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 2.6rem 0 .75rem; flex-wrap: wrap; }

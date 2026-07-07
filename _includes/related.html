@@ -1,12 +1,32 @@
 {%- comment -%}
-  Related posts by shared tags — GitHub Pages safe (no plugins, no LSI).
-  Scores every other post by how many tags it shares with this one,
-  sorts highest-first, and shows the top 3. Language-aware: German posts
-  draw their related list from the German collection.
+  Related posts + track-flow, GitHub Pages safe (no plugins, no LSI).
+  Scores every other post by shared tags, but weights the reader's FIRST
+  tag (their track / industry, e.g. winemaking) heavily so same-industry
+  articles lead the list. Then offers a "More in <track>" hub link so a
+  reader who arrived from one industry can follow that thread to every
+  article in it. Language-aware: non-English posts draw from their own
+  collection.
 {%- endcomment -%}
 {%- assign lang = page.lang | default: 'en' -%}
 {%- assign t = site.data.i18n[lang] -%}
 {%- if lang == 'en' -%}{%- assign pool = site.posts -%}{%- else -%}{%- assign pool = site[lang] -%}{%- endif -%}
+{%- assign firsttag = page.tags[0] -%}
+
+{%- comment -%} Map the primary tag to its track hub page + label. {%- endcomment -%}
+{%- assign hub_url = '' -%}{%- assign hub_name = '' -%}
+{%- case firsttag -%}
+  {%- when 'winemaking' -%}{%- assign hub_url = '/tracks/winemaking-ai/' -%}{%- assign hub_name = 'Winemaking & AI' -%}
+  {%- when 'brewing-science' -%}{%- assign hub_url = '/tracks/brewing-science-ai/' -%}{%- assign hub_name = 'Brewing Science & AI' -%}
+  {%- when 'distilling-maturation' -%}{%- assign hub_url = '/tracks/distilling-maturation/' -%}{%- assign hub_name = 'Distilling & Maturation' -%}
+  {%- when 'commercial-planning' -%}{%- assign hub_url = '/tracks/commercial-planning/' -%}{%- assign hub_name = 'Commercial Planning' -%}
+  {%- when 'sales-intelligence' -%}{%- assign hub_url = '/tracks/sales-intelligence/' -%}{%- assign hub_name = 'Sales Intelligence' -%}
+  {%- when 'marketing' -%}{%- assign hub_url = '/tracks/marketing/' -%}{%- assign hub_name = 'Marketing' -%}
+  {%- when 'fpna' -%}{%- assign hub_url = '/tracks/financial-planning-analytics/' -%}{%- assign hub_name = 'Financial Planning & Analytics' -%}
+  {%- when 'esg' -%}{%- assign hub_url = '/tracks/esg/' -%}{%- assign hub_name = 'ESG' -%}
+  {%- when 'ehs' -%}{%- assign hub_url = '/tracks/ehs/' -%}{%- assign hub_name = 'EHS' -%}
+  {%- when 'forecasting' -%}{%- assign hub_url = '/tracks/sales-forecasting/' -%}{%- assign hub_name = 'Sales Forecasting' -%}
+{%- endcase -%}
+
 {% if page.tags and page.tags.size > 0 %}
   {% assign scored = "" | split: "" %}
   {% for post in pool %}
@@ -16,22 +36,31 @@
         {% if page.tags contains tag %}{% assign common = common | plus: 1 %}{% endif %}
       {% endfor %}
       {% if common > 0 %}
-        {% capture entry %}{{ common }}|||{{ post.url }}|||{{ post.title }}{% endcapture %}
+        {% assign score = common %}
+        {% if firsttag and post.tags contains firsttag %}{% assign score = score | plus: 1000 %}{% endif %}
+        {% assign padded = score | prepend: '0000' | slice: -4, 4 %}
+        {% capture entry %}{{ padded }}|||{{ post.url }}|||{{ post.title }}{% endcapture %}
         {% assign onearr = entry | split: "~~NOSPLIT~~" %}
         {% assign scored = scored | concat: onearr %}
       {% endif %}
     {% endunless %}
   {% endfor %}
   {% assign scored = scored | sort | reverse %}
-  {% if scored.size > 0 %}
+
+  {% if scored.size > 0 or hub_url != '' %}
   <nav class="related" aria-label="{{ t.related.heading }}">
     <h2>{{ t.related.heading }}</h2>
+    {% if scored.size > 0 %}
     <ul>
       {% for item in scored limit: 3 %}
         {% assign parts = item | split: "|||" %}
         <li><a href="{{ parts[1] | relative_url }}">{{ parts[2] }}</a></li>
       {% endfor %}
     </ul>
+    {% endif %}
+    {% if hub_url != '' %}
+    <a class="track-hub" href="{{ hub_url | relative_url }}">More in {{ hub_name }} →</a>
+    {% endif %}
   </nav>
   {% endif %}
 {% endif %}
