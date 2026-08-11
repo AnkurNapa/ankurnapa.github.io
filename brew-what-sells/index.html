@@ -110,6 +110,16 @@
     display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
     background: #fff; touch-action: pan-y;
   }
+  /* Full screen: the slide gets the whole display, letterboxed on black, and
+     the chrome around it gets out of the way. */
+  .stage:fullscreen {
+    display: flex; align-items: center; justify-content: center;
+    background: #000; border: 0; border-radius: 0;
+  }
+  .stage:fullscreen .stage-head { display: none; }
+  .stage:fullscreen img {
+    width: auto; height: auto; max-width: 100vw; max-height: 100vh;
+  }
   .controls { display: flex; align-items: center; gap: .6rem; margin: .9rem 0 0; flex-wrap: wrap; }
   button.nav {
     font: 600 .9rem/1 var(--sans); background: var(--raise); color: var(--text);
@@ -209,16 +219,18 @@
   </div>
 
   <main>
-    <div class="stage">
+    <div class="stage" id="stage">
       <div class="stage-head"><span class="dot"></span>Slide viewer</div>
       <img id="slide" src="slides/slide-01.webp" alt="Slide 1 of 27" width="1600" height="900" fetchpriority="high">
     </div>
     <div class="controls">
       <button class="nav" id="prev" type="button" aria-label="Previous slide">&larr; Previous</button>
       <button class="nav" id="next" type="button" aria-label="Next slide">Next &rarr;</button>
+      <button class="nav" id="full" type="button" aria-label="Full screen">&#8599; Full screen</button>
       <span class="counter" aria-live="polite"><b id="now">01</b> / 27</span>
     </div>
-    <p class="hint">Arrow keys on a laptop, swipe on a phone. Every slide has its own link.</p>
+    <p class="hint">Arrow keys on a laptop, swipe on a phone, F for full screen.
+      Every slide has its own link.</p>
 
     <section>
       <p class="sec-head">Downloads</p>
@@ -284,6 +296,20 @@
     });
   }
 
+  var stage = document.getElementById('stage');
+  var full = document.getElementById('full');
+
+  function toggleFull() {
+    if (document.fullscreenElement) { document.exitFullscreen(); }
+    else if (stage.requestFullscreen) { stage.requestFullscreen(); }
+    else if (stage.webkitRequestFullscreen) { stage.webkitRequestFullscreen(); }
+  }
+  full.addEventListener('click', toggleFull);
+  document.addEventListener('fullscreenchange', function () {
+    full.textContent = document.fullscreenElement ? '\u2199 Exit full screen'
+                                                  : '\u2197 Full screen';
+  });
+
   prev.addEventListener('click', function () { show(i - 1, true); });
   next.addEventListener('click', function () { show(i + 1, true); });
 
@@ -292,6 +318,7 @@
     else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { show(i - 1, true); }
     else if (e.key === 'Home') { show(1, true); }
     else if (e.key === 'End') { show(TOTAL, true); }
+    else if (e.key === 'f' || e.key === 'F') { toggleFull(); }
     else { return; }
     e.preventDefault();
   });
