@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brew What Sells with AI - session deck</title>
+<meta name="description" content="The full session deck from Brew What Sells with AI, a free workshop for craft breweries: an evidence engine for the decisions a brewery already makes. Slides, prompt card and the practice dataset.">
+<link rel="canonical" href="https://ankurnapa.github.io/brew-what-sells/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Brew What Sells with AI - session deck">
+<meta property="og:description" content="An evidence engine for craft breweries. The full 44-slide session deck, the prompt card, and the practice dataset.">
+<meta property="og:url" content="https://ankurnapa.github.io/brew-what-sells/">
+<meta property="og:image" content="https://ankurnapa.github.io/brew-what-sells/slides/slide-01.webp">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  /* Ops-console design language: slate ground, white cards, one blue accent,
+     monospace for anything that is a reading rather than prose. */
+  :root {
+    --ground: #f4f6f8;
+    --card: #ffffff;
+    --ink: #1f2933;
+    --slate: #64748b;
+    --faint: #94a3b8;
+    --line: #e3e8ec;
+    --blue: #3b76b0;
+    --blue-deep: #2f5f8f;
+    --blue-tint: #eaf1f8;
+    --green: #2e9e5b;
+    --amber: #e8a33d;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, sans-serif;
+    --max: 72rem;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 400 16px/1.55 var(--sans);
+  }
+  a { color: var(--blue); }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; }
+
+  /* Console header ------------------------------------------------------ */
+  .topbar { background: var(--card); border-bottom: 1px solid var(--line); }
+  .topbar .wrap {
+    display: flex; align-items: flex-start; gap: 1rem;
+    padding-top: 1.5rem; padding-bottom: 1.25rem; flex-wrap: wrap;
+  }
+  .brand h1 {
+    margin: 0; font-size: clamp(1.3rem, 3.4vw, 1.7rem); font-weight: 700;
+    letter-spacing: -.015em;
+  }
+  .brand h1 span { color: var(--blue); }
+  .brand p {
+    margin: .3rem 0 0; font-family: var(--mono); font-size: .74rem;
+    letter-spacing: .09em; text-transform: uppercase; color: var(--slate);
+  }
+  .chips { display: flex; gap: .5rem; margin-left: auto; flex-wrap: wrap; }
+  .chip {
+    display: inline-flex; align-items: center; gap: .45rem;
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: .42rem .85rem; font-family: var(--mono); font-size: .78rem;
+    color: var(--ink); background: var(--card); text-decoration: none;
+    line-height: 1.35;
+  }
+  .chip:hover { border-color: var(--blue); color: var(--blue); }
+  .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--green); }
+  .dot.amber { background: var(--amber); }
+
+  /* Status strip -------------------------------------------------------- */
+  .strip {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--blue); border-radius: 8px;
+    margin: 1.5rem 0 0; padding: .85rem 1.1rem;
+    display: flex; gap: .75rem; align-items: baseline; flex-wrap: wrap;
+    font-size: .93rem; color: var(--slate);
+  }
+  .strip b { color: var(--ink); font-weight: 600; }
+
+  /* Readings row -------------------------------------------------------- */
+  .readings {
+    display: grid; gap: 1rem; margin: 1rem 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(min(11rem, 100%), 1fr));
+  }
+  .reading {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 8px; padding: 1rem 1.1rem 1.05rem;
+  }
+  .reading .label {
+    font-family: var(--mono); font-size: .68rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--slate);
+  }
+  .reading .value {
+    font-family: var(--mono); font-size: 1.9rem; font-weight: 600;
+    letter-spacing: -.02em; margin: .35rem 0 .2rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .reading .value em { font-style: normal; font-size: .95rem; color: var(--slate); }
+  .reading .note { font-family: var(--mono); font-size: .7rem; color: var(--faint); }
+
+  /* Viewer -------------------------------------------------------------- */
+  main { padding: 2rem 0 0; }
+  .stage {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; overflow: hidden;
+  }
+  .stage-head {
+    display: flex; align-items: center; gap: .6rem;
+    padding: .7rem 1rem; border-bottom: 1px solid var(--line);
+    font-family: var(--mono); font-size: .72rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--slate);
+  }
+  .stage img {
+    display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
+    background: var(--ground); touch-action: pan-y;
+  }
+  .controls { display: flex; align-items: center; gap: .6rem; margin: .9rem 0 0; flex-wrap: wrap; }
+  button.nav {
+    font: 600 .9rem/1 var(--sans); background: var(--card); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: 0 1.1rem; height: 44px; cursor: pointer;
+    transition: border-color .15s, color .15s, background .15s;
+  }
+  button.nav:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); background: var(--blue-tint); }
+  button.nav:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+  button.nav:disabled { opacity: .38; cursor: default; }
+  .counter {
+    margin-left: auto; font-family: var(--mono); font-size: .85rem;
+    color: var(--slate); font-variant-numeric: tabular-nums;
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 999px; padding: .45rem .95rem;
+  }
+  .counter b { color: var(--ink); font-weight: 600; }
+  .hint { font-family: var(--mono); font-size: .72rem; color: var(--faint); margin: .7rem 0 0; }
+
+  /* Downloads ----------------------------------------------------------- */
+  section { padding: 2.75rem 0 0; }
+  .sec-head {
+    font-family: var(--mono); font-size: .7rem; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--slate); margin: 0 0 .55rem;
+  }
+  h2 { font-size: 1.35rem; font-weight: 600; letter-spacing: -.01em; margin: 0 0 .35rem; }
+  .sub { color: var(--slate); margin: 0 0 1.3rem; max-width: 38em; font-size: .97rem; }
+  .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr)); }
+  .card {
+    display: block; background: var(--card); border: 1px solid var(--line);
+    border-radius: 8px; padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .card:hover { border-color: var(--blue); box-shadow: 0 2px 10px rgba(31, 41, 51, .06); }
+  .card:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+  .card h3 { margin: 0 0 .35rem; font-size: 1rem; font-weight: 600; color: var(--blue-deep); }
+  .card p { margin: 0; font-size: .89rem; color: var(--slate); line-height: 1.5; }
+  .card .kind {
+    display: inline-block; margin-top: .7rem; font-family: var(--mono);
+    font-size: .66rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--blue); background: var(--blue-tint);
+    border-radius: 999px; padding: .22rem .6rem;
+  }
+
+  footer {
+    margin-top: 3rem; border-top: 1px solid var(--line);
+    padding: 1.5rem 0 3rem; font-size: .9rem; color: var(--slate);
+  }
+  footer p { margin: 0 0 .35rem; }
+  footer .mono { font-family: var(--mono); font-size: .8rem; color: var(--faint); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Brew What Sells <span>with AI</span></h1>
+      <p>Session deck &middot; craft brewery workshop &middot; Bengaluru</p>
+    </div>
+    <div class="chips">
+      <span class="chip"><span class="dot amber"></span>12 Aug 2026 &middot; Biergarten, Koramangala</span>
+      <a class="chip" href="brew-what-sells-take-home.zip">&darr; Take-home pack</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <p class="strip">
+    <b>An evidence engine for craft breweries.</b>
+    One hour, one brewery's real decisions, and the questions the room
+    answers before I do.
+  </p>
+
+  <div class="readings">
+    <div class="reading">
+      <div class="label">Slides</div>
+      <div class="value">44</div>
+      <div class="note">full session, unedited</div>
+    </div>
+    <div class="reading">
+      <div class="label">Runtime</div>
+      <div class="value">60<em> min</em></div>
+      <div class="note">five polls, live answers</div>
+    </div>
+    <div class="reading">
+      <div class="label">Practice dataset</div>
+      <div class="value">18<em> months</em></div>
+      <div class="note">synthetic brewery, 12 tables</div>
+    </div>
+    <div class="reading">
+      <div class="label">Cost to attend</div>
+      <div class="value">Free</div>
+      <div class="note">nothing sold from the stage</div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stage">
+      <div class="stage-head"><span class="dot"></span>Slide viewer</div>
+      <img id="slide" src="slides/slide-01.webp" alt="Slide 1 of 44" width="1600" height="900" fetchpriority="high">
+    </div>
+    <div class="controls">
+      <button class="nav" id="prev" type="button" aria-label="Previous slide">&larr; Previous</button>
+      <button class="nav" id="next" type="button" aria-label="Next slide">Next &rarr;</button>
+      <span class="counter" aria-live="polite"><b id="now">01</b> / 44</span>
+    </div>
+    <p class="hint">Arrow keys on a laptop, swipe on a phone. Every slide has its own link.</p>
+
+    <section>
+      <p class="sec-head">Downloads</p>
+      <h2>Take it with you</h2>
+      <p class="sub">Everything the room gets on the day. The dataset is a
+        synthetic brewery, built for practice, so nothing in it belongs to
+        anyone.</p>
+      <div class="cards">
+        <a class="card" href="brew-what-sells-with-ai.pdf">
+          <h3>The deck, as a PDF</h3>
+          <p>All 44 slides, the same file that ran on the screen.</p>
+          <span class="kind">PDF</span>
+        </a>
+        <a class="card" href="brew-what-sells-prompt-card.pdf">
+          <h3>Prompt card</h3>
+          <p>One page. The shape of a question that gets a useful answer back.</p>
+          <span class="kind">PDF</span>
+        </a>
+        <a class="card" href="brew-what-sells-take-home.zip">
+          <h3>Take-home pack</h3>
+          <p>Prompt pack, data dictionary, the security and credit habits notes,
+            and eighteen months of a practice brewery's records as CSV.</p>
+          <span class="kind">ZIP &middot; 12 tables</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>Ankur Napa</b>, Growth Officer, Disruptive Advantage. Master Brewer turned data architect.</p>
+    <p><a href="mailto:napaankur@gmail.com">napaankur@gmail.com</a>
+       &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/ankur-napa/">LinkedIn</a>
+       &nbsp;&middot;&nbsp; <a href="/">Beer, Wine, Whiskey &amp; AI</a></p>
+    <p class="mono">Questions are the useful part.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var TOTAL = 44;
+  var img = document.getElementById('slide');
+  var now = document.getElementById('now');
+  var prev = document.getElementById('prev');
+  var next = document.getElementById('next');
+  var i = 1;
+
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function src(n) { return 'slides/slide-' + pad(n) + '.webp'; }
+
+  function show(n, push) {
+    i = Math.min(TOTAL, Math.max(1, n));
+    img.src = src(i);
+    img.alt = 'Slide ' + i + ' of ' + TOTAL;
+    now.textContent = pad(i);
+    prev.disabled = i === 1;
+    next.disabled = i === TOTAL;
+    if (push) { history.replaceState(null, '', '#' + i); }
+    // Pull the neighbours into cache so a swipe never waits on the network.
+    [i + 1, i - 1].forEach(function (n) {
+      if (n >= 1 && n <= TOTAL) { new Image().src = src(n); }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(i - 1, true); });
+  next.addEventListener('click', function () { show(i + 1, true); });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown') { show(i + 1, true); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { show(i - 1, true); }
+    else if (e.key === 'Home') { show(1, true); }
+    else if (e.key === 'End') { show(TOTAL, true); }
+    else { return; }
+    e.preventDefault();
+  });
+
+  // Swipe. Horizontal only, and only past 45px, so scrolling the page down
+  // never trips a slide change.
+  var x0 = null, y0 = null;
+  img.addEventListener('touchstart', function (e) {
+    x0 = e.changedTouches[0].clientX; y0 = e.changedTouches[0].clientY;
+  }, { passive: true });
+  img.addEventListener('touchend', function (e) {
+    if (x0 === null) { return; }
+    var dx = e.changedTouches[0].clientX - x0;
+    var dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) { show(i + (dx < 0 ? 1 : -1), true); }
+    x0 = y0 = null;
+  }, { passive: true });
+
+  var start = parseInt(location.hash.slice(1), 10);
+  show(start > 0 ? start : 1, false);
+})();
+</script>
+
+</body>
+</html>
