@@ -13,20 +13,19 @@
 <meta property="og:image" content="https://ankurnapa.github.io/brew-what-sells/slides/slide-01.webp">
 <meta name="twitter:card" content="summary_large_image">
 <style>
-  /* Ops-console design language: slate ground, white cards, one blue accent,
-     monospace for anything that is a reading rather than prose. */
+  /* VS Code dark, because the page is a viewer for work made with a coding
+     tool. One accent: Claude orange. The slides themselves are white, so the
+     dark chrome is what makes them read as documents on a desk. */
   :root {
-    --ground: #f4f6f8;
-    --card: #ffffff;
-    --ink: #1f2933;
-    --slate: #64748b;
-    --faint: #94a3b8;
-    --line: #e3e8ec;
-    --blue: #3b76b0;
-    --blue-deep: #2f5f8f;
-    --blue-tint: #eaf1f8;
-    --green: #2e9e5b;
-    --amber: #e8a33d;
+    --ground: #1e1e1e;      /* editor background */
+    --panel: #252526;       /* side panel */
+    --raise: #2d2d2d;       /* tab / hover */
+    --line: #3c3c3c;
+    --text: #d4d4d4;
+    --muted: #9d9d9d;
+    --faint: #858585;
+    --accent: #d97757;      /* Claude orange, 5.3:1 here */
+    --accent-soft: #e8977a;
     --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             "Helvetica Neue", Arial, sans-serif;
@@ -35,135 +34,131 @@
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
   body {
-    margin: 0; background: var(--ground); color: var(--ink);
+    margin: 0; background: var(--ground); color: var(--text);
     font: 400 16px/1.55 var(--sans);
   }
-  a { color: var(--blue); }
+  a { color: var(--accent-soft); }
   .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; }
 
-  /* Console header ------------------------------------------------------ */
-  .topbar { background: var(--card); border-bottom: 1px solid var(--line); }
+  .topbar { background: var(--panel); border-bottom: 1px solid var(--line); }
   .topbar .wrap {
     display: flex; align-items: flex-start; gap: 1rem;
-    padding-top: 1.5rem; padding-bottom: 1.25rem; flex-wrap: wrap;
+    padding-top: 1.4rem; padding-bottom: 1.15rem; flex-wrap: wrap;
   }
   .brand h1 {
-    margin: 0; font-size: clamp(1.3rem, 3.4vw, 1.7rem); font-weight: 700;
-    letter-spacing: -.015em;
+    margin: 0; font-size: clamp(1.3rem, 3.4vw, 1.7rem); font-weight: 600;
+    letter-spacing: -.015em; color: #fff;
   }
-  .brand h1 span { color: var(--blue); }
+  .brand h1 span { color: var(--accent); }
   .brand p {
     margin: .3rem 0 0; font-family: var(--mono); font-size: .74rem;
-    letter-spacing: .09em; text-transform: uppercase; color: var(--slate);
+    letter-spacing: .09em; text-transform: uppercase; color: var(--faint);
   }
   .chips { display: flex; gap: .5rem; margin-left: auto; flex-wrap: wrap; }
   .chip {
     display: inline-flex; align-items: center; gap: .45rem;
-    border: 1px solid var(--line); border-radius: 999px;
+    border: 1px solid var(--line); border-radius: 4px; background: var(--raise);
     padding: .42rem .85rem; font-family: var(--mono); font-size: .78rem;
-    color: var(--ink); background: var(--card); text-decoration: none;
-    line-height: 1.35;
+    color: var(--text); text-decoration: none; line-height: 1.35;
   }
-  .chip:hover { border-color: var(--blue); color: var(--blue); }
-  .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--green); }
-  .dot.amber { background: var(--amber); }
+  .chip:hover { border-color: var(--accent); color: var(--accent-soft); }
+  .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--accent); }
+  .dot.amber { background: var(--accent); }
 
-  /* Status strip -------------------------------------------------------- */
   .strip {
-    background: var(--card); border: 1px solid var(--line);
-    border-left: 3px solid var(--blue); border-radius: 8px;
+    background: var(--panel); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent); border-radius: 4px;
     margin: 1.5rem 0 0; padding: .85rem 1.1rem;
     display: flex; gap: .75rem; align-items: baseline; flex-wrap: wrap;
-    font-size: .93rem; color: var(--slate);
+    font-size: .93rem; color: var(--muted);
   }
-  .strip b { color: var(--ink); font-weight: 600; }
+  .strip b { color: #fff; font-weight: 600; }
 
-  /* Readings row -------------------------------------------------------- */
   .readings {
     display: grid; gap: 1rem; margin: 1rem 0 0;
     grid-template-columns: repeat(auto-fit, minmax(min(11rem, 100%), 1fr));
   }
   .reading {
-    background: var(--card); border: 1px solid var(--line);
-    border-radius: 8px; padding: 1rem 1.1rem 1.05rem;
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 4px; padding: 1rem 1.1rem 1.05rem;
   }
   .reading .label {
     font-family: var(--mono); font-size: .68rem; letter-spacing: .1em;
-    text-transform: uppercase; color: var(--slate);
+    text-transform: uppercase; color: var(--faint);
   }
   .reading .value {
     font-family: var(--mono); font-size: 1.9rem; font-weight: 600;
-    letter-spacing: -.02em; margin: .35rem 0 .2rem;
+    letter-spacing: -.02em; margin: .35rem 0 .2rem; color: var(--accent);
     font-variant-numeric: tabular-nums;
   }
-  .reading .value em { font-style: normal; font-size: .95rem; color: var(--slate); }
+  .reading .value em { font-style: normal; font-size: .95rem; color: var(--muted); }
   .reading .note { font-family: var(--mono); font-size: .7rem; color: var(--faint); }
 
-  /* Viewer -------------------------------------------------------------- */
   main { padding: 2rem 0 0; }
   .stage {
-    background: var(--card); border: 1px solid var(--line);
-    border-radius: 10px; overflow: hidden;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 4px;
+    overflow: hidden;
   }
   .stage-head {
     display: flex; align-items: center; gap: .6rem;
-    padding: .7rem 1rem; border-bottom: 1px solid var(--line);
+    padding: .6rem 1rem; border-bottom: 1px solid var(--line);
+    background: var(--raise);
     font-family: var(--mono); font-size: .72rem; letter-spacing: .1em;
-    text-transform: uppercase; color: var(--slate);
+    text-transform: uppercase; color: var(--faint);
   }
   .stage img {
     display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
-    background: var(--ground); touch-action: pan-y;
+    background: #fff; touch-action: pan-y;
   }
   .controls { display: flex; align-items: center; gap: .6rem; margin: .9rem 0 0; flex-wrap: wrap; }
   button.nav {
-    font: 600 .9rem/1 var(--sans); background: var(--card); color: var(--ink);
-    border: 1px solid var(--line); border-radius: 999px;
+    font: 600 .9rem/1 var(--sans); background: var(--raise); color: var(--text);
+    border: 1px solid var(--line); border-radius: 4px;
     padding: 0 1.1rem; height: 44px; cursor: pointer;
     transition: border-color .15s, color .15s, background .15s;
   }
-  button.nav:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); background: var(--blue-tint); }
-  button.nav:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
-  button.nav:disabled { opacity: .38; cursor: default; }
+  button.nav:hover:not(:disabled) { border-color: var(--accent); color: var(--accent-soft); }
+  button.nav:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button.nav:disabled { opacity: .35; cursor: default; }
   .counter {
     margin-left: auto; font-family: var(--mono); font-size: .85rem;
-    color: var(--slate); font-variant-numeric: tabular-nums;
-    background: var(--card); border: 1px solid var(--line);
-    border-radius: 999px; padding: .45rem .95rem;
+    color: var(--muted); font-variant-numeric: tabular-nums;
+    background: var(--raise); border: 1px solid var(--line);
+    border-radius: 4px; padding: .45rem .95rem;
   }
-  .counter b { color: var(--ink); font-weight: 600; }
+  .counter b { color: var(--accent); font-weight: 600; }
   .hint { font-family: var(--mono); font-size: .72rem; color: var(--faint); margin: .7rem 0 0; }
 
-  /* Downloads ----------------------------------------------------------- */
   section { padding: 2.75rem 0 0; }
   .sec-head {
     font-family: var(--mono); font-size: .7rem; letter-spacing: .12em;
-    text-transform: uppercase; color: var(--slate); margin: 0 0 .55rem;
+    text-transform: uppercase; color: var(--faint); margin: 0 0 .55rem;
   }
-  h2 { font-size: 1.35rem; font-weight: 600; letter-spacing: -.01em; margin: 0 0 .35rem; }
-  .sub { color: var(--slate); margin: 0 0 1.3rem; max-width: 38em; font-size: .97rem; }
+  h2 { font-size: 1.35rem; font-weight: 600; letter-spacing: -.01em; margin: 0 0 .35rem; color: #fff; }
+  .sub { color: var(--muted); margin: 0 0 1.3rem; max-width: 38em; font-size: .97rem; }
   .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr)); }
   .card {
-    display: block; background: var(--card); border: 1px solid var(--line);
-    border-radius: 8px; padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
-    transition: border-color .15s, box-shadow .15s;
+    display: block; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 4px; padding: 1.15rem 1.2rem; text-decoration: none; color: inherit;
+    transition: border-color .15s, background .15s;
   }
-  .card:hover { border-color: var(--blue); box-shadow: 0 2px 10px rgba(31, 41, 51, .06); }
-  .card:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
-  .card h3 { margin: 0 0 .35rem; font-size: 1rem; font-weight: 600; color: var(--blue-deep); }
-  .card p { margin: 0; font-size: .89rem; color: var(--slate); line-height: 1.5; }
+  .card:hover { border-color: var(--accent); background: var(--raise); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card h3 { margin: 0 0 .35rem; font-size: 1rem; font-weight: 600; color: var(--accent-soft); }
+  .card p { margin: 0; font-size: .89rem; color: var(--muted); line-height: 1.5; }
   .card .kind {
     display: inline-block; margin-top: .7rem; font-family: var(--mono);
     font-size: .66rem; letter-spacing: .1em; text-transform: uppercase;
-    color: var(--blue); background: var(--blue-tint);
-    border-radius: 999px; padding: .22rem .6rem;
+    color: var(--accent); background: var(--raise); border: 1px solid var(--line);
+    border-radius: 3px; padding: .22rem .6rem;
   }
 
   footer {
     margin-top: 3rem; border-top: 1px solid var(--line);
-    padding: 1.5rem 0 3rem; font-size: .9rem; color: var(--slate);
+    padding: 1.5rem 0 3rem; font-size: .9rem; color: var(--muted);
   }
   footer p { margin: 0 0 .35rem; }
+  footer b { color: var(--text); }
   footer .mono { font-family: var(--mono); font-size: .8rem; color: var(--faint); }
 </style>
 </head>
@@ -177,7 +172,7 @@
     </div>
     <div class="chips">
       <span class="chip"><span class="dot amber"></span>12 Aug 2026 &middot; Biergarten, Koramangala</span>
-      <a class="chip" href="brew-what-sells-take-home.zip">&darr; Take-home pack</a>
+      <a class="chip" href="https://github.com/AnkurNapa/brew-what-sells-take-home">&darr; Take-home pack</a>
     </div>
   </div>
 </div>
@@ -228,25 +223,27 @@
     <section>
       <p class="sec-head">Downloads</p>
       <h2>Take it with you</h2>
-      <p class="sub">Everything the room gets on the day. The dataset is a
-        synthetic brewery, built for practice, so nothing in it belongs to
-        anyone.</p>
+      <p class="sub">Everything the room gets on the day. The pack lives in its
+        own repo so it outlives this page. The dataset is a synthetic brewery,
+        built for practice, so nothing in it belongs to anyone.</p>
       <div class="cards">
         <a class="card" href="brew-what-sells-with-ai.pdf">
           <h3>The deck, as a PDF</h3>
           <p>All 27 slides, the same file that ran on the screen.</p>
           <span class="kind">PDF</span>
         </a>
-        <a class="card" href="brew-what-sells-prompt-card.pdf">
-          <h3>Prompt card</h3>
-          <p>One page. The shape of a question that gets a useful answer back.</p>
-          <span class="kind">PDF</span>
+        <a class="card" href="https://github.com/AnkurNapa/brew-what-sells-take-home">
+          <h3>The take-home pack</h3>
+          <p>Prompt cheatsheet for every seat, analytics prompts, the hard
+            questions to ask after the first answer, and 18 months of a practice
+            brewery including the bill-level POS export.</p>
+          <span class="kind">GitHub &middot; 17 CSVs</span>
         </a>
-        <a class="card" href="brew-what-sells-take-home.zip">
-          <h3>Take-home pack</h3>
-          <p>Prompt pack, data dictionary, the security and credit habits notes,
-            and eighteen months of a practice brewery's records as CSV.</p>
-          <span class="kind">ZIP &middot; 12 tables</span>
+        <a class="card" href="https://github.com/AnkurNapa/brew-what-sells-take-home/archive/refs/heads/main.zip">
+          <h3>Straight to the download</h3>
+          <p>The same pack as one ZIP, if you would rather not go through
+            GitHub.</p>
+          <span class="kind">ZIP</span>
         </a>
       </div>
     </section>
