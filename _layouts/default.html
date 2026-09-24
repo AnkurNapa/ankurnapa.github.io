@@ -7,7 +7,7 @@
   </head>
   <body>
     {% include header.html %}
-    <main class="container">
+    <main class="container{% if page.wide %} container--wide{% endif %}">
       {{ content }}
     </main>
     {% include footer.html %}

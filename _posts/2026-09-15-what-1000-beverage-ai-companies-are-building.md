@@ -50,7 +50,6 @@ faq:
 </g>
 <rect x="40" y="288" width="920" height="40" rx="10" fill="#06483f"/>
 <text x="500" y="313" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">THE AI THAT SHIPS IS OPERATIONAL &#183; THE KIT MAKERS BARELY CLAIM IT &#183; GENAI IS A SLIVER</text>
-</g>
 </svg>
 <figcaption style="font-size:.85rem;color:#4a6b64;margin-top:.4rem">Selected themes from a public dataset of 1,015 entries at the time of writing. Themes come from keyword rules on each entry's use-case text.</figcaption>
 </figure>

@@ -136,6 +136,22 @@ h3 { margin-top: 1.75rem; font-size: 1.2rem; font-weight: 600; }
 }
 .cta:hover { background: var(--teal-deep); text-decoration: none; }
 
+/* Wide pages (the homepages): align with the header frame, keep prose at reading width */
+.container--wide {
+  max-width: var(--wide);
+  padding-left: clamp(1.25rem, 4vw, 3rem);
+  padding-right: clamp(1.25rem, 4vw, 3rem);
+}
+.container--wide > section > p,
+.container--wide > section > ul:not(.track-grid):not(.posts),
+.container--wide > section > h3 { max-width: var(--read); }
+.container--wide .hero .byline { max-width: 38rem; }
+.container--wide .posts {
+  display: grid; gap: .85rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+}
+.container--wide .posts .post-item { margin-bottom: 0; }
+
 /* Homepage sections sit on the section ground */
 main > section { margin: 2.4rem 0; }
 main > section > h2 { font-size: 1.5rem; }
@@ -143,7 +159,7 @@ main > section > h2 { font-size: 1.5rem; }
 /* ---------- Card grids (tracks, series, home) ---------- */
 .track-grid {
   list-style: none; padding: 0; margin: 1rem 0;
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: .8rem;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: .8rem;
 }
 .track-grid li {
   background: #fff; border: 1px solid var(--rule); border-radius: 14px;
@@ -152,6 +168,15 @@ main > section > h2 { font-size: 1.5rem; }
 .track-grid li:hover { box-shadow: 0 8px 24px rgba(6,72,63,.10); transform: translateY(-2px); }
 .track-grid a { display: block; padding: 1rem 1.15rem; font-family: var(--font-display); font-weight: 500; color: var(--fine); }
 .track-grid a:hover { text-decoration: none; color: var(--teal); }
+.track-grid li { display: flex; }
+.track-grid a { flex: 1; }
+.track-grid .card-title { display: block; }
+.track-grid .card-desc {
+  display: block; margin-top: .4rem;
+  font-family: var(--font-body); font-weight: 400; font-size: .92rem; line-height: 1.45;
+  color: #4a6b64;
+}
+.track-grid a:hover .card-desc { color: #4a6b64; }
 .home-faq h3 { font-size: 1.1rem; margin: 1.5rem 0 .25rem; }
 
 /* ---------- Post list ---------- */
@@ -276,6 +301,10 @@ pre code { background: none; padding: 0; color: inherit; }
 /* ---------- Pages ---------- */
 .page-title { font-size: 2rem; }
 
+@media (max-width: 48rem) {
+  /* the pill nav wraps to several rows on phones and tablets; do not pin it over the article */
+  .site-header { position: static; }
+}
 @media (max-width: 40rem) {
   .site-nav { gap: .35rem; }
   .site-nav a { padding: .38rem .8rem; font-size: .8rem; }
