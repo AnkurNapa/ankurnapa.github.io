@@ -25,7 +25,10 @@
         <span class="lang-current" aria-current="true">{{ L.label }}</span>
       {%- else -%}
         {%- if L.code == 'en' -%}{%- assign turl = neutral -%}{%- else -%}{%- capture turl -%}/{{ L.code }}{{ neutral }}{%- endcapture -%}{%- endif -%}
+        {%- include lang-exists.html code=L.code url=turl -%}
+        {%- if lang_ok %}
         <a class="lang-switch" href="{{ turl | relative_url }}" hreflang="{{ L.code }}" lang="{{ L.code }}">{{ L.label }}</a>
+        {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   </nav>

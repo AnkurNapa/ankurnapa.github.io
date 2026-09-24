@@ -1,0 +1,13 @@
+{%- comment -%}
+  Sets lang_ok to true when a page exists at include.url (no baseurl).
+  Posts and translated posts are looked up in their collection, other
+  pages in site.pages, so the switcher and hreflang never point at a 404.
+{%- endcomment -%}
+{%- assign lang_ok = false -%}
+{%- if page.collection -%}
+  {%- if include.code == 'en' -%}{%- assign pool = site.posts -%}{%- else -%}{%- assign pool = site[include.code] -%}{%- endif -%}
+{%- else -%}
+  {%- assign pool = site.pages -%}
+{%- endif -%}
+{%- assign hit = pool | where: "url", include.url | first -%}
+{%- if hit -%}{%- assign lang_ok = true -%}{%- endif -%}

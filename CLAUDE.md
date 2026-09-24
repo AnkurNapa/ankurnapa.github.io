@@ -1,9 +1,9 @@
-# CLAUDE.md — Beer, Wine, Whiskey & AI (main blog)
+# CLAUDE.md: Beer, Wine, Whiskey & AI (main blog)
 
 Working instructions for this repo. Deeper build detail lives in [ONBOARDING.md](ONBOARDING.md); this file is the fast, authoritative summary of **how to write and style posts**. Its sibling is the guidebook at `../brewing-distilling-ai` (the design source this blog matches).
 
 ## What this is
-Jekyll blog on GitHub Pages. Remote `AnkurNapa/ankurnapa.github.io`, branch `main`, permalink `/:year/:title/`. `_config.yml` sets `future: false` — never date a post later than build time. No local Jekyll/bundler; validate output with Python/curl, not `jekyll serve`.
+Jekyll blog on GitHub Pages. Remote `AnkurNapa/ankurnapa.github.io`, branch `main`, permalink `/:year/:title/`. `_config.yml` sets `future: false`; never date a post later than build time. No local Jekyll/bundler; validate output with Python/curl, not `jekyll serve`.
 
 Multi-language: English in `_posts/`, translations in `_hi/` (Hindi), `_de/` (German), `_mr/` (Marathi). Any change to shared markup, palette, or diagrams must be applied to the translated collections too.
 
@@ -13,7 +13,7 @@ Filename `_posts/YYYY-MM-DD-slug.md`. Required structure, in order:
 2. A single bold lead paragraph starting `**Short answer: ` and ending `**`.
 3. **One** inline SVG `<figure>` (see palette below), with `role="img"`, a descriptive `aria-label`, HTML entities (never raw `&` or smart quotes), and a `<figcaption>`.
 4. Body `##` sections, then `## Where this breaks` (honest caveats), then `## The bottom line`, then the FAQ.
-5. Cross-links via `{{ '/YYYY/slug/' | relative_url }}` — verify the year against the actual post filename.
+5. Cross-links via `{{ '/YYYY/slug/' | relative_url }}`: verify the year against the actual post filename.
 
 Tags: **first tag = track** (drives the post banner and auto-populates `/tracks/<track>/`). Add a series tag when the post belongs to a series; series index pages live in `series/`, track pages in `tracks/`.
 
@@ -34,7 +34,7 @@ The whole site uses the teal design ported from `../brewing-distilling-ai`. Ligh
 - Fonts: Poppins (display) + Open Sans (body) via Google Fonts.
 - Single stylesheet: `assets/css/style.css`. Layouts in `_layouts/`, partials in `_includes/`.
 
-### Inline SVG figure palette (teal — do NOT use the retired warm hexes)
+### Inline SVG figure palette (teal: do NOT use the retired warm hexes)
 bg `#ffffff`; light box fill `#f0f6f5`; primary/stroke/header `#00695c`; deep box fill + ink `#06483f`; light text on deep boxes `#cfe6df`; muted `#4a6b64`; mid teal `#4db6a2`; green accent `#2e9e7c`; pink accent `#ff4081`. Never reintroduce `#fdfbf7`/`#b45309`/`#8a5a2b`/`#7a1f3d`/`#6b6258`/`#1c1a17`.
 
 ## OG share images
@@ -44,5 +44,7 @@ bg `#ffffff`; light box fill `#f0f6f5`; primary/stroke/header `#00695c`; deep bo
 1. Validate frontmatter YAML, balanced `<svg>/<figure>`, no raw `&`, no em dashes.
 2. XML-parse each SVG; confirm cross-link targets exist.
 3. Generate OG image(s); recolor any new diagram to the teal palette.
-4. Commit (conventional commits; attribution disabled globally — no Co-Authored-By trailer) and push to `main`.
+4. Commit (conventional commits; attribution disabled globally: no Co-Authored-By trailer) and push to `main`.
 5. GitHub Pages CDN serves stale 404s on brand-new paths for ~1 min; verify with a `?cb=` cache-buster.
+6. Translations: new posts go into `_de/`, `_hi/` and `_mr/` per `tools/DE_TRANSLATION_SPEC.md` and `tools/INDIC_TRANSLATION_SPEC.md`. The language switcher and hreflang tags only show a language when that page exists (`_includes/lang-exists.html`), so a missing translation hides the link instead of sending readers to a 404.
+7. Analytics: every page built from a layout gets GA4 through `_includes/head.html`. A standalone HTML page with no frontmatter (like `brew-what-sells/index.html`) must carry the GA4 snippet in its own `<head>`.

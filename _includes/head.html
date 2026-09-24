@@ -22,14 +22,17 @@
 
 {%- comment -%}
   hreflang: English at the root, each other language under /<code>/. The
-  alternates map purely by URL prefix, so every page advertises all of them.
+  alternates map by URL prefix, and only languages that have this page are advertised.
 {%- endcomment -%}
 {%- assign cur = page.lang | default: 'en' -%}
 {%- capture curpfx -%}/{{ cur }}{%- endcapture -%}
 {%- if cur == 'en' -%}{%- assign neutral = page.url -%}{%- else -%}{%- assign neutral = page.url | remove_first: curpfx -%}{%- endif -%}
 {%- for L in site.languages -%}
   {%- if L.code == 'en' -%}{%- assign lurl = neutral -%}{%- else -%}{%- capture lurl -%}/{{ L.code }}{{ neutral }}{%- endcapture -%}{%- endif -%}
+{%- include lang-exists.html code=L.code url=lurl -%}
+{%- if lang_ok %}
 <link rel="alternate" hreflang="{{ L.code }}" href="{{ lurl | absolute_url }}">
+{%- endif -%}
 {%- endfor -%}
 <link rel="alternate" hreflang="x-default" href="{{ neutral | absolute_url }}">
 {%- if cur == 'en' -%}{%- assign feedpath = '/feed.xml' -%}{%- else -%}{%- capture feedpath -%}/{{ cur }}/feed.xml{%- endcapture -%}{%- endif -%}
