@@ -2,7 +2,7 @@
 title: "SPC That Actually Catches Drift: Capability, CUSUM and EWMA for Brewers"
 image: /assets/og/spc-capability-cusum-ewma-brewing.png
 layout: post
-description: "The Shewhart control chart catches sudden spikes but is blind to slow drift — exactly how brewing quality usually fails. How process capability (Cp/Cpk), CUSUM and EWMA charts visualize the slow creep a basic control chart misses, in brewing terms."
+description: "The Shewhart control chart catches sudden spikes but is blind to slow drift: exactly how brewing quality usually fails. How process capability (Cp/Cpk), CUSUM and EWMA charts visualize the slow creep a basic control chart misses, in brewing terms."
 date: 2026-06-12 11:50:00 -0700
 updated: 2026-06-12
 tags: [brewing-science, brewing-data-viz, quality-control, data-visualization, process-intelligence]

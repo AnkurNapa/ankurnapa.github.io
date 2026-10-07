@@ -2,7 +2,7 @@
 layout: post
 title: "Wastewater and Effluent Analytics for Breweries and Distilleries"
 image: /assets/og/wastewater-effluent-analytics-beverage.png
-description: "Brewery and distillery effluent is high-strength and tightly regulated. How data and AI manage effluent load — forecasting, anomaly detection and load-balancing — with UK, EU, US, India rules."
+description: "Brewery and distillery effluent is high-strength and tightly regulated. How data and AI manage effluent load (forecasting, anomaly detection and load-balancing) with UK, EU, US, India rules."
 date: 2026-03-23 09:00:00 -0700
 updated: 2026-03-23
 tags: [esg, sustainability, water, ehs]

@@ -2,7 +2,7 @@
 layout: post
 title: "Databricks for Breweries: 20 Use Cases"
 image: /assets/og/databricks-for-breweries-20-use-cases.png
-description: "How a brewery uses Databricks end to end — ingestion, real-time monitoring, the Delta Lakehouse & Spark, BI and AI — across 20 concrete use cases grouped by capability."
+description: "How a brewery uses Databricks end to end (ingestion, real-time monitoring, the Delta Lakehouse & Spark, BI and AI) across 20 concrete use cases grouped by capability."
 date: 2026-01-10 09:00:00 -0700
 updated: 2026-01-10
 tags: [brewing-science, databricks, data-platform, power-bi, beer]

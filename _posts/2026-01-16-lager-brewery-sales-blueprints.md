@@ -2,7 +2,7 @@
 layout: post
 title: "Beer Sales Blueprints for Lager Breweries: Five Plays by Channel"
 image: /assets/og/lager-brewery-sales-blueprints.png
-description: "How lager breweries sell, market player by market player — distributor, off-premise, on-premise, national accounts and e-commerce — with a use-case blueprint and the metrics for each channel."
+description: "How lager breweries sell, market player by market player (distributor, off-premise, on-premise, national accounts and e-commerce) with a use-case blueprint and the metrics for each channel."
 date: 2026-01-16 09:00:00 -0700
 updated: 2026-01-16
 tags: [sales-intelligence, lager, beer-sales, commercial-planning]

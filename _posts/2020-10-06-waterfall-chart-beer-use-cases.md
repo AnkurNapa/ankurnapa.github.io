@@ -2,7 +2,7 @@
 layout: post
 title: "The Waterfall Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/waterfall-chart-beer-use-cases.png
-description: "A waterfall chart shows how you got from one number to another — the steps that build or erode a total. Three beer use cases (margin bridge, volume bridge, budget variance) and the rule that keeps the bridge honest."
+description: "A waterfall chart shows how you got from one number to another: the steps that build or erode a total. Three beer use cases (margin bridge, volume bridge, budget variance) and the rule that keeps the bridge honest."
 date: 2020-10-06 09:00:00 -0700
 updated: 2020-10-06
 tags: [brewing-science, beer-chart-guide, data-visualization, financial-planning-analytics, commercial-planning]

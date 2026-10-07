@@ -2,7 +2,7 @@
 layout: post
 title: "The Scatter Plot in Brewing: Three Beer Use Cases"
 image: /assets/og/scatter-plot-beer-use-cases.png
-description: "When the question is 'are these two things related,' the scatter plot is the answer — each point a batch, account or beer. Three beer use cases (process correlations, account value vs effort, recipe trade-offs) and the correlation-isn't-causation rule."
+description: "When the question is 'are these two things related,' the scatter plot is the answer: each point a batch, account or beer. Three beer use cases (process correlations, account value vs effort, recipe trade-offs) and the correlation-isn't-causation rule."
 date: 2020-06-23 09:00:00 -0700
 updated: 2020-06-23
 tags: [brewing-science, beer-chart-guide, data-visualization, quality-control, sales-intelligence]

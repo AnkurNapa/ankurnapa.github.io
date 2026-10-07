@@ -2,7 +2,7 @@
 layout: post
 title: "Where Your Extract, Water and Energy Go: Sankey and the Brewhouse Balance"
 image: /assets/og/sankey-brewhouse-mass-energy-balance.png
-description: "A brewery's biggest losses hide in plain sight across a dozen separate reports. A Sankey diagram puts the whole mass and energy balance in one picture — extract from grain to glass, water in to effluent out, energy in to heat lost — so the leaks become impossible to miss."
+description: "A brewery's biggest losses hide in plain sight across a dozen separate reports. A Sankey diagram puts the whole mass and energy balance in one picture (extract from grain to glass, water in to effluent out, energy in to heat lost) so the leaks become impossible to miss."
 date: 2026-06-12 12:10:00 -0700
 updated: 2026-06-12
 tags: [brewing-science, brewing-data-viz, data-visualization, sustainability, process-intelligence]

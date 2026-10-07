@@ -2,7 +2,7 @@
 layout: post
 title: "Snowflake Across the Winery Business, Vertical by Vertical"
 image: /assets/og/snowflake-across-the-winery-business.png
-description: "A department-by-department tour of where Snowflake helps a winery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform."
+description: "A department-by-department tour of where Snowflake helps a winery (from the floor through quality, supply chain, sales, marketing, finance and compliance) on one governed platform."
 date: 2026-04-02 09:00:00 -0700
 updated: 2026-04-02
 tags: [winemaking, snowflake, data-platform, wine]

@@ -2,7 +2,7 @@
 layout: post
 title: "20 Advanced Brewing Calculations You Can Do in Excel (Formulas Included)"
 image: /assets/og/advanced-brewing-calculations-excel.png
-description: "Strike temperature, IBU, ABV, pitching rate, carbonation, colour, efficiency and more — 20 advanced brewing calculations as ready-to-paste Excel formulas with worked examples."
+description: "Strike temperature, IBU, ABV, pitching rate, carbonation, colour, efficiency and more: 20 advanced brewing calculations as ready-to-paste Excel formulas with worked examples."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, excel, brewing-calculations, recipe-formulation, quality-control]

@@ -2,7 +2,7 @@
 layout: post
 title: "Cutting Packaging Footprint: Glass, Can and Keg Emissions with Data"
 image: /assets/og/packaging-footprint-sustainability-data.png
-description: "Packaging is the largest slice of most drinks footprints. How data and AI cut packaging emissions — material choice, lightweighting, reuse and recycled content — across UK, EU, US, India rules."
+description: "Packaging is the largest slice of most drinks footprints. How data and AI cut packaging emissions (material choice, lightweighting, reuse and recycled content) across UK, EU, US, India rules."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [esg, sustainability, carbon, packaging]

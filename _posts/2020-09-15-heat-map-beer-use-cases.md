@@ -2,7 +2,7 @@
 layout: post
 title: "The Heat Map in Brewing: Three Beer Use Cases"
 image: /assets/og/heat-map-beer-use-cases.png
-description: "When two categories meet — hour by day, style by month, account by SKU — a heat map shows intensity as colour, so patterns jump out of a grid. Three beer use cases and the colour-scale rules that keep it honest."
+description: "When two categories meet (hour by day, style by month, account by SKU), a heat map shows intensity as colour, so patterns jump out of a grid. Three beer use cases and the colour-scale rules that keep it honest."
 date: 2020-09-15 09:00:00 -0700
 updated: 2020-09-15
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, commercial-planning]

@@ -2,7 +2,7 @@
 layout: post
 title: "Why Power BI Dashboards Die in Wineries: The Domain Gap"
 image: /assets/og/why-power-bi-dashboards-fail-wineries.png
-description: "A skilled Power BI developer walks into a winery and a vintage later the dashboards are abandoned. Not a tooling failure — a translation failure: units, lot genealogy, vintage time and KPIs that don't match how winemakers actually think."
+description: "A skilled Power BI developer walks into a winery and a vintage later the dashboards are abandoned. Not a tooling failure but a translation failure: units, lot genealogy, vintage time and KPIs that don't match how winemakers actually think."
 date: 2026-06-12 09:10:00 -0700
 updated: 2026-06-12
 tags: [winemaking, process-intelligence, power-bi, data-strategy, wine]

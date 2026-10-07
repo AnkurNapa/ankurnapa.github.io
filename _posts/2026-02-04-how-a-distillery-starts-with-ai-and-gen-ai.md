@@ -2,7 +2,7 @@
 layout: post
 title: "How a Distillery Should Start with AI and Gen AI: The Phases"
 image: /assets/og/how-a-distillery-starts-with-ai-and-gen-ai.png
-description: "A phased roadmap for a distillery adopting AI and generative AI — from collecting data to dashboards, predictive models, GenAI copilots and agents — with what to do, need and watch at each phase."
+description: "A phased roadmap for a distillery adopting AI and generative AI (from collecting data to dashboards, predictive models, GenAI copilots and agents) with what to do, need and watch at each phase."
 date: 2026-02-04 09:00:00 -0700
 updated: 2026-02-04
 tags: [distilling-maturation, ai-adoption, generative-ai, data-strategy, whiskey]

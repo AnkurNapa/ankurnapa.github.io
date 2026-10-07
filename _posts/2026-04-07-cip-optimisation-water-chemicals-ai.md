@@ -2,7 +2,7 @@
 layout: post
 title: "CIP Optimisation: Saving Water, Chemicals and Energy with AI"
 image: /assets/og/cip-optimisation-water-chemicals-ai.png
-description: "Clean-in-place is a top consumer of water, chemicals and heat. How data and AI optimise CIP cycles — conductivity-based endpoints, anomaly detection and right-sizing — across regions."
+description: "Clean-in-place is a top consumer of water, chemicals and heat. How data and AI optimise CIP cycles (conductivity-based endpoints, anomaly detection and right-sizing) across regions."
 date: 2026-04-07 09:00:00 -0700
 updated: 2026-04-07
 tags: [esg, sustainability, water, energy, brewing]

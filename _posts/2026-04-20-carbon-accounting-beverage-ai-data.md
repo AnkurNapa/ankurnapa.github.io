@@ -2,7 +2,7 @@
 layout: post
 title: "Carbon Accounting for Beverage Producers: Scope 1, 2 and 3 with Data"
 image: /assets/og/carbon-accounting-beverage-ai-data.png
-description: "Most of a drinks producer's carbon is Scope 3 — packaging and transport. How data and AI build a credible Scope 1/2/3 inventory, and where generative AI drafts the disclosure."
+description: "Most of a drinks producer's carbon is Scope 3: packaging and transport. How data and AI build a credible Scope 1/2/3 inventory, and where generative AI drafts the disclosure."
 date: 2026-04-20 09:00:00 -0700
 updated: 2026-04-20
 tags: [esg, sustainability, carbon, esg-reporting]

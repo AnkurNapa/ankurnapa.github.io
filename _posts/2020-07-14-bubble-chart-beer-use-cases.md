@@ -2,7 +2,7 @@
 layout: post
 title: "The Bubble Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/bubble-chart-beer-use-cases.png
-description: "A scatter plot with a third variable encoded as bubble size — show volume, value and growth together. Three beer use cases (portfolio maps, account prioritisation, market opportunity) and why size can mislead."
+description: "A scatter plot with a third variable encoded as bubble size: show volume, value and growth together. Three beer use cases (portfolio maps, account prioritisation, market opportunity) and why size can mislead."
 date: 2020-07-14 09:00:00 -0700
 updated: 2020-07-14
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, sales-intelligence]

@@ -2,7 +2,7 @@
 layout: post
 title: "The Histogram in Brewing: Three Beer Use Cases"
 image: /assets/og/histogram-beer-use-cases.png
-description: "Averages hide the story; a histogram shows the whole distribution — the spread, the shape, the second peak. Three beer use cases (fill-volume distribution, ABV consistency, sensory score spread) and the bin-width trap."
+description: "Averages hide the story; a histogram shows the whole distribution: the spread, the shape, the second peak. Three beer use cases (fill-volume distribution, ABV consistency, sensory score spread) and the bin-width trap."
 date: 2020-08-04 09:00:00 -0700
 updated: 2020-08-04
 tags: [brewing-science, beer-chart-guide, data-visualization, quality-control, fermentation]

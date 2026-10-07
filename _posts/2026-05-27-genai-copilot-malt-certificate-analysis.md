@@ -2,7 +2,7 @@
 layout: post
 title: "A Generative-AI Copilot for Reading Malt Certificates of Analysis"
 image: /assets/og/genai-copilot-malt-certificate-analysis.png
-description: "A grounded LLM copilot can read a malt certificate of analysis, explain every parameter, flag out-of-spec values against your recipe and draft the brew sheet — if you stop it inventing numbers."
+description: "A grounded LLM copilot can read a malt certificate of analysis, explain every parameter, flag out-of-spec values against your recipe and draft the brew sheet, if you stop it inventing numbers."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, malting, generative-ai, data-science]

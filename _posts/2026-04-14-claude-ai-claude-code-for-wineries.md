@@ -2,7 +2,7 @@
 layout: post
 title: "Claude AI and Claude Code for Wineries: Where the Anthropic Ecosystem Helps"
 image: /assets/og/claude-ai-claude-code-for-wineries.png
-description: "Where Claude, Claude Code, the API, agents and MCP help a winery — vineyard and viticulture, winemaking, lab, sales, marketing, compliance and the wine club — and where a human must stay in the loop."
+description: "Where Claude, Claude Code, the API, agents and MCP help a winery (vineyard and viticulture, winemaking, lab, sales, marketing, compliance and the wine club) and where a human must stay in the loop."
 date: 2026-04-14 09:00:00 -0700
 updated: 2026-04-14
 tags: [winemaking, claude, claude-code, ai-tools, wine]

@@ -2,7 +2,7 @@
 layout: post
 title: "What Is Generative AI? The Difference That Matters for Distillers"
 image: /assets/og/what-is-generative-ai-distillers.png
-description: "Generative AI explained for distillers: the chatbot kind of AI that writes, drafts and explains in plain language — what it's genuinely good at in a distillery, why it states wrong cask numbers as confidently as right ones, and how grounding fixes that."
+description: "Generative AI explained for distillers: the chatbot kind of AI that writes, drafts and explains in plain language, what it's genuinely good at in a distillery, why it states wrong cask numbers as confidently as right ones, and how grounding fixes that."
 date: 2026-06-09 09:00:00 -0700
 updated: 2026-06-09
 tags: [distilling-maturation, distilling-ai-foundations, generative-ai, ai-tools, whiskey]

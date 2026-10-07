@@ -2,7 +2,7 @@
 layout: post
 title: "Distillery Energy and Heat Recovery: Using Data to Cut Fuel and Power"
 image: /assets/og/distillery-energy-heat-recovery-ai.png
-description: "Distillation is heat-intensive. How data and AI cut a distillery's fuel and power — heat recovery, load forecasting and anomaly detection — with UK, EU, US and India context."
+description: "Distillation is heat-intensive. How data and AI cut a distillery's fuel and power (heat recovery, load forecasting and anomaly detection) with UK, EU, US and India context."
 date: 2026-02-10 09:00:00 -0700
 updated: 2026-02-10
 tags: [esg, sustainability, energy, whiskey, distilling]

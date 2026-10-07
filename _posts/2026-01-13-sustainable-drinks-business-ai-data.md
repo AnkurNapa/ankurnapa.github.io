@@ -2,7 +2,7 @@
 layout: post
 title: "Making a Beer, Wine and Whiskey Business More Sustainable with AI and Data"
 image: /assets/og/sustainable-drinks-business-ai-data.png
-description: "How drinks producers cut electricity, water and emissions using AI, data science and generative AI — the levers, the data foundation, and the UK, EU, USA and India rules, with links to each deep dive."
+description: "How drinks producers cut electricity, water and emissions using AI, data science and generative AI: the levers, the data foundation, and the UK, EU, USA and India rules, with links to each deep dive."
 date: 2026-01-13 09:00:00 -0700
 updated: 2026-01-13
 tags: [esg, sustainability, energy, water, carbon]

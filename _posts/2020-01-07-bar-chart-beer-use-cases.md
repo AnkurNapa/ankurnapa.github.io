@@ -2,7 +2,7 @@
 layout: post
 title: "The Bar Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/bar-chart-beer-use-cases.png
-description: "The bar chart is the workhorse of brewery analytics — and the right default more often than any other chart. Three concrete beer use cases (style volumes, account ranking, brewhouse loss by stage) and the rules that keep it honest."
+description: "The bar chart is the workhorse of brewery analytics and the right default more often than any other chart. Three concrete beer use cases (style volumes, account ranking, brewhouse loss by stage) and the rules that keep it honest."
 date: 2020-01-07 09:00:00 -0700
 updated: 2020-01-07
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, quality-control]

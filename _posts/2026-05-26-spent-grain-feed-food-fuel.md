@@ -2,7 +2,7 @@
 layout: post
 title: "What Should a Brewery Do With Spent Grain? Feed, Food, or Fuel by the Numbers"
 image: /assets/og/spent-grain-feed-food-fuel.png
-description: "Spent grain is a brewery's biggest by-product. Data and AI help route each tonne to its highest-value use — feed, food, or fuel — and turn a disposal cost into value."
+description: "Spent grain is a brewery's biggest by-product. Data and AI help route each tonne to its highest-value use (feed, food, or fuel) and turn a disposal cost into value."
 date: 2026-05-26 15:00:00 -0700
 updated: 2026-05-26
 tags: [esg, sustainability, circular-economy, brewing-analytics]

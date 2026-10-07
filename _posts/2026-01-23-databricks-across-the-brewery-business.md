@@ -2,7 +2,7 @@
 layout: post
 title: "Databricks Across the Brewery Business, Vertical by Vertical"
 image: /assets/og/databricks-across-the-brewery-business.png
-description: "A department-by-department tour of where Databricks helps a brewery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform."
+description: "A department-by-department tour of where Databricks helps a brewery (from the floor through quality, supply chain, sales, marketing, finance and compliance) on one governed platform."
 date: 2026-01-23 09:00:00 -0700
 updated: 2026-01-23
 tags: [brewing-science, databricks, data-platform, beer]

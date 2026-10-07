@@ -2,7 +2,7 @@
 layout: post
 title: "Ten Prompts from the Brewery Floor: Bad Ask → Good Ask"
 image: /assets/og/brewery-floor-prompts-bad-to-good.png
-description: "Ten real brewery situations — stuck fermentation, recipe scaling, costing, off-flavours — each shown as the vague prompt beginners type and the specific rewrite that actually gets a useful AI answer."
+description: "Ten real brewery situations (stuck fermentation, recipe scaling, costing, off-flavours), each shown as the vague prompt beginners type and the specific rewrite that actually gets a useful AI answer."
 date: 2026-06-06
 updated: 2026-06-06
 tags: [brewing-science, asking-better-questions, generative-ai, ai-tools, process-optimization]

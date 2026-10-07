@@ -2,7 +2,7 @@
 layout: post
 title: "Brewers Stopped Saying No to AI — But the Real Win Isn't a LinkedIn Post"
 image: /assets/og/brewers-done-saying-no-to-ai.png
-description: "Brewers have shifted from dismissing AI to posting about it. That's progress — but the real prize isn't expressing yourself online. It's using AI and data science to brew beer that sells, batch after batch."
+description: "Brewers have shifted from dismissing AI to posting about it. That's progress, but the real prize isn't expressing yourself online. It's using AI and data science to brew beer that sells, batch after batch."
 date: 2026-05-26 09:00:00 -0700
 updated: 2026-05-26
 tags: [brewing, ai-adoption, data-science, craft]

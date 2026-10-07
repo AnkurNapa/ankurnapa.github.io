@@ -2,7 +2,7 @@
 layout: post
 title: "The Area and Stacked Area Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/area-chart-beer-use-cases.png
-description: "An area chart is a line chart with the space below filled — good for cumulative totals and, stacked, for how a composition shifts over time. Three beer use cases and when a line or stacked bar is the better call."
+description: "An area chart is a line chart with the space below filled, good for cumulative totals and, stacked, for how a composition shifts over time. Three beer use cases and when a line or stacked bar is the better call."
 date: 2020-06-02 09:00:00 -0700
 updated: 2020-06-02
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, sales-forecasting]

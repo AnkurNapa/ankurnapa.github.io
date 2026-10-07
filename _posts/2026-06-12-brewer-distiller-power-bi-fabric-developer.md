@@ -2,7 +2,7 @@
 layout: post
 title: "The Translator: When the Brewer Is Also the Power BI Developer"
 image: /assets/og/brewer-distiller-power-bi-fabric-developer.png
-description: "What changes when one person has stood at the mash tun, the spirit safe and the crush pad — and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds production dashboards that survive, and the honest limits of being one."
+description: "What changes when one person has stood at the mash tun, the spirit safe and the crush pad and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds production dashboards that survive, and the honest limits of being one."
 date: 2026-06-12 09:20:00 -0700
 updated: 2026-06-12
 tags: [distilling-maturation, process-intelligence, power-bi, microsoft-fabric, career]

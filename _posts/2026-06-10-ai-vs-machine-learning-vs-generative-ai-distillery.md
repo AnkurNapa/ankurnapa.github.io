@@ -2,7 +2,7 @@
 layout: post
 title: "AI vs Machine Learning vs Generative AI: Which Is Which in the Distillery"
 image: /assets/og/ai-vs-machine-learning-vs-generative-ai-distillery.png
-description: "A distiller's decision guide to the three terms everyone confuses — what each is, what data it needs, how it fails, and a simple test for matching a real distillery problem to the right one instead of buying the buzzword."
+description: "A distiller's decision guide to the three terms everyone confuses: what each is, what data it needs, how it fails, and a simple test for matching a real distillery problem to the right one instead of buying the buzzword."
 date: 2026-06-10 09:00:00 -0700
 updated: 2026-06-10
 tags: [distilling-maturation, distilling-ai-foundations, machine-learning, generative-ai, whiskey]

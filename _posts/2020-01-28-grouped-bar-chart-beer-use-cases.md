@@ -2,7 +2,7 @@
 layout: post
 title: "The Grouped Bar Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/grouped-bar-chart-beer-use-cases.png
-description: "When you need to compare several series side by side — this year vs last, plan vs actual, style across regions — the grouped (clustered) bar chart is the tool. Three beer use cases and when to switch to a different chart."
+description: "When you need to compare several series side by side (this year vs last, plan vs actual, style across regions), the grouped (clustered) bar chart is the tool. Three beer use cases and when to switch to a different chart."
 date: 2020-01-28 09:00:00 -0700
 updated: 2020-01-28
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-forecasting, commercial-planning]

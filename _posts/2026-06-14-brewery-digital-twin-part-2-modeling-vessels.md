@@ -2,7 +2,7 @@
 layout: post
 title: "Modeling a Brewery in 3D: Procedural Vessels and Process Flow (Part 2)"
 image: /assets/og/brewery-digital-twin-part-2-modeling-vessels.png
-description: "Part 2 of building a brewery digital twin: how I modeled every vessel — mash tun, lauter tun, kettle, cylindro-conical fermenters — from code instead of Blender, drove the whole plant from one process-data file, and animated the flow between tanks. With an honest take on when Blender is the right call."
+description: "Part 2 of building a brewery digital twin: how I modeled every vessel (mash tun, lauter tun, kettle, cylindro-conical fermenters) from code instead of Blender, drove the whole plant from one process-data file, and animated the flow between tanks. With an honest take on when Blender is the right call."
 date: 2026-06-14 11:00:00 -0700
 updated: 2026-06-14
 tags: [digital-twin, microsoft-fabric, threejs, data-visualization, brewing]

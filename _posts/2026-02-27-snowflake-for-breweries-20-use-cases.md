@@ -2,7 +2,7 @@
 layout: post
 title: "Snowflake for Breweries: 20 Use Cases"
 image: /assets/og/snowflake-for-breweries-20-use-cases.png
-description: "How a brewery uses Snowflake end to end — ingestion, real-time monitoring, Dynamic Tables & Snowpark, BI and AI — across 20 concrete use cases grouped by capability."
+description: "How a brewery uses Snowflake end to end (ingestion, real-time monitoring, Dynamic Tables & Snowpark, BI and AI) across 20 concrete use cases grouped by capability."
 date: 2026-02-27 09:00:00 -0700
 updated: 2026-02-27
 tags: [brewing-science, snowflake, data-platform, power-bi, beer]

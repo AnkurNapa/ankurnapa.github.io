@@ -2,7 +2,7 @@
 layout: post
 title: "Beyond the Control Chart: Data Visualizations Brewers Underuse"
 image: /assets/og/brewing-viz-beyond-control-chart.png
-description: "Most brewery dashboards stop at the line chart and the control chart. This opens a series on the visualizations brewers rarely reach for — radar brand-profiles, CUSUM drift charts, shelf-life trajectories and Sankey balances — and how to match the chart to the brewing question."
+description: "Most brewery dashboards stop at the line chart and the control chart. This opens a series on the visualizations brewers rarely reach for (radar brand-profiles, CUSUM drift charts, shelf-life trajectories and Sankey balances) and how to match the chart to the brewing question."
 date: 2026-06-12 11:30:00 -0700
 updated: 2026-06-12
 tags: [brewing-science, brewing-data-viz, data-visualization, quality-control, power-bi]

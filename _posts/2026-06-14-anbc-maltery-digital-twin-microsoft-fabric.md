@@ -2,7 +2,7 @@
 layout: post
 title: "Modeling a Maltery as a Digital Twin on Microsoft Fabric"
 image: /assets/og/anbc-maltery-digital-twin-microsoft-fabric.png
-description: "After the brewery, the maltery. A live 3D digital twin of the whole malting process — intake, steeping, germination, kilning, deculming, malt storage and dispatch — built on Microsoft Fabric with the Rayfin SDK, every vessel clickable for its real process curve."
+description: "After the brewery, the maltery. A live 3D digital twin of the whole malting process (intake, steeping, germination, kilning, deculming, malt storage and dispatch) built on Microsoft Fabric with the Rayfin SDK, every vessel clickable for its real process curve."
 date: 2026-06-14 12:00:00 -0700
 updated: 2026-06-14
 tags: [digital-twin, microsoft-fabric, malting, data-visualization, brewing]

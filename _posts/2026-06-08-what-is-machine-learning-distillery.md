@@ -2,7 +2,7 @@
 layout: post
 title: "What Is Machine Learning? Pattern-Finding for the Distillery"
 image: /assets/og/what-is-machine-learning-distillery.png
-description: "Machine learning explained for distillers without the maths: software that learns patterns from your own cask and process records, then predicts the next case — angel's share, cut points, bottling maturity — plus exactly where it quietly breaks."
+description: "Machine learning explained for distillers without the maths: software that learns patterns from your own cask and process records, then predicts the next case (angel's share, cut points, bottling maturity) plus exactly where it quietly breaks."
 date: 2026-06-08 09:00:00 -0700
 updated: 2026-06-08
 tags: [distilling-maturation, distilling-ai-foundations, machine-learning, predictive-analytics, whiskey]

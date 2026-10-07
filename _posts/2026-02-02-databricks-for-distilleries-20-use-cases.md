@@ -2,7 +2,7 @@
 layout: post
 title: "Databricks for Distilleries: 20 Use Cases"
 image: /assets/og/databricks-for-distilleries-20-use-cases.png
-description: "How a distillery uses Databricks end to end — ingestion, real-time monitoring, the Delta Lakehouse & Spark, BI and AI — across 20 concrete use cases grouped by capability."
+description: "How a distillery uses Databricks end to end (ingestion, real-time monitoring, the Delta Lakehouse & Spark, BI and AI) across 20 concrete use cases grouped by capability."
 date: 2026-02-02 09:00:00 -0700
 updated: 2026-02-02
 tags: [distilling-maturation, databricks, data-platform, power-bi, whiskey]

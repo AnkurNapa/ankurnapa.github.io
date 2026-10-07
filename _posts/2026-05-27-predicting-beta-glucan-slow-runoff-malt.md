@@ -2,7 +2,7 @@
 layout: post
 title: "Predicting Slow Runoff From the Malt Before It Reaches Your Mill"
 image: /assets/og/predicting-beta-glucan-slow-runoff-malt.png
-description: "Under-modified malt hides the high beta-glucan that slows lautering and filtration. How a model reads the malt certificate to flag runoff risk — and why a lot average can still fool you."
+description: "Under-modified malt hides the high beta-glucan that slows lautering and filtration. How a model reads the malt certificate to flag runoff risk and why a lot average can still fool you."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, malting, lautering, machine-learning]

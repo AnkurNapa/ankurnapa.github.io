@@ -2,7 +2,7 @@
 layout: post
 title: "AI for Brewery Workforce and Shift Scheduling"
 image: /assets/og/ai-brewery-workforce-shift-scheduling.png
-description: "How optimisation matches brewery labour to the production plan under skills, availability, and labour rules — and why people aren't widgets."
+description: "How optimisation matches brewery labour to the production plan under skills, availability, and labour rules and why people aren't widgets."
 date: 2022-08-14
 updated: 2022-08-14
 tags: [brewing-science, planning, process-optimization]

@@ -2,7 +2,7 @@
 layout: post
 title: "A Sustainability Data Roadmap for Beverage Producers: The Phases"
 image: /assets/og/sustainability-data-roadmap-beverage.png
-description: "Where to start with sustainability data and AI. A phased roadmap for drinks producers — meter, baseline, optimise, automate, report — with what to do and watch at each phase."
+description: "Where to start with sustainability data and AI. A phased roadmap for drinks producers (meter, baseline, optimise, automate, report) with what to do and watch at each phase."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [esg, sustainability, data-strategy, esg-reporting]

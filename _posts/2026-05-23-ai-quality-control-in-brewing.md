@@ -2,7 +2,7 @@
 layout: post
 title: "AI Quality Control in Brewing: Catching Off-Flavors Before Customers Do"
 image: /assets/og/ai-quality-control-in-brewing.png
-description: "How breweries use AI and machine learning for quality control — detecting off-flavors, process drift, and contamination early — plus what data you need to start."
+description: "How breweries use AI and machine learning for quality control (detecting off-flavors, process drift, and contamination early) plus what data you need to start."
 date: 2026-05-23
 updated: 2026-05-23
 tags: [quality-control, machine-learning, off-flavors]

@@ -2,7 +2,7 @@
 layout: post
 title: "Claude AI and Claude Code for Distilleries: Where the Anthropic Ecosystem Helps"
 image: /assets/og/claude-ai-claude-code-for-distilleries.png
-description: "Where Claude, Claude Code, the API, agents and MCP help a whiskey distillery — new-make R&D, distillation, cask and warehouse, sales, marketing, excise compliance and knowledge — and where a human must stay in the loop."
+description: "Where Claude, Claude Code, the API, agents and MCP help a whiskey distillery: new-make R&D, distillation, cask and warehouse, sales, marketing, excise compliance and knowledge and where a human must stay in the loop."
 date: 2026-03-02 09:00:00 -0700
 updated: 2026-03-02
 tags: [distilling-maturation, claude, claude-code, ai-tools, whiskey]

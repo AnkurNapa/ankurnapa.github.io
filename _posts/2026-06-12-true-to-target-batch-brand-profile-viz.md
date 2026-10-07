@@ -2,7 +2,7 @@
 layout: post
 title: "True-to-Target: Visualizing Whether a Batch Matches Its Brand Profile"
 image: /assets/og/true-to-target-batch-brand-profile-viz.png
-description: "True-to-target (TTT) tasting asks a different question than 'is it in spec' — does this batch still taste like the brand? How to visualize brand conformance with radar profiles, target bands and deviation tracking, so a panel's verdict becomes a picture the whole brewery reads."
+description: "True-to-target (TTT) tasting asks a different question than 'is it in spec': does this batch still taste like the brand? How to visualize brand conformance with radar profiles, target bands and deviation tracking, so a panel's verdict becomes a picture the whole brewery reads."
 date: 2026-06-12 11:40:00 -0700
 updated: 2026-06-12
 tags: [brewing-science, brewing-data-viz, sensory-analysis, quality-control, data-visualization]

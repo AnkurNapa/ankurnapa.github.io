@@ -2,7 +2,7 @@
 layout: post
 title: "Snowflake for Wineries: 20 Use Cases"
 image: /assets/og/snowflake-for-wineries-20-use-cases.png
-description: "How a winery uses Snowflake end to end — ingestion, real-time monitoring, Dynamic Tables & Snowpark, BI and AI — across 20 concrete use cases grouped by capability."
+description: "How a winery uses Snowflake end to end (ingestion, real-time monitoring, Dynamic Tables & Snowpark, BI and AI) across 20 concrete use cases grouped by capability."
 date: 2026-03-24 09:00:00 -0700
 updated: 2026-03-24
 tags: [winemaking, snowflake, data-platform, power-bi, wine]

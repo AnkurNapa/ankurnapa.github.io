@@ -2,7 +2,7 @@
 layout: post
 title: "Where a Distillery Actually Starts with AI"
 image: /assets/og/where-a-distillery-starts-with-ai.png
-description: "The capstone of the foundations series: not with a tool, but with one measured record. A distiller's order of operations — data, then dashboards, then machine learning, then generative AI — and the honest reason most AI projects fail before they begin."
+description: "The capstone of the foundations series: not with a tool, but with one measured record. A distiller's order of operations (data, then dashboards, then machine learning, then generative AI) and the honest reason most AI projects fail before they begin."
 date: 2026-06-11 09:00:00 -0700
 updated: 2026-06-11
 tags: [distilling-maturation, distilling-ai-foundations, ai-adoption, data-strategy, whiskey]

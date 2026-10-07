@@ -2,7 +2,7 @@
 layout: post
 title: "Predicting When Malt Is Modified Enough to Kiln"
 image: /assets/og/predicting-malt-modification-germination.png
-description: "Machine learning can help call the kiln-off point by predicting endosperm modification and homogeneity from germination data — but the confirming lab tests lag and homogeneity hides trouble."
+description: "Machine learning can help call the kiln-off point by predicting endosperm modification and homogeneity from germination data, but the confirming lab tests lag and homogeneity hides trouble."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, malting, germination, machine-learning]

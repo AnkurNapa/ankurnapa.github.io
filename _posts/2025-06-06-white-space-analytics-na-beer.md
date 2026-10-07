@@ -2,7 +2,7 @@
 layout: post
 title: "White-Space Analytics: Where Non-Alcoholic Beer Should Launch First"
 image: /assets/og/white-space-analytics-na-beer.png
-description: "White space analysis for beverage brands — a structured method to identify the highest-potential untapped markets and account types for NA beer expansion."
+description: "White space analysis for beverage brands: a structured method to identify the highest-potential untapped markets and account types for NA beer expansion."
 date: 2025-06-06
 updated: 2025-06-06
 tags: [sales-intelligence, na-beer, market-expansion]

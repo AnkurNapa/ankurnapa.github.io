@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Fabric for Distilleries: 20 Use Cases for Whiskey (and 3 Case Studies)"
 image: /assets/og/microsoft-fabric-for-distilleries-20-use-cases.png
-description: "How a whiskey distillery uses Microsoft Fabric — OneLake, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot — across 20 use cases from still telemetry to cask maturation and maturing-stock valuation, plus three case studies."
+description: "How a whiskey distillery uses Microsoft Fabric (OneLake, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot) across 20 use cases from still telemetry to cask maturation and maturing-stock valuation, plus three case studies."
 date: 2026-04-30 09:00:00 -0700
 updated: 2026-04-30
 tags: [distilling-maturation, microsoft-fabric, data-platform, power-bi, whiskey]

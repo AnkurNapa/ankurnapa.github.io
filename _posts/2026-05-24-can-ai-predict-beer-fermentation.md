@@ -2,7 +2,7 @@
 layout: post
 title: "Can AI Predict Beer Fermentation? What the Data Actually Shows"
 image: /assets/og/can-ai-predict-beer-fermentation.png
-description: "A practitioner's look at how machine-learning models forecast fermentation curves, attenuation, and off-flavors in brewing — and where they still fall short."
+description: "A practitioner's look at how machine-learning models forecast fermentation curves, attenuation, and off-flavors in brewing and where they still fall short."
 date: 2026-05-24
 updated: 2026-05-24
 tags: [fermentation, machine-learning, brewing-data]

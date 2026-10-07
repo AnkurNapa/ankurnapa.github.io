@@ -2,7 +2,7 @@
 layout: post
 title: "Generative AI for Sustainability SOPs, Training and Audits"
 image: /assets/og/generative-ai-sustainability-sops-training.png
-description: "Savings only stick if people follow them. How generative AI drafts sustainability SOPs, training and audit prep — grounded in your data — across UK, EU, US and India."
+description: "Savings only stick if people follow them. How generative AI drafts sustainability SOPs, training and audit prep (grounded in your data) across UK, EU, US and India."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [esg, sustainability, generative-ai, claude]

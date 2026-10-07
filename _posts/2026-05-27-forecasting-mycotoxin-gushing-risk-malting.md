@@ -2,7 +2,7 @@
 layout: post
 title: "Forecasting Mycotoxin and Gushing Risk in the Malthouse"
 image: /assets/og/forecasting-mycotoxin-gushing-risk-malting.png
-description: "Fusarium-infected barley brings DON mycotoxin and gushing risk. How machine learning scores incoming lots from harvest weather and grain data — and why a food-safety call keeps a human in the loop."
+description: "Fusarium-infected barley brings DON mycotoxin and gushing risk. How machine learning scores incoming lots from harvest weather and grain data and why a food-safety call keeps a human in the loop."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, malting, food-safety, machine-learning]

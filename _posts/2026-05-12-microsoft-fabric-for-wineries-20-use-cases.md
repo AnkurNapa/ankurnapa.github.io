@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Fabric for Wineries: 20 Use Cases (and 3 Case Studies)"
 image: /assets/og/microsoft-fabric-for-wineries-20-use-cases.png
-description: "How a winery uses Microsoft Fabric — OneLake, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot — across 20 use cases from vineyard and fermentation to barrel ageing and DTC, plus three case studies."
+description: "How a winery uses Microsoft Fabric (OneLake, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot) across 20 use cases from vineyard and fermentation to barrel ageing and DTC, plus three case studies."
 date: 2026-05-12 09:00:00 -0700
 updated: 2026-05-12
 tags: [winemaking, microsoft-fabric, data-platform, power-bi, wine]

@@ -2,7 +2,7 @@
 layout: post
 title: "Databricks Across the Winery Business, Vertical by Vertical"
 image: /assets/og/databricks-across-the-winery-business.png
-description: "A department-by-department tour of where Databricks helps a winery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform."
+description: "A department-by-department tour of where Databricks helps a winery (from the floor through quality, supply chain, sales, marketing, finance and compliance) on one governed platform."
 date: 2026-02-21 09:00:00 -0700
 updated: 2026-02-21
 tags: [winemaking, databricks, data-platform, wine]

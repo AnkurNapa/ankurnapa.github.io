@@ -2,7 +2,7 @@
 layout: post
 title: "Saving Water in a Brewery: Data Analytics vs AI vs Generative AI"
 image: /assets/og/brewery-water-savings-analytics-ai-genai.png
-description: "Three different tools, one goal: a lower water-to-beer ratio. Where plain data analytics, machine-learning AI, and generative AI each genuinely cut brewery water use — and where each one is the wrong tool."
+description: "Three different tools, one goal: a lower water-to-beer ratio. Where plain data analytics, machine-learning AI, and generative AI each genuinely cut brewery water use and where each one is the wrong tool."
 date: 2026-06-14 14:00:00 -0700
 updated: 2026-06-14
 tags: [esg, sustainability, water, ai-tools, brewing]

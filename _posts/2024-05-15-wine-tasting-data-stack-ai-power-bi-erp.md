@@ -2,7 +2,7 @@
 layout: post
 title: "Wine Tasting Meets the Data Stack: AI, Power BI, and ERP"
 image: /assets/og/wine-tasting-data-stack-ai-power-bi-erp.png
-description: "Tie tasting and bench-trial scores to vintage, block, lot, and barrel in ERP, analyse in Power BI, and use AI to predict and flag faults — palate still decides."
+description: "Tie tasting and bench-trial scores to vintage, block, lot, and barrel in ERP, analyse in Power BI, and use AI to predict and flag faults: palate still decides."
 date: 2024-05-15
 updated: 2024-05-15
 tags: [winemaking, tasting, power-bi, erp]

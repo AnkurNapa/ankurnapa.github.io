@@ -2,7 +2,7 @@
 layout: post
 title: "A Brewer's Step-by-Step Roadmap into AI (with Free Resources)"
 image: /assets/og/brewer-ai-roadmap-step-by-step.png
-description: "A practical, five-stage learning path for a working brewer who wants to get into AI — data literacy, spreadsheets to Power BI, Python, machine learning and generative AI — built entirely on free, open resources like Microsoft Learn, Kaggle and Google's PAIR guidebook."
+description: "A practical, five-stage learning path for a working brewer who wants to get into AI (data literacy, spreadsheets to Power BI, Python, machine learning and generative AI) built entirely on free, open resources like Microsoft Learn, Kaggle and Google's PAIR guidebook."
 date: 2026-06-12 10:00:00 -0700
 updated: 2026-06-12
 tags: [brewing-science, brewer-ai-roadmap, learning, ai-tools, generative-ai]

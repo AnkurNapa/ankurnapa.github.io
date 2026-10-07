@@ -2,7 +2,7 @@
 layout: post
 title: "Lager Sales Blueprint: Winning with Distributors"
 image: /assets/og/lager-sales-blueprint-distributors.png
-description: "A practical sales blueprint for lager breweries selling through distributors & wholesalers: how to segment, target, offer, execute and measure — with the metrics and analytics that matter."
+description: "A practical sales blueprint for lager breweries selling through distributors & wholesalers: how to segment, target, offer, execute and measure, with the metrics and analytics that matter."
 date: 2026-01-31 09:00:00 -0700
 updated: 2026-01-31
 tags: [sales-intelligence, lager, beer-sales, commercial-planning]

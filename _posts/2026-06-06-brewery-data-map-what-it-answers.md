@@ -2,7 +2,7 @@
 layout: post
 title: "A Brewer's Map of Their Own Data — and What Each Source Can Actually Answer"
 image: /assets/og/brewery-data-map-what-it-answers.png
-description: "Brew logs, fermentation sensors, lab results, POS and inventory: a plain map of the data a small brewery already has, and the specific questions each source can — and cannot — answer."
+description: "Brew logs, fermentation sensors, lab results, POS and inventory: a plain map of the data a small brewery already has, and the specific questions each source can (and cannot) answer."
 date: 2026-06-06
 updated: 2026-06-06
 tags: [brewing-science, asking-better-questions, data-platform, analytics, beginners]

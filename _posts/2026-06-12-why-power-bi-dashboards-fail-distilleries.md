@@ -2,7 +2,7 @@
 layout: post
 title: "Why Power BI Dashboards Die in Distilleries and Breweries: The Domain Gap"
 image: /assets/og/why-power-bi-dashboards-fail-distilleries.png
-description: "A skilled Power BI developer walks into a distillery and eighteen months later the dashboards are abandoned. Not a tooling failure — a translation failure: units, batch genealogy, process time and KPIs that don't match how distillers and brewers actually think."
+description: "A skilled Power BI developer walks into a distillery and eighteen months later the dashboards are abandoned. Not a tooling failure but a translation failure: units, batch genealogy, process time and KPIs that don't match how distillers and brewers actually think."
 date: 2026-06-12 09:10:00 -0700
 updated: 2026-06-12
 tags: [distilling-maturation, process-intelligence, power-bi, data-strategy, whiskey]

@@ -2,7 +2,7 @@
 layout: post
 title: "Lager Sales Blueprint: National and Key Accounts"
 image: /assets/og/lager-sales-blueprint-national-accounts.png
-description: "A practical sales blueprint for lager breweries selling through national & key accounts: how to segment, target, offer, execute and measure — with the metrics and analytics that matter."
+description: "A practical sales blueprint for lager breweries selling through national & key accounts: how to segment, target, offer, execute and measure, with the metrics and analytics that matter."
 date: 2026-04-27 09:00:00 -0700
 updated: 2026-04-27
 tags: [sales-intelligence, lager, beer-sales, commercial-planning]

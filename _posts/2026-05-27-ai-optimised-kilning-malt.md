@@ -2,7 +2,7 @@
 layout: post
 title: "AI-Optimised Kilning: Hitting Colour and Diastatic Power While Cutting Gas"
 image: /assets/og/ai-optimised-kilning-malt.png
-description: "Kilning is malting's biggest energy cost and a hard trade-off between enzyme survival, colour and gas use. How machine learning optimises the kiln curve — and the physics it cannot cheat."
+description: "Kilning is malting's biggest energy cost and a hard trade-off between enzyme survival, colour and gas use. How machine learning optimises the kiln curve and the physics it cannot cheat."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, malting, kilning, energy]

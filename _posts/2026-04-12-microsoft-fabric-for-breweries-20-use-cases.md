@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Fabric for Breweries: 20 Use Cases (and 3 Case Studies)"
 image: /assets/og/microsoft-fabric-for-breweries-20-use-cases.png
-description: "How a brewery uses Microsoft Fabric end to end — OneLake, Data Factory, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot — across 20 concrete use cases plus three worked case studies."
+description: "How a brewery uses Microsoft Fabric end to end (OneLake, Data Factory, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot) across 20 concrete use cases plus three worked case studies."
 date: 2026-04-12 09:00:00 -0700
 updated: 2026-04-12
 tags: [brewing-science, microsoft-fabric, data-platform, power-bi, brewing-analytics]

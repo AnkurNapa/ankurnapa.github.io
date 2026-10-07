@@ -2,7 +2,7 @@
 layout: post
 title: "Descriptive, Diagnostic, Predictive, Prescriptive: The Four Analytics in a Distillery"
 image: /assets/og/four-types-data-analytics-distillery-fabric.png
-description: "The four classic types of data analytics translated into distillery language — spirit yield, cut points, the angel's share, cask allocation — and where Microsoft Fabric's lakehouse, real-time intelligence and Direct Lake actually fit each one."
+description: "The four classic types of data analytics translated into distillery language (spirit yield, cut points, the angel's share, cask allocation) and where Microsoft Fabric's lakehouse, real-time intelligence and Direct Lake actually fit each one."
 date: 2026-06-12 09:00:00 -0700
 updated: 2026-06-12
 tags: [distilling-maturation, process-intelligence, data-strategy, microsoft-fabric, whiskey]

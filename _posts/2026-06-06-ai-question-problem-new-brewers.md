@@ -2,7 +2,7 @@
 layout: post
 title: "You Don't Have an AI Problem, You Have a Question Problem"
 image: /assets/og/ai-question-problem-new-brewers.png
-description: "Why new brewers get generic mush from AI: the missing skill isn't prompt engineering, it's question literacy — knowing what is knowable about your beer and your process."
+description: "Why new brewers get generic mush from AI: the missing skill isn't prompt engineering, it's question literacy, knowing what is knowable about your beer and your process."
 date: 2026-06-06
 updated: 2026-06-06
 tags: [brewing-science, asking-better-questions, ai-tools, generative-ai, beginners]

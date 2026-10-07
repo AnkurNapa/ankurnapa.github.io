@@ -2,7 +2,7 @@
 layout: post
 title: "Cutting Water Use in Brewing: The Water-to-Beer Ratio, with Data"
 image: /assets/og/cutting-water-use-brewing-data.png
-description: "Breweries use several litres of water per litre of beer. How data and AI cut the water-to-beer ratio — sub-metering, anomaly detection and benchmarking — across UK, EU, US and India."
+description: "Breweries use several litres of water per litre of beer. How data and AI cut the water-to-beer ratio (sub-metering, anomaly detection and benchmarking) across UK, EU, US and India."
 date: 2026-03-09 09:00:00 -0700
 updated: 2026-03-09
 tags: [esg, sustainability, water, brewing]

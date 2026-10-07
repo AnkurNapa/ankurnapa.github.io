@@ -2,7 +2,7 @@
 layout: post
 title: "The Beginner Brewer's Cheat Code: Ask AI What You Should Be Asking"
 image: /assets/og/ask-ai-what-to-ask-brewing.png
-description: "Flip the use of AI: instead of asking for answers you can't yet judge, ask it to generate the questions your brewing experience hasn't taught you — a safe, powerful move for new brewers."
+description: "Flip the use of AI: instead of asking for answers you can't yet judge, ask it to generate the questions your brewing experience hasn't taught you, a safe, powerful move for new brewers."
 date: 2026-06-06
 updated: 2026-06-06
 tags: [brewing-science, asking-better-questions, generative-ai, ai-tools, beginners]

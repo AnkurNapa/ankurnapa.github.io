@@ -2,7 +2,7 @@
 layout: post
 title: "Winery Energy: AI for Cooling, Presses and Peak Demand"
 image: /assets/og/winery-energy-cooling-ai.png
-description: "Winery energy spikes at harvest with refrigeration and presses. How data and AI cut power and peak demand — load forecasting, setpoint optimisation and demand management — across regions."
+description: "Winery energy spikes at harvest with refrigeration and presses. How data and AI cut power and peak demand (load forecasting, setpoint optimisation and demand management) across regions."
 date: 2026-02-23 09:00:00 -0700
 updated: 2026-02-23
 tags: [esg, sustainability, energy, wine, winemaking]

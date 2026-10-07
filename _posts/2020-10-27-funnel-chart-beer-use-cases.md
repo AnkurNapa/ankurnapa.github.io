@@ -2,7 +2,7 @@
 layout: post
 title: "The Funnel Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/funnel-chart-beer-use-cases.png
-description: "A funnel chart shows how many survive each stage of a process — and where the biggest drop-off is. Three beer use cases (sales pipeline, NPD stage-gate, trade-promotion conversion) and when a funnel flatters more than it informs."
+description: "A funnel chart shows how many survive each stage of a process and where the biggest drop-off is. Three beer use cases (sales pipeline, NPD stage-gate, trade-promotion conversion) and when a funnel flatters more than it informs."
 date: 2020-10-27 09:00:00 -0700
 updated: 2020-10-27
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, beer-npd]

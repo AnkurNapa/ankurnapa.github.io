@@ -2,7 +2,7 @@
 layout: post
 title: "The Gantt Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/gantt-chart-beer-use-cases.png
-description: "A Gantt chart lays tasks against time as bars — perfect for schedules and overlaps. Three beer use cases (the brew schedule, tank and vessel occupancy, NPD project timeline) and where a calendar or a different view serves better."
+description: "A Gantt chart lays tasks against time as bars: perfect for schedules and overlaps. Three beer use cases (the brew schedule, tank and vessel occupancy, NPD project timeline) and where a calendar or a different view serves better."
 date: 2020-12-08 09:00:00 -0700
 updated: 2020-12-08
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, beer-npd]

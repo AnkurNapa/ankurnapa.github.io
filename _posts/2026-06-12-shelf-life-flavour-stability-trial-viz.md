@@ -2,7 +2,7 @@
 layout: post
 title: "Shelf-Life Trajectories: Visualizing Forced-Ageing and Flavour Stability"
 image: /assets/og/shelf-life-flavour-stability-trial-viz.png
-description: "A beer's flavour stability is a story over time, not a single number — yet most breweries record it as a pass/fail. How to visualize forced-ageing and shelf-life trials as trajectories and small multiples, so staling becomes a path you can see, compare and predict."
+description: "A beer's flavour stability is a story over time, not a single number, yet most breweries record it as a pass/fail. How to visualize forced-ageing and shelf-life trials as trajectories and small multiples, so staling becomes a path you can see, compare and predict."
 date: 2026-06-12 12:00:00 -0700
 updated: 2026-06-12
 tags: [brewing-science, brewing-data-viz, quality-control, flavour-stability, data-visualization]

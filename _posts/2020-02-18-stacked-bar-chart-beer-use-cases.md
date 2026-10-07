@@ -2,7 +2,7 @@
 layout: post
 title: "The Stacked Bar Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/stacked-bar-chart-beer-use-cases.png
-description: "When the question is composition — what makes up the total — the stacked bar chart shows the parts and the whole at once. Three beer use cases (channel mix, cost-per-hectolitre build-up, volume by style over time) and the 100% variant."
+description: "When the question is composition (what makes up the total), the stacked bar chart shows the parts and the whole at once. Three beer use cases (channel mix, cost-per-hectolitre build-up, volume by style over time) and the 100% variant."
 date: 2020-02-18 09:00:00 -0700
 updated: 2020-02-18
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, financial-planning-analytics]

@@ -2,7 +2,7 @@
 layout: post
 title: "The Pie and Donut Chart in Brewing: Use It Sparingly (Three Cases)"
 image: /assets/og/pie-donut-chart-beer-use-cases.png
-description: "The pie chart is overused and often the wrong choice — but it has a few honest beer use cases. Where a pie or donut genuinely works, where a bar chart beats it, and the one rule that keeps it readable."
+description: "The pie chart is overused and often the wrong choice, but it has a few honest beer use cases. Where a pie or donut genuinely works, where a bar chart beats it, and the one rule that keeps it readable."
 date: 2020-03-10 09:00:00 -0700
 updated: 2020-03-10
 tags: [brewing-science, beer-chart-guide, data-visualization, commercial-planning, marketing]

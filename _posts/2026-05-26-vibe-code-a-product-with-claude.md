@@ -2,7 +2,7 @@
 layout: post
 title: "How to Vibe-Code a Product with Claude (It's a Loop, Not Magic)"
 image: /assets/og/vibe-code-a-product-with-claude.png
-description: "Vibe-coding with Claude isn't AI writing your app while you watch. It's a build–verify–fix loop — and the verifier is what separates a shippable product from a confident demo."
+description: "Vibe-coding with Claude isn't AI writing your app while you watch. It's a build-verify-fix loop and the verifier is what separates a shippable product from a confident demo."
 date: 2026-05-26
 updated: 2026-05-26
 tags: [vibe-coding, claude, ai-tools, building-with-ai]

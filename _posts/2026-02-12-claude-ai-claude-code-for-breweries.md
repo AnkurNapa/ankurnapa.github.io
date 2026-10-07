@@ -2,7 +2,7 @@
 layout: post
 title: "Claude AI and Claude Code for Breweries: Where the Anthropic Ecosystem Helps"
 image: /assets/og/claude-ai-claude-code-for-breweries.png
-description: "A practical tour of where Claude, Claude Code, the API, agents and MCP help a brewery — recipe, production, QC, supply chain, sales, marketing, compliance and knowledge — and where to keep a human in the loop."
+description: "A practical tour of where Claude, Claude Code, the API, agents and MCP help a brewery (recipe, production, QC, supply chain, sales, marketing, compliance and knowledge) and where to keep a human in the loop."
 date: 2026-02-12 09:00:00 -0700
 updated: 2026-02-12
 tags: [brewing-science, claude, claude-code, ai-tools, brewing-analytics]

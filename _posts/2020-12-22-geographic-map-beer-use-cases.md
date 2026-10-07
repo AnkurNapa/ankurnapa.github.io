@@ -2,7 +2,7 @@
 layout: post
 title: "The Geographic Map in Brewing: Three Beer Use Cases"
 image: /assets/og/geographic-map-beer-use-cases.png
-description: "When location is the variable, a map beats any table — choropleths, dot maps and catchment views put beer sales on the ground. Three beer use cases (territory performance, distribution coverage, taproom catchment) and the map traps to avoid."
+description: "When location is the variable, a map beats any table: choropleths, dot maps and catchment views put beer sales on the ground. Three beer use cases (territory performance, distribution coverage, taproom catchment) and the map traps to avoid."
 date: 2020-12-22 09:00:00 -0700
 updated: 2020-12-22
 tags: [brewing-science, beer-chart-guide, data-visualization, sales-intelligence, marketing]

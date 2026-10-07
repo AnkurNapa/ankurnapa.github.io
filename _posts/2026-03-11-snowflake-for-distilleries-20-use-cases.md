@@ -2,7 +2,7 @@
 layout: post
 title: "Snowflake for Distilleries: 20 Use Cases"
 image: /assets/og/snowflake-for-distilleries-20-use-cases.png
-description: "How a distillery uses Snowflake end to end — ingestion, real-time monitoring, Dynamic Tables & Snowpark, BI and AI — across 20 concrete use cases grouped by capability."
+description: "How a distillery uses Snowflake end to end (ingestion, real-time monitoring, Dynamic Tables & Snowpark, BI and AI) across 20 concrete use cases grouped by capability."
 date: 2026-03-11 09:00:00 -0700
 updated: 2026-03-11
 tags: [distilling-maturation, snowflake, data-platform, power-bi, whiskey]

@@ -2,7 +2,7 @@
 layout: post
 title: "Forecasting With No History: The Non-Alcoholic Beer Problem"
 image: /assets/og/forecasting-new-products-na-beer.png
-description: "New product forecasting for non-alcoholic beer with no sales history — analogue methods, Bayesian priors, and practical launch-stage approaches."
+description: "New product forecasting for non-alcoholic beer with no sales history: analogue methods, Bayesian priors, and practical launch-stage approaches."
 date: 2025-03-14
 updated: 2025-03-14
 tags: [forecasting, new-product-forecasting]

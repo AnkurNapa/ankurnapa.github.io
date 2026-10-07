@@ -2,7 +2,7 @@
 layout: post
 title: "Lager Sales Blueprint: Winning On-Premise Tap Handles"
 image: /assets/og/lager-sales-blueprint-on-premise.png
-description: "A practical sales blueprint for lager breweries selling through on-premise (bars & restaurants): how to segment, target, offer, execute and measure — with the metrics and analytics that matter."
+description: "A practical sales blueprint for lager breweries selling through on-premise (bars & restaurants): how to segment, target, offer, execute and measure, with the metrics and analytics that matter."
 date: 2026-04-21 09:00:00 -0700
 updated: 2026-04-21
 tags: [sales-intelligence, lager, beer-sales, commercial-planning]

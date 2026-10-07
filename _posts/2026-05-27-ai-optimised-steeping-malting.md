@@ -2,7 +2,7 @@
 layout: post
 title: "Can AI Dial In the Perfect Steep for Malting Barley?"
 image: /assets/og/ai-optimised-steeping-malting.png
-description: "How machine learning predicts steep-out moisture and germination vigour from barley lot traits — and where a steep model still needs a maltster's judgement."
+description: "How machine learning predicts steep-out moisture and germination vigour from barley lot traits and where a steep model still needs a maltster's judgement."
 date: 2026-05-27 09:00:00 -0700
 updated: 2026-05-27
 tags: [brewing-science, malting, steeping, machine-learning]

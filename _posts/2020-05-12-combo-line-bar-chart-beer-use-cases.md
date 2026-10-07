@@ -2,7 +2,7 @@
 layout: post
 title: "The Combo (Line + Bar) Chart in Brewing: Three Beer Use Cases"
 image: /assets/og/combo-line-bar-chart-beer-use-cases.png
-description: "Two metrics on two axes — volume as bars, margin as a line — the combo chart shows a quantity and a rate together. Three beer use cases and the dual-axis trap that makes this chart easy to misuse."
+description: "Two metrics on two axes (volume as bars, margin as a line), the combo chart shows a quantity and a rate together. Three beer use cases and the dual-axis trap that makes this chart easy to misuse."
 date: 2020-05-12 09:00:00 -0700
 updated: 2020-05-12
 tags: [brewing-science, beer-chart-guide, data-visualization, financial-planning-analytics, commercial-planning]

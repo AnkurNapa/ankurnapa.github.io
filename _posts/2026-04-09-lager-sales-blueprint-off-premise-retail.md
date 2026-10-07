@@ -2,7 +2,7 @@
 layout: post
 title: "Lager Sales Blueprint: Off-Premise Retail (Grocery, C-Store, Liquor)"
 image: /assets/og/lager-sales-blueprint-off-premise-retail.png
-description: "A practical sales blueprint for lager breweries selling through off-premise retail: how to segment, target, offer, execute and measure — with the metrics and analytics that matter."
+description: "A practical sales blueprint for lager breweries selling through off-premise retail: how to segment, target, offer, execute and measure, with the metrics and analytics that matter."
 date: 2026-04-09 09:00:00 -0700
 updated: 2026-04-09
 tags: [sales-intelligence, lager, beer-sales, commercial-planning]

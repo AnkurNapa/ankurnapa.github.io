@@ -2,7 +2,7 @@
 layout: post
 title: "Lager Sales Blueprint: E-Commerce, Delivery and DTC"
 image: /assets/og/lager-sales-blueprint-ecommerce-dtc.png
-description: "A practical sales blueprint for lager breweries selling through e-commerce, delivery apps & DTC: how to segment, target, offer, execute and measure — with the metrics and analytics that matter."
+description: "A practical sales blueprint for lager breweries selling through e-commerce, delivery apps & DTC: how to segment, target, offer, execute and measure, with the metrics and analytics that matter."
 date: 2026-05-02 09:00:00 -0700
 updated: 2026-05-02
 tags: [sales-intelligence, lager, beer-sales, commercial-planning]

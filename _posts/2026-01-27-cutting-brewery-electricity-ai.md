@@ -2,7 +2,7 @@
 layout: post
 title: "Cutting Brewery Electricity Use with AI: Refrigeration, Compressors and Load"
 image: /assets/og/cutting-brewery-electricity-ai.png
-description: "Refrigeration and compressed air dominate a brewery's power bill. How data and AI cut electricity use — load forecasting, anomaly detection and off-peak scheduling — across UK, EU, US and India."
+description: "Refrigeration and compressed air dominate a brewery's power bill. How data and AI cut electricity use (load forecasting, anomaly detection and off-peak scheduling) across UK, EU, US and India."
 date: 2026-01-27 09:00:00 -0700
 updated: 2026-01-27
 tags: [esg, sustainability, energy, brewing]

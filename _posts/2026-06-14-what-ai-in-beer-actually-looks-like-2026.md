@@ -2,7 +2,7 @@
 layout: post
 title: "What AI in Beer Actually Looks Like in 2026"
 image: /assets/og/what-ai-in-beer-actually-looks-like-2026.png
-description: "Beyond the headlines about AI-designed beer: what artificial intelligence is genuinely doing in breweries in 2026 — recipe ideation, batch consistency, a brewers' chatbot, and the supply chain — and where the hype quietly breaks."
+description: "Beyond the headlines about AI-designed beer: what artificial intelligence is genuinely doing in breweries in 2026 (recipe ideation, batch consistency, a brewers' chatbot, and the supply chain) and where the hype quietly breaks."
 date: 2026-06-14 10:30:00 -0700
 updated: 2026-07-07
 tags: [brewing-science, brewer-ai-roadmap, generative-ai, ai-tools, industry]

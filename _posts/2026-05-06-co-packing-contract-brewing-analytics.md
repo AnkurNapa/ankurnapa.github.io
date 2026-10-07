@@ -2,7 +2,7 @@
 layout: post
 title: "Co-Packing and Contract Brewing Analytics: Making Capacity Pay"
 image: /assets/og/co-packing-contract-brewing-analytics.png
-description: "Contract brewing and co-packing live or die on capacity utilisation and true cost per contract. The analytics that decide whether each customer brand actually makes money — and where AI helps."
+description: "Contract brewing and co-packing live or die on capacity utilisation and true cost per contract. The analytics that decide whether each customer brand actually makes money and where AI helps."
 date: 2026-05-06 09:00:00 -0700
 updated: 2026-05-06
 tags: [brewing-science, contract-brewing, co-packing, capacity-planning, commercial-planning]
