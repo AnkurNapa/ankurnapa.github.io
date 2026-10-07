@@ -42,6 +42,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  smart_quotes: apos,apos,quot,quot   # house style: straight quotes only, also in SEO meta tags
 
 # RSS feed is a custom styled template (feed.xml + feed.xsl), not jekyll-feed.
 
