@@ -19,7 +19,7 @@ sitemap: false
 
 <ul class="work-facts">
   <li><strong>10+ years</strong><span>in brewing and beverage data</span></li>
-  <li><strong>2 MSc degrees</strong><span>Brewing Science; Data Science and AI</span></li>
+  <li><strong>2 MSc degrees</strong><span>Wine, Brewing and Alcohol Technology; Data Science and AI</span></li>
   <li><strong>200+ students</strong><span>taught at Craft Beer School since 2021</span></li>
   <li><strong>354 articles</strong><span>on drinks and AI, also in German, Hindi and Marathi</span></li>
 </ul>
@@ -90,7 +90,7 @@ sitemap: false
   <h3>Education and credentials</h3>
   <dl class="work-timeline">
     <dt>2021 to 2023</dt><dd>MSc Data Science and AI, Liverpool John Moores University</dd>
-    <dt>2013 to 2015</dt><dd>MSc Brewing Science and Technology, Savitribai Phule Pune University</dd>
+    <dt>2013 to 2015</dt><dd>MSc Wine, Brewing and Alcohol Technology, Savitribai Phule Pune University</dd>
     <dt>2026</dt><dd>Microsoft Certified Fabric Analytics Engineer; Community Leader, Bangalore Microsoft Fabric User Group</dd>
     <dt>2025</dt><dd>Tableau Community Leader, Bangalore and Newbie Tableau User Groups</dd>
     <dt>Press</dt><dd><a href="https://www.mid-day.com/mumbai-guide/things-to-do/article/mid-day-45th-anniversary-special-mead-of-the-future-23368067">Mid-Day 45th anniversary special: Mead of the Future</a></dd>
