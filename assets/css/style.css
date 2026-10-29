@@ -309,3 +309,28 @@ pre code { background: none; padding: 0; color: inherit; }
   .site-nav { gap: .35rem; }
   .site-nav a { padding: .38rem .8rem; font-size: .8rem; }
 }
+
+/* ---------- Work page (/work/) ---------- */
+.work-jump { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.3rem; }
+.work-cta-ghost { background: transparent; border: 1px solid rgba(255,255,255,.45); }
+.work-cta-ghost:hover { background: rgba(255,255,255,.12); }
+.work-facts {
+  list-style: none; padding: 0; margin: 0 0 2.4rem;
+  display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+}
+.work-facts li { background: #fff; border: 1px solid var(--rule); border-left: 4px solid var(--teal); border-radius: 12px; padding: .9rem 1.1rem; }
+.work-facts strong { display: block; font-family: var(--font-display); font-size: 1.35rem; color: var(--teal-deep); }
+.work-facts span { font-size: .9rem; color: #4a6b64; }
+.work-interests { display: flex; flex-wrap: wrap; gap: .45rem; }
+.work-interests span { background: var(--tint); color: var(--teal-deep); border-radius: 999px; padding: .3rem .8rem; font-size: .85rem; font-family: var(--font-display); }
+.work-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+.track-grid .card-static { display: block; flex: 1; padding: 1rem 1.15rem; font-family: var(--font-display); font-weight: 500; color: var(--fine); }
+.track-grid .card-tag { display: block; margin-bottom: .35rem; font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--pink); }
+.work-note { color: var(--muted); font-size: .92rem; font-style: italic; }
+.work-timeline { display: grid; grid-template-columns: 11rem 1fr; gap: .45rem 1.2rem; max-width: var(--read); margin: 1rem 0; }
+.work-timeline dt { font-family: var(--font-display); font-size: .88rem; color: var(--teal); }
+.work-timeline dd { margin: 0; }
+@media (max-width: 40rem) {
+  .work-timeline { grid-template-columns: 1fr; gap: .1rem; }
+  .work-timeline dd { margin-bottom: .6rem; }
+}
